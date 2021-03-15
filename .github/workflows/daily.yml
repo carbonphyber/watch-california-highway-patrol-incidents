@@ -2,7 +2,7 @@
 # based on https://github.com/carbonphyber/watch-epa-superfund-sites/blob/main/.github/workflows/daily.yml
 on:
   schedule:
-    - cron:  '*/10 * * * *' # Every 10 minutes
+    - cron:  '*/10 * * * *'
 name: Pull Data and Build
 jobs:
   build:
@@ -10,9 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
     - name: Scrape
       run: |
         curl -o data/chp-incidents-raw.xml --no-progress-meter "https://media.chp.ca.gov/sa_xml/sa.xml?ts=$(date +%s)"
-    - uses: mikeal/publish-to-github-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
+    - name: Commit new data
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add data/
+        if [[ -n "$(git status -s -- data/)" ]] then
+          TIMESTAMP_NOW=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+          git commit -m "data scraped at $TIMESTAMP_NOW"
+          git push
+        fi
