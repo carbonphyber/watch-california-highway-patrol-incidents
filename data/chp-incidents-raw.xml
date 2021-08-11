@@ -232,7 +232,11 @@
 		<details>
 			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
 			<IncidentDetail>"[5] RP ADVD SHE IS NOT FULLY ON THE RHS AND IS PARTIALLY IN THE #2 LN"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811YK00011">
 			<LogTime>"Aug 11 2021  6:52AM"</LogTime>
@@ -297,6 +301,10 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
@@ -319,6 +327,14 @@
 			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
 			<IncidentDetail>"[2] 09 GRY NISS SEN    VS  WHI 14 MAZD MZ4"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -331,6 +347,18 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38559549:121261312"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[24] 1039 3A/ C#38578/CLUB FLEET SAC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[23] 1039 3A/ C# /"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:40PM"</DetailTime>
+			<IncidentDetail>"[22] 1039 VAL TOX"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:10PM"</DetailTime>
 			<IncidentDetail>"[14] [Rotation Request Comment] 1039 W A P TOW 916-469-9685"</IncidentDetail>
@@ -355,12 +383,16 @@
 			<DetailTime>"Aug 11 2021  1:54PM"</DetailTime>
 			<IncidentDetail>"[1] BLKG RDWY BLU 16 KIA OPTIMA VS BLK CHEV EQUINOX"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:43PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:22PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:22PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:22PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:00PM"</UnitTime>
@@ -857,10 +889,14 @@
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:02PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021 12:42PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021 12:42PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:40PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021 12:42PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021 12:18PM"</UnitTime>
@@ -997,41 +1033,59 @@
 </Center>
 
 <Center ID = "GGHB">
-<Dispatch ID = "SLCC">
+<Dispatch ID = "GGCC">
 
-		<Log ID = "210811SL00099">
-			<LogTime>"Aug 11 2021  2:34PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Us101 S / Us101 S Santa Rosa St Ofr"</Location>
-			<LocationDesc>"SB 101 JSO"</LocationDesc>
-			<Area>"San Luis Obispo"</Area>
+		<Log ID = "210811GG01635">
+			<LogTime>"Aug 11 2021  2:42PM"</LogTime>
+			<LogType>"1125A-Animal Hazard"</LogType>
+			<Location>"0 I580 E"</Location>
+			<LocationDesc>"EB 580 JEO MIDSPAN"</LocationDesc>
+			<Area>"Marin"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35286952:120663339"</LATLON>
+			<LATLON>"37935043:122444523"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
-			<IncidentDetail>"[1] MATTRESS IN SLOW LANE"</IncidentDetail>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[2] LG BIRD , POSS PELICAN , INJ IN SLO LN"</IncidentDetail>
 		</details></LogDetails></Log>
 
-		<Log ID = "210811SL00095">
-			<LogTime>"Aug 11 2021  2:12PM"</LogTime>
+		<Log ID = "210811GG01632">
+			<LogTime>"Aug 11 2021  2:39PM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Us101 N / Us101 N Sr46 E Ofr"</Location>
-			<LocationDesc>"NB 101 JSO SR46E"</LocationDesc>
-			<Area>"Templeton"</Area>
+			<Location>"I280 N / Farm Hill Blvd Ofr"</Location>
+			<LocationDesc>"NB 280 JSO  FARM HILL"</LocationDesc>
+			<Area>"Redwood City"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35640143:120684088"</LATLON>
+			<LATLON>"37444017:122255874"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
-			<IncidentDetail>"[2] RP CONCERNED THE SUN WILL REFLECT OFF OF IT AND CAUSE A TC"</IncidentDetail>
+			<DetailTime>"Aug 11 2021  2:40PM"</DetailTime>
+			<IncidentDetail>"[3] NEG ASSOC VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:40PM"</DetailTime>
+			<IncidentDetail>"[2] ONR CONE BLKG #4 LN"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "210811GG01619">
+			<LogTime>"Aug 11 2021  2:35PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Sr24 E / Camino Pablo Ofr"</Location>
+			<LocationDesc>"EB 24 JWO ORINDA"</LocationDesc>
+			<Area>"Contra Costa"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37874851:122186580"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:37PM"</DetailTime>
+			<IncidentDetail>"[3] VEHS HAVE MAJOR DAMAGED"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:36PM"</DetailTime>
+			<IncidentDetail>"[2] BLKG #1 LN"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "GGCC">
 
 		<Log ID = "210811GG01605">
 			<LogTime>"Aug 11 2021  2:31PM"</LogTime>
@@ -1046,26 +1100,6 @@
 			<DetailTime>"Aug 11 2021  2:31PM"</DetailTime>
 			<IncidentDetail>"[1] METAL CHAIN IN #4 LN"</IncidentDetail>
 		</details></LogDetails></Log>
-
-		<Log ID = "210811GG01598">
-			<LogTime>"Aug 11 2021  2:30PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Nb 101 Jno Brokaw"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:30PM"</DetailTime>
-			<IncidentDetail>"[1] ,CONE #1 LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811GG01586">
 			<LogTime>"Aug 11 2021  2:27PM"</LogTime>
@@ -1173,7 +1207,9 @@
 		<details>
 			<DetailTime>"Aug 11 2021  2:27PM"</DetailTime>
 			<IncidentDetail>"[1] 2 VEHS- WHI SUBA ST WGN, GRY VEH"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811GG01587">
 			<LogTime>"Aug 11 2021  2:25PM"</LogTime>
@@ -1196,6 +1232,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:34PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:31PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1220,6 +1258,10 @@
 			<DetailTime>"Aug 11 2021  2:23PM"</DetailTime>
 			<IncidentDetail>"[2] GRASS FIRE IN CLOVERLEAF"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1232,6 +1274,18 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37608711:122068184"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:43PM"</DetailTime>
+			<IncidentDetail>"[19] HAYWARD FIRE  LOG  6288 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:43PM"</DetailTime>
+			<IncidentDetail>"[18] 1039 HAYWARD FIRE CODE 4 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[17] EVERYTHING TO RHS [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:35PM"</DetailTime>
 			<IncidentDetail>"[14] [Notification] [CHP]-25-71T  SB 880  JSO IND  BLOCKING LANE 1-2  [Shared]"</IncidentDetail>
@@ -1290,12 +1344,24 @@
 		<Log ID = "210811GG01542">
 			<LogTime>"Aug 11 2021  2:17PM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I880 S / Whipple Rd Ofr"</Location>
-			<LocationDesc>"SB 880 AT WHIPPLE"</LocationDesc>
+			<Location>"I880 S / INDUSTRIAL PKWY OFR"</Location>
+			<LocationDesc>"SB 880 JSO IND"</LocationDesc>
 			<Area>"Hayward"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37608711:122068184"</LATLON>
+			<LATLON>"37621437:122077315"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:43PM"</DetailTime>
+			<IncidentDetail>"[19] HAYWARD FIRE  LOG  6288 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:43PM"</DetailTime>
+			<IncidentDetail>"[18] 1039 HAYWARD FIRE CODE 4 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[17] EVERYTHING TO RHS [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:35PM"</DetailTime>
 			<IncidentDetail>"[14] [Notification] [CHP]-25-71T  SB 880  JSO IND  BLOCKING LANE 1-2  [Shared]"</IncidentDetail>
@@ -1316,12 +1382,20 @@
 			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
 			<IncidentDetail>"[1] 5-6 VEHS INVD"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:35PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:21PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1353,6 +1427,10 @@
 			<LATLON>"37895221:122308233"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[10]  1039 DOT-CC"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
 			<IncidentDetail>"[7] B96-083  2 VEH 1182"</IncidentDetail>
 		</details>
@@ -1370,6 +1448,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:25PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:43PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:23PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:23PM"</UnitTime>
@@ -1385,28 +1465,6 @@
 			<UnitTime>"Aug 11 2021  2:09PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:09PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811GG01508">
-			<LogTime>"Aug 11 2021  2:07PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr4 E / Alhambra Ave Ofr"</Location>
-			<LocationDesc>"EB SR4 JWO ALHAMBRA, 1 MI"</LocationDesc>
-			<Area>"Contra Costa"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37989925:122133315"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:09PM"</DetailTime>
-			<IncidentDetail>"[2] NEG ASSOC VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:08PM"</DetailTime>
-			<IncidentDetail>"[1] LRG BLK BUMPER BLKG SLOW LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811GG01501">
@@ -1434,6 +1492,18 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38316409:122896477"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:41PM"</DetailTime>
+			<IncidentDetail>"[15] [Rotation Request Comment] 1039 OCCIDENTAL TOW 707-874-3535"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[13] JUST THE TRLR W/BOAT NEEDS 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:36PM"</DetailTime>
+			<IncidentDetail>"[10] [Notification] [CHP]-FISH AND GAME 97 PROVIDING 1184/REQ 1185/TRYING TO GET MORE INFO FOR 1185 [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
 			<IncidentDetail>"[7] 1039 REDCOM WILL BE ENRT WILL CB IF CHP NEEDED"</IncidentDetail>
@@ -1640,6 +1710,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:29PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:43PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:29PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:29PM"</UnitTime>
@@ -1985,203 +2057,25 @@
 			<UnitTime>"Aug 11 2021 12:01AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "MYCC">
-
-		<Log ID = "210811MY00244">
-			<LogTime>"Aug 11 2021  2:20PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"Watsonville Rd / Uvas Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Hollister Gilroy"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37059432:121662901"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:21PM"</DetailTime>
-			<IncidentDetail>"[4] 1125 INTERSECTION"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:21PM"</DetailTime>
-			<IncidentDetail>"[3] SCL 1141 / AHS EQUIP ENRT / POSS HEAD INJURY / COOLANT LEAKING FR VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:20PM"</DetailTime>
-			<IncidentDetail>"[1] 1125"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811MY00239">
-			<LogTime>"Aug 11 2021  2:10PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr68 / Skyline Forest Dr"</Location>
-			<LocationDesc>"EB"</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36585726:121918506"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
-			<IncidentDetail>"[7] 1039 MTRY COM"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:11PM"</DetailTime>
-			<IncidentDetail>"[6] MANY VEHS ON RD"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:33PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811MY00229">
-			<LogTime>"Aug 11 2021  1:56PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr17 N / Glenwood Dr"</Location>
-			<LocationDesc>"NB 17 JSO GLENWOOD"</LocationDesc>
-			<Area>"Santa Cruz"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37119857:121975931"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:33PM"</DetailTime>
-			<IncidentDetail>"[8] [Notification] [CHP]-3A CALL #38420 - ROSSIS TOWING - 20 MIN ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:12PM"</DetailTime>
-			<IncidentDetail>"[5] B26-017   NEG 1125"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:57PM"</DetailTime>
-			<IncidentDetail>"[3] LRG WHI PK AND UNK DESCR OTHER VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:57PM"</DetailTime>
-			<IncidentDetail>"[2] 1125 1/2 OF #2 LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:56PM"</DetailTime>
-			<IncidentDetail>"[1] 2 VEHS PKD IN A HAZARDOUS WAY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:00PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:00PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811MY00214">
-			<LogTime>"Aug 11 2021  1:37PM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Us101 S / Crazy Horse Canyon Rd Onr"</Location>
-			<LocationDesc>"SB 101 JSO CRAZY HORSE"</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36815680:121638373"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
-			<IncidentDetail>"[33] B27-070 SB LNS SHUT DOWN TEMPORALY FOR RECOVERY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
-			<IncidentDetail>"[32] B27-070 1185 97"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:07PM"</DetailTime>
-			<IncidentDetail>"[31] HAVE 1185 EXIT NB AT CH AND COME AROUND, UNITS WILL STOP TRAFF FOR EXTRACTI ON  / 1039 USA TOW"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
-			<IncidentDetail>"[30] B27-073  MOVED TO THE CD, 2 LANES OF TRAFFIC ARE MOVING"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:58PM"</DetailTime>
-			<IncidentDetail>"[29] [Rotation Request Comment] 1039 USA TOW 831-758-2599 / ENRT W/MED DUTY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:55PM"</DetailTime>
-			<IncidentDetail>"[27] 1185 FOR A 20 FT ENCLOSED TL LOADED W/MISC CLOTHING MERCH / ON IT'S SIDE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:43PM"</DetailTime>
-			<IncidentDetail>"[26] LE / RP WAS DRIVING NB BUT  WITNESSED THE TC ON THE SB SIDE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:40PM"</DetailTime>
-			<IncidentDetail>"[22] [Appended, 13:41:02] [2] BLK EXCURSION / TRLR ON ITS RIGHT SIDE / 1125 #1 LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:39PM"</DetailTime>
-			<IncidentDetail>"[21] [Appended, 13:41:02] [1] MTY COM TRANS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[10] 1125 #1 LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[7] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[6] NO INJURIES SEEN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[5] POSS SOLO VEH"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:05PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:46PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:46PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:42PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:42PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811MY00169">
-			<LogTime>"Aug 11 2021 11:52AM"</LogTime>
-			<LogType>"DOT-Request CalTrans Notify"</LogType>
-			<Location>"0 Sr1"</Location>
-			<LocationDesc>"LUCIA LODGE"</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36020697:121549292"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021 12:09PM"</DetailTime>
-			<IncidentDetail>"[8] 1039 DOT SUPERVISOR 1097 ,, WILL 1022 CREW MEMBER THAT WAS ENRT TO RELAY MESGE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 11:55AM"</DetailTime>
-			<IncidentDetail>"[2] 1039 DOT - WILL ATC CREW - BO CELL SERVICE - WILL CALL BACK"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 11:53AM"</DetailTime>
-			<IncidentDetail>"[1] A27-012  SEE IF CT CAN 1198 TO LUCIA LODGE - REQ BARRICADE TO BLOCK OFF RHS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 11:52AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "VTCC">
+
+		<Log ID = "210811VT00168">
+			<LogTime>"Aug 11 2021  2:38PM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Padaro Ln / Santa Claus Ln"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Santa Barbara"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34410542:119553283"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:38PM"</DetailTime>
+			<IncidentDetail>"[2] RDWY CLR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:38PM"</DetailTime>
+			<IncidentDetail>"[1] WHI HOND VS WHI TOYT PK"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "210811VT00162">
 			<LogTime>"Aug 11 2021  1:58PM"</LogTime>
@@ -2192,6 +2086,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34422513:119716032"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:38PM"</DetailTime>
+			<IncidentDetail>"[7] 211 UTL ON OFR / CHECKING FURTHER FOR PARTY"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:01PM"</DetailTime>
 			<IncidentDetail>"[4] RP COULD BE SAFELY STOP NEAR ONR AND WAIT FOR OFFICER"</IncidentDetail>
@@ -2269,10 +2167,274 @@
 			<UnitTime>"Aug 11 2021  7:11AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "MYCC">
+
+		<Log ID = "210811MY00244">
+			<LogTime>"Aug 11 2021  2:20PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Watsonville Rd / Uvas Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Hollister Gilroy"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37059432:121662901"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[10] NB LANE OF WATSONVILLE RD 1125  FIRE ON 1184"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:21PM"</DetailTime>
+			<IncidentDetail>"[4] 1125 INTERSECTION"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:21PM"</DetailTime>
+			<IncidentDetail>"[3] SCL 1141 / AHS EQUIP ENRT / POSS HEAD INJURY / COOLANT LEAKING FR VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:20PM"</DetailTime>
+			<IncidentDetail>"[1] 1125"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811MY00239">
+			<LogTime>"Aug 11 2021  2:10PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr68 / Skyline Forest Dr"</Location>
+			<LocationDesc>"EB"</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36585726:121918506"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
+			<IncidentDetail>"[7] 1039 MTRY COM"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:11PM"</DetailTime>
+			<IncidentDetail>"[6] MANY VEHS ON RD"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:35PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:35PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:33PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811MY00214">
+			<LogTime>"Aug 11 2021  1:37PM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Us101 S / Crazy Horse Canyon Rd Onr"</Location>
+			<LocationDesc>"SB 101 JSO CRAZY HORSE"</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36815680:121638373"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[37] 1039 27-S1 CPD AT OFC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:37PM"</DetailTime>
+			<IncidentDetail>"[36] 1039 MTRY COM"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:37PM"</DetailTime>
+			<IncidentDetail>"[35] B27-073 TRLR UPRIGHTED / RDWY OPEN / EVERYTHING ON RHS NOW"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:36PM"</DetailTime>
+			<IncidentDetail>"[34] B27-070 WORKING ON OPENING #1 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
+			<IncidentDetail>"[33] B27-070 SB LNS SHUT DOWN TEMPORALY FOR RECOVERY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
+			<IncidentDetail>"[32] B27-070 1185 97"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:07PM"</DetailTime>
+			<IncidentDetail>"[31] HAVE 1185 EXIT NB AT CH AND COME AROUND, UNITS WILL STOP TRAFF FOR EXTRACTI ON  / 1039 USA TOW"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
+			<IncidentDetail>"[30] B27-073  MOVED TO THE CD, 2 LANES OF TRAFFIC ARE MOVING"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:58PM"</DetailTime>
+			<IncidentDetail>"[29] [Rotation Request Comment] 1039 USA TOW 831-758-2599 / ENRT W/MED DUTY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:55PM"</DetailTime>
+			<IncidentDetail>"[27] 1185 FOR A 20 FT ENCLOSED TL LOADED W/MISC CLOTHING MERCH / ON IT'S SIDE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:43PM"</DetailTime>
+			<IncidentDetail>"[26] LE / RP WAS DRIVING NB BUT  WITNESSED THE TC ON THE SB SIDE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:40PM"</DetailTime>
+			<IncidentDetail>"[22] [Appended, 13:41:02] [2] BLK EXCURSION / TRLR ON ITS RIGHT SIDE / 1125 #1 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:39PM"</DetailTime>
+			<IncidentDetail>"[21] [Appended, 13:41:02] [1] MTY COM TRANS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
+			<IncidentDetail>"[10] 1125 #1 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
+			<IncidentDetail>"[7] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
+			<IncidentDetail>"[6] NO INJURIES SEEN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
+			<IncidentDetail>"[5] POSS SOLO VEH"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:05PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:46PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:46PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:42PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:42PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811MY00169">
+			<LogTime>"Aug 11 2021 11:52AM"</LogTime>
+			<LogType>"DOT-Request CalTrans Notify"</LogType>
+			<Location>"0 Sr1"</Location>
+			<LocationDesc>"LUCIA LODGE"</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36020697:121549292"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021 12:09PM"</DetailTime>
+			<IncidentDetail>"[8] 1039 DOT SUPERVISOR 1097 ,, WILL 1022 CREW MEMBER THAT WAS ENRT TO RELAY MESGE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 11:55AM"</DetailTime>
+			<IncidentDetail>"[2] 1039 DOT - WILL ATC CREW - BO CELL SERVICE - WILL CALL BACK"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 11:53AM"</DetailTime>
+			<IncidentDetail>"[1] A27-012  SEE IF CT CAN 1198 TO LUCIA LODGE - REQ BARRICADE TO BLOCK OFF RHS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021 11:52AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "SLCC">
+
+		<Log ID = "210811SL00095">
+			<LogTime>"Aug 11 2021  2:12PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Us101 N / Us101 N Sr46 E Ofr"</Location>
+			<LocationDesc>"NB 101 JSO SR46E"</LocationDesc>
+			<Area>"Templeton"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35640143:120684088"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
+			<IncidentDetail>"[2] RP CONCERNED THE SUN WILL REFLECT OFF OF IT AND CAUSE A TC"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 </Center>
 
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
+
+		<Log ID = "210811LA02028">
+			<LogTime>"Aug 11 2021  2:42PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Us101 W / De Soto Ave"</Location>
+			<LocationDesc>"ONR"</LocationDesc>
+			<Area>"West Valley"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34168119:118588152"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811LA02006">
+			<LogTime>"Aug 11 2021  2:36PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I605 S / Carson St"</Location>
+			<LocationDesc>"I605 S / CARSON ST"</LocationDesc>
+			<Area>"Santa Fe Springs"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33831500:118084277"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811LA02001">
+			<LogTime>"Aug 11 2021  2:35PM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Floral Dr / N Ford Blvd"</Location>
+			<LocationDesc>"FLORAL JEO FORD *  ELA CHP"</LocationDesc>
+			<Area>"East LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34044206:118169182"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:36PM"</DetailTime>
+			<IncidentDetail>"[1] 82-72 AT 1019 W/A TC **  CONDUCTING FST'S"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:35PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811LAFSP00167">
 			<LogTime>"Aug 11 2021  2:35PM"</LogTime>
@@ -2284,8 +2446,30 @@
 			<LATLON>"33864132:118046387"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Aug 11 2021  2:37PM"</DetailTime>
+			<IncidentDetail>"[11] 1039 OCCC [Shared]"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
 			<IncidentDetail>"[8] [8] B83-090  VEH ON RS JEO CARMENITA IN WESTMINSTER AREA / REQ FSP / ON FOG LINE[Shared]"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "210811LA02002">
+			<LogTime>"Aug 11 2021  2:35PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I105 W / Wilmington Ave"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"South LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33928520:118239164"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:36PM"</DetailTime>
+			<IncidentDetail>"[2] RP ON R/S IN SIL TOYT CAM"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:36PM"</DetailTime>
+			<IncidentDetail>"[1] LARGE OBJECT IN LANES  - FLEW UP AND HIT HER WINDSHIELD"</IncidentDetail>
 		</details></LogDetails></Log>
 
 		<Log ID = "210811LA01999">
@@ -2320,7 +2504,9 @@
 		<details>
 			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
 			<IncidentDetail>"[1] TOYT PRIUS SIL  VS DODGE CHALLENGER BLK"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811LA01985">
 			<LogTime>"Aug 11 2021  2:28PM"</LogTime>
@@ -2347,6 +2533,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33864132:118046387"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:37PM"</DetailTime>
+			<IncidentDetail>"[11] 1039 OCCC [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
 			<IncidentDetail>"[8] B83-090  VEH ON RS JEO CARMENITA IN WESTMINSTER AREA / REQ FSP / ON FOG LINE"</IncidentDetail>
@@ -2416,7 +2606,11 @@
 		<details>
 			<DetailTime>"Aug 11 2021  2:15PM"</DetailTime>
 			<IncidentDetail>"[1] VIC VEH --- RED TESLA MODEL 3 --- PLT # 8PSB079"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811LA01930">
 			<LogTime>"Aug 11 2021  2:10PM"</LogTime>
@@ -2443,6 +2637,8 @@
 			<DetailTime>"Aug 11 2021  2:10PM"</DetailTime>
 			<IncidentDetail>"[1] TWO VEHS INV"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:32PM"</UnitTime>
@@ -2490,6 +2686,10 @@
 			<LATLON>"34120957:117832785"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[11] B81-208T  ALL VEHS ON RS - FIRE BLK'ING #4 LN [Shared]"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
 			<IncidentDetail>"[10] FD 97 BLKG #1 LN [Shared]"</IncidentDetail>
 		</details>
@@ -2531,6 +2731,8 @@
 			<DetailTime>"Aug 11 2021  2:08PM"</DetailTime>
 			<IncidentDetail>"[1] BLK RAM TRK AND BLK DODG TRK BLKING THE LANE OF THE TRANS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:19PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -2543,6 +2745,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34120957:117832785"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[11] B81-208T  ALL VEHS ON RS - FIRE BLK'ING #4 LN [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
 			<IncidentDetail>"[10] FD 97 BLKG #1 LN [Shared]"</IncidentDetail>
@@ -2567,6 +2773,8 @@
 			<DetailTime>"Aug 11 2021  2:07PM"</DetailTime>
 			<IncidentDetail>"[1] THREE VEHS INV"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:10PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -2602,6 +2810,10 @@
 			<LATLON>"34422127:118584549"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Aug 11 2021  2:37PM"</DetailTime>
+			<IncidentDetail>"[8] NEG TRANSPORT - MCDONALDS PLOT THE OLD RD JWO MAGIC"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Aug 11 2021  2:21PM"</DetailTime>
 			<IncidentDetail>"[6] [Notification] [CHP]-Problem changed from 1182-Trfc Collision-No Inj to 1179-Trfc Collision-1141 Enrt by CHP"</IncidentDetail>
 		</details>
@@ -2625,6 +2837,8 @@
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:10PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -2666,13 +2880,17 @@
 
 		<Log ID = "210811LA01864">
 			<LogTime>"Aug 11 2021  1:48PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
 			<Location>"I405 N / WASHINGTON BLVD"</Location>
 			<LocationDesc>"NB 405 AT Washington"</LocationDesc>
 			<Area>"West LA"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34006175:118413525"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:38PM"</DetailTime>
+			<IncidentDetail>"[17] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:25PM"</DetailTime>
 			<IncidentDetail>"[13] 1148X SM/26156 U/8817 TO RS FRM THE CD [Shared]"</IncidentDetail>
@@ -2729,6 +2947,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34005972:118413666"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:38PM"</DetailTime>
+			<IncidentDetail>"[17] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:25PM"</DetailTime>
 			<IncidentDetail>"[13] 1148X SM/26156 U/8817 TO RS FRM THE CD [Shared]"</IncidentDetail>
@@ -2945,6 +3167,8 @@
 			<DetailTime>"Aug 11 2021  1:18PM"</DetailTime>
 			<IncidentDetail>"[4] [Appended, 13:28:22] [1] [1] EB 105 JEO  IMPERIAL 2 VEH TC MERZ W/AIR BAGS DEPLOYED VS WHI TOYT MINIVAN[Shared]"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
@@ -2990,70 +3214,6 @@
 			<UnitTime>"Aug 11 2021  1:32PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:32PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811LA01782">
-			<LogTime>"Aug 11 2021  1:20PM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I605 N / Ramona Blvd"</Location>
-			<LocationDesc>"NB 605 JSO RAMONA"</LocationDesc>
-			<Area>"Baldwin Park"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34077713:117997912"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:12PM"</DetailTime>
-			<IncidentDetail>"[19] [FSP] has closed their incident [210811LAFSP00156]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
-			<IncidentDetail>"[15] [Notification] [CHP]-81-104 VEHS TO THE RS  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:04PM"</DetailTime>
-			<IncidentDetail>"[14] B81-104  97 W/ A BREAK [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:59PM"</DetailTime>
-			<IncidentDetail>"[6] VEHS IN CD [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:59PM"</DetailTime>
-			<IncidentDetail>"[4] 81-104 O/SHOT VEHS - TURNING TO RUN A BREAK"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:35PM"</DetailTime>
-			<IncidentDetail>"[7] [Appended, 14:00:05] [1] RS - WHI SHADOW BOX TK VS RED KIA SD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:21PM"</DetailTime>
-			<IncidentDetail>"[1] MAR KIA OPTIMA VS WHI VAN ON RS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  1:40PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811LA01770">
-			<LogTime>"Aug 11 2021  1:18PM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"I10 W / Crenshaw Blvd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Central LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34035131:118333579"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:29PM"</DetailTime>
-			<IncidentDetail>"[15] PER DUP ADDL FIRE STARTING 300 YRDS FURTHER EAST // 1039 LAFD [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:23PM"</DetailTime>
-			<IncidentDetail>"[8] [Appended, 13:23:30] [1] [Notification] [CHP]-BRUSH FIRE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:18PM"</DetailTime>
-			<IncidentDetail>"[1] FOLIAGE ON RS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  1:21PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811LA01766">
@@ -3320,26 +3480,6 @@
 			<UnitTime>"Aug 11 2021  7:20AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "210811LA00589">
-			<LogTime>"Aug 11 2021  6:25AM"</LogTime>
-			<LogType>"MZP-Assist CT with Maintenance"</LogType>
-			<Location>"Caltrans-monrovia"</Location>
-			<LocationDesc>"850 E HUNTINGTON DR"</LocationDesc>
-			<Area>"Baldwin Park"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34139484:117987055"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Aug 11 2021  7:35AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  7:17AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  7:17AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  6:26AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  6:26AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "210811LA00577">
 			<LogTime>"Aug 11 2021  6:20AM"</LogTime>
 			<LogType>"MZP-Assist CT with Maintenance"</LogType>
@@ -3355,6 +3495,8 @@
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  6:21AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  6:20AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  6:20AM"</UnitTime>
@@ -3470,6 +3612,24 @@
 </Dispatch>
 <Dispatch ID = "MRCC">
 
+		<Log ID = "210811MR00312">
+			<LogTime>"Aug 11 2021  2:38PM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Road 222 / Bass Lake Rd Ofr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Oakhurst"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37366831:119630021"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:41PM"</DetailTime>
+			<IncidentDetail>"[5] ADVS WILL NEED AN 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[1] VEH VS GAURDRAIL"</IncidentDetail>
+		</details></LogDetails></Log>
+
 		<Log ID = "210811MR00306">
 			<LogTime>"Aug 11 2021  2:29PM"</LogTime>
 			<LogType>"1125A-Animal Hazard"</LogType>
@@ -3486,7 +3646,11 @@
 		<details>
 			<DetailTime>"Aug 11 2021  2:30PM"</DetailTime>
 			<IncidentDetail>"[1] COWS IN THE RDWY"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811MR00286">
 			<LogTime>"Aug 11 2021  2:00PM"</LogTime>
@@ -3597,6 +3761,8 @@
 			<DetailTime>"Aug 11 2021  1:58PM"</DetailTime>
 			<IncidentDetail>"[5] [Appended, 13:58:45] [1] BIG RIG WENT OFF THE RDWY"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:29PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:18PM"</UnitTime>
@@ -3622,45 +3788,19 @@
 			<UnitTime>"Aug 11 2021  2:03PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "210811MR00283">
-			<LogTime>"Aug 11 2021  1:55PM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"Road 26 / Ellis St"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Madera"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36986901:120074284"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:00PM"</DetailTime>
-			<IncidentDetail>"[6] 1039 20"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:57PM"</DetailTime>
-			<IncidentDetail>"[3] RP PULLED TO RHS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:11PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:10PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "210811MR00272">
 			<LogTime>"Aug 11 2021  1:43PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<LogType>"1181-Trfc Collision-Minor Inj"</LogType>
 			<Location>"SR99 N / SOUTH AVE OFR"</Location>
 			<LocationDesc>""</LocationDesc>
 			<Area>"Merced"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37422605:120766332"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:43PM"</DetailTime>
+			<IncidentDetail>"[17] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1181-Trfc Collision-Minor Inj by CHP"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:30PM"</DetailTime>
 			<IncidentDetail>"[14] [Notification] [CHP]-SUBJ BEING TRANS TO DR'S "</IncidentDetail>
@@ -3756,33 +3896,31 @@
 		<details>
 			<DetailTime>"Aug 11 2021  2:14PM"</DetailTime>
 			<IncidentDetail>"[2] PLASTIC FRONT END OF VEH IN THE UPHILL LANE"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "210811FR00337">
-			<LogTime>"Aug 11 2021  2:05PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr168 W / Sr180 E Con"</Location>
-			<LocationDesc>"WB SR168 ON CONN RAMP TO EB SR180"</LocationDesc>
-			<Area>"Fresno"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36761831:119749435"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
-			<IncidentDetail>"[1] METAL POLE AND SAW BLADE IN MDL LANE"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811FR00333">
 			<LogTime>"Aug 11 2021  2:04PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
 			<Location>"W Mckinley Ave / N Hayes Ave"</Location>
 			<LocationDesc>""</LocationDesc>
 			<Area>"Fresno"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"36764436:119898207"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:41PM"</DetailTime>
+			<IncidentDetail>"[20] 1039 ACTION TO 1022"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:41PM"</DetailTime>
+			<IncidentDetail>"[19] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:41PM"</DetailTime>
+			<IncidentDetail>"[18] B65-010  1022 ACTION TOW - PARTY HAS PRIVATE 1185 ENRT"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:31PM"</DetailTime>
 			<IncidentDetail>"[17] [Rotation Request Comment] 1039 ACTION TOW 498-9999 ***************"</IncidentDetail>
@@ -3872,6 +4010,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 10 2021  9:49PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug 10 2021  9:33PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
@@ -3886,6 +4026,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"35371835:119043453"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[41] A69-091  UNIT FOR BREAK IN MAIN LANES WHEN NEAR EXIT"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:28PM"</DetailTime>
 			<IncidentDetail>"[35] 1039 TEN WEST TOWING 1023 IN BYPASS"</IncidentDetail>
@@ -3992,6 +4136,946 @@
 </Center>
 
 <Center ID = "INHB">
+<Dispatch ID = "INCC">
+
+		<Log ID = "210811INFSP00290">
+			<LogTime>"Aug 11 2021  2:39PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I10 E Eo / Euclid Ave"</Location>
+			<LocationDesc>"I10 E EO EUCLID AVE"</LocationDesc>
+			<Area>"San Bernardino FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34087259:117645406"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:39PM"</DetailTime>
+			<IncidentDetail>"[1] GRY TOYT CAM IN REV GP"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811INFSP00288">
+			<LogTime>"Aug 11 2021  2:36PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I215 S No / Harley Knox Blvd"</Location>
+			<LocationDesc>"SB 215 JNO HARLEY KNOX"</LocationDesc>
+			<Area>"Riverside FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33864239:117260524"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:35PM"</DetailTime>
+			<IncidentDetail>"[3] [3] RED TOYT CAMRY ON RS - POSSIBLY HIT DEBRIS[Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:35PM"</DetailTime>
+			<IncidentDetail>"[1] [1] METAL DEBRIS IN MIDDLE LN[Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:40PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:40PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00814">
+			<LogTime>"Aug 11 2021  2:34PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I215 S No / Harley Knox Blvd"</Location>
+			<LocationDesc>"SB 215 JNO HARLEY KNOX"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33864239:117260524"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:35PM"</DetailTime>
+			<IncidentDetail>"[3] RED TOYT CAMRY ON RS - POSSIBLY HIT DEBRIS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:35PM"</DetailTime>
+			<IncidentDetail>"[1] METAL DEBRIS IN MIDDLE LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811INFSP00281">
+			<LogTime>"Aug 11 2021  2:24PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I10 E EO / MILLIKEN AVE"</Location>
+			<LocationDesc>"I10 E EO MILLIKEN AVE"</LocationDesc>
+			<Area>"San Bernardino FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34067323:117554317"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
+			<IncidentDetail>"[7] [Notification] [CHP]-123-101 O/SHOT / EB 10 JEO  MILLIKEN 3 VEHS BLOCKING #1 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
+			<IncidentDetail>"[4] [4] BLKG # 1 LN[Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:40PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00799">
+			<LogTime>"Aug 11 2021  2:23PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I10 E EO / MILLIKEN AVE"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34067323:117554317"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
+			<IncidentDetail>"[7] [Notification] [CHP]-123-101 O/SHOT / EB 10 JEO  MILLIKEN 3 VEHS BLOCKING #1 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
+			<IncidentDetail>"[4] BLKG # 1 LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:43PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:34PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:34PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811INFSP00273">
+			<LogTime>"Aug 11 2021  2:18PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr91 E At / I15"</Location>
+			<LocationDesc>"SR91 E AT I15"</LocationDesc>
+			<Area>"Riverside FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33881814:117547053"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:40PM"</DetailTime>
+			<IncidentDetail>"[18] [Notification] [CHP]-BLU DODG PK HIT DEBRIS AND WENT THROUGH FT BARRIER AND NOW IN FT CD  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:26PM"</DetailTime>
+			<IncidentDetail>"[11] D BLU PK TK ALSO STOPPED IN CD / DUPE CALLER THINKS RELATED [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
+			<IncidentDetail>"[7] 31 FRM VEH PREP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
+			<IncidentDetail>"[3] [3] RP'S WHI SEMI W/ BLU CONTAINER ON RS, SEMI LOST TIRE[Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
+			<IncidentDetail>"[2] [2] SEMI TK TIRE BLKG #1[Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:23PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00795">
+			<LogTime>"Aug 11 2021  2:17PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Sr91 W / Carmenita Rd"</Location>
+			<LocationDesc>"WB 91 JEO CARMENITA"</LocationDesc>
+			<Area>" LACC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33864132:118046387"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
+			<IncidentDetail>"[2] CORR - RS RAILING"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
+			<IncidentDetail>"[1] SOLO VEH VS RS WALL"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00794">
+			<LogTime>"Aug 11 2021  2:17PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr91 E At / I15"</Location>
+			<LocationDesc>"SR91 E AT I15"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33881814:117547053"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:40PM"</DetailTime>
+			<IncidentDetail>"[18] [Notification] [CHP]-BLU DODG PK HIT DEBRIS AND WENT THROUGH FT BARRIER AND NOW IN FT CD  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:26PM"</DetailTime>
+			<IncidentDetail>"[13] ETA 10-15   TO CLEAR AFTER  ROLL CALL   WILL BE  LATE AS 610-311 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:26PM"</DetailTime>
+			<IncidentDetail>"[11] D BLU PK TK ALSO STOPPED IN CD / DUPE CALLER THINKS RELATED [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
+			<IncidentDetail>"[7] 31 FRM VEH PREP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
+			<IncidentDetail>"[3] RP'S WHI SEMI W/ BLU CONTAINER ON RS, SEMI LOST TIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
+			<IncidentDetail>"[2] SEMI TK TIRE BLKG #1"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:33PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:29PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:18PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811INFSP00270">
+			<LogTime>"Aug 11 2021  2:12PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I10 E / ETIWANDA AVE"</Location>
+			<LocationDesc>"I10 W EO ETIWANDA AVE"</LocationDesc>
+			<Area>"San Bernardino FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34067374:117525426"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
+			<IncidentDetail>"[21] [CHP] has closed their incident [210811IN00784]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
+			<IncidentDetail>"[15] [Appended, 14:34:15] [3] VEH STALLED OUT [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
+			<IncidentDetail>"[14] [Appended, 14:34:15] [2] RP IN BLK INFINITI SEDAN IN CD [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
+			<IncidentDetail>"[11] B123-103  RS NOW [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:15PM"</DetailTime>
+			<IncidentDetail>"[10] [Notification] [CHP]-1039 3A SO# 288172 AND  HADLEY TOW ENRT  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
+			<IncidentDetail>"[9] 620-112  W/VISUAL  VEH ON EB 10 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
+			<IncidentDetail>"[8] CLOSE TO TRAFF [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
+			<IncidentDetail>"[7] RP IN NARROW CD [Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00786">
+			<LogTime>"Aug 11 2021  2:10PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Old Elsinore Rd / Mack St"</Location>
+			<LocationDesc>"AT"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33822679:117282568"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:32PM"</DetailTime>
+			<IncidentDetail>"[13] [Rotation Request Comment] 1039 LAWLERS W/2ND FB 951-780-4600"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:32PM"</DetailTime>
+			<IncidentDetail>"[12] [Notification] [CHP]-FIRE SAYING THEIR ENG HASNT ADVD WHERE PTYS WILL BE TRANS YET"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:32PM"</DetailTime>
+			<IncidentDetail>"[11] ETA 5 / ASC WHERE BEING TRANS TO"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:31PM"</DetailTime>
+			<IncidentDetail>"[10] [Notification] [CHP]-FIRE ON LL REQ ETA  - ALSO ADV WILL NEED 1185 FB X 2 - 3 PATIENTS BEING TRANSPORTED"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
+			<IncidentDetail>"[9] [Rotation Request Comment] 1039 BROTHERS INC W/FB 951-674-0741"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
+			<IncidentDetail>"[8] 41 START 1185 FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
+			<IncidentDetail>"[5] 1039 CDF"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:12PM"</DetailTime>
+			<IncidentDetail>"[4] XRAY IN RED NISS W/ HEAD INJURY / REQ 1141"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:14PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811INFSP00266">
+			<LogTime>"Aug 11 2021  2:08PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr91 E Eo / Van Buren Blvd Vb"</Location>
+			<LocationDesc>"SR91 E EO VAN BUREN BLVD"</LocationDesc>
+			<Area>"Riverside FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33918895:117434546"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:19PM"</DetailTime>
+			<IncidentDetail>"[15] [CHP] has closed their incident [210811IN00772]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:19PM"</DetailTime>
+			<IncidentDetail>"[14] VEH ON RS PER 21 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:05PM"</DetailTime>
+			<IncidentDetail>"[11] [11] RP IN BRO INFINITI SUV STALLED IN #2 LN[Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:36PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811INFSP00264">
+			<LogTime>"Aug 11 2021  2:07PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I15 N So / Lake St"</Location>
+			<LocationDesc>"I15 N SO LAKE ST"</LocationDesc>
+			<Area>"Riverside FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33728816:117383285"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:07PM"</DetailTime>
+			<IncidentDetail>"[3] B74-034  FM VEH PREP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
+			<IncidentDetail>"[1] [1] TIRE DEBRIS IN THE #2 LN - TRK PARKED ON THE R/S[Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00778">
+			<LogTime>"Aug 11 2021  2:06PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I15 N So / Lake St"</Location>
+			<LocationDesc>"I15 N SO LAKE ST"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33728816:117383285"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:07PM"</DetailTime>
+			<IncidentDetail>"[3] B74-034  FM VEH PREP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
+			<IncidentDetail>"[1] TIRE DEBRIS IN THE #2 LN - TRK PARKED ON THE R/S"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00771">
+			<LogTime>"Aug 11 2021  2:00PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Crest Forest Dr / Scenic Dr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Arrowhead"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34235991:117287615"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:36PM"</DetailTime>
+			<IncidentDetail>"[18] 1039 3A  MT AUTO  SO# 289261 HOT CALL"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:08PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:08PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:19PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:22PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:05PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00744">
+			<LogTime>"Aug 11 2021  1:43PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I10 E EO / I15"</Location>
+			<LocationDesc>"I10 E EO I15"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34067252:117535366"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:08PM"</DetailTime>
+			<IncidentDetail>"[19] [FSP] has closed their incident [210811INFSP00249]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:04PM"</DetailTime>
+			<IncidentDetail>"[18] 1021 PEPES TOW TO 1022 / BOT [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:03PM"</DetailTime>
+			<IncidentDetail>"[17] A123-103 1022 PEPES / PTY HAS OWN 1185 ENRT 10-15 ETA [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:01PM"</DetailTime>
+			<IncidentDetail>"[16] [Rotation Request Comment] 1039 PEPES TOW W/HD 951 682 5682 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:59PM"</DetailTime>
+			<IncidentDetail>"[15] A123-103 REQ 1185 HD TRACTOR W/EMPTY TRLR [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:56PM"</DetailTime>
+			<IncidentDetail>"[12] OTHER VEHS ON RS [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:56PM"</DetailTime>
+			<IncidentDetail>"[11] EB JEO 15 / 1125 #4 WITH SEMI [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:46PM"</DetailTime>
+			<IncidentDetail>"[5] RP HAS ALOT OF DAMAGE TO TRLR, TOW SYSTEM ETC [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:45PM"</DetailTime>
+			<IncidentDetail>"[3] OTHER VEH IS A BIG RIG ALSO"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:45PM"</DetailTime>
+			<IncidentDetail>"[2] RP IN A TOW TRK - PULLING A TRACTOR AND FLT BED TRLR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:45PM"</DetailTime>
+			<IncidentDetail>"[1] SLOW LN BLKED"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:28PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:57PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:57PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:56PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:47PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:47PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811IN00742">
+			<LogTime>"Aug 11 2021  1:42PM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Sr18 / Deep Creek Dr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Arrowhead"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34210768:117085408"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  1:44PM"</DetailTime>
+			<IncidentDetail>"[3] INTERMITTENT ONE WAY TRAFFIC^"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:43PM"</DetailTime>
+			<IncidentDetail>"[2] DAMAGED MANHOLE COVER REPAIR UNTIL APPROX 1500 HRS^"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "210811IN00471">
+			<LogTime>"Aug 11 2021  9:43AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"I215 S No / Ramona Exwy Rex"</Location>
+			<LocationDesc>"I215 S NO RAMONA EXWY"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33852535:117255510"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  9:44AM"</DetailTime>
+			<IncidentDetail>"[2] UNMANNED CLOSURE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  9:44AM"</DetailTime>
+			<IncidentDetail>"[1] SB 215 FRM JNO TO REX TO REX BRIDGE #1 CLOSED FOR REPAIRS"</IncidentDetail>
+		</details></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "BCCC">
+
+		<Log ID = "210811BC00708">
+			<LogTime>"Aug 11 2021  2:34PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr94 E / Avocado Wo (calavo)"</Location>
+			<LocationDesc>"EB"</LocationDesc>
+			<Area>"El Cajon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32744288:116969817"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
+			<IncidentDetail>"[1] LARGE PIECE OF METAL IN LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00703">
+			<LogTime>"Aug 11 2021  2:31PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Reche Rd / Old Hwy 395"</Location>
+			<LocationDesc>"EB RECHE JWO OLD 395"</LocationDesc>
+			<Area>"Oceanside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33373423:117170319"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Aug 11 2021  2:33PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00696">
+			<LogTime>"Aug 11 2021  2:22PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"I15 N / Centre City So (south)"</Location>
+			<LocationDesc>"I15 N CENTRE CITY SO (SOUTH)"</LocationDesc>
+			<Area>"Oceanside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33074129:117069785"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
+			<IncidentDetail>"[2] 1039 ESC FD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
+			<IncidentDetail>"[1] SIL HOND NO PLT RAN OFF ROAD ELDERLY MALE , HEAD BOBBING WHILE DRIVING UNK IF HE IS OK"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00680">
+			<LogTime>"Aug 11 2021  2:09PM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Pointe Pkwy / Jamacha Blvd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"El Cajon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32723242:116973086"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
+			<IncidentDetail>"[4] 25; MOST OF POINT PARKWAY IS PRIVATE ROAD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:11PM"</DetailTime>
+			<IncidentDetail>"[2] NEG 1125"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:10PM"</DetailTime>
+			<IncidentDetail>"[1] 2 VEHS INV - BLU MERZ VS SIL TOYT COA"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:39PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00678">
+			<LogTime>"Aug 11 2021  2:08PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I8 E / Lake Murray Wo (70th)"</Location>
+			<LocationDesc>"I8 E LAKE MURRAY WO (70TH)"</LocationDesc>
+			<Area>"El Cajon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32775956:117049911"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:09PM"</DetailTime>
+			<IncidentDetail>"[1] BED LINER IN THE LNS "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:15PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00664">
+			<LogTime>"Aug 11 2021  1:54PM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"26610 Ynez Rd"</Location>
+			<LocationDesc>"POI // SB 15 WINCHESTER OFR"</LocationDesc>
+			<Area>"Temecula"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33519049:117156158"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  1:56PM"</DetailTime>
+			<IncidentDetail>"[3] SV - SIDESWIPED RP'S VEH ON THE OFR"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:09PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:09PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:08PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BCFSP00042">
+			<LogTime>"Aug 11 2021  1:40PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I805 S / Palm (otay)"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"South FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32583784:117037153"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Aug 11 2021  2:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00648">
+			<LogTime>"Aug 11 2021  1:38PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I805 S / Palm (otay)"</Location>
+			<LocationDesc>"I805 S PALM SO (NATIONAL CITY)"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32583784:117037153"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:38PM"</DetailTime>
+			<IncidentDetail>"[9] [FSP] has closed their incident [210811BCFSP00042]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:40PM"</DetailTime>
+			<IncidentDetail>"[1] UNDER O'PASS IN THE CD"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "210811BC00645">
+			<LogTime>"Aug 11 2021  1:37PM"</LogTime>
+			<LogType>"23114-Object Flying From Veh"</LogType>
+			<Location>"I15 N / Citracado (felicita)"</Location>
+			<LocationDesc>"I15 N CITRACADO (FELICITA)"</LocationDesc>
+			<Area>"Oceanside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33092553:117082983"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  1:55PM"</DetailTime>
+			<IncidentDetail>"[7] 40 MIN ETA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
+			<IncidentDetail>"[4] ADVSD BOTH VEHS PULLED OVER ON RHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
+			<IncidentDetail>"[3] ADVSD WHI TKPK DROPPED DEBRIS FM BED AND DAMAGED HER VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
+			<IncidentDetail>"[2] ALL ON RHS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:54PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00640">
+			<LogTime>"Aug 11 2021  1:34PM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I15 S / Gopher Canyon (champagne) No"</Location>
+			<LocationDesc>"I15 S GOPHER CANYON (CHAMPAGNE) NO"</LocationDesc>
+			<Area>"Oceanside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33257096:117157841"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  1:35PM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 13:36:06] [1] BLK 4 FT X 4 FT BOX IN #1 LANE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:35PM"</DetailTime>
+			<IncidentDetail>"[2] [Appended, 13:35:33] [1] LARGE BLK TRASH BAG IN #1"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:35PM"</DetailTime>
+			<IncidentDetail>"[1] LARGE BLK  BAG IN THE FAST LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  1:50PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00586">
+			<LogTime>"Aug 11 2021 12:47PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"900 Mm79 S Sd 9.00"</Location>
+			<LocationDesc>"JSO PASO PICACHO CAMPGROUND"</LocationDesc>
+			<Area>"El Cajon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32955981:116578171"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  1:58PM"</DetailTime>
+			<IncidentDetail>"[13] ETA FOR RBS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:10PM"</DetailTime>
+			<IncidentDetail>"[10] [Rotation Request Comment] **1039 RBS TOW 760-789-0086 **"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:07PM"</DetailTime>
+			<IncidentDetail>"[8] 108-051  START 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:51PM"</DetailTime>
+			<IncidentDetail>"[5] SEVERAL VEHS STOPPED TO ASSIST"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:50PM"</DetailTime>
+			<IncidentDetail>"[2] MALE EXITING THE VEH // POSS HEAD INJURY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:49PM"</DetailTime>
+			<IncidentDetail>"[1] SINGLE VEH TC // UNK VEH // DOWN A DITCH"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  1:12PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021 12:56PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021 12:56PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:12PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:02PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021 12:52PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00552">
+			<LogTime>"Aug 11 2021 12:19PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"34950 Sr74"</Location>
+			<LocationDesc>"ORTEGA/ CANDY STORE"</LocationDesc>
+			<Area>"Capistrano"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33550026:117548856"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  1:36PM"</DetailTime>
+			<IncidentDetail>"[71] [CHP] has closed their incident [210804OC00205]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:31PM"</DetailTime>
+			<IncidentDetail>"[68] [Notification] [CHP]-A113-031 WILL BE COUNTRY CITY TOW -- 31 and TOW ENRT TO CANDY STORE ETA 20-25 MINS  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:17PM"</DetailTime>
+			<IncidentDetail>"[65] [65] A113-031 COUNTRY SIDE TOW ADV THEIR DRIVER WAS RECOVERING A VEH ON THE ORTEGA and SAW A BLK FORD MUS OVER THE SIDE // CAPO 98 WITH TOW DRIVER @ THE CVS ANTONIO/ORTEGA and TOW DRIVER WILL SHOW 31 WHERE THE VEH IS [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  3:16PM"</DetailTime>
+			<IncidentDetail>"[63] [63] [CHP] has closed their incident [210804BC00633][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  3:16PM"</DetailTime>
+			<IncidentDetail>"[62] [62] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  3:12PM"</DetailTime>
+			<IncidentDetail>"[59] [59] BD-H50 DRIVER ADVSD NEG ON ALL VEHS FOUND// TEMECULA IS AWARE // UTL [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  3:12PM"</DetailTime>
+			<IncidentDetail>"[57] [57] BD-H50 CONTINUED SEARCH TO ORANGE COUNTY AREA / UTL ON ANY VEHS MATCHING DESC [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  3:04PM"</DetailTime>
+			<IncidentDetail>"[56] [56] H50 SO FAR UTL ON ANY OTHER VEHS [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  3:03PM"</DetailTime>
+			<IncidentDetail>"[55] [55] A115-010  VEH WAS NEG MATCH [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:58PM"</DetailTime>
+			<IncidentDetail>"[54] [54] H50 1023ING OVER A A VEH THAT POSS MATCHES THE DESC / HAVE UNIT DRIVE TO MY 1020 [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:58PM"</DetailTime>
+			<IncidentDetail>"[53] [53] 1039 SGT KHOLER CPYS [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:55PM"</DetailTime>
+			<IncidentDetail>"[52] [52] A113-031  B113-31 AND TEMECULA UNIT 1023 FOR H50 LOOKING FOR VEH [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:37PM"</DetailTime>
+			<IncidentDetail>"[47] [47] BD-H50  EB ON ORTEGA ENTERING RIVERSIDE UTL ON ANY VEH //MAKING WAY TO CANDY STORE [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:34PM"</DetailTime>
+			<IncidentDetail>"[46] [46] BD-H50  ON ORTEGA AT FIRE STATION WILL MAKE WAY OVER TO CANDY STORE [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:07PM"</DetailTime>
+			<IncidentDetail>"[38] [38] [Notification] [CHP]-1039 AIR OPS FULLERTON /20-25 MINS ETA  [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:02PM"</DetailTime>
+			<IncidentDetail>"[32] [32] A113-057  HAVE FIRE DOWNGRADE OR CANCEL // PTY DOES NOT APPAREA INJURED [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  2:01PM"</DetailTime>
+			<IncidentDetail>"[28] [28] REQ AIR OPS TO CHECK AREA BTWN SAN JUAN FIRE STATION AND PAST COUNTY LINE [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  1:53PM"</DetailTime>
+			<IncidentDetail>"[21] [21] A113-031  OUT W/ BMA WALKING BLK STRAW HAT 1 JWO SAN JUAN FIRE STATION [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  1:50PM"</DetailTime>
+			<IncidentDetail>"[19] [19] 1039 CDF RB [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  1:44PM"</DetailTime>
+			<IncidentDetail>"[18] [18] 1039 STA 91 [Shared][Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  4 2021  1:36PM"</DetailTime>
+			<IncidentDetail>"[16] [16] [CHP] has closed their incident [210804IN00644][Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  1:08PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:08PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021 12:23PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "210811BC00031">
+			<LogTime>"Aug 11 2021 12:38AM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"Sr76 / N River Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Oceanside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33267241:117236771"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
+			<IncidentDetail>"[32] [Rotation Request Comment] **QUALITY TOW 760-460-4336**"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:15PM"</DetailTime>
+			<IncidentDetail>"[31] 1185 FOR O  - HOLLY / SR76"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:14PM"</DetailTime>
+			<IncidentDetail>"[29] VEH IS 1124"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:05PM"</DetailTime>
+			<IncidentDetail>"[26] [Appended, 14:06:04] [5] PER OCN RP // VEH IS "PRETTY BEAT UP""</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  2:03PM"</DetailTime>
+			<IncidentDetail>"[24] [Appended, 14:06:04] [3] VEH IS NEAR A HOMELESS ENCAMPMENT // ON UNK SHOULDER"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:22PM"</DetailTime>
+			<IncidentDetail>"[19] WHOLE FRONT END OF MUSTANG IS DESTROYED IS NEAR THE OLD BONSALL BRIDGE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:21PM"</DetailTime>
+			<IncidentDetail>"[18] AIRBAGS DEPLOYED A BUNCH OF HOUSE HOLD ITEMS IN VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:20PM"</DetailTime>
+			<IncidentDetail>"[15] AN RP CALLED IN THE SV IS ON HOLLY LANE PLT 3XCC467"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021  1:10AM"</DetailTime>
+			<IncidentDetail>"[13] C92-021C  FINAL2 VEH 20002 NO 180'S"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:42AM"</DetailTime>
+			<IncidentDetail>"[10] DEBRIS IN LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:42AM"</DetailTime>
+			<IncidentDetail>"[8] RP ADV THE BLU CIV AIRBAGS WENT OFF, PTYS OO VEH EXCHANGING INFO"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:41AM"</DetailTime>
+			<IncidentDetail>"[5] RP ADV THE AIR BAGS DEPLOYED HIT THE FIRST CAR PRETTY HARD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug 11 2021 12:39AM"</DetailTime>
+			<IncidentDetail>"[1] SV FORD MUST TC'D INTO  VEH AND TURNED AROUND AND WENT WB"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:28PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:28PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:14PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:14PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:43PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  1:10AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021 12:47AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021 12:45AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "OCCC">
 
 		<Log ID = "210811OCFSP00063">
@@ -4003,6 +5087,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33559343:117672864"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[9] B113-057   UTL ON NB CV IN GP - RECALL PTY [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:29PM"</DetailTime>
 			<IncidentDetail>"[1] [1] SIL 2014 NISS VERSA VS GUARD RAIL[Shared]"</IncidentDetail>
@@ -4036,7 +5124,11 @@
 		<details>
 			<DetailTime>"Aug 11 2021  2:32PM"</DetailTime>
 			<IncidentDetail>"[3] RP'S VEH: BLK NISS SEN   VS    GRY AUDI"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:37PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811OC00274">
 			<LogTime>"Aug 11 2021  2:29PM"</LogTime>
@@ -4047,6 +5139,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33559343:117672864"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[9] B113-057   UTL ON NB CV IN GP - RECALL PTY [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug 11 2021  2:30PM"</DetailTime>
 			<IncidentDetail>"[3] CALLED 3A BUT THEY HAVE BEEN WAITING - UNK ETA"</IncidentDetail>
@@ -4464,416 +5560,6 @@
 			<UnitTime>"Aug 10 2021 11:58PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BCCC">
-
-		<Log ID = "210811BC00703">
-			<LogTime>"Aug 11 2021  2:31PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Reche Rd / Old Hwy 395"</Location>
-			<LocationDesc>"EB RECHE JWO OLD 395"</LocationDesc>
-			<Area>"Oceanside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33373423:117170319"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Aug 11 2021  2:33PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00696">
-			<LogTime>"Aug 11 2021  2:22PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"I15 N / Centre City So (south)"</Location>
-			<LocationDesc>"I15 N CENTRE CITY SO (SOUTH)"</LocationDesc>
-			<Area>"Oceanside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33074129:117069785"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
-			<IncidentDetail>"[2] 1039 ESC FD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
-			<IncidentDetail>"[1] SIL HOND NO PLT RAN OFF ROAD ELDERLY MALE , HEAD BOBBING WHILE DRIVING UNK IF HE IS OK"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00680">
-			<LogTime>"Aug 11 2021  2:09PM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"10435 Magical Waters Ct"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"El Cajon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32720265:116966123"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
-			<IncidentDetail>"[4] 25; MOST OF POINT PARKWAY IS PRIVATE ROAD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:11PM"</DetailTime>
-			<IncidentDetail>"[2] NEG 1125"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:10PM"</DetailTime>
-			<IncidentDetail>"[1] 2 VEHS INV - BLU MERZ VS SIL TOYT COA"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:30PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00678">
-			<LogTime>"Aug 11 2021  2:08PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I8 E / Lake Murray Wo (70th)"</Location>
-			<LocationDesc>"I8 E LAKE MURRAY WO (70TH)"</LocationDesc>
-			<Area>"El Cajon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32775956:117049911"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:09PM"</DetailTime>
-			<IncidentDetail>"[1] BED LINER IN THE LNS "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:15PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00664">
-			<LogTime>"Aug 11 2021  1:54PM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"26610 Ynez Rd"</Location>
-			<LocationDesc>"POI // SB 15 WINCHESTER OFR"</LocationDesc>
-			<Area>"Temecula"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33519049:117156158"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:56PM"</DetailTime>
-			<IncidentDetail>"[3] SV - SIDESWIPED RP'S VEH ON THE OFR"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:09PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:09PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:08PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BCFSP00042">
-			<LogTime>"Aug 11 2021  1:40PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I805 S / Palm (otay)"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"South FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32583784:117037153"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:17PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00648">
-			<LogTime>"Aug 11 2021  1:38PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I805 S / Palm (otay)"</Location>
-			<LocationDesc>"I805 S PALM SO (NATIONAL CITY)"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32583784:117037153"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:40PM"</DetailTime>
-			<IncidentDetail>"[1] UNDER O'PASS IN THE CD"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "210811BC00645">
-			<LogTime>"Aug 11 2021  1:37PM"</LogTime>
-			<LogType>"23114-Object Flying From Veh"</LogType>
-			<Location>"I15 N / Citracado (felicita)"</Location>
-			<LocationDesc>"I15 N CITRACADO (FELICITA)"</LocationDesc>
-			<Area>"Oceanside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33092553:117082983"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:55PM"</DetailTime>
-			<IncidentDetail>"[7] 40 MIN ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[4] ADVSD BOTH VEHS PULLED OVER ON RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[3] ADVSD WHI TKPK DROPPED DEBRIS FM BED AND DAMAGED HER VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[2] ALL ON RHS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:54PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00640">
-			<LogTime>"Aug 11 2021  1:34PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I15 S / Gopher Canyon (champagne) No"</Location>
-			<LocationDesc>"I15 S GOPHER CANYON (CHAMPAGNE) NO"</LocationDesc>
-			<Area>"Oceanside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33257096:117157841"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:35PM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 13:36:06] [1] BLK 4 FT X 4 FT BOX IN #1 LANE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:35PM"</DetailTime>
-			<IncidentDetail>"[2] [Appended, 13:35:33] [1] LARGE BLK TRASH BAG IN #1"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:35PM"</DetailTime>
-			<IncidentDetail>"[1] LARGE BLK  BAG IN THE FAST LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  1:50PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00586">
-			<LogTime>"Aug 11 2021 12:47PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"900 Mm79 S Sd 9.00"</Location>
-			<LocationDesc>"JSO PASO PICACHO CAMPGROUND"</LocationDesc>
-			<Area>"El Cajon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32955981:116578171"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:58PM"</DetailTime>
-			<IncidentDetail>"[13] ETA FOR RBS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:10PM"</DetailTime>
-			<IncidentDetail>"[10] [Rotation Request Comment] **1039 RBS TOW 760-789-0086 **"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:07PM"</DetailTime>
-			<IncidentDetail>"[8] 108-051  START 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:51PM"</DetailTime>
-			<IncidentDetail>"[5] SEVERAL VEHS STOPPED TO ASSIST"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:50PM"</DetailTime>
-			<IncidentDetail>"[2] MALE EXITING THE VEH // POSS HEAD INJURY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:49PM"</DetailTime>
-			<IncidentDetail>"[1] SINGLE VEH TC // UNK VEH // DOWN A DITCH"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  1:12PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:56PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:56PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:12PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:02PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:52PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00552">
-			<LogTime>"Aug 11 2021 12:19PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"34950 Sr74"</Location>
-			<LocationDesc>"ORTEGA/ CANDY STORE"</LocationDesc>
-			<Area>"Capistrano"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33550026:117548856"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:36PM"</DetailTime>
-			<IncidentDetail>"[71] [CHP] has closed their incident [210804OC00205]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:31PM"</DetailTime>
-			<IncidentDetail>"[68] [Notification] [CHP]-A113-031 WILL BE COUNTRY CITY TOW -- 31 and TOW ENRT TO CANDY STORE ETA 20-25 MINS  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:17PM"</DetailTime>
-			<IncidentDetail>"[65] [65] A113-031 COUNTRY SIDE TOW ADV THEIR DRIVER WAS RECOVERING A VEH ON THE ORTEGA and SAW A BLK FORD MUS OVER THE SIDE // CAPO 98 WITH TOW DRIVER @ THE CVS ANTONIO/ORTEGA and TOW DRIVER WILL SHOW 31 WHERE THE VEH IS [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  3:16PM"</DetailTime>
-			<IncidentDetail>"[63] [63] [CHP] has closed their incident [210804BC00633][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  3:16PM"</DetailTime>
-			<IncidentDetail>"[62] [62] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  3:12PM"</DetailTime>
-			<IncidentDetail>"[59] [59] BD-H50 DRIVER ADVSD NEG ON ALL VEHS FOUND// TEMECULA IS AWARE // UTL [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  3:12PM"</DetailTime>
-			<IncidentDetail>"[57] [57] BD-H50 CONTINUED SEARCH TO ORANGE COUNTY AREA / UTL ON ANY VEHS MATCHING DESC [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  3:04PM"</DetailTime>
-			<IncidentDetail>"[56] [56] H50 SO FAR UTL ON ANY OTHER VEHS [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  3:03PM"</DetailTime>
-			<IncidentDetail>"[55] [55] A115-010  VEH WAS NEG MATCH [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:58PM"</DetailTime>
-			<IncidentDetail>"[54] [54] H50 1023ING OVER A A VEH THAT POSS MATCHES THE DESC / HAVE UNIT DRIVE TO MY 1020 [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:58PM"</DetailTime>
-			<IncidentDetail>"[53] [53] 1039 SGT KHOLER CPYS [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:55PM"</DetailTime>
-			<IncidentDetail>"[52] [52] A113-031  B113-31 AND TEMECULA UNIT 1023 FOR H50 LOOKING FOR VEH [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:37PM"</DetailTime>
-			<IncidentDetail>"[47] [47] BD-H50  EB ON ORTEGA ENTERING RIVERSIDE UTL ON ANY VEH //MAKING WAY TO CANDY STORE [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:34PM"</DetailTime>
-			<IncidentDetail>"[46] [46] BD-H50  ON ORTEGA AT FIRE STATION WILL MAKE WAY OVER TO CANDY STORE [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:07PM"</DetailTime>
-			<IncidentDetail>"[38] [38] [Notification] [CHP]-1039 AIR OPS FULLERTON /20-25 MINS ETA  [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:02PM"</DetailTime>
-			<IncidentDetail>"[32] [32] A113-057  HAVE FIRE DOWNGRADE OR CANCEL // PTY DOES NOT APPAREA INJURED [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  2:01PM"</DetailTime>
-			<IncidentDetail>"[28] [28] REQ AIR OPS TO CHECK AREA BTWN SAN JUAN FIRE STATION AND PAST COUNTY LINE [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  1:53PM"</DetailTime>
-			<IncidentDetail>"[21] [21] A113-031  OUT W/ BMA WALKING BLK STRAW HAT 1 JWO SAN JUAN FIRE STATION [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  1:50PM"</DetailTime>
-			<IncidentDetail>"[19] [19] 1039 CDF RB [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  1:44PM"</DetailTime>
-			<IncidentDetail>"[18] [18] 1039 STA 91 [Shared][Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  4 2021  1:36PM"</DetailTime>
-			<IncidentDetail>"[16] [16] [CHP] has closed their incident [210804IN00644][Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  1:08PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:08PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:23PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BC00031">
-			<LogTime>"Aug 11 2021 12:38AM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"Sr76 / N River Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Oceanside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33267241:117236771"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
-			<IncidentDetail>"[32] [Rotation Request Comment] **QUALITY TOW 760-460-4336**"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:15PM"</DetailTime>
-			<IncidentDetail>"[31] 1185 FOR O  - HOLLY / SR76"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:14PM"</DetailTime>
-			<IncidentDetail>"[29] VEH IS 1124"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:05PM"</DetailTime>
-			<IncidentDetail>"[26] [Appended, 14:06:04] [5] PER OCN RP // VEH IS "PRETTY BEAT UP""</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:03PM"</DetailTime>
-			<IncidentDetail>"[24] [Appended, 14:06:04] [3] VEH IS NEAR A HOMELESS ENCAMPMENT // ON UNK SHOULDER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:22PM"</DetailTime>
-			<IncidentDetail>"[19] WHOLE FRONT END OF MUSTANG IS DESTROYED IS NEAR THE OLD BONSALL BRIDGE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:21PM"</DetailTime>
-			<IncidentDetail>"[18] AIRBAGS DEPLOYED A BUNCH OF HOUSE HOLD ITEMS IN VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:20PM"</DetailTime>
-			<IncidentDetail>"[15] AN RP CALLED IN THE SV IS ON HOLLY LANE PLT 3XCC467"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:10AM"</DetailTime>
-			<IncidentDetail>"[13] C92-021C  FINAL2 VEH 20002 NO 180'S"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:42AM"</DetailTime>
-			<IncidentDetail>"[10] DEBRIS IN LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:42AM"</DetailTime>
-			<IncidentDetail>"[8] RP ADV THE BLU CIV AIRBAGS WENT OFF, PTYS OO VEH EXCHANGING INFO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:41AM"</DetailTime>
-			<IncidentDetail>"[5] RP ADV THE AIR BAGS DEPLOYED HIT THE FIRST CAR PRETTY HARD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:39AM"</DetailTime>
-			<IncidentDetail>"[1] SV FORD MUST TC'D INTO  VEH AND TURNED AROUND AND WENT WB"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:28PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:28PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:14PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:14PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:43PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:10AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:47AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:45AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "ICCC">
 
 		<Log ID = "210811IC00151">
@@ -4916,6 +5602,10 @@
 			<LATLON>"33918829:116797152"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Aug 11 2021  2:42PM"</DetailTime>
+			<IncidentDetail>"[18] B97-206  ON RS"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Aug 11 2021  2:25PM"</DetailTime>
 			<IncidentDetail>"[12] [Notification] [CHP]-[9] [Appended, 14:25:25] [3] 1126X / 1125 IN CROSSOVER [Shared]"</IncidentDetail>
 		</details>
@@ -4935,6 +5625,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:26PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:42PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:15PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  2:14PM"</UnitTime>
@@ -4981,394 +5673,6 @@
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  4:57AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "INCC">
-
-		<Log ID = "210811INFSP00281">
-			<LogTime>"Aug 11 2021  2:24PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I10 E EO / MILLIKEN AVE"</Location>
-			<LocationDesc>"I10 E EO MILLIKEN AVE"</LocationDesc>
-			<Area>"San Bernardino FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34067323:117554317"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
-			<IncidentDetail>"[7] [Notification] [CHP]-123-101 O/SHOT / EB 10 JEO  MILLIKEN 3 VEHS BLOCKING #1 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
-			<IncidentDetail>"[4] [4] BLKG # 1 LN[Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:24PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811IN00799">
-			<LogTime>"Aug 11 2021  2:23PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I10 E EO / MILLIKEN AVE"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34067323:117554317"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
-			<IncidentDetail>"[7] [Notification] [CHP]-123-101 O/SHOT / EB 10 JEO  MILLIKEN 3 VEHS BLOCKING #1 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
-			<IncidentDetail>"[4] BLKG # 1 LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:34PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:34PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811INFSP00273">
-			<LogTime>"Aug 11 2021  2:18PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr91 E At / I15"</Location>
-			<LocationDesc>"SR91 E AT I15"</LocationDesc>
-			<Area>"Riverside FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33881814:117547053"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:26PM"</DetailTime>
-			<IncidentDetail>"[11] D BLU PK TK ALSO STOPPED IN CD / DUPE CALLER THINKS RELATED [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
-			<IncidentDetail>"[7] 31 FRM VEH PREP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
-			<IncidentDetail>"[3] [3] RP'S WHI SEMI W/ BLU CONTAINER ON RS, SEMI LOST TIRE[Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
-			<IncidentDetail>"[2] [2] SEMI TK TIRE BLKG #1[Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:23PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811IN00794">
-			<LogTime>"Aug 11 2021  2:17PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr91 E At / I15"</Location>
-			<LocationDesc>"SR91 E AT I15"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33881814:117547053"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:26PM"</DetailTime>
-			<IncidentDetail>"[13] ETA 10-15   TO CLEAR AFTER  ROLL CALL   WILL BE  LATE AS 610-311 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:26PM"</DetailTime>
-			<IncidentDetail>"[11] D BLU PK TK ALSO STOPPED IN CD / DUPE CALLER THINKS RELATED [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
-			<IncidentDetail>"[7] 31 FRM VEH PREP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:18PM"</DetailTime>
-			<IncidentDetail>"[3] RP'S WHI SEMI W/ BLU CONTAINER ON RS, SEMI LOST TIRE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:17PM"</DetailTime>
-			<IncidentDetail>"[2] SEMI TK TIRE BLKG #1"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:33PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:29PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:18PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811INFSP00270">
-			<LogTime>"Aug 11 2021  2:12PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I10 E / ETIWANDA AVE"</Location>
-			<LocationDesc>"I10 W EO ETIWANDA AVE"</LocationDesc>
-			<Area>"San Bernardino FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34067374:117525426"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:34PM"</DetailTime>
-			<IncidentDetail>"[21] [CHP] has closed their incident [210811IN00784]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
-			<IncidentDetail>"[15] [Appended, 14:34:15] [3] VEH STALLED OUT [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:24PM"</DetailTime>
-			<IncidentDetail>"[14] [Appended, 14:34:15] [2] RP IN BLK INFINITI SEDAN IN CD [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:22PM"</DetailTime>
-			<IncidentDetail>"[11] B123-103  RS NOW [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:15PM"</DetailTime>
-			<IncidentDetail>"[10] [Notification] [CHP]-1039 3A SO# 288172 AND  HADLEY TOW ENRT  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
-			<IncidentDetail>"[9] 620-112  W/VISUAL  VEH ON EB 10 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
-			<IncidentDetail>"[8] CLOSE TO TRAFF [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
-			<IncidentDetail>"[7] RP IN NARROW CD [Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811IN00786">
-			<LogTime>"Aug 11 2021  2:10PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"Old Elsinore Rd / Mack St"</Location>
-			<LocationDesc>"AT"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33822679:117282568"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:32PM"</DetailTime>
-			<IncidentDetail>"[13] [Rotation Request Comment] 1039 LAWLERS W/2ND FB 951-780-4600"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:32PM"</DetailTime>
-			<IncidentDetail>"[12] [Notification] [CHP]-FIRE SAYING THEIR ENG HASNT ADVD WHERE PTYS WILL BE TRANS YET"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:32PM"</DetailTime>
-			<IncidentDetail>"[11] ETA 5 / ASC WHERE BEING TRANS TO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:31PM"</DetailTime>
-			<IncidentDetail>"[10] [Notification] [CHP]-FIRE ON LL REQ ETA  - ALSO ADV WILL NEED 1185 FB X 2 - 3 PATIENTS BEING TRANSPORTED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
-			<IncidentDetail>"[9] [Rotation Request Comment] 1039 BROTHERS INC W/FB 951-674-0741"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:16PM"</DetailTime>
-			<IncidentDetail>"[8] 41 START 1185 FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:13PM"</DetailTime>
-			<IncidentDetail>"[5] 1039 CDF"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:12PM"</DetailTime>
-			<IncidentDetail>"[4] XRAY IN RED NISS W/ HEAD INJURY / REQ 1141"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:27PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:14PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811INFSP00266">
-			<LogTime>"Aug 11 2021  2:08PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr91 E Eo / Van Buren Blvd Vb"</Location>
-			<LocationDesc>"SR91 E EO VAN BUREN BLVD"</LocationDesc>
-			<Area>"Riverside FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33918895:117434546"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:19PM"</DetailTime>
-			<IncidentDetail>"[15] [CHP] has closed their incident [210811IN00772]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:19PM"</DetailTime>
-			<IncidentDetail>"[14] VEH ON RS PER 21 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:05PM"</DetailTime>
-			<IncidentDetail>"[11] [11] RP IN BRO INFINITI SUV STALLED IN #2 LN[Shared]"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "210811INFSP00264">
-			<LogTime>"Aug 11 2021  2:07PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I15 N So / Lake St"</Location>
-			<LocationDesc>"I15 N SO LAKE ST"</LocationDesc>
-			<Area>"Riverside FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33728816:117383285"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:07PM"</DetailTime>
-			<IncidentDetail>"[3] B74-034  FM VEH PREP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
-			<IncidentDetail>"[1] [1] TIRE DEBRIS IN THE #2 LN - TRK PARKED ON THE R/S[Shared]"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "210811IN00778">
-			<LogTime>"Aug 11 2021  2:06PM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I15 N So / Lake St"</Location>
-			<LocationDesc>"I15 N SO LAKE ST"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33728816:117383285"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:07PM"</DetailTime>
-			<IncidentDetail>"[3] B74-034  FM VEH PREP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:06PM"</DetailTime>
-			<IncidentDetail>"[1] TIRE DEBRIS IN THE #2 LN - TRK PARKED ON THE R/S"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811IN00771">
-			<LogTime>"Aug 11 2021  2:00PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Crest Forest Dr / Scenic Dr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Arrowhead"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34235991:117287615"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Aug 11 2021  2:12PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:08PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:08PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:19PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:07PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:22PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  2:05PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811IN00744">
-			<LogTime>"Aug 11 2021  1:43PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I10 E EO / I15"</Location>
-			<LocationDesc>"I10 E EO I15"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34067252:117535366"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  2:08PM"</DetailTime>
-			<IncidentDetail>"[19] [FSP] has closed their incident [210811INFSP00249]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:04PM"</DetailTime>
-			<IncidentDetail>"[18] 1021 PEPES TOW TO 1022 / BOT [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:03PM"</DetailTime>
-			<IncidentDetail>"[17] A123-103 1022 PEPES / PTY HAS OWN 1185 ENRT 10-15 ETA [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  2:01PM"</DetailTime>
-			<IncidentDetail>"[16] [Rotation Request Comment] 1039 PEPES TOW W/HD 951 682 5682 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:59PM"</DetailTime>
-			<IncidentDetail>"[15] A123-103 REQ 1185 HD TRACTOR W/EMPTY TRLR [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:56PM"</DetailTime>
-			<IncidentDetail>"[12] OTHER VEHS ON RS [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:56PM"</DetailTime>
-			<IncidentDetail>"[11] EB JEO 15 / 1125 #4 WITH SEMI [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:46PM"</DetailTime>
-			<IncidentDetail>"[5] RP HAS ALOT OF DAMAGE TO TRLR, TOW SYSTEM ETC [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:45PM"</DetailTime>
-			<IncidentDetail>"[3] OTHER VEH IS A BIG RIG ALSO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:45PM"</DetailTime>
-			<IncidentDetail>"[2] RP IN A TOW TRK - PULLING A TRACTOR AND FLT BED TRLR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:45PM"</DetailTime>
-			<IncidentDetail>"[1] SLOW LN BLKED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021  2:28PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:57PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:57PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:56PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:47PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:47PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811IN00742">
-			<LogTime>"Aug 11 2021  1:42PM"</LogTime>
-			<LogType>"TADV-Traffic Advisory"</LogType>
-			<Location>"Sr18 / Deep Creek Dr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Arrowhead"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34210768:117085408"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:44PM"</DetailTime>
-			<IncidentDetail>"[3] INTERMITTENT ONE WAY TRAFFIC^"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:43PM"</DetailTime>
-			<IncidentDetail>"[2] DAMAGED MANHOLE COVER REPAIR UNTIL APPROX 1500 HRS^"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "210811IN00471">
-			<LogTime>"Aug 11 2021  9:43AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"I215 S No / Ramona Exwy Rex"</Location>
-			<LocationDesc>"I215 S NO RAMONA EXWY"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33852535:117255510"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  9:44AM"</DetailTime>
-			<IncidentDetail>"[2] UNMANNED CLOSURE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  9:44AM"</DetailTime>
-			<IncidentDetail>"[1] SB 215 FRM JNO TO REX TO REX BRIDGE #1 CLOSED FOR REPAIRS"</IncidentDetail>
-		</details></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "BSCC">
 
@@ -5495,65 +5799,11 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:50PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug 11 2021  2:38PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:49PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug 11 2021  1:49PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "210811BI00037">
-			<LogTime>"Aug 11 2021 12:40PM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"SR14 / Camelot Blvd"</Location>
-			<LocationDesc>"NB JSO"</LocationDesc>
-			<Area>"Mojave"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35031988:118168061"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[25] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021  1:38PM"</DetailTime>
-			<IncidentDetail>"[24] A59-002  SOLO VEH 1182 / 1110 TAKEN , NEG 180 OWNER REQ 1098"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:58PM"</DetailTime>
-			<IncidentDetail>"[23] 1039 AV TOW"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:57PM"</DetailTime>
-			<IncidentDetail>"[22] CORR LINE 21 - VEH HAS ROLLOVER DMG"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:56PM"</DetailTime>
-			<IncidentDetail>"[21] 59-2 CPZ / REQ 1185 ./ VEH DMG APPROX 75 YARDS FROM RDWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:44PM"</DetailTime>
-			<IncidentDetail>"[11] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:43PM"</DetailTime>
-			<IncidentDetail>"[8] [Appended, 12:44:10] [1] SINGLE VEH ROLLOVER , UNK VEH DESC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug 11 2021 12:40PM"</DetailTime>
-			<IncidentDetail>"[1] VEH ROLLOVER / THROUGH CD"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug 11 2021 12:52PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:45PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:45PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021  1:38PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:49PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:45PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug 11 2021 12:45PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "210811BI00026">
