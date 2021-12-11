@@ -1,26 +1,76 @@
 <?xml version="1.0" ?>
 <State><Center ID = "SAHB">
-<Dispatch ID = "STCC">
+<Dispatch ID = "SACC">
 
-		<Log ID = "211211ST00003">
-			<LogTime>"Dec 11 2021 12:00AM"</LogTime>
+		<Log ID = "211211SA00032">
+			<LogTime>"Dec 11 2021 12:52AM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr88 / E Harney Ln"</Location>
-			<LocationDesc>"EB JWO , 1/2 MILE"</LocationDesc>
-			<Area>"Stockton"</Area>
+			<Location>"Us50 E / Sr99 N Us50 E Con"</Location>
+			<LocationDesc>"EB JWO"</LocationDesc>
+			<Area>"South Sac"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38101738:121178398"</LATLON>
+			<LATLON>"38560582:121463981"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Dec 11 2021 12:01AM"</DetailTime>
-			<IncidentDetail>"[3] ACROSS THE ENTIRE RDWY"</IncidentDetail>
+			<DetailTime>"Dec 11 2021 12:52AM"</DetailTime>
+			<IncidentDetail>"[1] ,,1125 VEH"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Dec 11 2021 12:35AM"</UnitTime>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:35AM"</UnitTime>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "SACC">
+
+		<Log ID = "211211SA00028">
+			<LogTime>"Dec 11 2021 12:49AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Sr99 N / Twin Cities Rd Onr"</Location>
+			<LocationDesc>"NB JNO"</LocationDesc>
+			<Area>"South Sac"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"38293607:121313612"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[10] NEG PRTYS OO VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[9] XFR SAC FIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[5] XFER FIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[4] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[3] BLOCKING LANE 1"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[1] SOLO VEH TC"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211211SA00029">
+			<LogTime>"Dec 11 2021 12:49AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I80 W / Causeway"</Location>
+			<LocationDesc>"WB ON"</LocationDesc>
+			<Area>"Woodland"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"38563847:121636669"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[2] PARTIALLY 1125 IN SLOW LANE"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "211210SA01310">
 			<LogTime>"Dec 10 2021 11:34PM"</LogTime>
@@ -318,6 +368,26 @@
 			<UnitTime>"Dec 10 2021  6:41PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "STCC">
+
+		<Log ID = "211211ST00003">
+			<LogTime>"Dec 11 2021 12:00AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr88 / E Harney Ln"</Location>
+			<LocationDesc>"EB JWO , 1/2 MILE"</LocationDesc>
+			<Area>"Stockton"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"38101738:121178398"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:01AM"</DetailTime>
+			<IncidentDetail>"[3] ACROSS THE ENTIRE RDWY"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:35AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:35AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "CHCC">
 
 		<Log ID = "211210CH00197">
@@ -505,101 +575,33 @@
 </Center>
 
 <Center ID = "GGHB">
-<Dispatch ID = "VTCC">
+<Dispatch ID = "GGCC">
 
-		<Log ID = "211211VT00011">
-			<LogTime>"Dec 11 2021 12:42AM"</LogTime>
+		<Log ID = "211211GG00099">
+			<LogTime>"Dec 11 2021 12:45AM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Us101 N / Lewis Rd"</Location>
-			<LocationDesc>"JSO"</LocationDesc>
-			<Area>"Ventura"</Area>
+			<Location>"Lakeville Hwy / Old Lakeville Road 3"</Location>
+			<LocationDesc>"NB LAKEVILLE JSO OLD LAKEVILLE 3"</LocationDesc>
+			<Area>"Santa Rosa"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34216944:119033889"</LATLON>
+			<LATLON>"38173358:122523172"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
+			<IncidentDetail>"[3] NEG BLKG"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
+			<IncidentDetail>"[2] BRO  UNK SD   VS  INTO HILL SIDE ON THE RHS"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Dec 11 2021 12:45AM"</DetailTime>
-			<IncidentDetail>"[6] [Notification] [CHP]-Problem changed from 20002-Hit and Run No Injuries to 1183-Trfc Collision-Unkn Inj by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
-			<IncidentDetail>"[4] BOTH VEHS ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:43AM"</DetailTime>
-			<IncidentDetail>"[1] UNK OTHER VEH  VS  GRY NISS ALT"</IncidentDetail>
+			<IncidentDetail>"[1] POSS TC"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211211VT00003">
-			<LogTime>"Dec 11 2021 12:09AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"N Wendy Dr Ofr / Us101 N"</Location>
-			<LocationDesc>"OFR"</LocationDesc>
-			<Area>"Moorpark"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34187434:118933568"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:26AM"</DetailTime>
-			<IncidentDetail>"[4] C54-080  70 WILL 1023 W/ VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:16AM"</DetailTime>
-			<IncidentDetail>"[3] [Rotation Request Comment] 1039 PLATINUM MRPK 818-991-5900 // ETA 45 MIN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:11AM"</DetailTime>
-			<IncidentDetail>"[2] [Rotation Request Comment] 1039 SIERRA 805-498-1620 // NONE AVAIL"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:09AM"</DetailTime>
-			<IncidentDetail>"[1] ,PART BLKNG SLO LN // 1185 MED DUTY UHAL TK APPR 15 FT HALFLOADED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:26AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:09AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:09AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:09AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210VT00363">
-			<LogTime>"Dec 10 2021  8:45PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"SR23 N / E AVENIDA DE LOS ARBOLES OFR"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Moorpark"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34207875:118849379"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 10 2021 10:02PM"</DetailTime>
-			<IncidentDetail>"[3] 137-31 ID 16845 VEH 1376497 BM 69985"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 10 2021 11:16PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 10:03PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 10:03PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  9:26PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  8:46PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  8:46PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "GGCC">
 
 		<Log ID = "211211GG00080">
 			<LogTime>"Dec 11 2021 12:35AM"</LogTime>
@@ -637,7 +639,9 @@
 		<details>
 			<DetailTime>"Dec 11 2021 12:35AM"</DetailTime>
 			<IncidentDetail>"[1] GRY 2D VS CD"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:47AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "211211GG00085">
 			<LogTime>"Dec 11 2021 12:33AM"</LogTime>
@@ -673,11 +677,23 @@
 			<LogTime>"Dec 11 2021 12:26AM"</LogTime>
 			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
 			<Location>"Sr24 E / Oak Hill Rd Ofr"</Location>
-			<LocationDesc>"EB 24 JWO OAK HILL - 1 MI"</LocationDesc>
+			<LocationDesc>"EB 24 OVER EL NID"</LocationDesc>
 			<Area>"Contra Costa"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37892862:122125001"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[44] C19-180C  2-3-4 CLOSED DOWN // WHILE FIRE MOVES 1125D OO LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:49AM"</DetailTime>
+			<IncidentDetail>"[41] **** 1039 ATCO 800-660-1869 ***** FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[39] 19-R6: 1185 X2 --- VEH MAJ FE"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Dec 11 2021 12:42AM"</DetailTime>
 			<IncidentDetail>"[38] C19-180C  28 FOR PTY STILL INSIDE VEH"</IncidentDetail>
@@ -747,35 +763,31 @@
 			<UnitTime>"Dec 11 2021 12:30AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "211211GG00070">
-			<LogTime>"Dec 11 2021 12:25AM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"504 Lake Park Ave"</Location>
-			<LocationDesc>"LAKE PARK AT WALKER, 504"</LocationDesc>
-			<Area>"Oakland"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37810462:122247171"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:28AM"</DetailTime>
-			<IncidentDetail>"[3] VICT VEH -= WHI TOYT TACOMA PK"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:36AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "211211GG00063">
 			<LogTime>"Dec 11 2021 12:24AM"</LogTime>
 			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Sr37 W / Hanna Ranch Rd Ofr"</Location>
+			<Location>"HANNA RANCH RD OFR / SR37 W"</Location>
 			<LocationDesc>"WB 37 AT HANNA RANCH OFR"</LocationDesc>
 			<Area>"Marin"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38084629:122538395"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[24] C34-115  1097 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[23] 34-P24  1185 FOR A LEXS 4D APPROX 20 FT OFF THE RDWY ON RR TRACKS / HIGH CENTERED ON THE TRACKS / WILL NEED APPROX 30-50 FT OF CABLE / HANNA RANCH RD AT THE RR TRACKS [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[22] 34-S6  1097 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[21] 34-P24  1097 [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Dec 11 2021 12:43AM"</DetailTime>
 			<IncidentDetail>"[18] MRNSO CB THEY LOCATED THE VEH ON RR TRACKS AT THE HANNA RANCH EXIT / SO 97 WITH INVD ALSO [Shared]"</IncidentDetail>
@@ -804,14 +816,20 @@
 			<DetailTime>"Dec 11 2021 12:26AM"</DetailTime>
 			<IncidentDetail>"[4] RP WALKED A COUPLE MILES FRM WHERE TC IS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:46AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:46AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:51AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
@@ -905,34 +923,6 @@
 			<UnitTime>"Dec 11 2021 12:33AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "211211GG00037">
-			<LogTime>"Dec 11 2021 12:14AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I80 W / Treasure Island Onr"</Location>
-			<LocationDesc>"WB 80 JEO TI"</LocationDesc>
-			<Area>"San Francisco"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37808318:122367026"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:28AM"</DetailTime>
-			<IncidentDetail>"[8] 1039 BRG THEY ARE STILL ENRT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:16AM"</DetailTime>
-			<IncidentDetail>"[5] 1039 BRDG"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:15AM"</DetailTime>
-			<IncidentDetail>"[4] LL W/ BRDG"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:14AM"</DetailTime>
-			<IncidentDetail>"[1] CD / OOG"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:27AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "211211GG00018">
 			<LogTime>"Dec 11 2021 12:04AM"</LogTime>
 			<LogType>"20002-Hit and Run No Injuries"</LogType>
@@ -942,6 +932,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37896900:122101841"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
+			<IncidentDetail>"[40] 1039 LFYT PD WILL BE EXT"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Dec 11 2021 12:40AM"</DetailTime>
 			<IncidentDetail>"[33] [Notification] [CHP]-LFYT PD 10-97 W/PRTY ASSOC TO 8UME646 AT 31-73 SOMERSET PL  [Shared]"</IncidentDetail>
@@ -984,56 +978,6 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"0:0"</LATLON>
 			<LogDetails><details/><units>
-			<UnitTime>"Dec 11 2021 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210GG02981">
-			<LogTime>"Dec 10 2021 11:57PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Sr4 E / Port Chicago Hwy Ofr"</Location>
-			<LocationDesc>"EB SR4 AT PORT CHICAGO HWY"</LocationDesc>
-			<Area>"Contra Costa"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38004458:122038839"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:21AM"</DetailTime>
-			<IncidentDetail>"[23] C19-683C  4 VEH 20002"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:07AM"</DetailTime>
-			<IncidentDetail>"[18] C19-683C  ALL VEHS RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:06AM"</DetailTime>
-			<IncidentDetail>"[13] GRY HYUN VS BLK HOND VS WHI DODG CHA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:04AM"</DetailTime>
-			<IncidentDetail>"[11] C19-683C  BREAK STARTED AT SOLANO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:01AM"</DetailTime>
-			<IncidentDetail>"[7] WHI DODG CHA IN LN 3 / OTHER 2 ON RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:59PM"</DetailTime>
-			<IncidentDetail>"[3] VEHS BLKG #4 LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:59PM"</DetailTime>
-			<IncidentDetail>"[2] UNK SD VS 2 UNK VEHS."</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:58PM"</DetailTime>
-			<IncidentDetail>"[1] 3 VEH TC"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:05AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:00AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1629,6 +1573,100 @@
 			<UnitTime>"Dec 10 2021  6:05PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "VTCC">
+
+		<Log ID = "211211VT00011">
+			<LogTime>"Dec 11 2021 12:42AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Us101 N / Lewis Rd"</Location>
+			<LocationDesc>"JSO"</LocationDesc>
+			<Area>"Ventura"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34216944:119033889"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:45AM"</DetailTime>
+			<IncidentDetail>"[6] [Notification] [CHP]-Problem changed from 20002-Hit and Run No Injuries to 1183-Trfc Collision-Unkn Inj by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
+			<IncidentDetail>"[4] BOTH VEHS ON RS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:43AM"</DetailTime>
+			<IncidentDetail>"[1] UNK OTHER VEH  VS  GRY NISS ALT"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211211VT00003">
+			<LogTime>"Dec 11 2021 12:09AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"N Wendy Dr Ofr / Us101 N"</Location>
+			<LocationDesc>"OFR"</LocationDesc>
+			<Area>"Moorpark"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34187434:118933568"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:26AM"</DetailTime>
+			<IncidentDetail>"[4] C54-080  70 WILL 1023 W/ VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:16AM"</DetailTime>
+			<IncidentDetail>"[3] [Rotation Request Comment] 1039 PLATINUM MRPK 818-991-5900 // ETA 45 MIN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:11AM"</DetailTime>
+			<IncidentDetail>"[2] [Rotation Request Comment] 1039 SIERRA 805-498-1620 // NONE AVAIL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:09AM"</DetailTime>
+			<IncidentDetail>"[1] ,PART BLKNG SLO LN // 1185 MED DUTY UHAL TK APPR 15 FT HALFLOADED"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:26AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:09AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:09AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:09AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210VT00363">
+			<LogTime>"Dec 10 2021  8:45PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"SR23 N / E AVENIDA DE LOS ARBOLES OFR"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Moorpark"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34207875:118849379"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 10 2021 10:02PM"</DetailTime>
+			<IncidentDetail>"[3] 137-31 ID 16845 VEH 1376497 BM 69985"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 10 2021 11:16PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 10:03PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 10:03PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  9:26PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  8:46PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  8:46PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "SLCC">
 
 		<Log ID = "211211SL00006">
@@ -1660,6 +1698,8 @@
 			<DetailTime>"Dec 11 2021 12:27AM"</DetailTime>
 			<IncidentDetail>"[7] [Notification] [CHP]-Problem changed from 20001-Hit and Run w/Injuries to 20002-Hit and Run No Injuries by CHP [Shared]"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:30AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:30AM"</UnitTime>
@@ -1716,23 +1756,61 @@
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
 
-		<Log ID = "211211LA00117">
-			<LogTime>"Dec 11 2021 12:42AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Us101 S / Haskell Ave Ofr"</Location>
-			<LocationDesc>"JNO"</LocationDesc>
-			<Area>"West Valley"</Area>
+		<Log ID = "211211LA00125">
+			<LogTime>"Dec 11 2021 12:47AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"I210 W / Grand Ave Ofr"</Location>
+			<LocationDesc>"JEO"</LocationDesc>
+			<Area>"Baldwin Park"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34165139:118475539"</LATLON>
+			<LATLON>"34118572:117865450"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Dec 11 2021 12:45AM"</DetailTime>
-			<IncidentDetail>"[2] DECLINED 1141 - NOT SURE ABOUT OTHER VEH"</IncidentDetail>
+			<DetailTime>"Dec 11 2021 12:53AM"</DetailTime>
+			<IncidentDetail>"[24] INVLD PTY GRY TOYT COA BLKING MIDDLE LNS // SAG [Shared]"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
-			<IncidentDetail>"[1] BLK HOND ACCOR VS UNK SDN ON RS"</IncidentDetail>
-		</details></LogDetails></Log>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[14] C81-601  RUNNING A BREAK FRM LONE HILL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[17] [Appended, 00:51:16] [3] REFUSED 1141 - NOT SURE ABOUT OTHER VEHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[16] [Appended, 00:51:16] [2] WHI KIA OPTIMA VS 3 UNK VEHS BLKG MIDDLE LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 00:48:48] [3] BLKNG 1-4 LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[3] MALE PTY STANDING  IN CD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[2] BLKING MIDDLE LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[1] 3 VEH TC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:47AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 00:48:48] [1] 3 VEH TC"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:50AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:50AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:49AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:49AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:49AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "211211LA00112">
 			<LogTime>"Dec 11 2021 12:39AM"</LogTime>
@@ -1746,6 +1824,14 @@
 		<details>
 			<DetailTime>"Dec 11 2021 12:45AM"</DetailTime>
 			<IncidentDetail>"[6] OTHER PTY UNABLE TO EXIT VEH D/T DOOR JAMMED- DECLINED 1141"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:45AM"</DetailTime>
+			<IncidentDetail>"[9] [Appended, 00:47:06] [2] DECLINED 1141 - NOT SURE ABOUT OTHER VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 00:47:06] [1] BLK HOND ACCOR VS UNK SDN ON RS"</IncidentDetail>
 		</details>
 		<details>
 			<DetailTime>"Dec 11 2021 12:41AM"</DetailTime>
@@ -1764,7 +1850,11 @@
 		<details>
 			<DetailTime>"Dec 11 2021 12:39AM"</DetailTime>
 			<IncidentDetail>"[1] LARGE ROLL OF CARPET BLKG MIDDLE LNS"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "211211LA00078">
 			<LogTime>"Dec 11 2021 12:27AM"</LogTime>
@@ -1782,20 +1872,6 @@
 			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "211211LA00069">
-			<LogTime>"Dec 11 2021 12:26AM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"S Broadway / W Imperial Hwy"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33931003:118278484"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:27AM"</DetailTime>
-			<IncidentDetail>"[1] RP ADVS FIRE NEXT TO FWY RP ADVS UNSURE WHAT IS ON FIRE - XFER LAFD"</IncidentDetail>
-		</details></LogDetails></Log>
-
 		<Log ID = "211211LA00054">
 			<LogTime>"Dec 11 2021 12:19AM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
@@ -1805,6 +1881,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34079572:118220333"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[6] [Notification] [CHP]-[5] [Rotation Request Comment] 1039 MT TOWING 323-460-6452 ETA 20 O/L"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:48AM"</DetailTime>
+			<IncidentDetail>"[5] [Rotation Request Comment] 1039 MT TOWING 323-460-6452 ETA 20 O/L"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
 			<IncidentDetail>"[3] C15-052  COLA,REQ 1185 BLK FORD MUST NB AT THE RIVER - VEH 1124"</IncidentDetail>
@@ -1826,74 +1910,6 @@
 			<UnitTime>"Dec 11 2021 12:44AM"</UnitTime>
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:22AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211211LA00041">
-			<LogTime>"Dec 11 2021 12:16AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I710 S / I710 S Sr91 Con"</Location>
-			<LocationDesc>"SB 710 AT 91"</LocationDesc>
-			<Area>"South LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33882147:118191590"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:37AM"</DetailTime>
-			<IncidentDetail>"[22] C77-310   RDWY CLR VEH ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:34AM"</DetailTime>
-			<IncidentDetail>"[21] C77-310   ALL LNS STOPPED FIRE BLKING #1,2"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:30AM"</DetailTime>
-			<IncidentDetail>"[19] [Rotation Request Comment] 1039 Kruger Tow 310-639-3107 ETA 15 OL"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:29AM"</DetailTime>
-			<IncidentDetail>"[18] C77-310  VISUAL FROM SB SIDE 710 JNO 91 FIRE 97"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:23AM"</DetailTime>
-			<IncidentDetail>"[16] C77-310   COLA,PLS ROLL 1 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:22AM"</DetailTime>
-			<IncidentDetail>"[15] PER INVLVD CAN SEE 2 OTHER VEHS ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:21AM"</DetailTime>
-			<IncidentDetail>"[14] PER INVOLVED IN BLU SUBARU WRX ADVISING 1 VEH LEFT SCENE - WHI CHRYS LS HEADED WB ON THE 91 FWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:18AM"</DetailTime>
-			<IncidentDetail>"[11] DUPE ADVSD NOW A 4 VEH TC// PTYS STANDING IN LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:17AM"</DetailTime>
-			<IncidentDetail>"[7] [Appended, 00:18:16] [3] 1 VEH BLKG MIDDLE LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:17AM"</DetailTime>
-			<IncidentDetail>"[6] [Appended, 00:18:16] [2] 3 VEHS ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:17AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 00:18:16] [1] 4 VEH TC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:17AM"</DetailTime>
-			<IncidentDetail>"[3] BLK SD SIDEWAYS ACROSS LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:17AM"</DetailTime>
-			<IncidentDetail>"[2] REAR END TC"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:34AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:20AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "211211LA00027">
@@ -1970,9 +1986,23 @@
 			<LATLON>"34247769:118425791"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[9] [Notification] [CHP]-[8] [Rotation Request Comment] 1039 ROWLETT'S TOW 818-557-0009 ETA 25 O/L [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[8] [Rotation Request Comment] 1039 ROWLETT'S TOW 818-557-0009 ETA 25 O/L"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:49AM"</DetailTime>
+			<IncidentDetail>"[7] [Rotation Request Comment] 1021 JONS TOWING ALT 818-771-1174 - NEG 1185 AVAILABLE"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Dec 11 2021 12:05AM"</DetailTime>
 			<IncidentDetail>"[1] BLK INFI SDN WENT OFF THE OFR INTO SMALL DITCH"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:46AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "211211LA00001">
 			<LogTime>"Dec 10 2021 11:58PM"</LogTime>
@@ -2020,9 +2050,15 @@
 			<LATLON>"34485452:118330771"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[8] 78-145 1185"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Dec 10 2021 11:57PM"</DetailTime>
 			<IncidentDetail>"[1] WHI FORD F150 L/42125U2 // VEH LOST CONTROL //"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Dec 11 2021 12:50AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:40AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:39AM"</UnitTime>
@@ -2133,6 +2169,8 @@
 			<DetailTime>"Dec 10 2021 11:29PM"</DetailTime>
 			<IncidentDetail>"[1] TWO VEHS INV"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
@@ -2162,7 +2200,11 @@
 		<details>
 			<DetailTime>"Dec 10 2021 11:21PM"</DetailTime>
 			<IncidentDetail>"[2] VEHS SWERVING TO AVOID"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:52AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "211210LA03634">
 			<LogTime>"Dec 10 2021 10:54PM"</LogTime>
@@ -2920,6 +2962,10 @@
 			<LATLON>"37396662:120606859"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Dec 11 2021 12:50AM"</DetailTime>
+			<IncidentDetail>"[11] SO ADVG 1 VEH 1124.// UNK WHICH ONE // WILL 1023"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Dec 11 2021 12:45AM"</DetailTime>
 			<IncidentDetail>"[8] SO 97 -- 1125 // 1182 // INQG LN 5"</IncidentDetail>
 		</details>
@@ -2927,6 +2973,10 @@
 			<DetailTime>"Dec 11 2021 12:39AM"</DetailTime>
 			<IncidentDetail>"[4] 1125"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:48AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:41AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:41AM"</UnitTime>
@@ -3214,6 +3264,8 @@
 			<DetailTime>"Dec 11 2021 12:07AM"</DetailTime>
 			<IncidentDetail>"[3] VV WAS PARKED AT TIME OF TC"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Dec 11 2021 12:51AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:37AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:37AM"</UnitTime>
@@ -3370,683 +3422,25 @@
 </Center>
 
 <Center ID = "INHB">
-<Dispatch ID = "INCC">
-
-		<Log ID = "211211IN00033">
-			<LogTime>"Dec 11 2021 12:45AM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"8118-8175 Pigeon Pass Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34008195:117308947"</LATLON>
-			<LogDetails><details/></LogDetails></Log>
-
-		<Log ID = "211210IN01579">
-			<LogTime>"Dec 10 2021 11:53PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"I10 W Wo / Sierra Ave Rc"</Location>
-			<LocationDesc>"I10 W WO SIERRA AVE RC"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34067011:117445295"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:35AM"</DetailTime>
-			<IncidentDetail>"[48] [Notification] [CHP]-123-603 MADE CONTACT W/FIRE UTL ON 1125 ENTERED  F/CEDAR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:31AM"</DetailTime>
-			<IncidentDetail>"[46] C123-103 FOLLOWING 1185 AND DRIVER OFF VITRUS N/O 10"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:08AM"</DetailTime>
-			<IncidentDetail>"[35] 123-203 WITH BREAK FROM CEDAR NOW"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:07AM"</DetailTime>
-			<IncidentDetail>"[33] [Notification] [CHP]-AMR INQ ETA  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:05AM"</DetailTime>
-			<IncidentDetail>"[32] [Rotation Request Comment] 1039 NAVARRO TOW W/FB ON EXP 909 829 4911"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:05AM"</DetailTime>
-			<IncidentDetail>"[31] C123-103  REQ 1185 FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:55PM"</DetailTime>
-			<IncidentDetail>"[24] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:55PM"</DetailTime>
-			<IncidentDetail>"[22] CORR BLOCKING HOV"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
-			<IncidentDetail>"[19] 1125 #1"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
-			<IncidentDetail>"[16] [Appended, 23:54:34] [4] CAR TRIED TO GO AROUND ANOTHER CAR AND TCD INTO THE RAMP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
-			<IncidentDetail>"[12] TCD INTO CD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
-			<IncidentDetail>"[9] [Appended, 23:54:20] [6] WIT ADV THIS VEH AS WELL AS APPROX 20-30 VEHS WERE IN 23109 AND THIS VEH TCD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
-			<IncidentDetail>"[2] SOLO VEH TC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:53PM"</DetailTime>
-			<IncidentDetail>"[6] [Appended, 23:54:20] [3] 2 MALES EXITED VEH WALKED ACROSS TRAFFIC TOWARDS RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:52PM"</DetailTime>
-			<IncidentDetail>"[14] [Appended, 23:54:34] [2] RP ADV THERE IS A TC ON THE FREEWAY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:52PM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 23:54:20] [2] SMALL BLK SD BLOCKING #2 FACING WW"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:36AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:15AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:25AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 11:55PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210IN01567">
-			<LogTime>"Dec 10 2021 11:46PM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"Sr60 W / Country Village Rd Cv Ofr"</Location>
-			<LocationDesc>"60 W / COUNTRY VILLAGE OFR"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34019112:117502710"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
-			<IncidentDetail>"[21] 1039 BT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:43AM"</DetailTime>
-			<IncidentDetail>"[18] C74-010 SM 148575 VEH 0656"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:47PM"</DetailTime>
-			<IncidentDetail>"[4] [Rotation Request Comment] 1039 ANGELOS TOWING 951 549 8888"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:47PM"</DetailTime>
-			<IncidentDetail>"[3] 74-10 REQ 1185"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:42AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210IN01528">
-			<LogTime>"Dec 10 2021 11:10PM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"I10 E Eo / Indian Hill Blvd Lacc"</Location>
-			<LocationDesc>"I10 E EO INDIAN HILL BLVD LACC"</LocationDesc>
-			<Area>" LACC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34081741:117712788"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 10 2021 11:11PM"</DetailTime>
-			<IncidentDetail>"[3]  CT8,ROUTED TO CAL TRANS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:10PM"</DetailTime>
-			<IncidentDetail>"[2] EB 10 INDIAN HILL TO 4TH / HOV BYPASS, #1, 2 AND 3 LNS CLOSED"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "211210IN01525">
-			<LogTime>"Dec 10 2021 11:07PM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"Sr60 E Eo / Reservoir St"</Location>
-			<LocationDesc>"SR60 E EO RESERVOIR ST"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34025010:117728132"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 10 2021 11:10PM"</DetailTime>
-			<IncidentDetail>"[4]  CT8 ,ROUTED TO CAL TRANS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:08PM"</DetailTime>
-			<IncidentDetail>"[2] HOV #1 AND 2 LNS CLOSED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 10 2021 11:20PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 11:20PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210IN01480">
-			<LogTime>"Dec 10 2021 10:32PM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"I210 E At / I10"</Location>
-			<LocationDesc>"I210 E AT I10"</LocationDesc>
-			<Area>"San Bernardino"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34075716:117200830"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Dec 10 2021 10:33PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210IN01409">
-			<LogTime>"Dec 10 2021  9:37PM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Sr60 W / Country Village Rd Cv Ofr"</Location>
-			<LocationDesc>"60 W / COUNTRY VILLAGE OFR"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34019112:117502710"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
-			<IncidentDetail>"[73] 74-10 ENRT TO RCH FOR LOG 1567 - SM 148575 VEH 0656"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 10:25PM"</DetailTime>
-			<IncidentDetail>"[58] [Appended, 22:26:47] [1] RPS DAUGHTER INV IN TC GRY BMW 335i- ADV UNK MALE GAVE HER A RIDE HOME BC SHE WAS SCARED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 10:25PM"</DetailTime>
-			<IncidentDetail>"[57] [Notification] [CHP]-RP RECALLED ADV'D VEHS NOW OFF FWY EXITED COUNTRY VILLAGE IN PLOT TO FAR RIGHT  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 10:23PM"</DetailTime>
-			<IncidentDetail>"[54] [Notification] [CHP]- PEPES OUT 2-3 VEHS ON OFR  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 10:11PM"</DetailTime>
-			<IncidentDetail>"[51] RP ADV PTYS STILL TRYING TO DIRECT TRAFFIC AFRAID HEY MAY GET HIT BY A SPEEDING VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 10:04PM"</DetailTime>
-			<IncidentDetail>"[46] PER DUPE 3 VEH TC - 1125 HOV LANE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 10:00PM"</DetailTime>
-			<IncidentDetail>"[42] PER DUP JEO MISSION - PPL STANDING IN LNS - POSS A SIL SED 97 BUT UNK ON FURTHER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 10:00PM"</DetailTime>
-			<IncidentDetail>"[41] [Notification] [CHP]-[35] MALE PTY OO VEH STANDING IN LNS [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:59PM"</DetailTime>
-			<IncidentDetail>"[35] MALE PTY OO VEH STANDING IN LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:53PM"</DetailTime>
-			<IncidentDetail>"[31] [Rotation Request Comment] 1039 PEPES TOW 951 682 5682 W/FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:52PM"</DetailTime>
-			<IncidentDetail>"[30] 1185 FB PLS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:47PM"</DetailTime>
-			<IncidentDetail>"[27] [Appended, 21:48:07] [6] RP IS PARKED BEHIND VEH W/HAZS ON // TRFC COMING IN HOT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:46PM"</DetailTime>
-			<IncidentDetail>"[21] 2VEHS  BLOCKING #1 ,2 LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:45PM"</DetailTime>
-			<IncidentDetail>"[23] [Appended, 21:48:07] [2] TC'D INTO CD / PARTIES OO VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:45PM"</DetailTime>
-			<IncidentDetail>"[19] DEBRIS ALL OVER RDWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:44PM"</DetailTime>
-			<IncidentDetail>"[15] [Notification] [CHP]-SOMEONE RUNNING ON RS - RUNNING  W/ TRAFFIC    [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:40PM"</DetailTime>
-			<IncidentDetail>"[8] 1039 S10 - ADV'D PRIORITY SENT IN008"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:37PM"</DetailTime>
-			<IncidentDetail>"[5] BLKING 1-2 LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021  9:37PM"</DetailTime>
-			<IncidentDetail>"[1] 3 VEH / POSS YEL TK"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 10 2021 11:05PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 11:01PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 11:01PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 10:39PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 10:06PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 10:06PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 10:31PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021 10:01PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  9:52PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210IN01343">
-			<LogTime>"Dec 10 2021  8:21PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr60 W Eo / Haven Ave"</Location>
-			<LocationDesc>"EO HAVEN - ARCHIBALD, TILL 0500"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34026732:117567448"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Dec 10 2021  8:23PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  8:23PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  8:23PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "ECCC">
-
-		<Log ID = "211211EC00004">
-			<LogTime>"Dec 11 2021 12:35AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Sr111 / E Evan Hewes Hwy"</Location>
-			<LocationDesc>"SB"</LocationDesc>
-			<Area>"El Centro"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32799642:115500676"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
-			<IncidentDetail>"[21] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
-			<IncidentDetail>"[19] 6--NEED A HD TOW FOR A RED BIG RIG --50 F TLR--APPEARS TO BE EMPTY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
-			<IncidentDetail>"[15] 6--BOTH SB LANES R BLOCKED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:42AM"</DetailTime>
-			<IncidentDetail>"[12] [Appended, 00:43:51] [1] ADDTL CALLER REPORTING SEMI ACC BLOCKING LEFT LANE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:40AM"</DetailTime>
-			<IncidentDetail>"[10] BOTH SEMI 1125 SLOW LANE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:39AM"</DetailTime>
-			<IncidentDetail>"[9] ADDTL CALLER REPORTING ACCIDENT, UNK INJ"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:37AM"</DetailTime>
-			<IncidentDetail>"[7] 1039 85-6 AT THE OFFICE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:37AM"</DetailTime>
-			<IncidentDetail>"[6] DEBRIS ON THE RDWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:37AM"</DetailTime>
-			<IncidentDetail>"[5] RED SEMI TK and WHI SEMI INVLVD, RP BELIEVES RED SEMI HIT THE BOX OF THE WHI SEMI"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:36AM"</DetailTime>
-			<IncidentDetail>"[4] BOTH SEMIS 1125 BLCK BOTH LANES"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:36AM"</DetailTime>
-			<IncidentDetail>"[2] TWO SEMI TKS INVOLVED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:44AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:44AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:39AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211211EC00002">
-			<LogTime>"Dec 11 2021 12:10AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Mm8 E Imp R89.50"</Location>
-			<LocationDesc>"AG INSPECTION STATION"</LocationDesc>
-			<Area>"Winterhaven"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32746797:114740999"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:13AM"</DetailTime>
-			<IncidentDetail>"[4] INVLVD PTYS STANDING BY IN THEIR VEHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:12AM"</DetailTime>
-			<IncidentDetail>"[2] BLK KIA AND WHI TESLA BOTH 1125 ON AG STN LANES"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:11AM"</DetailTime>
-			<IncidentDetail>"[1] 2 VEH TC, ONE VEH 1125 ON AG STN LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:15AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210EC00052">
-			<LogTime>"Dec 10 2021  1:47PM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"0 I8 W"</Location>
-			<LocationDesc>"GRADE"</LocationDesc>
-			<Area>"El Centro"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32690821:116077622"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 10 2021  1:47PM"</DetailTime>
-			<IncidentDetail>"[1] CLEAR, DRY, GUSTY WINDS, TRAVEL ADVISORY FOR HIGH PROFILE VEHS AND TLS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "ICCC">
-
-		<Log ID = "211211IC00009">
-			<LogTime>"Dec 11 2021 12:31AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"79650 Varner Rd"</Location>
-			<LocationDesc>"WEATHER INFO"</LocationDesc>
-			<Area>"IC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33751459:116272108"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211211IC00007">
-			<LogTime>"Dec 11 2021 12:26AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I10 E / Jefferson -indio Blvd Ofr Exit 139 Mm 52"</Location>
-			<LocationDesc>"EB JEO"</LocationDesc>
-			<Area>"Indio"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33750774:116275331"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
-			<IncidentDetail>"[7] UTL IN LNS - DEBRIS IN CD FOR CT REGULAR ROUNDS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:27AM"</DetailTime>
-			<IncidentDetail>"[2] RP HIT IT, DISABLED ON RHS, WHI HOND CRV ON RHS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:44AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:29AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "OCCC">
-
-		<Log ID = "211211OC00022">
-			<LogTime>"Dec 11 2021 12:10AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OCCC"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211211OC00021">
-			<LogTime>"Dec 11 2021 12:10AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210OC00697">
-			<LogTime>"Dec 10 2021 11:57PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"I5 S / Oso Pkwy"</Location>
-			<LocationDesc>"SB 5 ON OSO OFR"</LocationDesc>
-			<Area>"Capistrano"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33580170:117671600"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:33AM"</DetailTime>
-			<IncidentDetail>"[16] C113-055  1148X OFF AT CV FOLOWING 1185 PV 1484380 SM 254385"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:32AM"</DetailTime>
-			<IncidentDetail>"[15] C113-059  LANES CLR NEG DMG TO BARRELS FOLLOWING TOW OFF AT CV"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:16AM"</DetailTime>
-			<IncidentDetail>"[12] C113-059  1182 FIRE CANCELLED ON SCENE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:10AM"</DetailTime>
-			<IncidentDetail>"[10] C113-059  W/ BREAK JSO LA PAZ"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:07AM"</DetailTime>
-			<IncidentDetail>"[9] [Rotation Request Comment] 1039 GOLDEN TOUCH 949-600-7747"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:04AM"</DetailTime>
-			<IncidentDetail>"[8] 59 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:04AM"</DetailTime>
-			<IncidentDetail>"[7] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:01AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 00:02:06] [4] 1039 STA 91"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:00AM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 00:02:06] [3] SDN VS WATER BARRELS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:00AM"</DetailTime>
-			<IncidentDetail>"[3] [Appended, 00:02:06] [2] ADVSD IN GP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 10 2021 11:58PM"</DetailTime>
-			<IncidentDetail>"[1] VEH W/TC DAMAGE ON LEFT SIDE OF OFR"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:28AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211210OC00567">
-			<LogTime>"Dec 10 2021  7:50PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"2031 E Santa Clara Ave"</Location>
-			<LocationDesc>"SANTA ANA CHP"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33767135:117837781"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 10 2021  9:28PM"</DetailTime>
-			<IncidentDetail>"[4] 86-CZP1  NB 405 HOV-1 FROM BRISTOL TO HARBOR / SB 405 HOV 1-2  FROM HARBOR TO 73"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 10 2021  7:53PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "BCCC">
 
-		<Log ID = "211211BC00020">
-			<LogTime>"Dec 11 2021 12:10AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I805 S / Main So"</Location>
-			<LocationDesc>"I805 S MAIN SO"</LocationDesc>
-			<Area>"San Diego"</Area>
+		<Log ID = "211211BC00062">
+			<LogTime>"Dec 11 2021 12:51AM"</LogTime>
+			<LogType>"1125A-Animal Hazard"</LogType>
+			<Location>"Sr79 N / Auld Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Temecula"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32590738:117036430"</LATLON>
+			<LATLON>"33582354:117132713"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Dec 11 2021 12:26AM"</DetailTime>
-			<IncidentDetail>"[36] 1C MAJOR FRONT / ON RHS"</IncidentDetail>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[2] RP DOESNT WANT SOMEONE ELSE TO TC"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Dec 11 2021 12:25AM"</DetailTime>
-			<IncidentDetail>"[35] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:16AM"</DetailTime>
-			<IncidentDetail>"[27] RP HIT DEBRIS / DECLINED RPT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:13AM"</DetailTime>
-			<IncidentDetail>"[21] BLOCKING LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:12AM"</DetailTime>
-			<IncidentDetail>"[16] 1039 MCC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:12AM"</DetailTime>
-			<IncidentDetail>"[15] 9C  1185 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:11AM"</DetailTime>
-			<IncidentDetail>"[3] NO LIGHTS ON THE VEH UNKN IF OCCUPIED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:11AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 00:11:29] [2] ANOTHER VEH PULLED TO RS JSO // UNK IF INV"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:11AM"</DetailTime>
-			<IncidentDetail>"[2] VEH IN RT LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:10AM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 00:11:29] [1] WHI TOYT SEDAN FACING WW // BLOCKING SLOW LANE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:10AM"</DetailTime>
-			<IncidentDetail>"[1] VEH CRASHED, FACING W/WAY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:27AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:11AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:11AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:30AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:23AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:23AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:11AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "211211BC00009">
-			<LogTime>"Dec 11 2021 12:02AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I15 S / I8 E Con"</Location>
-			<LocationDesc>"I15 S I8 E CON"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32779828:117113975"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Dec 11 2021 12:06AM"</DetailTime>
-			<IncidentDetail>"[4] [Rotation Request Comment] 1039 STAR TOW 858-573-8700"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:04AM"</DetailTime>
-			<IncidentDetail>"[3] REQ TOW WILL PAY W/ CC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Dec 11 2021 12:03AM"</DetailTime>
-			<IncidentDetail>"[2] ON RHS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Dec 11 2021 12:13AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:11AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Dec 11 2021 12:06AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+			<DetailTime>"Dec 11 2021 12:51AM"</DetailTime>
+			<IncidentDetail>"[1] COYOTE THAT HAS BEEN HIT STILL ALIVE AND IN LNS"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "211210BC01560">
 			<LogTime>"Dec 10 2021 11:46PM"</LogTime>
@@ -4057,6 +3451,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33069203:117069175"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:47AM"</DetailTime>
+			<IncidentDetail>"[15] 1022 1185 QUALITY 97 FOR 3A"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
+			<IncidentDetail>"[14] [Rotation Request Comment] XXX 1039 CALIFORNIA 760-518-0101 XXXXXX"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
 			<IncidentDetail>"[11] 1022 GUARDIAN ROLL OCN TOW"</IncidentDetail>
@@ -4394,6 +3796,594 @@
 			<UnitTime>"Dec 10 2021  7:09PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "OCCC">
+
+		<Log ID = "211211OC00040">
+			<LogTime>"Dec 11 2021 12:49AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Sr57 N / Lincoln Ave Ofr"</Location>
+			<LocationDesc>"NB 57 JSO LINC"</LocationDesc>
+			<Area>"Santa Ana"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33833861:117875970"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:53AM"</DetailTime>
+			<IncidentDetail>"[12] CORR LINE 9 * UNDER RS WALL / ON THE LINC OFR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:53AM"</DetailTime>
+			<IncidentDetail>"[11] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:53AM"</DetailTime>
+			<IncidentDetail>"[10] [Notification] [CHP]-PER DUPE**(2ND HAND PER LACC) ---NB 57 ON LINCOLN OFR - VEH INTO R // METRO NET ENRT [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:52AM"</DetailTime>
+			<IncidentDetail>"[9] PER METRO NET * VEH UNDER THE RS WAY * ENRT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:49AM"</DetailTime>
+			<IncidentDetail>"[6] [Appended, 00:51:19] [1] SIL SDN TC VS RS * SMOKING COMING FROM THE VEH"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "211211OC00022">
+			<LogTime>"Dec 11 2021 12:10AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OCCC"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211211OC00021">
+			<LogTime>"Dec 11 2021 12:10AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210OC00697">
+			<LogTime>"Dec 10 2021 11:57PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"I5 S / Oso Pkwy"</Location>
+			<LocationDesc>"SB 5 ON OSO OFR"</LocationDesc>
+			<Area>"Capistrano"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33580170:117671600"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:33AM"</DetailTime>
+			<IncidentDetail>"[16] C113-055  1148X OFF AT CV FOLOWING 1185 PV 1484380 SM 254385"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:32AM"</DetailTime>
+			<IncidentDetail>"[15] C113-059  LANES CLR NEG DMG TO BARRELS FOLLOWING TOW OFF AT CV"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:16AM"</DetailTime>
+			<IncidentDetail>"[12] C113-059  1182 FIRE CANCELLED ON SCENE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:10AM"</DetailTime>
+			<IncidentDetail>"[10] C113-059  W/ BREAK JSO LA PAZ"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:07AM"</DetailTime>
+			<IncidentDetail>"[9] [Rotation Request Comment] 1039 GOLDEN TOUCH 949-600-7747"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:04AM"</DetailTime>
+			<IncidentDetail>"[8] 59 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:04AM"</DetailTime>
+			<IncidentDetail>"[7] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:01AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 00:02:06] [4] 1039 STA 91"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:00AM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 00:02:06] [3] SDN VS WATER BARRELS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:00AM"</DetailTime>
+			<IncidentDetail>"[3] [Appended, 00:02:06] [2] ADVSD IN GP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:58PM"</DetailTime>
+			<IncidentDetail>"[1] VEH W/TC DAMAGE ON LEFT SIDE OF OFR"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:28AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:10AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210OC00567">
+			<LogTime>"Dec 10 2021  7:50PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"2031 E Santa Clara Ave"</Location>
+			<LocationDesc>"SANTA ANA CHP"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33767135:117837781"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 10 2021  9:28PM"</DetailTime>
+			<IncidentDetail>"[4] 86-CZP1  NB 405 HOV-1 FROM BRISTOL TO HARBOR / SB 405 HOV 1-2  FROM HARBOR TO 73"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 10 2021  7:53PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "INCC">
+
+		<Log ID = "211211IN00033">
+			<LogTime>"Dec 11 2021 12:45AM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"Mount Vernon Ave / Spring St"</Location>
+			<LocationDesc>"OCCD Pigeon Pass Rd / Mount Vernon Ave"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34012043:117313644"</LATLON>
+			<LogDetails><details/></LogDetails></Log>
+
+		<Log ID = "211210IN01579">
+			<LogTime>"Dec 10 2021 11:53PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"I10 W Wo / Sierra Ave Rc"</Location>
+			<LocationDesc>"I10 W WO SIERRA AVE RC"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34067011:117445295"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:35AM"</DetailTime>
+			<IncidentDetail>"[48] [Notification] [CHP]-123-603 MADE CONTACT W/FIRE UTL ON 1125 ENTERED  F/CEDAR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:31AM"</DetailTime>
+			<IncidentDetail>"[46] C123-103 FOLLOWING 1185 AND DRIVER OFF VITRUS N/O 10"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:08AM"</DetailTime>
+			<IncidentDetail>"[35] 123-203 WITH BREAK FROM CEDAR NOW"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:07AM"</DetailTime>
+			<IncidentDetail>"[33] [Notification] [CHP]-AMR INQ ETA  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:05AM"</DetailTime>
+			<IncidentDetail>"[32] [Rotation Request Comment] 1039 NAVARRO TOW W/FB ON EXP 909 829 4911"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:05AM"</DetailTime>
+			<IncidentDetail>"[31] C123-103  REQ 1185 FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:55PM"</DetailTime>
+			<IncidentDetail>"[24] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:55PM"</DetailTime>
+			<IncidentDetail>"[22] CORR BLOCKING HOV"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
+			<IncidentDetail>"[19] 1125 #1"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
+			<IncidentDetail>"[16] [Appended, 23:54:34] [4] CAR TRIED TO GO AROUND ANOTHER CAR AND TCD INTO THE RAMP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
+			<IncidentDetail>"[12] TCD INTO CD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
+			<IncidentDetail>"[9] [Appended, 23:54:20] [6] WIT ADV THIS VEH AS WELL AS APPROX 20-30 VEHS WERE IN 23109 AND THIS VEH TCD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:54PM"</DetailTime>
+			<IncidentDetail>"[2] SOLO VEH TC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:53PM"</DetailTime>
+			<IncidentDetail>"[6] [Appended, 23:54:20] [3] 2 MALES EXITED VEH WALKED ACROSS TRAFFIC TOWARDS RS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:52PM"</DetailTime>
+			<IncidentDetail>"[14] [Appended, 23:54:34] [2] RP ADV THERE IS A TC ON THE FREEWAY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:52PM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 23:54:20] [2] SMALL BLK SD BLOCKING #2 FACING WW"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:36AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:19AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:15AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:04AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:25AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 11:55PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210IN01567">
+			<LogTime>"Dec 10 2021 11:46PM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"Sr60 W / Country Village Rd Cv Ofr"</Location>
+			<LocationDesc>"60 W / COUNTRY VILLAGE OFR"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34019112:117502710"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
+			<IncidentDetail>"[21] 1039 BT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:43AM"</DetailTime>
+			<IncidentDetail>"[18] C74-010 SM 148575 VEH 0656"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:47PM"</DetailTime>
+			<IncidentDetail>"[4] [Rotation Request Comment] 1039 ANGELOS TOWING 951 549 8888"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:47PM"</DetailTime>
+			<IncidentDetail>"[3] 74-10 REQ 1185"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:42AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210IN01528">
+			<LogTime>"Dec 10 2021 11:10PM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"I10 E Eo / Indian Hill Blvd Lacc"</Location>
+			<LocationDesc>"I10 E EO INDIAN HILL BLVD LACC"</LocationDesc>
+			<Area>" LACC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34081741:117712788"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 10 2021 11:11PM"</DetailTime>
+			<IncidentDetail>"[3]  CT8,ROUTED TO CAL TRANS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:10PM"</DetailTime>
+			<IncidentDetail>"[2] EB 10 INDIAN HILL TO 4TH / HOV BYPASS, #1, 2 AND 3 LNS CLOSED"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "211210IN01525">
+			<LogTime>"Dec 10 2021 11:07PM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"Sr60 E Eo / Reservoir St"</Location>
+			<LocationDesc>"SR60 E EO RESERVOIR ST"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34025010:117728132"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 10 2021 11:10PM"</DetailTime>
+			<IncidentDetail>"[4]  CT8 ,ROUTED TO CAL TRANS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 11:08PM"</DetailTime>
+			<IncidentDetail>"[2] HOV #1 AND 2 LNS CLOSED"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 10 2021 11:20PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 11:20PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210IN01480">
+			<LogTime>"Dec 10 2021 10:32PM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"I210 E At / I10"</Location>
+			<LocationDesc>"I210 E AT I10"</LocationDesc>
+			<Area>"San Bernardino"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34075716:117200830"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Dec 10 2021 10:33PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210IN01409">
+			<LogTime>"Dec 10 2021  9:37PM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Sr60 W / Country Village Rd Cv Ofr"</Location>
+			<LocationDesc>"60 W / COUNTRY VILLAGE OFR"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34019112:117502710"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
+			<IncidentDetail>"[73] 74-10 ENRT TO RCH FOR LOG 1567 - SM 148575 VEH 0656"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 10:25PM"</DetailTime>
+			<IncidentDetail>"[58] [Appended, 22:26:47] [1] RPS DAUGHTER INV IN TC GRY BMW 335i- ADV UNK MALE GAVE HER A RIDE HOME BC SHE WAS SCARED"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 10:25PM"</DetailTime>
+			<IncidentDetail>"[57] [Notification] [CHP]-RP RECALLED ADV'D VEHS NOW OFF FWY EXITED COUNTRY VILLAGE IN PLOT TO FAR RIGHT  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 10:23PM"</DetailTime>
+			<IncidentDetail>"[54] [Notification] [CHP]- PEPES OUT 2-3 VEHS ON OFR  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 10:11PM"</DetailTime>
+			<IncidentDetail>"[51] RP ADV PTYS STILL TRYING TO DIRECT TRAFFIC AFRAID HEY MAY GET HIT BY A SPEEDING VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 10:04PM"</DetailTime>
+			<IncidentDetail>"[46] PER DUPE 3 VEH TC - 1125 HOV LANE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 10:00PM"</DetailTime>
+			<IncidentDetail>"[42] PER DUP JEO MISSION - PPL STANDING IN LNS - POSS A SIL SED 97 BUT UNK ON FURTHER"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021 10:00PM"</DetailTime>
+			<IncidentDetail>"[41] [Notification] [CHP]-[35] MALE PTY OO VEH STANDING IN LNS [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:59PM"</DetailTime>
+			<IncidentDetail>"[35] MALE PTY OO VEH STANDING IN LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:53PM"</DetailTime>
+			<IncidentDetail>"[31] [Rotation Request Comment] 1039 PEPES TOW 951 682 5682 W/FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:52PM"</DetailTime>
+			<IncidentDetail>"[30] 1185 FB PLS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:47PM"</DetailTime>
+			<IncidentDetail>"[27] [Appended, 21:48:07] [6] RP IS PARKED BEHIND VEH W/HAZS ON // TRFC COMING IN HOT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:46PM"</DetailTime>
+			<IncidentDetail>"[21] 2VEHS  BLOCKING #1 ,2 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:45PM"</DetailTime>
+			<IncidentDetail>"[23] [Appended, 21:48:07] [2] TC'D INTO CD / PARTIES OO VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:45PM"</DetailTime>
+			<IncidentDetail>"[19] DEBRIS ALL OVER RDWY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:44PM"</DetailTime>
+			<IncidentDetail>"[15] [Notification] [CHP]-SOMEONE RUNNING ON RS - RUNNING  W/ TRAFFIC    [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:40PM"</DetailTime>
+			<IncidentDetail>"[8] 1039 S10 - ADV'D PRIORITY SENT IN008"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:37PM"</DetailTime>
+			<IncidentDetail>"[5] BLKING 1-2 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 10 2021  9:37PM"</DetailTime>
+			<IncidentDetail>"[1] 3 VEH / POSS YEL TK"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 10 2021 11:05PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 11:01PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 11:01PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 10:39PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 10:06PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 10:06PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 11:52PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 10:31PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021 10:01PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  9:52PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210IN01343">
+			<LogTime>"Dec 10 2021  8:21PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr60 W Eo / Haven Ave"</Location>
+			<LocationDesc>"EO HAVEN - ARCHIBALD, TILL 0500"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34026732:117567448"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Dec 10 2021  8:23PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  8:23PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  8:23PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "ECCC">
+
+		<Log ID = "211211EC00004">
+			<LogTime>"Dec 11 2021 12:35AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Sr111 / E Evan Hewes Hwy"</Location>
+			<LocationDesc>"SB"</LocationDesc>
+			<Area>"El Centro"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32799642:115500676"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:47AM"</DetailTime>
+			<IncidentDetail>"[23] [Rotation Request Comment] 1039 BEACH AND SONS 760-352-8009"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
+			<IncidentDetail>"[21] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:46AM"</DetailTime>
+			<IncidentDetail>"[19] 6--NEED A HD TOW FOR A RED BIG RIG --50 F TLR--APPEARS TO BE EMPTY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:44AM"</DetailTime>
+			<IncidentDetail>"[15] 6--BOTH SB LANES R BLOCKED"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:42AM"</DetailTime>
+			<IncidentDetail>"[12] [Appended, 00:43:51] [1] ADDTL CALLER REPORTING SEMI ACC BLOCKING LEFT LANE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:40AM"</DetailTime>
+			<IncidentDetail>"[10] BOTH SEMI 1125 SLOW LANE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:39AM"</DetailTime>
+			<IncidentDetail>"[9] ADDTL CALLER REPORTING ACCIDENT, UNK INJ"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:37AM"</DetailTime>
+			<IncidentDetail>"[7] 1039 85-6 AT THE OFFICE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:37AM"</DetailTime>
+			<IncidentDetail>"[6] DEBRIS ON THE RDWY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:37AM"</DetailTime>
+			<IncidentDetail>"[5] RED SEMI TK and WHI SEMI INVLVD, RP BELIEVES RED SEMI HIT THE BOX OF THE WHI SEMI"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:36AM"</DetailTime>
+			<IncidentDetail>"[4] BOTH SEMIS 1125 BLCK BOTH LANES"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:36AM"</DetailTime>
+			<IncidentDetail>"[2] TWO SEMI TKS INVOLVED"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:44AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:44AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211211EC00002">
+			<LogTime>"Dec 11 2021 12:10AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Mm8 E Imp R89.50"</Location>
+			<LocationDesc>"AG INSPECTION STATION"</LocationDesc>
+			<Area>"Winterhaven"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32746797:114740999"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 11 2021 12:13AM"</DetailTime>
+			<IncidentDetail>"[4] INVLVD PTYS STANDING BY IN THEIR VEHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:12AM"</DetailTime>
+			<IncidentDetail>"[2] BLK KIA AND WHI TESLA BOTH 1125 ON AG STN LANES"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Dec 11 2021 12:11AM"</DetailTime>
+			<IncidentDetail>"[1] 2 VEH TC, ONE VEH 1125 ON AG STN LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 11 2021 12:15AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:12AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "211210EC00052">
+			<LogTime>"Dec 10 2021  1:47PM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"0 I8 W"</Location>
+			<LocationDesc>"GRADE"</LocationDesc>
+			<Area>"El Centro"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32690821:116077622"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Dec 10 2021  1:47PM"</DetailTime>
+			<IncidentDetail>"[1] CLEAR, DRY, GUSTY WINDS, TRAVEL ADVISORY FOR HIGH PROFILE VEHS AND TLS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 10 2021  1:47PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "ICCC">
+
+		<Log ID = "211211IC00009">
+			<LogTime>"Dec 11 2021 12:31AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"79650 Varner Rd"</Location>
+			<LocationDesc>"WEATHER INFO"</LocationDesc>
+			<Area>"IC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33751459:116272108"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Dec 11 2021 12:31AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "BICC">
 
 		<Log ID = "211211BI00002">
@@ -4425,6 +4415,8 @@
 			<DetailTime>"Dec 11 2021 12:03AM"</DetailTime>
 			<IncidentDetail>"[1] VEH 1125"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Dec 11 2021 12:49AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Dec 11 2021 12:45AM"</UnitTime>
