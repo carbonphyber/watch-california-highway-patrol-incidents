@@ -2,6 +2,20 @@
 <State><Center ID = "SAHB">
 <Dispatch ID = "SACC">
 
+		<Log ID = "220221SA00280">
+			<LogTime>"Feb 21 2022  9:42AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"Sr99 S / 47th Ave W Ofr"</Location>
+			<LocationDesc>"SB JNO"</LocationDesc>
+			<Area>"South Sac"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"38515101:121462561"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:43AM"</DetailTime>
+			<IncidentDetail>"[1] FIRE ON RHS"</IncidentDetail>
+		</details></LogDetails></Log>
+
 		<Log ID = "220221SA00271">
 			<LogTime>"Feb 21 2022  9:34AM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
@@ -25,6 +39,8 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38691100:121450720"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:34AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -138,6 +154,10 @@
 			<LATLON>"38685190:121515989"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[11] PUT DOLLAR TOW BOT,TAKING  AS OWNER'S REQUEST"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Feb 21 2022  9:24AM"</DetailTime>
 			<IncidentDetail>"[9] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
 		</details>
@@ -180,41 +200,21 @@
 			<LATLON>"39015994:120988038"</LATLON>
 			<LogDetails><details/></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "YKCC">
+<Dispatch ID = "STCC">
 
-		<Log ID = "220221YK00011">
-			<LogTime>"Feb 21 2022  9:34AM"</LogTime>
-			<LogType>"RKRUN-Rock Run"</LogType>
-			<Location>"3500 MM96 E SIS 35.00"</Location>
+		<Log ID = "220221ST00106">
+			<LogTime>"Feb 21 2022  9:40AM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"Vail Ave / N F St"</Location>
 			<LocationDesc>""</LocationDesc>
-			<Area>"Yreka"</Area>
+			<Area>"Stockton"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"41730269:123424344"</LATLON>
+			<LATLON>"37985030:121266945"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Feb 21 2022  9:36AM"</DetailTime>
-			<IncidentDetail>"[2] 1039 TO CT 215 -- WILL BE ENRT"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:41AM"</DetailTime>
+			<IncidentDetail>"[3] 1125 THE RD"</IncidentDetail>
 		</details></LogDetails></Log>
-
-		<Log ID = "220220YK00038">
-			<LogTime>"Feb 20 2022 10:59PM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"I5 N / Bailey Hill Rd"</Location>
-			<LocationDesc>"TO STATELINE"</LocationDesc>
-			<Area>"Yreka"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"41954722:122592000"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Feb 20 2022 11:02PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 20 2022 10:59PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 20 2022 10:59PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 20 2022 10:59PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "STCC">
 
 		<Log ID = "220221ST00101">
 			<LogTime>"Feb 21 2022  9:32AM"</LogTime>
@@ -246,7 +246,9 @@
 		<details>
 			<DetailTime>"Feb 21 2022  9:30AM"</DetailTime>
 			<IncidentDetail>"[1] COW IN THE RDWY"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:40AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221ST00098">
 			<LogTime>"Feb 21 2022  9:28AM"</LogTime>
@@ -274,7 +276,9 @@
 		<details>
 			<DetailTime>"Feb 21 2022  9:27AM"</DetailTime>
 			<IncidentDetail>"[4] NOW RP ADV VEH IS PRTL 1125 / AT A CURVE BUMPY RDWY"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:41AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221ST00095">
 			<LogTime>"Feb 21 2022  9:13AM"</LogTime>
@@ -312,13 +316,25 @@
 
 		<Log ID = "220221ST00087">
 			<LogTime>"Feb 21 2022  8:46AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
 			<Location>"Sr26 / Escalon Bellota Rd"</Location>
 			<LocationDesc>"WB 26 JWO ESCALON BELLOTA"</LocationDesc>
 			<Area>"Stockton"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38050013:121014717"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[10] 1039 3A CALL #33052 MCDOWELLS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
+			<IncidentDetail>"[8] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
+			<IncidentDetail>"[7] 2 VEH 1182"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Feb 21 2022  8:48AM"</DetailTime>
 			<IncidentDetail>"[4] LARGE CAR PART DEBRIS 1125 RDWY"</IncidentDetail>
@@ -386,211 +402,57 @@
 			<UnitTime>"Feb 20 2022  6:03PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "CHCC">
+<Dispatch ID = "RDCC">
 
-		<Log ID = "220221CH00040">
-			<LogTime>"Feb 21 2022  9:23AM"</LogTime>
-			<LogType>"WW-Wrong Way Driver"</LogType>
-			<Location>"Skyway Rd / Skyway Xrd"</Location>
-			<LocationDesc>"WB IN EB LNS"</LocationDesc>
-			<Area>"CH"</Area>
+		<Log ID = "220221RD00027">
+			<LogTime>"Feb 21 2022  9:37AM"</LogTime>
+			<LogType>"CFIRE-Car Fire"</LogType>
+			<Location>"I5 N / FLORES AVE OFR"</Location>
+			<LocationDesc>"JNO"</LocationDesc>
+			<Area>"Red Bluff"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"39743980:121655263"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022  9:26AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:26AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:25AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:25AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221CH00025">
-			<LogTime>"Feb 21 2022  7:34AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"SR45 / CR64"</Location>
-			<LocationDesc>"JSO"</LocationDesc>
-			<Area>"Willows"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"39443007:122014199"</LATLON>
+			<LATLON>"40079940:122216440"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Feb 21 2022  7:54AM"</DetailTime>
-			<IncidentDetail>"[18] LL FIRE"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:41AM"</DetailTime>
+			<IncidentDetail>"[21] CALFIRE ADV ALMOST 1097"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  7:44AM"</DetailTime>
-			<IncidentDetail>"[15] 1039 LandT 1185R 530-934-7300"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:41AM"</DetailTime>
+			<IncidentDetail>"[20] 1039 TEH CALFIRE"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  7:43AM"</DetailTime>
-			<IncidentDetail>"[14]  1185R"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:40AM"</DetailTime>
+			<IncidentDetail>"[11] [Appended, 09:40:53] [3] KIA IS ON SHOULDER, VEH ENGULFED IN SMOKE"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  7:36AM"</DetailTime>
-			<IncidentDetail>"[7] 1039 FIRE"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[10] [Appended, 09:40:53] [2] PSGR WALKING SB IN GRASS ON RHS"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  7:35AM"</DetailTime>
-			<IncidentDetail>"[6] LL FIRE"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:38AM"</DetailTime>
+			<IncidentDetail>"[5] EVERYONE OO VEH"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  7:34AM"</DetailTime>
-			<IncidentDetail>"[1] 1 VEH TC"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  7:55AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:39AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:39AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:55AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:37AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:37AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221CH00020">
-			<LogTime>"Feb 21 2022  7:18AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Quincy/laporte Rd"</Location>
-			<LocationDesc>"JNO STRAWBERRY VALLEY"</LocationDesc>
-			<Area>"Yuba Sutter"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"39564040:121107390"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  8:34AM"</DetailTime>
-			<IncidentDetail>"[11] [Appended, 08:35:10] [7] INVD WAS PICKED UP AT DAY BREAK IN A RED LG SUV W/ BLACK TOP - SIM TO A JEEP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:33AM"</DetailTime>
-			<IncidentDetail>"[10] [Appended, 08:35:10] [6] TC OCCURED APPROX 0300"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:33AM"</DetailTime>
-			<IncidentDetail>"[8] [Appended, 08:35:10] [4] PGE ADVS RP BLOOD IN VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:31AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 08:35:10] [1] VEH TC INTO PGE POLE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  7:18AM"</DetailTime>
-			<IncidentDetail>"[3]  8 WILL BE ENRT TO CHK FOR TC WHEN DONE W 1148"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  7:18AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:18AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:18AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "SUCC">
-
-		<Log ID = "220221SU00011">
-			<LogTime>"Feb 21 2022  9:14AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"0 Us395"</Location>
-			<LocationDesc>"NEAR SHOE TREE"</LocationDesc>
-			<Area>"Quincy"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"39809515:120033125"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:30AM"</DetailTime>
-			<IncidentDetail>"[14] [Appended, 09:32:19] [3] RP ADVD WILL MAKE OWN ARRANGEMENTS FOR TOW TRUCK"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:30AM"</DetailTime>
-			<IncidentDetail>"[13] [Appended, 09:32:19] [2] NON INJURY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:30AM"</DetailTime>
-			<IncidentDetail>"[12] [Appended, 09:32:19] [1] VEH OFF THE RDWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:22AM"</DetailTime>
-			<IncidentDetail>"[10] [Appended, 09:23:03] [2] SNGL VEH ROLLOVER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:17AM"</DetailTime>
-			<IncidentDetail>"[6] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:16AM"</DetailTime>
+			<DetailTime>"Feb 21 2022  9:38AM"</DetailTime>
 			<IncidentDetail>"[4] NEG 1125"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  9:15AM"</DetailTime>
-			<IncidentDetail>"[3] VEH ON ITS SIDE"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:38AM"</DetailTime>
+			<IncidentDetail>"[3] ON THE RHS"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  9:15AM"</DetailTime>
-			<IncidentDetail>"[2] SNGL VEH ROLLOVER"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:38AM"</DetailTime>
+			<IncidentDetail>"[2] ON FIRE"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Feb 21 2022  9:16AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  9:41AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:16AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  9:41AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221SU00005">
-			<LogTime>"Feb 21 2022  3:30AM"</LogTime>
-			<LogType>"CHAINS-Chain Control"</LogType>
-			<Location>"472400 Diamond Crest Rd"</Location>
-			<LocationDesc>"*** CHAIN LOG ***"</LocationDesc>
-			<Area>"Susanville"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"40377794:120590382"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:36AM"</DetailTime>
-			<IncidentDetail>"[19] LASS SR70 CHAIN SIGN 27 BACK TO W"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
-			<IncidentDetail>"[18] SR70 PLUMAS 24, 25 26 CHAIN SIGNS BACK TO W"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
-			<IncidentDetail>"[16] 1039 TMC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:49AM"</DetailTime>
-			<IncidentDetail>"[14] CT 271-4 HWY 395 LAS CHAIN SIGN 4 BACK TO W"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  5:39AM"</DetailTime>
-			<IncidentDetail>"[13] 1039 TMC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  5:38AM"</DetailTime>
-			<IncidentDetail>"[12] PER CT'S 271-003   PLU SR70 CHAIN SIGNS #20 AND #21  -  R1M"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  5:25AM"</DetailTime>
-			<IncidentDetail>"[11] 1039 TMC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  5:13AM"</DetailTime>
-			<IncidentDetail>"[9] 1039 TMC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  3:40AM"</DetailTime>
-			<IncidentDetail>"[6] 1039 TMC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  3:34AM"</DetailTime>
-			<IncidentDetail>"[4] CT 271-1 ADV HWY 395 LAS CS#2 , #3 and 4 / R1-M"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  3:32AM"</DetailTime>
-			<IncidentDetail>"[1] CT 271-1 ADV HWY 49 PLU CS# 1 and #2  / R1-M"</IncidentDetail>
-		</details></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "RDCC">
 
 		<Log ID = "220221RD00025">
 			<LogTime>"Feb 21 2022  9:12AM"</LogTime>
@@ -609,6 +471,8 @@
 			<DetailTime>"Feb 21 2022  9:14AM"</DetailTime>
 			<IncidentDetail>"[4] VEH HAS BEEN PARKED FOR A WEEK"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Feb 21 2022  9:41AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
@@ -755,6 +619,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:50AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:42AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:55AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:55AM"</UnitTime>
@@ -782,6 +648,150 @@
 			<UnitTime>"Feb 21 2022  8:40AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "YKCC">
+
+		<Log ID = "220221YK00011">
+			<LogTime>"Feb 21 2022  9:34AM"</LogTime>
+			<LogType>"RKRUN-Rock Run"</LogType>
+			<Location>"3500 MM96 E SIS 35.00"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Yreka"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"41730269:123424344"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:36AM"</DetailTime>
+			<IncidentDetail>"[2] 1039 TO CT 215 -- WILL BE ENRT"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "220220YK00038">
+			<LogTime>"Feb 20 2022 10:59PM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"I5 N / Bailey Hill Rd"</Location>
+			<LocationDesc>"TO STATELINE"</LocationDesc>
+			<Area>"Yreka"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"41954722:122592000"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Feb 20 2022 11:02PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 20 2022 10:59PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 20 2022 10:59PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 20 2022 10:59PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "SUCC">
+
+		<Log ID = "220221SU00011">
+			<LogTime>"Feb 21 2022  9:14AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"0 Us395"</Location>
+			<LocationDesc>"NEAR SHOE TREE MP 7"</LocationDesc>
+			<Area>"Quincy"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"39809515:120033125"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[18] CALTRANS 271-4 1097 WILL STAY ON SCENE DUE TO THE VEH LOCATION KIND OF ON THE HILL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:30AM"</DetailTime>
+			<IncidentDetail>"[14] [Appended, 09:32:19] [3] RP ADVD WILL MAKE OWN ARRANGEMENTS FOR TOW TRUCK"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:30AM"</DetailTime>
+			<IncidentDetail>"[13] [Appended, 09:32:19] [2] NON INJURY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:30AM"</DetailTime>
+			<IncidentDetail>"[12] [Appended, 09:32:19] [1] VEH OFF THE RDWY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:22AM"</DetailTime>
+			<IncidentDetail>"[10] [Appended, 09:23:03] [2] SNGL VEH ROLLOVER"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:17AM"</DetailTime>
+			<IncidentDetail>"[6] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:16AM"</DetailTime>
+			<IncidentDetail>"[4] NEG 1125"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:15AM"</DetailTime>
+			<IncidentDetail>"[3] VEH ON ITS SIDE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:15AM"</DetailTime>
+			<IncidentDetail>"[2] SNGL VEH ROLLOVER"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:16AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:16AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221SU00005">
+			<LogTime>"Feb 21 2022  3:30AM"</LogTime>
+			<LogType>"CHAINS-Chain Control"</LogType>
+			<Location>"472400 Diamond Crest Rd"</Location>
+			<LocationDesc>"*** CHAIN LOG ***"</LocationDesc>
+			<Area>"Susanville"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"40377794:120590382"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
+			<IncidentDetail>"[21] 1039 CALTRANS TMC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:36AM"</DetailTime>
+			<IncidentDetail>"[19] LASS SR70 CHAIN SIGN 27 BACK TO W"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
+			<IncidentDetail>"[18] SR70 PLUMAS 24, 25 26 CHAIN SIGNS BACK TO W"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
+			<IncidentDetail>"[16] 1039 TMC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:49AM"</DetailTime>
+			<IncidentDetail>"[14] CT 271-4 HWY 395 LAS CHAIN SIGN 4 BACK TO W"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  5:39AM"</DetailTime>
+			<IncidentDetail>"[13] 1039 TMC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  5:38AM"</DetailTime>
+			<IncidentDetail>"[12] PER CT'S 271-003   PLU SR70 CHAIN SIGNS #20 AND #21  -  R1M"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  5:25AM"</DetailTime>
+			<IncidentDetail>"[11] 1039 TMC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  5:13AM"</DetailTime>
+			<IncidentDetail>"[9] 1039 TMC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  3:40AM"</DetailTime>
+			<IncidentDetail>"[6] 1039 TMC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  3:34AM"</DetailTime>
+			<IncidentDetail>"[4] CT 271-1 ADV HWY 395 LAS CS#2 , #3 and 4 / R1-M"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  3:32AM"</DetailTime>
+			<IncidentDetail>"[1] CT 271-1 ADV HWY 49 PLU CS# 1 and #2  / R1-M"</IncidentDetail>
+		</details></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "TKCC">
 
 		<Log ID = "220221TK00038">
@@ -793,6 +803,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"39141242:120166943"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:40AM"</DetailTime>
+			<IncidentDetail>"[23] CAL NEVADA CAN TAKE BOTH 3A VEHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[22] [Rotation Request Comment] 1039 MILNE TOWING 530 587 6000"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
 			<IncidentDetail>"[21] [Rotation Request Comment] 1039 CAL NEVADA TOWING 866 359 3725 - ETA 1 HOUR FROM TRUCKEE"</IncidentDetail>
@@ -936,6 +954,90 @@
 			<IncidentDetail>"[3] ^SR89 R1 FRM HOBART MILLS TO SIERRA-PLUMAS COUNTY LINE"</IncidentDetail>
 		</details></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "CHCC">
+
+		<Log ID = "220221CH00025">
+			<LogTime>"Feb 21 2022  7:34AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"SR45 / CR64"</Location>
+			<LocationDesc>"JSO"</LocationDesc>
+			<Area>"Willows"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"39443007:122014199"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  7:54AM"</DetailTime>
+			<IncidentDetail>"[18] LL FIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:44AM"</DetailTime>
+			<IncidentDetail>"[15] 1039 LandT 1185R 530-934-7300"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:43AM"</DetailTime>
+			<IncidentDetail>"[14]  1185R"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:36AM"</DetailTime>
+			<IncidentDetail>"[7] 1039 FIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:35AM"</DetailTime>
+			<IncidentDetail>"[6] LL FIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:34AM"</DetailTime>
+			<IncidentDetail>"[1] 1 VEH TC"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  7:55AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:39AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:55AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:37AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:37AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221CH00020">
+			<LogTime>"Feb 21 2022  7:18AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Quincy/laporte Rd"</Location>
+			<LocationDesc>"JNO STRAWBERRY VALLEY"</LocationDesc>
+			<Area>"Yuba Sutter"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"39564040:121107390"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  8:34AM"</DetailTime>
+			<IncidentDetail>"[11] [Appended, 08:35:10] [7] INVD WAS PICKED UP AT DAY BREAK IN A RED LG SUV W/ BLACK TOP - SIM TO A JEEP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:33AM"</DetailTime>
+			<IncidentDetail>"[10] [Appended, 08:35:10] [6] TC OCCURED APPROX 0300"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:33AM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 08:35:10] [4] PGE ADVS RP BLOOD IN VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:31AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 08:35:10] [1] VEH TC INTO PGE POLE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:18AM"</DetailTime>
+			<IncidentDetail>"[3]  8 WILL BE ENRT TO CHK FOR TC WHEN DONE W 1148"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  7:18AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:18AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:18AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "HMCC">
 
 		<Log ID = "220221HM00012">
@@ -963,29 +1065,243 @@
 </Center>
 
 <Center ID = "GGHB">
-<Dispatch ID = "GGCC">
+<Dispatch ID = "MYCC">
 
-		<Log ID = "220221GG00588">
-			<LogTime>"Feb 21 2022  9:36AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Us101 N / Tamalpais Dr Ofr"</Location>
-			<LocationDesc>"NB 101 JSO TAMALPAIS"</LocationDesc>
-			<Area>"Marin"</Area>
+		<Log ID = "220221MY00082">
+			<LogTime>"Feb 21 2022  9:40AM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"17553 Milano St"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Monterey"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37923497:122513162"</LATLON>
+			<LATLON>"36703667:121673012"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[5] 29 CLR/CUR 92 CHEV PK OO SALINAS - 464 BORONDA RD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:40AM"</DetailTime>
+			<IncidentDetail>"[1] VEH VS RPS FENCE"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "220221MY00079">
+			<LogTime>"Feb 21 2022  9:33AM"</LogTime>
+			<LogType>"1125A-Animal Hazard"</LogType>
+			<Location>"Sr17 S / Scotts Valley Dr"</Location>
+			<LocationDesc>"SB 17 JSO"</LocationDesc>
+			<Area>"Santa Cruz"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37060833:122004847"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
+			<IncidentDetail>"[7] 17 FM SUMMIT RD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
+			<IncidentDetail>"[2] 2 LARGE GOLD/REDISH DOGS RUNNING IN OUT LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 09:35:27] [2] RP ALMOST HIT THEM"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:33AM"</DetailTime>
+			<IncidentDetail>"[1] 2 DOGS RUNNING, CAUSING TRAFFIC TO BRAKE"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:38AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:38AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:38AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:38AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221MY00068">
+			<LogTime>"Feb 21 2022  8:48AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Llg / Robley"</Location>
+			<LocationDesc>"ROBLEY JEO LLG, 1 1/2 MI"</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36561111:121749722"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[13] 22 CPZ LN / 10 // TORO RD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[10] A27-030  CLOSE AT TORO TO KEEP TRFC FR COMING UP / NOWHERE TO TURN AROUND"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:38AM"</DetailTime>
+			<IncidentDetail>"[9] A27-030  SEE IF SO OR 22 ARE IN AREA 2ND UNIT TO CLOSE ROBLEY AT TOP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:50AM"</DetailTime>
+			<IncidentDetail>"[3] RP TRYING TO ASSIST VEH IN BACKING UP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:50AM"</DetailTime>
+			<IncidentDetail>"[2] DROVE UP THE RD AND IS NOW UNABLE TO GET TURNED AROUND"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:50AM"</DetailTime>
+			<IncidentDetail>"[1] BIG RIG"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:25AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:24AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:18AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:18AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:04AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  8:52AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  8:52AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "VTCC">
+
+		<Log ID = "220221VT00074">
+			<LogTime>"Feb 21 2022  9:33AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"20030 Sr126"</Location>
+			<LocationDesc>"LITTLE RED SCHOOL HOUSE"</LocationDesc>
+			<Area>"Ventura"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34376317:119000175"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
+			<IncidentDetail>"[1] LUMBER IN FAST LANE"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221VT00064">
+			<LogTime>"Feb 21 2022  9:17AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Santa Rosa Rd / Andalusia Dr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Moorpark"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34245648:118874862"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:19AM"</DetailTime>
+			<IncidentDetail>"[2] 1039 VCFD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:19AM"</DetailTime>
+			<IncidentDetail>"[1] MALE ON BIKE DOWN ON RHS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:37AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:21AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:21AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:29AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221VT00060">
+			<LogTime>"Feb 21 2022  9:08AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"5219 Larkspur Dr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Ventura"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34338653:119290575"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:09AM"</DetailTime>
+			<IncidentDetail>"[1] RV BLOCKING RDWY"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:11AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:11AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221VT00058">
+			<LogTime>"Feb 21 2022  8:47AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Us101 N / So Sheffield Dr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Santa Barbara"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34421593:119616491"</LATLON>
 			<LogDetails>
 		<details>
 			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
-			<IncidentDetail>"[3] NEG RESP VEH"</IncidentDetail>
+			<IncidentDetail>"[14] [Rotation Request Comment] 1039 LOVES TOWING 805-966-2916"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
-			<IncidentDetail>"[2] SLOW LN"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:36AM"</DetailTime>
+			<IncidentDetail>"[13] A29-111  1185 WHI BMW X1 W/FE DMG"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
-			<IncidentDetail>"[1] MATTRESS / MOVING BLANKET / OTHER DEBRIS"</IncidentDetail>
-		</details></LogDetails></Log>
+			<DetailTime>"Feb 21 2022  9:14AM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 09:23:21] [2] RHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:14AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 09:23:21] [1] WHI BMW X1 VS WHI TOYT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:49AM"</DetailTime>
+			<IncidentDetail>"[2] 1125 DEBRIS #1"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  8:48AM"</DetailTime>
+			<IncidentDetail>"[1] SBSO DEP 97 WITH    MULTI VEHS INVLD  // MOVED  OFF TO NB SHEFF OFR"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:22AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  8:50AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  8:50AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "GGCC">
 
 		<Log ID = "220221GG00580">
 			<LogTime>"Feb 21 2022  9:33AM"</LogTime>
@@ -1003,7 +1319,13 @@
 		<details>
 			<DetailTime>"Feb 21 2022  9:33AM"</DetailTime>
 			<IncidentDetail>"[2] RED SD VS METAL CD"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:43AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:43AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:40AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221GG00579">
 			<LogTime>"Feb 21 2022  9:32AM"</LogTime>
@@ -1015,9 +1337,29 @@
 			<LATLON>"37903123:122515557"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[2] A34-115  TO RHS FOR DOT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 09:44:06] [3] NEG RESP VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 09:44:06] [2] SLOW LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
+			<IncidentDetail>"[3] [Appended, 09:44:06] [1] MATTRESS / MOVING BLANKET / OTHER DEBRIS"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Feb 21 2022  9:32AM"</DetailTime>
 			<IncidentDetail>"[1] DEBRIS AND RUGS   BLKING #4  LANE"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:42AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
@@ -1093,30 +1435,8 @@
 		<details>
 			<DetailTime>"Feb 21 2022  9:23AM"</DetailTime>
 			<IncidentDetail>"[2] LARGE CRATE  / LN #3"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "220221GG00553">
-			<LogTime>"Feb 21 2022  9:15AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I580 W / Bayview Ave Onr"</Location>
-			<LocationDesc>"WB  580  JEO BAYVIEW"</LocationDesc>
-			<Area>"Oakland"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37915398:122326638"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
-			<IncidentDetail>"[6] A96-081  IN CD WB 580 JEO CENTRAL ADV DOT FOR PICK UP / LRG PLASTIC BAG WITH NOTHING IN IT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:18AM"</DetailTime>
-			<IncidentDetail>"[3] IN CD  / PARTLY  LN #1"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:19AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  9:38AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221GG00555">
@@ -1194,6 +1514,8 @@
 			<DetailTime>"Feb 21 2022  8:36AM"</DetailTime>
 			<IncidentDetail>"[1] PT CRUISER BLKG EB LANE"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Feb 21 2022  9:43AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:08AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:37AM"</UnitTime>
@@ -1409,254 +1731,6 @@
 			<UnitTime>"Feb 20 2022 10:21AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "VTCC">
-
-		<Log ID = "220221VT00074">
-			<LogTime>"Feb 21 2022  9:33AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"20030 Sr126"</Location>
-			<LocationDesc>"LITTLE RED SCHOOL HOUSE"</LocationDesc>
-			<Area>"Ventura"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34376317:119000175"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
-			<IncidentDetail>"[1] LUMBER IN FAST LANE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221VT00064">
-			<LogTime>"Feb 21 2022  9:17AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"Santa Rosa Rd / Andalusia Dr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Moorpark"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34245648:118874862"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:19AM"</DetailTime>
-			<IncidentDetail>"[2] 1039 VCFD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:19AM"</DetailTime>
-			<IncidentDetail>"[1] MALE ON BIKE DOWN ON RHS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:37AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:21AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:21AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:29AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221VT00060">
-			<LogTime>"Feb 21 2022  9:08AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"5219 Larkspur Dr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Ventura"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34338653:119290575"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:09AM"</DetailTime>
-			<IncidentDetail>"[1] RV BLOCKING RDWY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:11AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:11AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221VT00058">
-			<LogTime>"Feb 21 2022  8:47AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Us101 N / So Sheffield Dr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Santa Barbara"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34421593:119616491"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
-			<IncidentDetail>"[14] [Rotation Request Comment] 1039 LOVES TOWING 805-966-2916"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:36AM"</DetailTime>
-			<IncidentDetail>"[13] A29-111  1185 WHI BMW X1 W/FE DMG"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:14AM"</DetailTime>
-			<IncidentDetail>"[8] [Appended, 09:23:21] [2] RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:14AM"</DetailTime>
-			<IncidentDetail>"[7] [Appended, 09:23:21] [1] WHI BMW X1 VS WHI TOYT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:49AM"</DetailTime>
-			<IncidentDetail>"[2] 1125 DEBRIS #1"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:48AM"</DetailTime>
-			<IncidentDetail>"[1] SBSO DEP 97 WITH    MULTI VEHS INVLD  // MOVED  OFF TO NB SHEFF OFR"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:22AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:50AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:50AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221VT00055">
-			<LogTime>"Feb 21 2022  8:34AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"US101 S / SHEFFIELD DR OFR"</Location>
-			<LocationDesc>"SB SO"</LocationDesc>
-			<Area>"Santa Barbara"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34421405:119616030"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  8:53AM"</DetailTime>
-			<IncidentDetail>"[10] 1039 SBSO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:53AM"</DetailTime>
-			<IncidentDetail>"[9] A29-111  ADV HOLZER TO EXIT AT SHEFF AND USE NEW ONR W/PUSH MC TO OPENING"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:43AM"</DetailTime>
-			<IncidentDetail>"[8] [Rotation Request Comment] 1039 HOLZERS 805-962-5518"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:42AM"</DetailTime>
-			<IncidentDetail>"[7] 29-111 START 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:42AM"</DetailTime>
-			<IncidentDetail>"[6] PER MOINT FIRE WLL  BE ON SB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:42AM"</DetailTime>
-			<IncidentDetail>"[5] SBSO LL - BLKG #1 // SB BTWN SHEFF and EVANS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:35AM"</DetailTime>
-			<IncidentDetail>"[3] 1039 SBSO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:35AM"</DetailTime>
-			<IncidentDetail>"[2] 1125"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  8:55AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:38AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:38AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:18AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:51AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:37AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:37AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:37AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:36AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:36AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "MYCC">
-
-		<Log ID = "220221MY00079">
-			<LogTime>"Feb 21 2022  9:33AM"</LogTime>
-			<LogType>"1125A-Animal Hazard"</LogType>
-			<Location>"Sr17 S / Scotts Valley Dr"</Location>
-			<LocationDesc>"SB 17 JSO"</LocationDesc>
-			<Area>"Santa Cruz"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37060833:122004847"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
-			<IncidentDetail>"[7] 17 FM SUMMIT RD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
-			<IncidentDetail>"[2] 2 LARGE GOLD/REDISH DOGS RUNNING IN OUT LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 09:35:27] [2] RP ALMOST HIT THEM"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:33AM"</DetailTime>
-			<IncidentDetail>"[1] 2 DOGS RUNNING, CAUSING TRAFFIC TO BRAKE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221MY00068">
-			<LogTime>"Feb 21 2022  8:48AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Llg / Robley"</Location>
-			<LocationDesc>"ROBLEY JEO LLG, 1 1/2 MI"</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36561111:121749722"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  8:50AM"</DetailTime>
-			<IncidentDetail>"[3] RP TRYING TO ASSIST VEH IN BACKING UP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:50AM"</DetailTime>
-			<IncidentDetail>"[2] DROVE UP THE RD AND IS NOW UNABLE TO GET TURNED AROUND"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:50AM"</DetailTime>
-			<IncidentDetail>"[1] BIG RIG"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:25AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:24AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:18AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:18AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:04AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:52AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:52AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "SLCC">
 
 		<Log ID = "220221SL00022">
@@ -1708,125 +1782,87 @@
 </Center>
 
 <Center ID = "LAHB">
-<Dispatch ID = "FRCC">
+<Dispatch ID = "BFCC">
 
-		<Log ID = "220221FR00155">
-			<LogTime>"Feb 21 2022  9:35AM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"E Lincoln Ave / S Englehart Ave"</Location>
-			<LocationDesc>"AT THE I/S"</LocationDesc>
-			<Area>"Fresno"</Area>
+		<Log ID = "220221BF00111">
+			<LogTime>"Feb 21 2022  9:42AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Sr99 S / Norris Rd"</Location>
+			<LocationDesc>"SB JNO"</LocationDesc>
+			<Area>"Bakersfield"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36647484:119412861"</LATLON>
+			<LATLON>"35421619:119061208"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
-			<IncidentDetail>"[2] A PIECE OF FURNITURE ALONG SIDE OF THE RDWY THAT IS BURNING"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:44AM"</DetailTime>
+			<IncidentDetail>"[5] DEBRIS 1125"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Feb 21 2022  9:36AM"</DetailTime>
-			<IncidentDetail>"[1] XFER TO CAL FIRE"</IncidentDetail>
+			<DetailTime>"Feb 21 2022  9:44AM"</DetailTime>
+			<IncidentDetail>"[4] VEH 1125 IN CD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:44AM"</DetailTime>
+			<IncidentDetail>"[3] RP SWERVED TO MISS TIRE DEBRIS IN RDWY AND TC'D INTO CD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:43AM"</DetailTime>
+			<IncidentDetail>"[2] WHI NISS SENT VS CD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[1] SOLO VEH TC"</IncidentDetail>
 		</details></LogDetails></Log>
 
-		<Log ID = "220221FR00152">
-			<LogTime>"Feb 21 2022  9:28AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr99 S / Jensen Ave Ofr"</Location>
-			<LocationDesc>"SB 99 JNO JENSEN, 1/2 MI JNO"</LocationDesc>
-			<Area>"Fresno"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36711097:119778326"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022  9:31AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221FR00138">
-			<LogTime>"Feb 21 2022  9:05AM"</LogTime>
-			<LogType>"WIND Advisory"</LogType>
-			<Location>"125 S 6th St"</Location>
-			<LocationDesc>"COALINGA AREA OFFICE"</LocationDesc>
-			<Area>"FR"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36137817:120359847"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022  9:06AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:06AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:06AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221FR00130">
-			<LogTime>"Feb 21 2022  8:38AM"</LogTime>
-			<LogType>"ANIMAL-Live or Dead Animal"</LogType>
-			<Location>"Auberry Rd / Caballero Rd"</Location>
-			<LocationDesc>"AUBERRY JWO CABALLERO, 1 MILE"</LocationDesc>
-			<Area>"Fresno"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36992419:119596173"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  8:39AM"</DetailTime>
-			<IncidentDetail>"[1] WHI BLK COW ALONG THE SIDE OF THE RDWY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:34AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:17AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:09AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:53AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221FR00112">
-			<LogTime>"Feb 21 2022  8:00AM"</LogTime>
-			<LogType>"1125A-Animal Hazard"</LogType>
-			<Location>"46851 Dunlap Rd"</Location>
-			<LocationDesc>"46851 Dunlap Rd JEO MILL CREEK"</LocationDesc>
-			<Area>"Fresno"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36685305:119042959"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  8:00AM"</DetailTime>
-			<IncidentDetail>"[1] 4 COWS WALKING IN THE RDWY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:19AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221FR00028">
-			<LogTime>"Feb 21 2022  1:20AM"</LogTime>
-			<LogType>"CHAINS-Chain Control"</LogType>
-			<Location>"1380 E Fortune Ave"</Location>
-			<LocationDesc>"CHAINS"</LocationDesc>
-			<Area>"FR"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36689097:119764090"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221FR00027">
-			<LogTime>"Feb 21 2022  1:20AM"</LogTime>
+		<Log ID = "220221BF00043">
+			<LogTime>"Feb 21 2022  2:48AM"</LogTime>
 			<LogType>"FOG-Foggy Conditions"</LogType>
-			<Location>"1380 E Fortune Ave"</Location>
-			<LocationDesc>"FOG LOG"</LocationDesc>
-			<Area>"FR"</Area>
+			<Location>"Bakersfield Fog Log"</Location>
+			<LocationDesc>"Bakersfield Fog Log"</LocationDesc>
+			<Area>"BF"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36689097:119764090"</LATLON>
+			<LATLON>"35265234:119024794"</LATLON>
 			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  2:49AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  2:49AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "LACC">
+
+		<Log ID = "220221LA00994">
+			<LogTime>"Feb 21 2022  9:40AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr60 W / Eo I605"</Location>
+			<LocationDesc>"WB 60 JEO 605"</LocationDesc>
+			<Area>"Santa Fe Springs"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34033139:118025078"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[3] [Appended, 09:44:39] [2] [Notification] [CHP]-[1] BOX SLOW LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:41AM"</DetailTime>
+			<IncidentDetail>"[1] LARGE ROCK FAR RIGHT LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:41AM"</DetailTime>
+			<IncidentDetail>"[2] [Appended, 09:44:39] [1] BOX SLOW LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221LA01001">
+			<LogTime>"Feb 21 2022  9:38AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Sr60 E / Azusa Ave"</Location>
+			<LocationDesc>"SR60 E / AZUSA AVE"</LocationDesc>
+			<Area>"Santa Fe Springs"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33996831:117931031"</LATLON>
+			<LogDetails><details/></LogDetails></Log>
 
 		<Log ID = "220221LA00984">
 			<LogTime>"Feb 21 2022  9:34AM"</LogTime>
@@ -1918,6 +1954,10 @@
 			<LATLON>"34266957:118443827"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Feb 21 2022  9:40AM"</DetailTime>
+			<IncidentDetail>"[6] 1039 RP // COPIES TO FILE OC"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
 			<IncidentDetail>"[4] PTY STATES DRIVER OF THE  TRUCK  PULLED TO THE RS"</IncidentDetail>
 		</details>
@@ -1928,7 +1968,9 @@
 		<details>
 			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
 			<IncidentDetail>"[2] ****   OCC'D  30 MINS AGO  ***   TRUCK  LOST A  TRASH  CAN  IN LANES ,,,,RP STRUCK THE TRASH CAN , CAUSED  DAMAGE   REQ'ING  CHP  FOR  1110 *  VICTS VEH   RED   TOYT  CAMRY"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:41AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221LA00966">
 			<LogTime>"Feb 21 2022  9:29AM"</LogTime>
@@ -1948,49 +1990,23 @@
 			<IncidentDetail>"[1] NB 5 JSO CESAR CHAVEZ JSO 10 TRANS //3 VEHS ON RS PARTIALLY SLOW LN W/FLTS REQ CHP FOR ASSTS"</IncidentDetail>
 		</details></LogDetails></Log>
 
-		<Log ID = "220221LA00941">
-			<LogTime>"Feb 21 2022  9:22AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I405 S / W Century Blvd"</Location>
-			<LocationDesc>"I405 S / W CENTURY BLVD"</LocationDesc>
-			<Area>"West LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33945467:118368526"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:35AM"</DetailTime>
-			<IncidentDetail>"[8] 79-60M - VEH TO MOVED TO RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:33AM"</DetailTime>
-			<IncidentDetail>"[7] A79-060M  W/A BREAK IN PLACE JSO ARBOR VITAE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:26AM"</DetailTime>
-			<IncidentDetail>"[2] 2ND  REPORT COPIES  IN HOV LANE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:23AM"</DetailTime>
-			<IncidentDetail>"[1] GRN VEH IN LNS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:33AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:29AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:31AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:24AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "220221LA00930">
 			<LogTime>"Feb 21 2022  9:17AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
 			<Location>"I5 N / Van Nuys Blvd Ofr"</Location>
 			<LocationDesc>"JSO"</LocationDesc>
 			<Area>"Altadena"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34253130:118431099"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:40AM"</DetailTime>
+			<IncidentDetail>"[25] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:38AM"</DetailTime>
+			<IncidentDetail>"[24] AUDI NOW IN DP - RDWY CLR / RDWY OPEN [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Feb 21 2022  9:34AM"</DetailTime>
 			<IncidentDetail>"[23] 98-53 HAS ALL LNS TEMP SHUT DOWN [Shared]"</IncidentDetail>
@@ -2033,6 +2049,8 @@
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:27AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:38AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:23AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -2058,28 +2076,6 @@
 			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:20AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221BF00100">
-			<LogTime>"Feb 21 2022  8:54AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 N / SMOKEY BEAR RD OFR"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Newhall"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34704806:118794557"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:23AM"</DetailTime>
-			<IncidentDetail>"[5] LL WITH IN INVOLV - NB AT SMOKEY BEAR OFR  - TOW HAS A 10 MINUTE ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:55AM"</DetailTime>
-			<IncidentDetail>"[1] XRAY  AND  CHILDREN   *   SILV  BMW  528I   * OUT OF GAS  *   RS  OF THE   GORMAN OFR"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:24AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:57AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221LA00860">
@@ -2128,66 +2124,24 @@
 			<LATLON>"33991896:117889095"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[4] Secondary Location for A83-602: 20759 TIMBERLINE LANE WALNUT - AI."</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[3] Secondary Location for A83-031: 20759 TIMBERLINE LANE WALNUT - AI."</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Feb 21 2022  8:47AM"</DetailTime>
 			<IncidentDetail>"[2] RP FRM OO TOWN AND CHKG OUT TODAY // RP CALLED THIS IN A  FEW DAYS AGO TO FILE OCTR RPT BUT OFC WAS ALRDY CLOSED"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  9:05AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:55AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221LA00828">
-			<LogTime>"Feb 21 2022  8:31AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"28525 Industry Dr"</Location>
-			<LocationDesc>"IFO BUSINESS"</LocationDesc>
-			<Area>"Newhall"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34452719:118633063"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:02AM"</DetailTime>
-			<IncidentDetail>"[18] 1039 EDISON // ALREADY HAS CALL REF # 2741093 // CREW HAS BEEN DISPATCHED // 30 ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:57AM"</DetailTime>
-			<IncidentDetail>"[16] A78-100  ADVISE EDISON POLE #4125302E DOWN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:52AM"</DetailTime>
-			<IncidentDetail>"[12] 78-100 VEH IS UP ON RAISED VEGETATION CURB NEXT TO DOWNED POLE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:51AM"</DetailTime>
-			<IncidentDetail>"[11] [Rotation Request Comment] 1039 PREFERRED TOW 661-299-4869 ENRT W FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:47AM"</DetailTime>
-			<IncidentDetail>"[8] 78-513 1182 ONLY // 1185 FORD F150 MAJ FE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:45AM"</DetailTime>
-			<IncidentDetail>"[7] 78-513 FIRE 97 // WATER CAPPED OFF"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:32AM"</DetailTime>
-			<IncidentDetail>"[1] WHI FIRD TK VS FIRE HYDRANT"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  8:45AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:41AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:17AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:47AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:47AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:41AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:47AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:41AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221LA00818">
@@ -2762,316 +2716,114 @@
 			<UnitTime>"Feb 21 2022  5:29AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BFCC">
+<Dispatch ID = "FRCC">
 
-		<Log ID = "220221BF00043">
-			<LogTime>"Feb 21 2022  2:48AM"</LogTime>
-			<LogType>"FOG-Foggy Conditions"</LogType>
-			<Location>"Bakersfield Fog Log"</Location>
-			<LocationDesc>"Bakersfield Fog Log"</LocationDesc>
-			<Area>"BF"</Area>
+		<Log ID = "220221FR00138">
+			<LogTime>"Feb 21 2022  9:05AM"</LogTime>
+			<LogType>"WIND Advisory"</LogType>
+			<Location>"125 S 6th St"</Location>
+			<LocationDesc>"COALINGA AREA OFFICE"</LocationDesc>
+			<Area>"FR"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35265234:119024794"</LATLON>
+			<LATLON>"36137817:120359847"</LATLON>
 			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022  2:49AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  9:06AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  2:49AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  9:06AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:06AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221FR00130">
+			<LogTime>"Feb 21 2022  8:38AM"</LogTime>
+			<LogType>"ANIMAL-Live or Dead Animal"</LogType>
+			<Location>"Auberry Rd / Caballero Rd"</Location>
+			<LocationDesc>"AUBERRY JWO CABALLERO, 1 MILE"</LocationDesc>
+			<Area>"Fresno"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36992419:119596173"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  8:39AM"</DetailTime>
+			<IncidentDetail>"[1] WHI BLK COW ALONG THE SIDE OF THE RDWY"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:34AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:17AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:09AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  8:53AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221FR00112">
+			<LogTime>"Feb 21 2022  8:00AM"</LogTime>
+			<LogType>"1125A-Animal Hazard"</LogType>
+			<Location>"46851 Dunlap Rd"</Location>
+			<LocationDesc>"46851 Dunlap Rd JEO MILL CREEK"</LocationDesc>
+			<Area>"Fresno"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36685305:119042959"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  8:00AM"</DetailTime>
+			<IncidentDetail>"[1] 4 COWS WALKING IN THE RDWY"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:19AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221FR00028">
+			<LogTime>"Feb 21 2022  1:20AM"</LogTime>
+			<LogType>"CHAINS-Chain Control"</LogType>
+			<Location>"1380 E Fortune Ave"</Location>
+			<LocationDesc>"CHAINS"</LocationDesc>
+			<Area>"FR"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36689097:119764090"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221FR00027">
+			<LogTime>"Feb 21 2022  1:20AM"</LogTime>
+			<LogType>"FOG-Foggy Conditions"</LogType>
+			<Location>"1380 E Fortune Ave"</Location>
+			<LocationDesc>"FOG LOG"</LocationDesc>
+			<Area>"FR"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36689097:119764090"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  1:20AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
 
 <Center ID = "INHB">
-<Dispatch ID = "OCCC">
-
-		<Log ID = "220221OCFSP00029">
-			<LogTime>"Feb 21 2022  9:31AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 N / Jamboree Rd"</Location>
-			<LocationDesc>"NB 5 JSO JAMB"</LocationDesc>
-			<Area>"Orange County FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33719775:117795048"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:31AM"</DetailTime>
-			<IncidentDetail>"[1] [1] LRG BAG OF TREE TRIMMINGS IN #2 LNS[Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:36AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:32AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OC00116">
-			<LogTime>"Feb 21 2022  9:30AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 N / Jamboree Rd"</Location>
-			<LocationDesc>"NB 5 JSO JAMB"</LocationDesc>
-			<Area>"Santa Ana"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33719775:117795048"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:31AM"</DetailTime>
-			<IncidentDetail>"[1] LRG BAG OF TREE TRIMMINGS IN #2 LNS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:33AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:33AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:32AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OCFSP00026">
-			<LogTime>"Feb 21 2022  9:27AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I5 S / Beach Blvd"</Location>
-			<LocationDesc>"I5 S BEACH BLVD"</LocationDesc>
-			<Area>"Orange County FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33866112:117998024"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:27AM"</DetailTime>
-			<IncidentDetail>"[1] SB 5 JSO BEACH / WHI FORD VS TOYT RAV4 / PTYS EXCHANGED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:27AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:27AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:27AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OCFSP00022">
-			<LogTime>"Feb 21 2022  9:12AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I405 N / Fairview Rd Fv"</Location>
-			<LocationDesc>"NB 405 JNO FV"</LocationDesc>
-			<Area>"Orange County FSP"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33687994:117907896"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:13AM"</DetailTime>
-			<IncidentDetail>"[4] 2ND PIECE JSO HARBOR O/PASS IN #2 LN [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:12AM"</DetailTime>
-			<IncidentDetail>"[1] [1] LRG WOOD DEBRIS IN RIGHT HAND LN[Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:11AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 09:14:24] [1] 2X4 WOOD IN SLOW LN [Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:19AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:14AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OC00103">
-			<LogTime>"Feb 21 2022  9:02AM"</LogTime>
-			<LogType>"BREAK-Traffic Break"</LogType>
-			<Location>"I405 N / Harbor Blvd"</Location>
-			<LocationDesc>"I405 N HARBOR BLVD"</LocationDesc>
-			<Area>"Santa Ana"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33689267:117919301"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:31AM"</DetailTime>
-			<IncidentDetail>"[20] [FSP] has closed their incident [220221OCFSP00020]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:13AM"</DetailTime>
-			<IncidentDetail>"[10] 2ND PIECE JSO HARBOR O/PASS IN #2 LN [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:12AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 09:13:08] [1] LRG WOOD DEBRIS IN RIGHT HAND LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:11AM"</DetailTime>
-			<IncidentDetail>"[11] [Appended, 09:14:24] [1] 2X4 WOOD IN SLOW LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  9:00AM"</DetailTime>
-			<IncidentDetail>"[1] [1] NB 405 JSO HARBOR / 2X4 #4 / RE BREAK AT FAIRVIEW[Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  9:14AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:12AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:02AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OC00036">
-			<LogTime>"Feb 21 2022  2:50AM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"N Blue Gum St / E La Palma Ave"</Location>
-			<LocationDesc>"** LOG OPEN FOR DUPS **"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33848198:117868818"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  5:46AM"</DetailTime>
-			<IncidentDetail>"[8] 1039 CT VIA LL"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  5:42AM"</DetailTime>
-			<IncidentDetail>"[6] PER MNET WILL BE SMOKE IN THE AREA ALL DAY - POSS UNTIL TOMORROW"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  2:53AM"</DetailTime>
-			<IncidentDetail>"[4] FIRE VISABLE FROM EB 91 AT 57 OR LA PALMA JNO 91"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  2:51AM"</DetailTime>
-			<IncidentDetail>"[3] LOG OPEN FOR DUPS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  2:51AM"</DetailTime>
-			<IncidentDetail>"[2] METRO NET STILL WORKING THE FIRE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  2:50AM"</DetailTime>
-			<IncidentDetail>"[1] STRUCTURE FIRE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  2:54AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  2:54AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OC00016">
-			<LogTime>"Feb 21 2022 12:32AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"Sr57 S To / Sr22 W Con"</Location>
-			<LocationDesc>"SB 57 TRANS WB 22 **144"</LocationDesc>
-			<Area>"Santa Ana"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33780888:117882271"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  7:17AM"</DetailTime>
-			<IncidentDetail>"[60] 1039 STA 26 -- ADDY IS CLR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  7:16AM"</DetailTime>
-			<IncidentDetail>"[57] 1039 STA 26 -- ADDY IS CLR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  7:02AM"</DetailTime>
-			<IncidentDetail>"[53] 1039 STA 26 FOR BLU CHECK -- THEIR 2 UNITS THAT HAVE IT ARE 10-6 RIGHT NOW BUT WILL SEND THEM WHEN CLR OR WILL CALL BACK IF THEY CANT SEND THEM FOR SOME REASON"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  1:39AM"</DetailTime>
-			<IncidentDetail>"[31] C86-502 LNS CLR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  1:36AM"</DetailTime>
-			<IncidentDetail>"[29] [Notification] [CHP]-BT ETA 10 MINS [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  1:32AM"</DetailTime>
-			<IncidentDetail>"[28]  1039 BT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  1:31AM"</DetailTime>
-			<IncidentDetail>"[27] C86-093 VEH 6  SM 253380 ENRT TO OFC ID 22536 W/1015 X2 REQ BT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:46AM"</DetailTime>
-			<IncidentDetail>"[17] [Rotation Request Comment] 1039 Tows R Russ 714-639-7877"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:35AM"</DetailTime>
-			<IncidentDetail>"[14] 86-93 1185 IS FOR  F350 // POSS NEEDS TO BE A MED DUTY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:34AM"</DetailTime>
-			<IncidentDetail>"[13] [Rotation Request Comment] 1039 Archies Tow 714-771-0911"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:33AM"</DetailTime>
-			<IncidentDetail>"[10] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
-			<IncidentDetail>"[7] [Appended, 00:32:58] [6] 1039 OCFA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
-			<IncidentDetail>"[6] [Appended, 00:32:58] [5] RP ADV NEAR LA VETA OFR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
-			<IncidentDetail>"[1] VEH SIDEWAYS BLKG THE 2 LANE  - REQ 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 00:32:58] [3] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022 12:29AM"</DetailTime>
-			<IncidentDetail>"[2] [Appended, 00:32:58] [1] 2 UNK VEH - ON RHS - PTY POSS EJECTED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022  7:49AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:16AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  7:02AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  1:39AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:41AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:33AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  8:23AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:32AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:32AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:32AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OC00003">
-			<LogTime>"Feb 21 2022 12:02AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OCCC"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220221OC00002">
-			<LogTime>"Feb 21 2022 12:02AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  5:38AM"</DetailTime>
-			<IncidentDetail>"[2] ^TMC MEDIA LINE IS OPEN (949) 651-4555"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "INCC">
+
+		<Log ID = "220221IN00294">
+			<LogTime>"Feb 21 2022  9:43AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"Sr91 E / Tyler St Ofr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33904470:117459951"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:43AM"</DetailTime>
+			<IncidentDetail>"[2] FIRE STARING ON RHS OF ONR"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "220221IN00281">
 			<LogTime>"Feb 21 2022  9:23AM"</LogTime>
@@ -3114,6 +2866,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34067323:117554317"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[12] 1039 3A - SO: 143160 /  AIRPORT MOBILE / 1042 / Y252"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[11] A123-103  3A 1185 - BLU HONDA"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Feb 21 2022  9:03AM"</DetailTime>
 			<IncidentDetail>"[5] BOTH ON RS"</IncidentDetail>
@@ -3387,6 +3147,300 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 			<UnitTime>"Feb 21 2022  8:07AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "BCCC">
+
+		<Log ID = "220221BC00279">
+			<LogTime>"Feb 21 2022  9:43AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr75 W / Midspan Eo"</Location>
+			<LocationDesc>"SR75 W MIDSPAN EO (BRIDGE)"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32692872:117150350"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:44AM"</DetailTime>
+			<IncidentDetail>"[1] WHI UNK SD W/ HAZARD LIGHTS ON BLOCKING MIDDLE LN"</IncidentDetail>
+		</details></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "ECCC">
+
+		<Log ID = "220221EC00022">
+			<LogTime>"Feb 21 2022  9:40AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"0 Blythe Ogilby Rd"</Location>
+			<LocationDesc>"7 MILES JSO 78"</LocationDesc>
+			<Area>"Winterhaven"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32987752:114896770"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:43AM"</DetailTime>
+			<IncidentDetail>"[14] Address 0 Blythe Ogilby Rd verified by Latitude / Longitude"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:43AM"</DetailTime>
+			<IncidentDetail>"[12] RP CAME UP ON T/C"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[11] UNK IF ANYONE ELSE INSIDE THE VEHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:41AM"</DetailTime>
+			<IncidentDetail>"[4] SUV IS 1125"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:42AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:42AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:41AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:41AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221EC00020">
+			<LogTime>"Feb 21 2022  9:37AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"1st Ave / Arnold Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Winterhaven"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32752811:114633431"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[2] 1039 116-75 VIA LL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:37AM"</DetailTime>
+			<IncidentDetail>"[1] HARVESTING MACHINE ALMOST STICKING OUT INTO THE RDWY AND OBSTRUCTING VIEW"</IncidentDetail>
+		</details></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "OCCC">
+
+		<Log ID = "220221OCFSP00026">
+			<LogTime>"Feb 21 2022  9:27AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"I5 S / Beach Blvd"</Location>
+			<LocationDesc>"I5 S BEACH BLVD"</LocationDesc>
+			<Area>"Orange County FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33866112:117998024"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:27AM"</DetailTime>
+			<IncidentDetail>"[1] SB 5 JSO BEACH / WHI FORD VS TOYT RAV4 / PTYS EXCHANGED"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:27AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:27AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:27AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221OCFSP00022">
+			<LogTime>"Feb 21 2022  9:12AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I405 N / Fairview Rd Fv"</Location>
+			<LocationDesc>"NB 405 JNO FV"</LocationDesc>
+			<Area>"Orange County FSP"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33687994:117907896"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:43AM"</DetailTime>
+			<IncidentDetail>"[9] [Notification] [CHP]-UTL ON ANY ADDTL WOOD DEBRIS  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:13AM"</DetailTime>
+			<IncidentDetail>"[4] 2ND PIECE JSO HARBOR O/PASS IN #2 LN [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:12AM"</DetailTime>
+			<IncidentDetail>"[1] [1] LRG WOOD DEBRIS IN RIGHT HAND LN[Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:11AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 09:14:24] [1] 2X4 WOOD IN SLOW LN [Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  9:19AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:14AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221OC00036">
+			<LogTime>"Feb 21 2022  2:50AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"N Blue Gum St / E La Palma Ave"</Location>
+			<LocationDesc>"** LOG OPEN FOR DUPS **"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33848198:117868818"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  5:46AM"</DetailTime>
+			<IncidentDetail>"[8] 1039 CT VIA LL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  5:42AM"</DetailTime>
+			<IncidentDetail>"[6] PER MNET WILL BE SMOKE IN THE AREA ALL DAY - POSS UNTIL TOMORROW"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  2:53AM"</DetailTime>
+			<IncidentDetail>"[4] FIRE VISABLE FROM EB 91 AT 57 OR LA PALMA JNO 91"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  2:51AM"</DetailTime>
+			<IncidentDetail>"[3] LOG OPEN FOR DUPS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  2:51AM"</DetailTime>
+			<IncidentDetail>"[2] METRO NET STILL WORKING THE FIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  2:50AM"</DetailTime>
+			<IncidentDetail>"[1] STRUCTURE FIRE"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  2:54AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  2:54AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221OC00016">
+			<LogTime>"Feb 21 2022 12:32AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Sr57 S To / Sr22 W Con"</Location>
+			<LocationDesc>"SB 57 TRANS WB 22 **144"</LocationDesc>
+			<Area>"Santa Ana"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33780888:117882271"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  7:17AM"</DetailTime>
+			<IncidentDetail>"[60] 1039 STA 26 -- ADDY IS CLR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:16AM"</DetailTime>
+			<IncidentDetail>"[57] 1039 STA 26 -- ADDY IS CLR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  7:02AM"</DetailTime>
+			<IncidentDetail>"[53] 1039 STA 26 FOR BLU CHECK -- THEIR 2 UNITS THAT HAVE IT ARE 10-6 RIGHT NOW BUT WILL SEND THEM WHEN CLR OR WILL CALL BACK IF THEY CANT SEND THEM FOR SOME REASON"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  1:39AM"</DetailTime>
+			<IncidentDetail>"[31] C86-502 LNS CLR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  1:36AM"</DetailTime>
+			<IncidentDetail>"[29] [Notification] [CHP]-BT ETA 10 MINS [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  1:32AM"</DetailTime>
+			<IncidentDetail>"[28]  1039 BT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  1:31AM"</DetailTime>
+			<IncidentDetail>"[27] C86-093 VEH 6  SM 253380 ENRT TO OFC ID 22536 W/1015 X2 REQ BT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:46AM"</DetailTime>
+			<IncidentDetail>"[17] [Rotation Request Comment] 1039 Tows R Russ 714-639-7877"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:35AM"</DetailTime>
+			<IncidentDetail>"[14] 86-93 1185 IS FOR  F350 // POSS NEEDS TO BE A MED DUTY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:34AM"</DetailTime>
+			<IncidentDetail>"[13] [Rotation Request Comment] 1039 Archies Tow 714-771-0911"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:33AM"</DetailTime>
+			<IncidentDetail>"[10] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 00:32:58] [6] 1039 OCFA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
+			<IncidentDetail>"[6] [Appended, 00:32:58] [5] RP ADV NEAR LA VETA OFR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
+			<IncidentDetail>"[1] VEH SIDEWAYS BLKG THE 2 LANE  - REQ 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:32AM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 00:32:58] [3] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022 12:29AM"</DetailTime>
+			<IncidentDetail>"[2] [Appended, 00:32:58] [1] 2 UNK VEH - ON RHS - PTY POSS EJECTED"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022  7:49AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:16AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  7:02AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  1:39AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:41AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  8:23AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:32AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:32AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:32AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221OC00003">
+			<LogTime>"Feb 21 2022 12:02AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OCCC"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220221OC00002">
+			<LogTime>"Feb 21 2022 12:02AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  5:38AM"</DetailTime>
+			<IncidentDetail>"[2] ^TMC MEDIA LINE IS OPEN (949) 651-4555"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022 12:02AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "ICCC">
 
 		<Log ID = "220221IC00105">
@@ -3409,38 +3463,8 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 		<details>
 			<DetailTime>"Feb 21 2022  9:15AM"</DetailTime>
 			<IncidentDetail>"[1] SUS VEH -- PK TRK GRY  01226Y1"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "220221IC00100">
-			<LogTime>"Feb 21 2022  8:45AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Seminole Dr / Morongo Tr Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"San Gorgonio Pass"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33921675:116805918"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Feb 21 2022  9:17AM"</DetailTime>
-			<IncidentDetail>"[7] [Notification] [CHP]-MORONGO TRIBAL POLICE ADV IT IS THEIR TRASH TRUCK AND 10-20 IS IFO 48557 Morongo Rd [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:46AM"</DetailTime>
-			<IncidentDetail>"[3] TRASH TRUCK - 1125"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:46AM"</DetailTime>
-			<IncidentDetail>"[2] VS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Feb 21 2022  8:46AM"</DetailTime>
-			<IncidentDetail>"[1] RP IN GRY CHEV TK 1125"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Feb 21 2022  9:35AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:12AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:12AM"</UnitTime>
+			<UnitTime>"Feb 21 2022  9:39AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220221IC00092">
@@ -3452,6 +3476,12 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33894123:116545390"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:31AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:31AM"</UnitTime>
@@ -3538,6 +3568,12 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 			<DetailTime>"Feb 21 2022  8:13AM"</DetailTime>
 			<IncidentDetail>"[1] ** HIGH WINDS, GUSTY WINDS, BLOWING SAND AND DEBRIS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Feb 21 2022  9:44AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:17AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:17AM"</UnitTime>
@@ -3719,7 +3755,15 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 			<Area>"BS"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34893251:117024939"</LATLON>
-			<LogDetails><details/><units>
+			<LogDetails>
+		<details>
+			<DetailTime>"Feb 21 2022  9:39AM"</DetailTime>
+			<IncidentDetail>"[6] 1039 CALTRANS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Feb 21 2022  9:38AM"</DetailTime>
+			<IncidentDetail>"[4] A73-047 AT NTH NOW DIRT AND DEBRIS VIBILITY OVER 1 MILE  / EXTREMELY HIGH WINDS ON I40 ADVS CALTRANS TO UPDATE CMS SIGNS FOR HIGH PROFILE VEHICLES"</IncidentDetail>
+		</details><units>
 			<UnitTime>"Feb 21 2022  7:06AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  7:06AM"</UnitTime>
@@ -3753,32 +3797,6 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 			<LATLON>"34508704:117330146"</LATLON>
 			<LogDetails><details/></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BCCC">
-
-		<Log ID = "220221BC00240">
-			<LogTime>"Feb 21 2022  9:01AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I805 S / E H St"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32640400:117055509"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Feb 21 2022  9:25AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:25AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:25AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:13AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:13AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:03AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Feb 21 2022  9:03AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "BICC">
 
 		<Log ID = "220221BI00026">
@@ -3791,6 +3809,10 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 			<LATLON>"35115171:118186171"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Feb 21 2022  9:42AM"</DetailTime>
+			<IncidentDetail>"[6] PER CT THEY HAVE DRIVERS  ENRT 45 MIN ETA  COMING FROM LANCASTER"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Feb 21 2022  9:00AM"</DetailTime>
 			<IncidentDetail>"[4] 1039 CT"</IncidentDetail>
 		</details>
@@ -3802,6 +3824,8 @@ MIS/22651(G) EXTREME TOW (951)823-0680 IN00213 017441 A09594"</IncidentDetail>
 			<DetailTime>"Feb 21 2022  8:58AM"</DetailTime>
 			<IncidentDetail>"[1] REQ CT FOR WIND CLOSURE AT 165"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Feb 21 2022  9:42AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:58AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Feb 21 2022  8:58AM"</UnitTime>
