@@ -14,7 +14,13 @@
 		<details>
 			<DetailTime>"Jul 26 2022  4:30AM"</DetailTime>
 			<IncidentDetail>"[2] IN CD"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Jul 26 2022  4:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:37AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:37AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220726SA00097">
 			<LogTime>"Jul 26 2022  3:26AM"</LogTime>
@@ -141,6 +147,8 @@
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  1:45AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:41AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022 10:47PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022 10:21PM"</UnitTime>
@@ -372,7 +380,11 @@
 			<Area>"Clear Lake"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38910243:122612259"</LATLON>
-			<LogDetails><details/></LogDetails></Log>
+			<LogDetails><details/><units>
+			<UnitTime>"Jul 26 2022  4:34AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:34AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "RDCC">
 
@@ -592,29 +604,51 @@
 			<UnitTime>"Jul 26 2022  2:35AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "STCC">
+<Dispatch ID = "CHCC">
 
-		<Log ID = "220725ST00341">
-			<LogTime>"Jul 25 2022  8:35PM"</LogTime>
+		<Log ID = "220725CH00173">
+			<LogTime>"Jul 25 2022  7:32PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"2720 Wilcox Rd"</Location>
+			<Location>"Sr162 / Arbol Ave"</Location>
 			<LocationDesc>""</LocationDesc>
-			<Area>"Stockton"</Area>
+			<Area>"Oroville"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37989270:121246055"</LATLON>
+			<LATLON>"39505491:121517367"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Jul 25 2022  8:35PM"</DetailTime>
-			<IncidentDetail>"[1] TIL 0500 VEH 1365602 BM 202544"</IncidentDetail>
+			<DetailTime>"Jul 26 2022 12:15AM"</DetailTime>
+			<IncidentDetail>"[4] 35-S1  VEH 1549394 // BM 73570 APPROX 0600"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jul 25 2022  8:06PM"</DetailTime>
+			<IncidentDetail>"[3] 35-D1 VEH 1448220 / BM 220450 / APPROX 0600"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Jul 25 2022  8:57PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:35PM"</UnitTime>
+			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:35PM"</UnitTime>
+			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:35PM"</UnitTime>
+			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022 12:42AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022 12:15AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022  8:18PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022  8:02PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022 11:19PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022  8:18PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022  7:42PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022  7:33PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "STCC">
 
 		<Log ID = "220725ST00326">
 			<LogTime>"Jul 25 2022  7:22PM"</LogTime>
@@ -640,34 +674,6 @@
 			<UnitTime>"Jul 25 2022  8:24PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022  7:23PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220725ST00301">
-			<LogTime>"Jul 25 2022  6:23PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr132 Ofr / I580 E"</Location>
-			<LocationDesc>"SR132 AND CHRISMAN"</LocationDesc>
-			<Area>"Tracy"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37646002:121414276"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jul 25 2022  7:51PM"</DetailTime>
-			<IncidentDetail>"[3] 103-D2  CLOSURE INFO EB 580 /132 TRANSITION CLOSED UNTIL 0400"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jul 26 2022  4:22AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:12AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:12AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:15AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  6:24PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  6:24PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "220725ST00168">
@@ -807,50 +813,6 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<UnitTime>"Jul 25 2022  1:39PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022  1:39PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "CHCC">
-
-		<Log ID = "220725CH00173">
-			<LogTime>"Jul 25 2022  7:32PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr162 / Arbol Ave"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Oroville"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"39505491:121517367"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jul 26 2022 12:15AM"</DetailTime>
-			<IncidentDetail>"[4] 35-S1  VEH 1549394 // BM 73570 APPROX 0600"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jul 25 2022  8:06PM"</DetailTime>
-			<IncidentDetail>"[3] 35-D1 VEH 1448220 / BM 220450 / APPROX 0600"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:42AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:15AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022 12:14AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:18PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:02PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022 11:19PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:18PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  7:42PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  7:33PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
@@ -1381,14 +1343,62 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
 
+		<Log ID = "220726LA00310">
+			<LogTime>"Jul 26 2022  4:38AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"Rosemead Blvd / San Gabriel Blvd"</Location>
+			<LocationDesc>"WHITTIER NARROWS"</LocationDesc>
+			<Area>"East LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34028451:118067915"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jul 26 2022  4:38AM"</DetailTime>
+			<IncidentDetail>"[2] 1039 LACOFD ENRT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jul 26 2022  4:38AM"</DetailTime>
+			<IncidentDetail>"[1] LARGE FIRE - WITH BRUSH AND TREES"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jul 26 2022  4:40AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220726LA00305">
+			<LogTime>"Jul 26 2022  4:36AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I10 E / N State St"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Central LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34054889:118212024"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jul 26 2022  4:37AM"</DetailTime>
+			<IncidentDetail>"[1] VEH FACING WW ON IN CM"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "220726LA00306">
+			<LogTime>"Jul 26 2022  4:35AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Us101 S / N Vignes St"</Location>
+			<LocationDesc>"US101 S / N VIGNES ST"</LocationDesc>
+			<Area>"Central LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34053481:118232306"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jul 26 2022  4:36AM"</DetailTime>
+			<IncidentDetail>"[1] DK COLORED SD BLOCKING THE #1 LN // POSS TC'D W/ CD"</IncidentDetail>
+		</details></LogDetails></Log>
+
 		<Log ID = "220726LA00288">
 			<LogTime>"Jul 26 2022  4:20AM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I110 N / Artesia Blvd"</Location>
-			<LocationDesc>"ARTESIA ONR"</LocationDesc>
+			<Location>"I110 N / W 182ND ST ONR"</Location>
+			<LocationDesc>""</LocationDesc>
 			<Area>"South LA"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33872644:118284782"</LATLON>
+			<LATLON>"33890833:118285419"</LATLON>
 			<LogDetails>
 		<details>
 			<DetailTime>"Jul 26 2022  4:21AM"</DetailTime>
@@ -1398,6 +1408,8 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<DetailTime>"Jul 26 2022  4:21AM"</DetailTime>
 			<IncidentDetail>"[1] MTA BUS BLOCKING #2 LN OF EXPRESS LNS - NEG PASSENGERS IN VEH"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jul 26 2022  4:34AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:22AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1616,6 +1628,12 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<DetailTime>"Jul 26 2022  2:34AM"</DetailTime>
 			<IncidentDetail>"[5] [Appended, 03:04:31] [1] PER CT BO WATER LINE FLOODING #4 LN, NEG CT COMING FROM CITY PROPERTY "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jul 26 2022  4:37AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:37AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:37AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:13AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:13AM"</UnitTime>
@@ -1628,6 +1646,8 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:01AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:16AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:00AM"</UnitTime>
@@ -1839,6 +1859,10 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<LATLON>"34144921:118227297"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Jul 26 2022  4:35AM"</DetailTime>
+			<IncidentDetail>"[5] ^SIGALERT: NB AND SB US-101 JSO W SUNSET BLVD, FLOODING ON FREEWAY, ALL LANES CLOSED UNKNOWN DURATION. - REF LOG 0216"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Jul 26 2022 12:07AM"</DetailTime>
 			<IncidentDetail>"[1] MEDIA LOG FOR 07/26/2022"</IncidentDetail>
 		</details><units>
@@ -1958,6 +1982,8 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022  9:28PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:41AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022 11:15PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022  8:38PM"</UnitTime>
@@ -2205,95 +2231,33 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<UnitTime>"Jul 25 2022  4:21AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "MRCC">
-
-		<Log ID = "220726MR00030">
-			<LogTime>"Jul 26 2022  4:03AM"</LogTime>
-			<LogType>"1166-Defective Traffic Signals"</LogType>
-			<Location>"Mono / Junction Shopping Center"</Location>
-			<LocationDesc>"MONO AT THE JUNCTION SHOPPING CENTER"</LocationDesc>
-			<Area>"Sonora"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37974918:120345411"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jul 26 2022  4:29AM"</DetailTime>
-			<IncidentDetail>"[6] 1039 TUO SO FOR CO RFDS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jul 26 2022  4:28AM"</DetailTime>
-			<IncidentDetail>"[5] C61-152  LIGHT IS STUCK ON GRN ON MONO // NOTOFY CO RDS TO CHECK IT OUT ASAP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jul 26 2022  4:11AM"</DetailTime>
-			<IncidentDetail>"[4] 1039 61-152"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jul 26 2022  4:12AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022  4:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220725MR00418">
-			<LogTime>"Jul 25 2022  8:51PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr99 N / E Childs Ave"</Location>
-			<LocationDesc>"NB AT"</LocationDesc>
-			<Area>"Merced"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37288463:120456392"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jul 25 2022  8:51PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:51PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  8:51PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "FRCC">
 
-		<Log ID = "220726FR00064">
-			<LogTime>"Jul 26 2022  4:02AM"</LogTime>
-			<LogType>"20001-Hit and Run w/Injuries"</LogType>
-			<Location>"Avenue 264 / Road 92b"</Location>
-			<LocationDesc>"AVENUE 264 AT RD 92B"</LocationDesc>
+		<Log ID = "220726FR00067">
+			<LogTime>"Jul 26 2022  4:37AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Avenue 52 / Road 152"</Location>
+			<LocationDesc>"WB AVE 52 AT RD 152"</LocationDesc>
 			<Area>"Visalia"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36266728:119363698"</LATLON>
+			<LATLON>"35884723:119232589"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Jul 26 2022  4:24AM"</DetailTime>
-			<IncidentDetail>"[29] WEST ROAD 92 AVENUE 256"</IncidentDetail>
+			<DetailTime>"Jul 26 2022  4:40AM"</DetailTime>
+			<IncidentDetail>"[6] RP COULDNT ADVS IF 1125"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Jul 26 2022  4:17AM"</DetailTime>
-			<IncidentDetail>"[20] SP VEH LSH EB AVE 264"</IncidentDetail>
+			<DetailTime>"Jul 26 2022  4:40AM"</DetailTime>
+			<IncidentDetail>"[5] TOT TUL CO FIRE"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Jul 26 2022  4:15AM"</DetailTime>
-			<IncidentDetail>"[15] MALE SITTING ON RHS"</IncidentDetail>
+			<DetailTime>"Jul 26 2022  4:38AM"</DetailTime>
+			<IncidentDetail>"[2] RP STATES TK RAN SS AND HIT HER"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Jul 26 2022  4:14AM"</DetailTime>
-			<IncidentDetail>"[13] MALE ADVS SP VEH WAS WHI  SUV"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jul 26 2022  4:12AM"</DetailTime>
-			<IncidentDetail>"[9] MALE ADVS HE WAS HIT BY VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jul 26 2022  4:12AM"</DetailTime>
-			<IncidentDetail>"[7] 1039 TUL CO FIRE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jul 26 2022  4:08AM"</DetailTime>
-			<IncidentDetail>"[1] RP STATES EMPLOYEE CALLED HER AND SAID A VEH HIT HIM AND TOOK OFF"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jul 26 2022  4:23AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022  4:23AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 26 2022  4:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+			<DetailTime>"Jul 26 2022  4:38AM"</DetailTime>
+			<IncidentDetail>"[1] SIL HOND ACC VS TK ]"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "220725FR00584">
 			<LogTime>"Jul 25 2022  9:56PM"</LogTime>
@@ -2347,6 +2311,54 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<UnitTime>"Jul 25 2022  8:32PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jul 25 2022  8:32PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "MRCC">
+
+		<Log ID = "220726MR00037">
+			<LogTime>"Jul 26 2022  4:33AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Mccracken Rd / Spencer St"</Location>
+			<LocationDesc>"JSO"</LocationDesc>
+			<Area>"Modesto"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37609301:121269244"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jul 26 2022  4:35AM"</DetailTime>
+			<IncidentDetail>"[6] NEG 1125"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jul 26 2022  4:35AM"</DetailTime>
+			<IncidentDetail>"[5] PHONE POLE IS STILL UPRIGHT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jul 26 2022  4:34AM"</DetailTime>
+			<IncidentDetail>"[4] WHI OR TAN TOYT OR HOND - WAS NB IN THE RPS SB LANE AND RAN HER OFF RDWY - CONTD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jul 26 2022  4:34AM"</DetailTime>
+			<IncidentDetail>"[2] SIL BMW VS PHONE POLE"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jul 26 2022  4:36AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jul 26 2022  4:36AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "220725MR00418">
+			<LogTime>"Jul 25 2022  8:51PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr99 N / E Childs Ave"</Location>
+			<LocationDesc>"NB AT"</LocationDesc>
+			<Area>"Merced"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37288463:120456392"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jul 25 2022  8:51PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022  8:51PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jul 25 2022  8:51PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "BFCC">
@@ -2466,35 +2478,25 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022 12:01AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "220725BF00344">
-			<LogTime>"Jul 25 2022  9:10PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"2300 Mm99 S Ker 23.00"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Bakersfield"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35345209:119039640"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jul 25 2022 11:05PM"</DetailTime>
-			<IncidentDetail>"[4] 1039 C1/C2/ECC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jul 25 2022 11:04PM"</DetailTime>
-			<IncidentDetail>"[3] 69-CZP2  DIVERTING SB TRAFFIC TO 58 TILL APPX 0600 HRS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jul 25 2022 11:13PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  9:51PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jul 25 2022  9:51PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
 
 <Center ID = "INHB">
 <Dispatch ID = "INCC">
+
+		<Log ID = "220726IN00091">
+			<LogTime>"Jul 26 2022  4:41AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"I210 W / Waterman Ave Onr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"San Bernardino"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34145541:117285697"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jul 26 2022  4:41AM"</DetailTime>
+			<IncidentDetail>"[1] HOMELESS STARTING FIRE ON RHS OF ONR"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "220726IN00087">
 			<LogTime>"Jul 26 2022  4:26AM"</LogTime>
@@ -2505,6 +2507,14 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33882019:117546883"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jul 26 2022  4:38AM"</DetailTime>
+			<IncidentDetail>"[13] REQ 1185 3A"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jul 26 2022  4:37AM"</DetailTime>
+			<IncidentDetail>"[12] [Notification] [CHP]-RP IN PK TK ADV THEY WILL BE EXCHANGING INFO SHE HAS TO GET TO WORK , PRTY IN KIA REQ 1185 VEH NOT DRIBEABLE  [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jul 26 2022  4:33AM"</DetailTime>
 			<IncidentDetail>"[8] [Notification] [CHP]-RP IN 2004 GRY FORD PK VS WHI KIA SOUL BOTH IN CD  [Shared]"</IncidentDetail>
@@ -2517,6 +2527,8 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<DetailTime>"Jul 26 2022  4:26AM"</DetailTime>
 			<IncidentDetail>"[1] MC VS PK TRK"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jul 26 2022  4:38AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:26AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -2553,6 +2565,8 @@ CALFIRE HAD ME MOVE CLOSURE FROM PROSPECT AT RIDGE TO SIERRA WEST CT AT PROSPECT
 			<DetailTime>"Jul 26 2022  4:19AM"</DetailTime>
 			<IncidentDetail>"[3] BIG RIG JNO LOC REQ UNIT TO CHECK // 97 W/ SD ON RS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jul 26 2022  4:37AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:29AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jul 26 2022  4:29AM"</UnitTime>
