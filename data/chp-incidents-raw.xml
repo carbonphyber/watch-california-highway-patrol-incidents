@@ -15,6 +15,10 @@
 			<DetailTime>"Mar 22 2023  2:42AM"</DetailTime>
 			<IncidentDetail>"[1] 46-MZP1 OID 21286  UNTIL 1000    -  VEH 1365309 BM 240263"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  3:01AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:01AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:41AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:41AM"</UnitTime>
@@ -231,6 +235,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:15AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:00AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:12AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:12AM"</UnitTime>
@@ -466,6 +472,10 @@
 			<LATLON>"38005439:121258030"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Mar 22 2023  2:52AM"</DetailTime>
+			<IncidentDetail>"[10] 62-S2  BIG RIG REPORTED TO HAVE HAD FLAMES COMING FM UNDER IT WHILE DRVG / BUT NEG FIRE NOW"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar 22 2023  2:46AM"</DetailTime>
 			<IncidentDetail>"[9] 62-S2  SB JNO WLSON ON RHS // BIG RIG NEG 1125 // FIRE IS 1125 IN EXIT LN ONLY"</IncidentDetail>
 		</details>
@@ -481,12 +491,16 @@
 			<DetailTime>"Mar 22 2023  2:30AM"</DetailTime>
 			<IncidentDetail>"[1] TSLA SEMI TK W/TL"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  3:04AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:46AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:41AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:41AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:02AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:33AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:33AM"</UnitTime>
@@ -509,40 +523,6 @@
 			<DetailTime>"Mar 22 2023  2:26AM"</DetailTime>
 			<IncidentDetail>"[1] POWER POLE ON FIRE"</IncidentDetail>
 		</details></LogDetails></Log>
-
-		<Log ID = "230322ST00009">
-			<LogTime>"Mar 22 2023  1:55AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"Baldwin St / Rippon Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"San Andreas"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38136807:120849060"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  1:59AM"</DetailTime>
-			<IncidentDetail>"[5] [Rotation Request Comment] *** 1039 SAM BERRI   728-3931 ***"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:56AM"</DetailTime>
-			<IncidentDetail>"[4] 1185R"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:55AM"</DetailTime>
-			<IncidentDetail>"[2] VEH OT SEVRL TIMES"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:11AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:06AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:06AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:11AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:56AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:56AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230321ST00217">
 			<LogTime>"Mar 21 2023  4:23PM"</LogTime>
@@ -792,80 +772,68 @@
 			<IncidentDetail>"[1] ^SR4 AT EBBETTS PASS"</IncidentDetail>
 		</details></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "HMCC">
-
-		<Log ID = "230321HM00086">
-			<LogTime>"Mar 21 2023  9:49PM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"Biggar Ln / Shady Ln"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Garberville"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"39807914:123243407"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 21 2023 10:57PM"</DetailTime>
-			<IncidentDetail>"[16] 1039 HOWARD, NEG WALK INS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  9:55PM"</DetailTime>
-			<IncidentDetail>"[11] JEEP VS FENCE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  9:54PM"</DetailTime>
-			<IncidentDetail>"[10] RP NOW ADVS TK WAS ABLE TO PULL THE JEEP OUT, BOTH VEHS LS SB ON BIGGAR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  9:53PM"</DetailTime>
-			<IncidentDetail>"[9] 2ND VEH IS GRY FORD PK"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  9:52PM"</DetailTime>
-			<IncidentDetail>"[8] RP ADVS THERE IS AN ADDTL VEH 97 POSS TRYING TO PULL THE SUV OUT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  9:51PM"</DetailTime>
-			<IncidentDetail>"[6] RP HEARD THE TC AND THEN WENT OUTSIDE AND LOOKED, UNK HOW MANY OCCUPS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  9:51PM"</DetailTime>
-			<IncidentDetail>"[4] 1125 IN NB LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 21 2023 11:08PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023  9:57PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023  9:57PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 </Center>
 
 <Center ID = "GGHB">
 <Dispatch ID = "GGCC">
 
-		<Log ID = "230322GG00146">
-			<LogTime>"Mar 22 2023  2:45AM"</LogTime>
+		<Log ID = "230322GG00156">
+			<LogTime>"Mar 22 2023  3:02AM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I580 W / Castro Valley Blvd Ofr"</Location>
-			<LocationDesc>"WB 580 JEO CVB"</LocationDesc>
-			<Area>"Hayward"</Area>
+			<Location>"I680 N / El Cerro Blvd Ofr"</Location>
+			<LocationDesc>"NB 680 JSO EL CERRO"</LocationDesc>
+			<Area>"Contra Costa"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37693936:122049284"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Mar 22 2023  2:49AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:49AM"</UnitTime>
+			<LATLON>"37827317:121997036"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[12] PER ANOTHER CALLER NB 680 JSO DIABLO RD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[10] DIDNT HAVE ANY TC DMG APPRD 1125 ONLY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 03:04:22] [2] SD  / # 3 LN  / NEG HAZ LIGHTS ON"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 03:04:36] [2] BLK MERZ IN LN 3"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023  3:05AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230322GG00143">
 			<LogTime>"Mar 22 2023  2:35AM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Us101 N / Grand Ave Onr"</Location>
-			<LocationDesc>"GRAND ONR TO NB // LHS"</LocationDesc>
+			<Location>"US101 N / SAN BRUNO AVE ONR"</Location>
+			<LocationDesc>"NB 101 JNO SAN BRUNO ONR"</LocationDesc>
 			<Area>"San Francisco"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37657178:122405939"</LATLON>
+			<LATLON>"37637963:122404560"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[13] [Rotation Request Comment] 1039 NELSONS / 415-822-8682"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:56AM"</DetailTime>
+			<IncidentDetail>"[11] C32-013  SOLO 1181 / 1185R BLK BMW 20 FT ONR AND MAIN LINE STUCK IN MUD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:54AM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 02:54:51] [2] VEH STRUCK CD AND NOW ON RHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:53AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 02:54:51] [1] PER SMSO REQ'G CHP TO RESPOND FOR  SOLO VEH TC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:52AM"</DetailTime>
+			<IncidentDetail>"[5] C32-013  NB 101 JNO SAN BRUNO ONR"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:37AM"</DetailTime>
 			<IncidentDetail>"[3] ADVISED GRAND ONR TO NB 101 BUT ALSO SAID HE WAS JUST LEAVING SFO"</IncidentDetail>
@@ -874,6 +842,10 @@
 			<DetailTime>"Mar 22 2023  2:37AM"</DetailTime>
 			<IncidentDetail>"[2] OLDER BLACK VEH -"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  2:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:52AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:41AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -965,28 +937,6 @@
 			<UnitTime>"Mar 22 2023  1:50AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "230322GG00106">
-			<LogTime>"Mar 22 2023  1:41AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr92 / Mountain Dump Rd"</Location>
-			<LocationDesc>"WB 92 JWO BFI LANDFILL/LEMOS FARM"</LocationDesc>
-			<Area>"Redwood City"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37480120:122407257"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  1:53AM"</DetailTime>
-			<IncidentDetail>"[4] 1039 DOTCC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:46AM"</DetailTime>
-			<IncidentDetail>"[2] VEH'S HAVE TO GO TO EB LANE TO DRIVE AROUND IT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:45AM"</DetailTime>
-			<IncidentDetail>"[1] TREE DOWN BLOCKING THE WHOLE WB LANE  - SOMEONE PUT ONG CONES AROUND IT"</IncidentDetail>
-		</details></LogDetails></Log>
-
 		<Log ID = "230322GG00095">
 			<LogTime>"Mar 22 2023  1:28AM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
@@ -996,6 +946,22 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37595808:121872692"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:03AM"</DetailTime>
+			<IncidentDetail>"[40] 118-51 1185 BACKING DOWN RAMP NOW"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:02AM"</DetailTime>
+			<IncidentDetail>"[39] ^***ISSUE SIGALERT*** 84 JEO 680 CLOSED IN BOTH DIRECTIONS DUE TO TRAFFIC COLLISION.  UNK ETO AT THIS TIME."</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:00AM"</DetailTime>
+			<IncidentDetail>"[38]  1039 DOTCC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:59AM"</DetailTime>
+			<IncidentDetail>"[37] 118-51 REQ SIG ALERT - BOTH DOT'S SHUT DOWN , UNK ETO"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:49AM"</DetailTime>
 			<IncidentDetail>"[36] 1039 SANTA RITA TOW W/ LINE 35"</IncidentDetail>
@@ -1167,6 +1133,8 @@
 			<DetailTime>"Mar 22 2023  1:23AM"</DetailTime>
 			<IncidentDetail>"[1] GRY HOND CIV STUCK IN FLOODING , FLOODING UP TO DOORS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  3:01AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:50AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:50AM"</UnitTime>
@@ -1177,6 +1145,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:35AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:01AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:36AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:26AM"</UnitTime>
@@ -1493,6 +1463,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38165078:122577900"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:07AM"</DetailTime>
+			<IncidentDetail>"[45] [Notification] [CHP]-PER LINES 41-44 - GG020 GOING LL W/3A FOR 1185 AND ETA INFO  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:05AM"</DetailTime>
+			<IncidentDetail>"[41] RP'S VEH DRK GRY MAZD 3 VS  POTHOLE IN SLO LANE"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  1:38AM"</DetailTime>
 			<IncidentDetail>"[38] *** OPEN IN CASE OF FURTHER CALLS **"</IncidentDetail>
@@ -2094,28 +2072,6 @@
 </Dispatch>
 <Dispatch ID = "MYCC">
 
-		<Log ID = "230322MY00012">
-			<LogTime>"Mar 22 2023  1:49AM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"14045 Sr9"</Location>
-			<LocationDesc>"SR9 BEAT INFO"</LocationDesc>
-			<Area>"Santa Cruz"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37135440:122127466"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  1:51AM"</DetailTime>
-			<IncidentDetail>"[6] NEG IN RDWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:50AM"</DetailTime>
-			<IncidentDetail>"[2] NO INJS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:49AM"</DetailTime>
-			<IncidentDetail>"[1] TREE DWN ON HOUSE AND VEH"</IncidentDetail>
-		</details></LogDetails></Log>
-
 		<Log ID = "230322MY00003">
 			<LogTime>"Mar 22 2023 12:10AM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
@@ -2409,6 +2365,8 @@
 			<DetailTime>"Mar 21 2023  1:06PM"</DetailTime>
 			<IncidentDetail>"[2] TREE BRANCH HIT WIRES"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  2:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
@@ -2421,6 +2379,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:48AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:04AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:23AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:14AM"</UnitTime>
@@ -2550,32 +2510,6 @@
 			<UnitTime>"Mar 21 2023 10:37AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 21 2023 10:37AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "VTCC">
-
-		<Log ID = "230322VT00011">
-			<LogTime>"Mar 22 2023  1:37AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Us101 S / No Conejo Scales"</Location>
-			<LocationDesc>"US101 S / NO CONEJO SCALES"</LocationDesc>
-			<Area>"Moorpark"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34200833:118966111"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  1:47AM"</DetailTime>
-			<IncidentDetail>"[6] C54-070  SEMI ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:38AM"</DetailTime>
-			<IncidentDetail>"[1] SEMI IN #3/4 LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  1:47AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:39AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:39AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "SLCC">
@@ -2825,6 +2759,132 @@
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
 
+		<Log ID = "230322LA00263">
+			<LogTime>"Mar 22 2023  3:05AM"</LogTime>
+			<LogType>"FLOOD-Roadway Flooding"</LogType>
+			<Location>"I10 E / Durfee Ave"</Location>
+			<LocationDesc>"JEO"</LocationDesc>
+			<Area>"East LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34064331:118011260"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:05AM"</DetailTime>
+			<IncidentDetail>"[1] FLOODING HOV AND #1 LN EB 10 JEO DURFEEY"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023  3:07AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:07AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:07AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:06AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:05AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:05AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:05AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230322LA00258">
+			<LogTime>"Mar 22 2023  2:58AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"2100-2347 Malibu Canyon Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"West Valley"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34063108:118699076"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Mar 22 2023  3:02AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230322LA00256">
+			<LogTime>"Mar 22 2023  2:56AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I5 N / Calzona St"</Location>
+			<LocationDesc>"NB JNO"</LocationDesc>
+			<Area>"Central LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34021058:118195249"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:58AM"</DetailTime>
+			<IncidentDetail>"[2] WHI MINIVAN ON RS --DK BLU OR BLK SDN BLKG MIDDLE LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[1] 2 VEHS INV IN A TC"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023  3:05AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230322LA00245">
+			<LogTime>"Mar 22 2023  2:52AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I5 N / I5 N I710 N Con"</Location>
+			<LocationDesc>"JSO"</LocationDesc>
+			<Area>"East LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34014864:118168997"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:59AM"</DetailTime>
+			<IncidentDetail>"[17] [Rotation Request Comment] 1039 ON STAR TOWING and RECOVERY 323-720-4606 // 20OL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[16] [Rotation Request Comment] 1021 PEPES TOW NO TKS AVAIL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:56AM"</DetailTime>
+			<IncidentDetail>"[13] PER DUPE SOLO VEH TC BLOCKING #2 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:56AM"</DetailTime>
+			<IncidentDetail>"[12] 82-501 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:56AM"</DetailTime>
+			<IncidentDetail>"[10] [Appended, 02:56:21] [1] SOLO VEH TC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:55AM"</DetailTime>
+			<IncidentDetail>"[9] XRAY DRIVER OO VEH RHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:54AM"</DetailTime>
+			<IncidentDetail>"[8] PTY DECLINED 1141 // UNK IF ADDL PTY INJ"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:54AM"</DetailTime>
+			<IncidentDetail>"[6] [Appended, 02:54:26] [2] DARK COLORED SDN BLKG #1  -- WHI VAN AT CD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:53AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 02:54:26] [1] 2 VEH TC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:53AM"</DetailTime>
+			<IncidentDetail>"[2] VEHS BLKNG"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:53AM"</DetailTime>
+			<IncidentDetail>"[1] GRY DOG CHA VS ADDL VEH"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023  3:07AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:06AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:06AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:00AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:54AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:54AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
 		<Log ID = "230322LA00242">
 			<LogTime>"Mar 22 2023  2:50AM"</LogTime>
 			<LogType>"SIG Alert"</LogType>
@@ -2833,7 +2893,13 @@
 			<Area>"Central LA"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34046735:118268591"</LATLON>
-			<LogDetails><details/></LogDetails></Log>
+			<LogDetails><details/><units>
+			<UnitTime>"Mar 22 2023  2:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:52AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:52AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230322LA00240">
 			<LogTime>"Mar 22 2023  2:47AM"</LogTime>
@@ -2853,22 +2919,6 @@
 			<IncidentDetail>"[1] SOLO VEH TC"</IncidentDetail>
 		</details></LogDetails></Log>
 
-		<Log ID = "230322LA00235">
-			<LogTime>"Mar 22 2023  2:44AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Sr60 E / S Garey Ave Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Baldwin Park"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34023595:117752783"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:50AM"</DetailTime>
-			<IncidentDetail>"[9] [Rotation Request Comment] 1039 EDWINS * 909-983-5100"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:46AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "230322LA00239">
 			<LogTime>"Mar 22 2023  2:44AM"</LogTime>
 			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
@@ -2878,6 +2928,30 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34002020:117834878"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:06AM"</DetailTime>
+			<IncidentDetail>"[12] C81-207  WB JEO DIAMOND BAR BLVD - EVERYTHING ON RS - FIRE 97"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:00AM"</DetailTime>
+			<IncidentDetail>"[11] 207 WITH BREAK FRM PHILLIPS RANCH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:58AM"</DetailTime>
+			<IncidentDetail>"[17] [Appended, 03:07:12] [5] INVLVD PTY IN NISS VERSA NEG INJURIES"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[15] [Appended, 03:07:12] [3] VEHS BLKG SLOW LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[13] [Appended, 03:07:12] [1] SIL NISS VERSA VS 2 ADDTL UNK VEHS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:53AM"</DetailTime>
+			<IncidentDetail>"[9] [Rotation Request Comment] 1039 SANDERS 9095993178"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:52AM"</DetailTime>
 			<IncidentDetail>"[8] PER DUPE 1 VEH POSS ON ROOF"</IncidentDetail>
@@ -2894,75 +2968,13 @@
 			<DetailTime>"Mar 22 2023  2:47AM"</DetailTime>
 			<IncidentDetail>"[1] 2 VEH TC ON RHS // RED TOYT CAM VS WHI SD"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Mar 22 2023  2:49AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:49AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322LA00237">
-			<LogTime>"Mar 22 2023  2:43AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I10 E / Alameda St Ofr"</Location>
-			<LocationDesc>"EB 10 JWO ALAMEDA"</LocationDesc>
-			<Area>"Central LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34023585:118242864"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:50AM"</DetailTime>
-			<IncidentDetail>"[5] PER DUPE VEH FACING WW"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:44AM"</DetailTime>
-			<IncidentDetail>"[3] PTY OO VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:44AM"</DetailTime>
-			<IncidentDetail>"[2] BLKING #1 LANES"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:44AM"</DetailTime>
-			<IncidentDetail>"[1] GRY 2D  VS CD"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "230322LA00231">
-			<LogTime>"Mar 22 2023  2:40AM"</LogTime>
-			<LogType>"SPINOUT"</LogType>
-			<Location>"Sr60 W / Santa Anita Blvd"</Location>
-			<LocationDesc>"SR60 W / SANTA ANITA BLVD"</LocationDesc>
-			<Area>"East LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34039850:118051691"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:41AM"</DetailTime>
-			<IncidentDetail>"[1] DRK TOYT SDN FACING WW BLKG # 5 LN W/ HEADLIGHTS ON"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:41AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:41AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322LA00234">
-			<LogTime>"Mar 22 2023  2:38AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I405 N I105 Con / I405 N I105 W Con"</Location>
-			<LocationDesc>"NB 405 TO WB 105"</LocationDesc>
-			<Area>"West LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33925229:118367642"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:41AM"</DetailTime>
-			<IncidentDetail>"[2] VEH NOW HAS FT - GORE POINT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:40AM"</DetailTime>
-			<IncidentDetail>"[1] DRK COLORED MINI VAN - SPUN OUT FRM WATER  HIT WALL"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:47AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  3:04AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:46AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  3:06AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:49AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:49AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230322LA00229">
@@ -3011,72 +3023,6 @@
 			<UnitTime>"Mar 22 2023  2:37AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "230322LA00225">
-			<LogTime>"Mar 22 2023  2:37AM"</LogTime>
-			<LogType>"SPINOUT"</LogType>
-			<Location>"I605 N / Slauson St"</Location>
-			<LocationDesc>"NB JSO SLAUSON"</LocationDesc>
-			<Area>"Santa Fe Springs"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33967222:118083234"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:40AM"</DetailTime>
-			<IncidentDetail>"[2] C83-500  LNS OPEN - FOLLOWING PTYS OFF AT SLAUSON"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:37AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:37AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:37AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322LA00226">
-			<LogTime>"Mar 22 2023  2:36AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I10 E / Sr71"</Location>
-			<LocationDesc>"JWO"</LocationDesc>
-			<Area>"Baldwin Park"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34066714:117802931"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:40AM"</DetailTime>
-			<IncidentDetail>"[3] C81-103  WITH BREAK AT HOLT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:37AM"</DetailTime>
-			<IncidentDetail>"[2] 103 TURNING TO RUN A BREAK"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:37AM"</DetailTime>
-			<IncidentDetail>"[1] PER PSBY VEH BLKG #1 LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:37AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322LA00222">
-			<LogTime>"Mar 22 2023  2:35AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I105 E / Crenshaw Blvd"</Location>
-			<LocationDesc>"EB 105 JWO CRENSHAW"</LocationDesc>
-			<Area>"West LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33925024:118326561"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:36AM"</DetailTime>
-			<IncidentDetail>"[3] LARGE PUDDLE IN LANES CAUSED GRY SDN TO LOSE CONTROL AND TC INTO CADI"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:36AM"</DetailTime>
-			<IncidentDetail>"[2] GRY SDN ON RS VS GRY CADI IN THE CD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:35AM"</DetailTime>
-			<IncidentDetail>"[1] 2 VEHS INV IN A TC"</IncidentDetail>
-		</details></LogDetails></Log>
-
 		<Log ID = "230322LA00219">
 			<LogTime>"Mar 22 2023  2:33AM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
@@ -3086,6 +3032,30 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33933461:118353464"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:05AM"</DetailTime>
+			<IncidentDetail>"[26] SLOW LN BLOCKED / ALL OTHER LNS ARE OPEN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:02AM"</DetailTime>
+			<IncidentDetail>"[19] [Notification] [CHP]-[16] [Rotation Request Comment] 1039 LA Bestway Towing - 323-292-9249 - ETA 25 OL W / 1 FB [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:02AM"</DetailTime>
+			<IncidentDetail>"[18] [Notification] [CHP]-[17] [Rotation Request Comment] 1039 Airport Automotive Center - 310-670-8266 - ETA 25 OL W/ 1 FB [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:02AM"</DetailTime>
+			<IncidentDetail>"[17] [Rotation Request Comment] 1039 Airport Automotive Center - 310-670-8266 - ETA 25 OL W/ 1 FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:00AM"</DetailTime>
+			<IncidentDetail>"[16] [Rotation Request Comment] 1039 LA Bestway Towing - 323-292-9249 - ETA 25 OL W / 1 FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[14] COLA - PLS ROLL 2 FLTBEDS"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:45AM"</DetailTime>
 			<IncidentDetail>"[12] 41 EB FRM NASH W/ BREAK"</IncidentDetail>
@@ -3099,13 +3069,29 @@
 			<IncidentDetail>"[4] 2 VEH TC"</IncidentDetail>
 		</details>
 		<details>
+			<DetailTime>"Mar 22 2023  2:36AM"</DetailTime>
+			<IncidentDetail>"[22] [Appended, 03:02:54] [3] LARGE PUDDLE IN LANES CAUSED GRY SDN TO LOSE CONTROL AND TC INTO CADI"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:36AM"</DetailTime>
+			<IncidentDetail>"[21] [Appended, 03:02:54] [2] GRY SDN ON RS VS GRY CADI IN THE CD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:35AM"</DetailTime>
+			<IncidentDetail>"[20] [Appended, 03:02:54] [1] 2 VEHS INV IN A TC"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar 22 2023  2:35AM"</DetailTime>
 			<IncidentDetail>"[2] RP GRY VEH IN CD"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  2:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:38AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:38AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:56AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:36AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -3247,6 +3233,10 @@
 			<LATLON>"33983674:118073007"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[15] C83-650  VIA LL -- TOOK PTY OFF AT WHITTIER UNDER 605 FOR EVAL - CODE 4 - 500 97 WITH VEH AND RDS"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar 22 2023  2:42AM"</DetailTime>
 			<IncidentDetail>"[13] C83-650  RDWY CLR -- VEH ON RS -- NB 605 JNO WASHINGTON"</IncidentDetail>
 		</details>
@@ -3266,77 +3256,15 @@
 			<DetailTime>"Mar 22 2023  2:19AM"</DetailTime>
 			<IncidentDetail>"[4] GOOD SAM 97 ALSO BLKING SEMI W/ HAZRDS ON"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  2:56AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:56AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:35AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:35AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:25AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322LA00183">
-			<LogTime>"Mar 22 2023  2:17AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I10 E / N AZUSA AVE"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Baldwin Park"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34072038:117907502"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:32AM"</DetailTime>
-			<IncidentDetail>"[23] PER DUPE EB 10 AT VINCENT # 1 , 2 LN -- COUCH AND OTHER DEBRIS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:29AM"</DetailTime>
-			<IncidentDetail>"[18] [Appended, 02:29:15] [1] SHOPPING CART AND CHAIRS THROUGHOUT ALL OF THE LNS - RP HIT DEBRIS - NOT REQ 1110"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:27AM"</DetailTime>
-			<IncidentDetail>"[15] [Appended, 02:27:44] [2] ONE VEH PULLED OVER THAT HIT IT - WHI INFI OR SIMILAR RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:26AM"</DetailTime>
-			<IncidentDetail>"[14] [Appended, 02:27:44] [1] DEBRIS IN 3 LANES - CHAIRS OR SHOPPING CART"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:19AM"</DetailTime>
-			<IncidentDetail>"[12] PER DUPE EB 10 JWO CITRUS  SCATTERED IN MIDDLE LNS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:45AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322LA00171">
-			<LogTime>"Mar 22 2023  2:12AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I5 N / Garfield Ave"</Location>
-			<LocationDesc>"NB 5 AT SLAUSON"</LocationDesc>
-			<Area>"East LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33987602:118137419"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:20AM"</DetailTime>
-			<IncidentDetail>"[6] VIS POSS ON THE SAME AS THE ONE AT SLAUSON  --  CORR 1020 IS NB 5 AT SLAUSON  --  FORD XPL BLKNG #1 and 2 LNS, TURNING TO RUN A BREAK - CONT SFS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:14AM"</DetailTime>
-			<IncidentDetail>"[4] UNSURE IF IT WAS A TC OR NOT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:13AM"</DetailTime>
-			<IncidentDetail>"[1] VAN VS UNK VEH BLKG HOV LN BLACKED OUT"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:22AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:15AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:15AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:15AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:15AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:15AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230322LA00170">
@@ -3404,6 +3332,10 @@
 			<DetailTime>"Mar 22 2023  2:11AM"</DetailTime>
 			<IncidentDetail>"[17] [Appended, 02:16:12] [1] RP ADVS THERE'S A BODY DOWN IN #2 LN"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  3:06AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:06AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:31AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:20AM"</UnitTime>
@@ -3417,13 +3349,45 @@
 
 		<Log ID = "230322LA00169">
 			<LogTime>"Mar 22 2023  2:08AM"</LogTime>
-			<LogType>"SPINOUT"</LogType>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
 			<Location>"I5 S / I5 S Sr110 N Con"</Location>
 			<LocationDesc>"SB JNO"</LocationDesc>
 			<Area>"Central LA"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34082782:118227275"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:08AM"</DetailTime>
+			<IncidentDetail>"[28] 15-84 START 1185 FOR BMW STUCK IN PARK"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:01AM"</DetailTime>
+			<IncidentDetail>"[27] [Notification] [CHP]-Problem changed from SPINOUT to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:01AM"</DetailTime>
+			<IncidentDetail>"[24] 15-84 // AFFIRM ON LAPD PV INVD, THEY WERE STOPPED ON THE RS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[18] [Appended, 02:58:00] [4] UNK IF BLKING LANES"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:57AM"</DetailTime>
+			<IncidentDetail>"[16] [Appended, 02:58:00] [2] RP ADVS 3 INJURIES"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:56AM"</DetailTime>
+			<IncidentDetail>"[15] [Appended, 02:58:00] [1] LAPD VEH VS  UNK"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:56AM"</DetailTime>
+			<IncidentDetail>"[12] [Notification] [CHP]-LAPD REQ CHP SHUT DOWN ALL TRAFFIC SB 5 AT STADIUM WAY  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:54AM"</DetailTime>
+			<IncidentDetail>"[10] LAPD INC 297  -- FD ENRT -- DUE TO RPT INJURIES -- POSS BLK AND WHI INVLD"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:12AM"</DetailTime>
 			<IncidentDetail>"[7] NEG INJURIES"</IncidentDetail>
@@ -3436,6 +3400,8 @@
 			<DetailTime>"Mar 22 2023  2:09AM"</DetailTime>
 			<IncidentDetail>"[1] BLK HOND CIV VS RS EMBANKMENT"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  2:59AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:51AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:51AM"</UnitTime>
@@ -3443,13 +3409,17 @@
 
 		<Log ID = "230322LA00161">
 			<LogTime>"Mar 22 2023  2:07AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
 			<Location>"I10 E / SR71"</Location>
 			<LocationDesc>"Eb 10 Jwo 71"</LocationDesc>
 			<Area>"Baldwin Park"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34066714:117802931"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[19] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 20002-Hit and Run No Injuries by CHP [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:42AM"</DetailTime>
 			<IncidentDetail>"[16] C81-107 RDWY CLR"</IncidentDetail>
@@ -3474,6 +3444,8 @@
 			<DetailTime>"Mar 22 2023  2:07AM"</DetailTime>
 			<IncidentDetail>"[2] [Appended, 02:07:52] [1] DRK SEDAN BLKED'ED OUT IN CARPOOL LANE"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  3:04AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:11AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:11AM"</UnitTime>
@@ -3489,38 +3461,6 @@
 			<UnitTime>"Mar 22 2023  2:07AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "230322LA00159">
-			<LogTime>"Mar 22 2023  2:05AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I5 N / E Slauson Ave"</Location>
-			<LocationDesc>"JSO SLAUSON AVE"</LocationDesc>
-			<Area>"East LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33975017:118124599"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:22AM"</DetailTime>
-			<IncidentDetail>"[8] 83-500 HAS A BREAK NB JNO PARAMOUNT  //"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:06AM"</DetailTime>
-			<IncidentDetail>"[1] SEMI TANKER VS BLU SUV BLOCKING SLOW LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:31AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:22AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:14AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:14AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:14AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:12AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "230322LA00154">
 			<LogTime>"Mar 22 2023  1:58AM"</LogTime>
 			<LogType>"SILVER-Missing Elderly"</LogType>
@@ -3530,76 +3470,6 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34144961:118227253"</LATLON>
 			<LogDetails><details/></LogDetails></Log>
-
-		<Log ID = "230322LA00147">
-			<LogTime>"Mar 22 2023  1:53AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"I5 S / S Indiana St"</Location>
-			<LocationDesc>"JNO"</LocationDesc>
-			<Area>"Central LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34020129:118192262"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:39AM"</DetailTime>
-			<IncidentDetail>"[27] 15-40 RDWY CLR OFF ON INDIANA UNDER THE 5 FOR COMPLETION OF THE 180"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:10AM"</DetailTime>
-			<IncidentDetail>"[24] 1039 HELMS and HILL TOW 323-889-4900 - W/2 TRKS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:06AM"</DetailTime>
-			<IncidentDetail>"[21] 15-50 #4-5 LN OPEN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:04AM"</DetailTime>
-			<IncidentDetail>"[20] 82-501 ON BLK // STUCK IN TRFC REQ 15-50 OPEN LN FOR 82-501 TO GET THRU"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:02AM"</DetailTime>
-			<IncidentDetail>"[17] 15-50 HOLDING ALL LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:56AM"</DetailTime>
-			<IncidentDetail>"[15] 1039 LAFD INC#103"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:54AM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 01:55:22] [2] IPHONE INVLVD IN TC MESSAGE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:09AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:09AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:14AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:05AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:05AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:20AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:02AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:01AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:01AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:09AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:58AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:58AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:12AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:04AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:56AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:56AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230322LA00104">
 			<LogTime>"Mar 22 2023  1:05AM"</LogTime>
@@ -4234,69 +4104,11 @@
 			<DetailTime>"Mar 22 2023  2:40AM"</DetailTime>
 			<IncidentDetail>"[3] TC OCCRD AT COLD STORAGE MANUFACTURING //DEPUTY 97 W/ INV VEHS"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Mar 22 2023  2:43AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:43AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322MR00018">
-			<LogTime>"Mar 22 2023  2:00AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 S / Sperry Ave Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Modesto"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37465909:121182861"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:23AM"</DetailTime>
-			<IncidentDetail>"[18] C48-055  UTL ON DEBRIS IN THE RDWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:16AM"</DetailTime>
-			<IncidentDetail>"[16] [Rotation Request Comment] 1039 PATTERSON CITY TOW 209-892-6000"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:15AM"</DetailTime>
-			<IncidentDetail>"[15] RP NOW ADV'G HE WOULD LIKE 1185R AND CHP FOR 11-10"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:08AM"</DetailTime>
-			<IncidentDetail>"[14] RP DECLINED 1185 FOR NOW WILL TRY TO CALL HIS INSURANCE FOR ROAD SIDE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:05AM"</DetailTime>
-			<IncidentDetail>"[11] INQ W/ PATTESON CITY TOW ON QUOTE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:03AM"</DetailTime>
-			<IncidentDetail>"[10] RP REQ QUOTE FOR 1185 TO TAKE HIM TO LOS BANOS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:02AM"</DetailTime>
-			<IncidentDetail>"[9] 1039 55"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:02AM"</DetailTime>
-			<IncidentDetail>"[7] METAL ITEMS STILL 1125"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:01AM"</DetailTime>
-			<IncidentDetail>"[4] ADV THE 1125 METAL OBJECT IS IN THE #1"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:01AM"</DetailTime>
-			<IncidentDetail>"[3] RP ON RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:01AM"</DetailTime>
-			<IncidentDetail>"[2] RAN OVER METAL ITEM IN THE RDWY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:26AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  3:03AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:03AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  2:43AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:03AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  2:43AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230322MR00002">
@@ -4343,6 +4155,14 @@
 			<LATLON>"37982264:120384349"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Mar 22 2023  3:06AM"</DetailTime>
+			<IncidentDetail>"[6] SR108 R2 FRM E TWAIN HARTE TO SNOW PARK"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:06AM"</DetailTime>
+			<IncidentDetail>"[5] LN 4 IS FOR SR120"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar 21 2023  6:30PM"</DetailTime>
 			<IncidentDetail>"[3] [Notification] [CHP]-[2] R2 FROM LYONS DAM SCALE TO SNOW PARK"</IncidentDetail>
 		</details>
@@ -4363,38 +4183,6 @@
 </Dispatch>
 <Dispatch ID = "FRCC">
 
-		<Log ID = "230322FR00025">
-			<LogTime>"Mar 22 2023  1:58AM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"Sr99 S / W Cartmill Ave"</Location>
-			<LocationDesc>"SB JNO"</LocationDesc>
-			<Area>"Visalia"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36240316:119345820"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:43AM"</DetailTime>
-			<IncidentDetail>"[14] C67-091  1098 2 VEH 20002"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:12AM"</DetailTime>
-			<IncidentDetail>"[8] 1039 RP, WILL 1023 IFO THE ARCO STATION AT M ST AND CARTMILL"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:00AM"</DetailTime>
-			<IncidentDetail>"[5] VV IS ON THE RHS REQ A UNIT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:59AM"</DetailTime>
-			<IncidentDetail>"[1] VV: GRN SEMI W/ DOUBLE TRLR"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:19AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:19AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:07AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "230322FR00024">
 			<LogTime>"Mar 22 2023  1:53AM"</LogTime>
 			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
@@ -4404,6 +4192,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"36834785:119921401"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:01AM"</DetailTime>
+			<IncidentDetail>"[19] C65-105  DOING AREA SEARCH - RP ADV SUBJ TOOK OF NORTH FROM TC"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:43AM"</DetailTime>
 			<IncidentDetail>"[17] 1039 FSO FOR CORDS"</IncidentDetail>
@@ -4444,6 +4236,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"35797759:119223541"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:01AM"</DetailTime>
+			<IncidentDetail>"[16] C40-030  ETA FOR MC AND SONS"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:22AM"</DetailTime>
 			<IncidentDetail>"[15] 1039 EDISON, WILL RECALL W/ETA"</IncidentDetail>
@@ -4489,52 +4285,6 @@
 			<UnitTime>"Mar 22 2023  1:33AM"</UnitTime>
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  1:28AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322FR00011">
-			<LogTime>"Mar 22 2023 12:12AM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"14394 County Line Rd"</Location>
-			<LocationDesc>"BEST WESTERN INN"</LocationDesc>
-			<Area>"Visalia"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35790404:119250547"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023 12:52AM"</DetailTime>
-			<IncidentDetail>"[20] C67-095  180: 05 FORD F150 PK GLD 2 PLTS "C", HAD TC DMG, NEG STRIP FOR DIAZ 21044"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023 12:36AM"</DetailTime>
-			<IncidentDetail>"[15] [Rotation Request Comment] 1039 DOUBLE D TOW 5597524841"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023 12:35AM"</DetailTime>
-			<IncidentDetail>"[14] C67-095  VEH IS 1124"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023 12:16AM"</DetailTime>
-			<IncidentDetail>"[10] YOUNG HMJ TOOK STUFF FRM VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023 12:15AM"</DetailTime>
-			<IncidentDetail>"[6] HIT MULTI VEHS RAM TRK AND TOYT SUV"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023 12:14AM"</DetailTime>
-			<IncidentDetail>"[3] LEFT VEH AND TOOK OFF ON FOOD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023 12:13AM"</DetailTime>
-			<IncidentDetail>"[1] VEH CAME FRM STREET AND HIT PARKED VEHS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  1:39AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:34AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:34AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:17AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230322FR00008">
@@ -4808,336 +4558,63 @@
 </Center>
 
 <Center ID = "INHB">
-<Dispatch ID = "OCCC">
+<Dispatch ID = "INCC">
 
-		<Log ID = "230322OC00038">
-			<LogTime>"Mar 22 2023  2:47AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Sr91 W / Yorba Linda Blvd Yl"</Location>
-			<LocationDesc>"WB 91 JEO YL-FT"</LocationDesc>
-			<Area>"Santa Ana"</Area>
+		<Log ID = "230322IN00083">
+			<LogTime>"Mar 22 2023  3:04AM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"I15 S / Glen Helen Pkwy Ofr"</Location>
+			<LocationDesc>"OCCR'D: SB JNO CAJON SCALES"</LocationDesc>
+			<Area>"San Bernardino"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33870691:117744847"</LATLON>
+			<LATLON>"34206607:117413803"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Mar 22 2023  2:49AM"</DetailTime>
-			<IncidentDetail>"[3] HAS RDSIDE THRU INS-INVLD WILL CALL FOR TOW"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:06AM"</DetailTime>
+			<IncidentDetail>"[4] TC OCCR'D : SB 15 JNO SCALES --- BEAT 75-152"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 22 2023  2:48AM"</DetailTime>
-			<IncidentDetail>"[2] VEH IN CD OF FT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:48AM"</DetailTime>
-			<IncidentDetail>"[1] WHITE TESLA VS LS WALL"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:49AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322OC00032">
-			<LogTime>"Mar 22 2023  2:12AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Sr22 E / Harbor Blvd"</Location>
-			<LocationDesc>"EB 22 JWO HARBOR"</LocationDesc>
-			<Area>"Westminster"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33767691:117920257"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:51AM"</DetailTime>
-			<IncidentDetail>"[7] C55-020  10-98   2 VEH 1182"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:29AM"</DetailTime>
-			<IncidentDetail>"[5] C55-20  RDWY CLR //   10-97  FV/ GARDEN GROVE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:13AM"</DetailTime>
-			<IncidentDetail>"[1] ON RS - GRY LEXS VS GRY HOND"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:22AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:15AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322OC00029">
-			<LogTime>"Mar 22 2023  2:10AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"SR57 S / LAMBERT RD"</Location>
-			<LocationDesc>"SB 57 JSO LAMBERT"</LocationDesc>
-			<Area>"Santa Ana"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33925201:117880287"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:47AM"</DetailTime>
-			<IncidentDetail>"[12] C86-571  ADVS CT OF 20FT OF GUARDRAIL DMG ON RS NEG HAZ"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:22AM"</DetailTime>
-			<IncidentDetail>"[10] C86-571  LANES CLR VEH ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:17AM"</DetailTime>
-			<IncidentDetail>"[8] [Rotation Request Comment] 1039 BREA TOW 714-255-2966 W/FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:15AM"</DetailTime>
-			<IncidentDetail>"[6] C86-571  VIS FRM NB SIDE SB JSO LAMBERT BLKG 3/4 LANES//PLS ROLL 1185 FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:11AM"</DetailTime>
-			<IncidentDetail>"[2] NOW SIDEWAYS IN 1/2 LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:11AM"</DetailTime>
-			<IncidentDetail>"[1] WHI SD  VS CD"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:19AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:19AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:11AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322OC00003">
-			<LogTime>"Mar 22 2023 12:00AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OCCC"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322OC00002">
-			<LogTime>"Mar 22 2023 12:00AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "ICCC">
-
-		<Log ID = "230322IC00013">
-			<LogTime>"Mar 22 2023  2:42AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I10 E Eo / Morongo Trl Mm 18"</Location>
-			<LocationDesc>"EB JEO MORON"</LocationDesc>
-			<Area>"San Gorgonio Pass"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33919184:116801212"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:45AM"</DetailTime>
-			<IncidentDetail>"[7] FAST LANE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:45AM"</DetailTime>
-			<IncidentDetail>"[6] 1125"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:44AM"</DetailTime>
-			<IncidentDetail>"[4] WHI VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:44AM"</DetailTime>
-			<IncidentDetail>"[3] SOLO VEH TC"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:50AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:50AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:50AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230321IC00023">
-			<LogTime>"Mar 21 2023  2:33AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"79650 Varner Rd"</Location>
-			<LocationDesc>"WEATHER INFO 3/21/23"</LocationDesc>
-			<Area>"IC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33751459:116272108"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 21 2023 11:47AM"</DetailTime>
-			<IncidentDetail>"[2] GENE AUTRY AND VISTA CHINO CLOSED AT THE WASH -- AS OF 1147 HRS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  6:26AM"</DetailTime>
-			<IncidentDetail>"[1] VISTA CHINO AT THE WASH IS OPEN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 21 2023  2:33AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023  2:33AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023  2:33AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "BSCC">
-
-		<Log ID = "230322BS00021">
-			<LogTime>"Mar 22 2023  2:37AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Phelan Rd / Riggins Rd"</Location>
-			<LocationDesc>"EB"</LocationDesc>
-			<Area>"Victorville"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34426338:117568141"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:38AM"</DetailTime>
-			<IncidentDetail>"[2] 1039 CORDS"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:05AM"</DetailTime>
+			<IncidentDetail>"[1] RP IN BLU SWIFT SEMI TK"</IncidentDetail>
 		</details></LogDetails></Log>
 
-		<Log ID = "230322BS00015">
-			<LogTime>"Mar 22 2023  2:04AM"</LogTime>
-			<LogType>"CFIRE-Car Fire"</LogType>
-			<Location>"Sr18 / Mescalero Rd"</Location>
-			<LocationDesc>"WB WO"</LocationDesc>
-			<Area>"Victorville"</Area>
+		<Log ID = "230322IN00080">
+			<LogTime>"Mar 22 2023  2:58AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Sr60 E Wo / Haven Ave"</Location>
+			<LocationDesc>"SR60 E WO HAVEN AVE"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34506228:117588324"</LATLON>
+			<LATLON>"34030426:117583967"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Mar 22 2023  2:41AM"</DetailTime>
-			<IncidentDetail>"[21] [Rotation Request Comment] 1039 GandM 760 244 1868"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[20] 1039 AIRPORT MOBILE 909-983-5261"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 22 2023  2:40AM"</DetailTime>
-			<IncidentDetail>"[20] C12-081  1185 AUTH O"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:03AM"</DetailTime>
+			<IncidentDetail>"[19] 123-203 REQ 1185"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 22 2023  2:12AM"</DetailTime>
-			<IncidentDetail>"[14] [Appended, 02:12:42] [1] PER SBSO PKTK ON FIRE SR18/PINERO"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:02AM"</DetailTime>
+			<IncidentDetail>"[14] BLK SUV STALLED IN THE FAST LN"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 22 2023  2:05AM"</DetailTime>
-			<IncidentDetail>"[4] UNK IF OCCUPS GOT OO VEH"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:02AM"</DetailTime>
+			<IncidentDetail>"[13] INVD PTY HAS 1185 ENRT UNK ETA"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 22 2023  2:05AM"</DetailTime>
-			<IncidentDetail>"[3] ON RHS"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  2:59AM"</DetailTime>
+			<IncidentDetail>"[4] RP ADVSD DRVR STILL IN VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:59AM"</DetailTime>
+			<IncidentDetail>"[2] TCD INTO K RAIL AND NOW 1125 # 1 LANE"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:07AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-
-		<Log ID = "230321BS00121">
-			<LogTime>"Mar 21 2023 12:07PM"</LogTime>
-			<LogType>"WIND Advisory"</LogType>
-			<Location>"14210 Amargosa Rd"</Location>
-			<LocationDesc>"VICTORVILLE CHP"</LocationDesc>
-			<Area>"BS"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34508704:117330146"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 21 2023 12:11PM"</DetailTime>
-			<IncidentDetail>"[2] 1039 CT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023 12:07PM"</DetailTime>
-			<IncidentDetail>"[1] 12-P1 REQ 1013 HIGH WIND WARNING FOR VV AREA"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 21 2023 12:12PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023 12:12PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023 12:12PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230321BS00090">
-			<LogTime>"Mar 21 2023 10:18AM"</LogTime>
-			<LogType>"WIND Advisory"</LogType>
-			<Location>"300 E Mountain View St"</Location>
-			<LocationDesc>"BARSTOW CHP"</LocationDesc>
-			<Area>"BS"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34893251:117024939"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 21 2023  3:00PM"</DetailTime>
-			<IncidentDetail>"[7] TASK SENT OT CD"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 21 2023  2:16PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023 10:37AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  3:04AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023 10:35AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023 10:18AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023 10:18AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023 10:18AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  3:02AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230321BS00021">
-			<LogTime>"Mar 21 2023  2:31AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"300 E Mountain View St"</Location>
-			<LocationDesc>"BARSTOW CHP"</LocationDesc>
-			<Area>"BS"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34893251:117024939"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:13AM"</DetailTime>
-			<IncidentDetail>"[8] 73-75 LT RAIN IN MTN PASS AREA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023 11:10PM"</DetailTime>
-			<IncidentDetail>"[7] 73-75 HEAVY RAIN LIMITED VIS F/ BAKER TO CIMA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023 10:25PM"</DetailTime>
-			<IncidentDetail>"[6] ID-122 RAIN PATCHES FROM NEWBERRY TO BARSTOW"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  7:34AM"</DetailTime>
-			<IncidentDetail>"[5] A73-75  1013 BARSTOW LIGHT TO MOD RAIN FROM BARSTOW TO NSL SNOW FLURRIES NOT STICKING"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  3:34AM"</DetailTime>
-			<IncidentDetail>"[4] CORR LINE 3 RAIN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  2:32AM"</DetailTime>
-			<IncidentDetail>"[2] 1039 CT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 21 2023  2:32AM"</DetailTime>
-			<IncidentDetail>"[1] MOD RAN F/ OLD 58 TO BARSTOW RD"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 21 2023  2:32AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023  2:32AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 21 2023  2:32AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "INCC">
 
 		<Log ID = "230322IN00072">
 			<LogTime>"Mar 22 2023  2:32AM"</LogTime>
@@ -5148,6 +4625,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34194843:117419755"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:05AM"</DetailTime>
+			<IncidentDetail>"[14] [Rotation Request Comment] 1039 HAYES * 909-887-4953"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  3:03AM"</DetailTime>
+			<IncidentDetail>"[12] C75-152  IN CD * NEG BLOCKING"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  2:34AM"</DetailTime>
 			<IncidentDetail>"[7] 2 UNK OCCUPANTS WALKING SB ON RHS"</IncidentDetail>
@@ -5160,6 +4645,10 @@
 			<DetailTime>"Mar 22 2023  2:33AM"</DetailTime>
 			<IncidentDetail>"[2] SOLO VEH SPIN OUT"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar 22 2023  3:03AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:03AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:40AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:39AM"</UnitTime>
@@ -5168,144 +4657,6 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 22 2023  2:37AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322IN00053">
-			<LogTime>"Mar 22 2023  1:48AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"SR60 E WO / HAVEN AVE"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34030426:117583967"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:37AM"</DetailTime>
-			<IncidentDetail>"[53] C123-603  RDWY CLR * TAKING VEHS OFF AT HAVEN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:18AM"</DetailTime>
-			<IncidentDetail>"[51] C123-603  PRTY TRANS TO KAISER ONT W/ MIN - B6753507"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:06AM"</DetailTime>
-			<IncidentDetail>"[48] 1039 PEPES 951-682-5682 ENRT W/ 2ND 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:05AM"</DetailTime>
-			<IncidentDetail>"[47] C123-603  REQ 2ND 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:02AM"</DetailTime>
-			<IncidentDetail>"[45] [Appended, 02:03:57] [40] SEMI AND AMR BLOCKING #5"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:02AM"</DetailTime>
-			<IncidentDetail>"[42] [Appended, 02:03:57] [3] ALL VEHS ON RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:02AM"</DetailTime>
-			<IncidentDetail>"[41] [Appended, 02:03:57] [2] 3 VEHS : SEMI VS 2 SML VEHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:01AM"</DetailTime>
-			<IncidentDetail>"[36] INV HAS VIS OF FIRE DEPT NOW"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:58AM"</DetailTime>
-			<IncidentDetail>"[26] [Appended, 01:58:47] [18] [Appended, 01:58:39] [4] ALL VEHS ON THE RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:58AM"</DetailTime>
-			<IncidentDetail>"[25] [Appended, 01:58:47] [17] [Appended, 01:58:39] [3] BIG RIG VS SD VS POSS 3RD SD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:57AM"</DetailTime>
-			<IncidentDetail>"[8] 1039 EDWINS 909-350-3211"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:56AM"</DetailTime>
-			<IncidentDetail>"[7] 123-603 REQ 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:55AM"</DetailTime>
-			<IncidentDetail>"[21] [Appended, 01:58:47] [13] 1039 ONTFD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:54AM"</DetailTime>
-			<IncidentDetail>"[15] [Appended, 01:58:47] [8] [Appended, 01:54:50] [2] SEMI TK, GRY SD AND BLK SD ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:54AM"</DetailTime>
-			<IncidentDetail>"[13] [Appended, 01:58:47] [4] VEHS BLKING THE SLOW LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:54AM"</DetailTime>
-			<IncidentDetail>"[12] [Appended, 01:58:47] [3] MAJ TC DMG TO THE SD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:53AM"</DetailTime>
-			<IncidentDetail>"[10] [Appended, 01:58:47] [2] BIG RIG VS BLK SD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:50AM"</DetailTime>
-			<IncidentDetail>"[5] VEH TCD INTO CD AND THEN RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:50AM"</DetailTime>
-			<IncidentDetail>"[4] GRY SD ON RS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar 22 2023  2:51AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:24AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:20AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:04AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:03AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:02AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  2:02AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023  1:51AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230322IN00048">
-			<LogTime>"Mar 22 2023  1:34AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I15 N No / Glen Helen Pkwy"</Location>
-			<LocationDesc>"I15 N NO GLEN HELEN PKWY"</LocationDesc>
-			<Area>"San Bernardino"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34210789:117412402"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar 22 2023  2:25AM"</DetailTime>
-			<IncidentDetail>"[15] RP ADV POSS IN THE GP OF THE GLEN HELEN OFR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  2:23AM"</DetailTime>
-			<IncidentDetail>"[14] POSS HAS VIS OF 1185 - ADV THEY ARE AHEAD OF HIM"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:37AM"</DetailTime>
-			<IncidentDetail>"[6] REQ 1185 ROT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:36AM"</DetailTime>
-			<IncidentDetail>"[3] NEG 1125"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar 22 2023  1:36AM"</DetailTime>
-			<IncidentDetail>"[2] RP IN BLU TOYT COA VS POLE ON THE RHS"</IncidentDetail>
-		</details></LogDetails></Log>
 
 		<Log ID = "230322IN00037">
 			<LogTime>"Mar 22 2023  1:03AM"</LogTime>
@@ -5316,6 +4667,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33896662:117484225"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  3:04AM"</DetailTime>
+			<IncidentDetail>"[33] 1039 BT"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar 22 2023  1:40AM"</DetailTime>
 			<IncidentDetail>"[27] 74-31 ADV MEDIA ON SCENE"</IncidentDetail>
@@ -5535,45 +4890,51 @@
 			<UnitTime>"Mar 21 2023  2:50PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BICC">
+<Dispatch ID = "BCCC">
 
-		<Log ID = "230322BI00002">
-			<LogTime>"Mar 22 2023 12:09AM"</LogTime>
-			<LogType>"TADV-Traffic Advisory"</LogType>
-			<Location>"Eastern Sierra Roads Info"</Location>
+		<Log ID = "230322BC00058">
+			<LogTime>"Mar 22 2023  2:57AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Sr78 E I15 S Con / I15 S"</Location>
 			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
+			<Area>"Oceanside"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
+			<LATLON>"33122166:117103061"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Mar 21 2023  5:29PM"</DetailTime>
-			<IncidentDetail>"[9] [Appended, 00:14:46] [9] REDROCK RANDSBURG RD AND GARLOCK RD CLOSED F/US395 TO SR14"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:08AM"</DetailTime>
+			<IncidentDetail>"[12] [Notification] [CHP]-**STAM DPTY UNABLE TO STOP - NB 15 TO EB 78 VEH ROLL OVER  [Shared]"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 21 2023  4:33PM"</DetailTime>
-			<IncidentDetail>"[8] [Appended, 00:14:46] [8] SR136 CLOSED FROM 395 TO 190 DUE TO FLOODING"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:07AM"</DetailTime>
+			<IncidentDetail>"[9] [Rotation Request Comment] ***************ROLL 1185   1039 CALIFORNIA 7605180101"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 21 2023 12:23AM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 00:14:46] [5] SR168E *CLOSURE* FROM DEATH VALLEY RD TO NEVADA STATELINE"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:00AM"</DetailTime>
+			<IncidentDetail>"[6] 1039 ESC FD"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 21 2023 12:23AM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 00:14:46] [4] SR168W *CLOSURE* FROM COLUMBINE RD TO STARLITE DR"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  3:00AM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 03:00:16] [2] NO ONE AROUND THE VEH"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Mar 21 2023 12:22AM"</DetailTime>
-			<IncidentDetail>"[1] [Appended, 00:14:46] [1] FOR CURRENT ROAD CONDITIONS, PLEASE VISIT THE CALTRANS WEBSITE AT HTTPS://QUICKMAP.DOT.CA.GOV OR CALL 1-800-427-ROAD (7623)"</IncidentDetail>
+			<DetailTime>"Mar 22 2023  2:59AM"</DetailTime>
+			<IncidentDetail>"[3] [Appended, 03:00:16] [1] WHI VEH INTO POLE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:59AM"</DetailTime>
+			<IncidentDetail>"[2] SEDAN NOW ON TIRES NEG 1125 UP AN ENBANKMENT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:59AM"</DetailTime>
+			<IncidentDetail>"[1] VEH ROLLED"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Mar 22 2023 12:17AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:17AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  3:08AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar 22 2023 12:17AM"</UnitTime>
+			<UnitTime>"Mar 22 2023  3:08AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  3:00AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "BCCC">
 
 		<Log ID = "230322BC00004">
 			<LogTime>"Mar 22 2023 12:03AM"</LogTime>
@@ -5661,6 +5022,293 @@
 			<IncidentDetail>"[1] SHEET METAL ON RHS"</IncidentDetail>
 		</details></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "OCCC">
+
+		<Log ID = "230322OC00041">
+			<LogTime>"Mar 22 2023  2:53AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Sr57 S / Lambert Rd"</Location>
+			<LocationDesc>"SB JSO LAMBERT RD"</LocationDesc>
+			<Area>"Santa Ana"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33925201:117880287"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:55AM"</DetailTime>
+			<IncidentDetail>"[1] WHI SEDAN TC'D INTO THE CD WALL * NOW BLKING THE MIDDLE LANES"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023  2:56AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230322OC00039">
+			<LogTime>"Mar 22 2023  2:51AM"</LogTime>
+			<LogType>"1166-Defective Traffic Signals"</LogType>
+			<Location>"Sr91 W / Euclid St"</Location>
+			<LocationDesc>"WB 91 AT EUCLID"</LocationDesc>
+			<Area>"Westminster"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33854236:117941825"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Mar 22 2023  2:53AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230322OC00029">
+			<LogTime>"Mar 22 2023  2:10AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"SR57 S / LAMBERT RD"</Location>
+			<LocationDesc>"SB 57 JSO LAMBERT"</LocationDesc>
+			<Area>"Santa Ana"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33925201:117880287"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:47AM"</DetailTime>
+			<IncidentDetail>"[12] C86-571  ADVS CT OF 20FT OF GUARDRAIL DMG ON RS NEG HAZ"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:22AM"</DetailTime>
+			<IncidentDetail>"[10] C86-571  LANES CLR VEH ON RS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:17AM"</DetailTime>
+			<IncidentDetail>"[8] [Rotation Request Comment] 1039 BREA TOW 714-255-2966 W/FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:15AM"</DetailTime>
+			<IncidentDetail>"[6] C86-571  VIS FRM NB SIDE SB JSO LAMBERT BLKG 3/4 LANES//PLS ROLL 1185 FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:11AM"</DetailTime>
+			<IncidentDetail>"[2] NOW SIDEWAYS IN 1/2 LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:11AM"</DetailTime>
+			<IncidentDetail>"[1] WHI SD  VS CD"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023  2:19AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:19AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:11AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230322OC00003">
+			<LogTime>"Mar 22 2023 12:00AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OCCC"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230322OC00002">
+			<LogTime>"Mar 22 2023 12:00AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "BSCC">
+
+		<Log ID = "230322BS00021">
+			<LogTime>"Mar 22 2023  2:37AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Phelan Rd / Riggins Rd"</Location>
+			<LocationDesc>"EB"</LocationDesc>
+			<Area>"Victorville"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34426338:117568141"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:38AM"</DetailTime>
+			<IncidentDetail>"[2] 1039 CORDS"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "230322BS00015">
+			<LogTime>"Mar 22 2023  2:04AM"</LogTime>
+			<LogType>"CFIRE-Car Fire"</LogType>
+			<Location>"Sr18 / Mescalero Rd"</Location>
+			<LocationDesc>"WB WO"</LocationDesc>
+			<Area>"Victorville"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34506228:117588324"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:41AM"</DetailTime>
+			<IncidentDetail>"[21] [Rotation Request Comment] 1039 GandM 760 244 1868"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:40AM"</DetailTime>
+			<IncidentDetail>"[20] C12-081  1185 AUTH O"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:12AM"</DetailTime>
+			<IncidentDetail>"[14] [Appended, 02:12:42] [1] PER SBSO PKTK ON FIRE SR18/PINERO"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:05AM"</DetailTime>
+			<IncidentDetail>"[4] UNK IF OCCUPS GOT OO VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 22 2023  2:05AM"</DetailTime>
+			<IncidentDetail>"[3] ON RHS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:21AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023  2:07AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+
+		<Log ID = "230321BS00121">
+			<LogTime>"Mar 21 2023 12:07PM"</LogTime>
+			<LogType>"WIND Advisory"</LogType>
+			<Location>"14210 Amargosa Rd"</Location>
+			<LocationDesc>"VICTORVILLE CHP"</LocationDesc>
+			<Area>"BS"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34508704:117330146"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 21 2023 12:11PM"</DetailTime>
+			<IncidentDetail>"[2] 1039 CT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023 12:07PM"</DetailTime>
+			<IncidentDetail>"[1] 12-P1 REQ 1013 HIGH WIND WARNING FOR VV AREA"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 21 2023 12:12PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023 12:12PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023 12:12PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230321BS00090">
+			<LogTime>"Mar 21 2023 10:18AM"</LogTime>
+			<LogType>"WIND Advisory"</LogType>
+			<Location>"300 E Mountain View St"</Location>
+			<LocationDesc>"BARSTOW CHP"</LocationDesc>
+			<Area>"BS"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34893251:117024939"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 21 2023  3:00PM"</DetailTime>
+			<IncidentDetail>"[7] TASK SENT OT CD"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 21 2023  2:16PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023 10:37AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023 10:35AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023 10:18AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023 10:18AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023 10:18AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230321BS00021">
+			<LogTime>"Mar 21 2023  2:31AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"300 E Mountain View St"</Location>
+			<LocationDesc>"BARSTOW CHP"</LocationDesc>
+			<Area>"BS"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34893251:117024939"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 22 2023  2:13AM"</DetailTime>
+			<IncidentDetail>"[8] 73-75 LT RAIN IN MTN PASS AREA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023 11:10PM"</DetailTime>
+			<IncidentDetail>"[7] 73-75 HEAVY RAIN LIMITED VIS F/ BAKER TO CIMA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023 10:25PM"</DetailTime>
+			<IncidentDetail>"[6] ID-122 RAIN PATCHES FROM NEWBERRY TO BARSTOW"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023  7:34AM"</DetailTime>
+			<IncidentDetail>"[5] A73-75  1013 BARSTOW LIGHT TO MOD RAIN FROM BARSTOW TO NSL SNOW FLURRIES NOT STICKING"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023  3:34AM"</DetailTime>
+			<IncidentDetail>"[4] CORR LINE 3 RAIN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023  2:32AM"</DetailTime>
+			<IncidentDetail>"[2] 1039 CT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023  2:32AM"</DetailTime>
+			<IncidentDetail>"[1] MOD RAN F/ OLD 58 TO BARSTOW RD"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 21 2023  2:32AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023  2:32AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023  2:32AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "BICC">
+
+		<Log ID = "230322BI00002">
+			<LogTime>"Mar 22 2023 12:09AM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Eastern Sierra Roads Info"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>""</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"0:0"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 21 2023  5:29PM"</DetailTime>
+			<IncidentDetail>"[9] [Appended, 00:14:46] [9] REDROCK RANDSBURG RD AND GARLOCK RD CLOSED F/US395 TO SR14"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023  4:33PM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 00:14:46] [8] SR136 CLOSED FROM 395 TO 190 DUE TO FLOODING"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023 12:23AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 00:14:46] [5] SR168E *CLOSURE* FROM DEATH VALLEY RD TO NEVADA STATELINE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023 12:23AM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 00:14:46] [4] SR168W *CLOSURE* FROM COLUMBINE RD TO STARLITE DR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023 12:22AM"</DetailTime>
+			<IncidentDetail>"[1] [Appended, 00:14:46] [1] FOR CURRENT ROAD CONDITIONS, PLEASE VISIT THE CALTRANS WEBSITE AT HTTPS://QUICKMAP.DOT.CA.GOV OR CALL 1-800-427-ROAD (7623)"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 22 2023 12:17AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023 12:17AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 22 2023 12:17AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "ECCC">
 
 		<Log ID = "230321EC00069">
@@ -5683,6 +5331,32 @@
 			<UnitTime>"Mar 21 2023 11:55PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar 21 2023 11:55PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "ICCC">
+
+		<Log ID = "230321IC00023">
+			<LogTime>"Mar 21 2023  2:33AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"79650 Varner Rd"</Location>
+			<LocationDesc>"WEATHER INFO 3/21/23"</LocationDesc>
+			<Area>"IC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33751459:116272108"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar 21 2023 11:47AM"</DetailTime>
+			<IncidentDetail>"[2] GENE AUTRY AND VISTA CHINO CLOSED AT THE WASH -- AS OF 1147 HRS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar 21 2023  6:26AM"</DetailTime>
+			<IncidentDetail>"[1] VISTA CHINO AT THE WASH IS OPEN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar 21 2023  2:33AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023  2:33AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar 21 2023  2:33AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
