@@ -55,6 +55,8 @@
 			<DetailTime>"Apr 20 2023  2:23AM"</DetailTime>
 			<IncidentDetail>"[1] DROVE OFF THE RDWY"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 20 2023  2:42AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:41AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
@@ -81,6 +83,10 @@
 			<DetailTime>"Apr 20 2023  2:16AM"</DetailTime>
 			<IncidentDetail>"[1] TRUCK VS TREE"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 20 2023  2:43AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 20 2023  2:43AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:35AM"</UnitTime>
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:17AM"</UnitTime>
@@ -363,6 +369,8 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"0:0"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Apr 20 2023  2:45AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 19 2023 11:33PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 19 2023 11:14PM"</UnitTime>
@@ -1204,65 +1212,35 @@
 </Center>
 
 <Center ID = "LAHB">
-<Dispatch ID = "BFCC">
+<Dispatch ID = "LACC">
 
-		<Log ID = "230420BF00015">
-			<LogTime>"Apr 20 2023  2:37AM"</LogTime>
-			<LogType>"TADV-Traffic Advisory"</LogType>
-			<Location>"Bakersfield Traffic Advisories"</Location>
+		<Log ID = "230420LA00215">
+			<LogTime>"Apr 20 2023  2:48AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I110 N / W Slauson Ave"</Location>
 			<LocationDesc>""</LocationDesc>
-			<Area>"BF"</Area>
+			<Area>"Central LA"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35265234:119024794"</LATLON>
+			<LATLON>"33989150:118280163"</LATLON>
+			<LogDetails><details/></LogDetails></Log>
+
+		<Log ID = "230420LA00213">
+			<LogTime>"Apr 20 2023  2:45AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"West Holt Ofr / Sr71 N"</Location>
+			<LocationDesc>"HOLT ONR TO NB 71"</LocationDesc>
+			<Area>"Baldwin Park"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34058380:117785922"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Apr 20 2023  2:39AM"</DetailTime>
-			<IncidentDetail>"[2] LOCKWOOD VALLEY RD NOT REACHABLE VIA SR33 DUE TO CLOSURE"</IncidentDetail>
+			<DetailTime>"Apr 20 2023  2:48AM"</DetailTime>
+			<IncidentDetail>"[2] RP HIT A TIRE UNK WHERE IT WENT"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Apr 20 2023  2:39AM"</DetailTime>
-			<IncidentDetail>"[1] SR33 CLOSED FROM SOUTH MATILIJA SPRINGS RD IN OJALA (VENTURA COUNTY) TO 9 MILES SOUTH OF THE VENTURA/SANTA BARBARA COUNTY LINE DUE TO FLOODING"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 20 2023  2:39AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023  2:39AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230419BF00283">
-			<LogTime>"Apr 19 2023  8:49PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr99 N / Ming Ave Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Bakersfield"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35338502:119039460"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 19 2023  9:11PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230419BF00265">
-			<LogTime>"Apr 19 2023  7:26PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Nb Sr99 At South Union Ave"</Location>
-			<LocationDesc>"NB SR99 at South Union Ave"</LocationDesc>
-			<Area>"Bakersfield"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35172778:119004167"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 20 2023 12:12AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 19 2023 11:18PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 19 2023 11:18PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 19 2023  8:10PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 19 2023  7:54PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 19 2023  7:27PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "LACC">
+			<DetailTime>"Apr 20 2023  2:47AM"</DetailTime>
+			<IncidentDetail>"[1] GRY DODGE CHAR -- IN GP"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "230420LA00203">
 			<LogTime>"Apr 20 2023  2:30AM"</LogTime>
@@ -1295,6 +1273,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34027235:118457931"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Apr 20 2023  2:50AM"</DetailTime>
+			<IncidentDetail>"[26] C79-080T   COLA,REQ ADDITONAL 1185 FOR UTLITY VAN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 20 2023  2:43AM"</DetailTime>
+			<IncidentDetail>"[22] C79-080T  PER--- WITNESS DRIVER OF VEH --TOOK FB GOING  SOUTH DIRECTION FROM THE 10"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Apr 20 2023  2:38AM"</DetailTime>
 			<IncidentDetail>"[19] 1039 SANTA MONICA FD - INC#23005557"</IncidentDetail>
@@ -1335,8 +1321,12 @@
 			<DetailTime>"Apr 20 2023  2:26AM"</DetailTime>
 			<IncidentDetail>"[1] 4 VEHS INVLD, RP CAN HEAR TC, SOUNDS LIKE VEHS KEEP TCING INTO EACHOTHER , NFI"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 20 2023  2:45AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:41AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 20 2023  2:45AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:31AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1790,6 +1780,64 @@
 			<UnitTime>"Apr 19 2023 10:30PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "BFCC">
+
+		<Log ID = "230420BF00015">
+			<LogTime>"Apr 20 2023  2:37AM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Bakersfield Traffic Advisories"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 20 2023  2:39AM"</DetailTime>
+			<IncidentDetail>"[2] LOCKWOOD VALLEY RD NOT REACHABLE VIA SR33 DUE TO CLOSURE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 20 2023  2:39AM"</DetailTime>
+			<IncidentDetail>"[1] SR33 CLOSED FROM SOUTH MATILIJA SPRINGS RD IN OJALA (VENTURA COUNTY) TO 9 MILES SOUTH OF THE VENTURA/SANTA BARBARA COUNTY LINE DUE TO FLOODING"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Apr 20 2023  2:39AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 20 2023  2:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230419BF00283">
+			<LogTime>"Apr 19 2023  8:49PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr99 N / Ming Ave Ofr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Bakersfield"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35338502:119039460"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 19 2023  9:11PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230419BF00265">
+			<LogTime>"Apr 19 2023  7:26PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Nb Sr99 At South Union Ave"</Location>
+			<LocationDesc>"NB SR99 at South Union Ave"</LocationDesc>
+			<Area>"Bakersfield"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35172778:119004167"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 20 2023 12:12AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 19 2023 11:18PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 19 2023 11:18PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 19 2023  8:10PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 19 2023  7:54PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 19 2023  7:27PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "FRCC">
 
 		<Log ID = "230420FR00025">
@@ -1801,6 +1849,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"36494362:119332002"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Apr 20 2023  2:45AM"</DetailTime>
+			<IncidentDetail>"[27] Secondary Location for C67-002: TC SCENE."</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 20 2023  2:45AM"</DetailTime>
+			<IncidentDetail>"[26] C67-002  98 FROM PRETRAIL / BACK ENRT TO SCENE OF TC"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Apr 20 2023  2:26AM"</DetailTime>
 			<IncidentDetail>"[25] PER LAB - ETA LESS THAN 20"</IncidentDetail>
@@ -2042,6 +2098,8 @@
 			<DetailTime>"Apr 20 2023  2:19AM"</DetailTime>
 			<IncidentDetail>"[1] GRY TOYT COA // SPEEDS UP TO 100 MPH // TOOK THE RAMP TOO QUICKLY AND CRASHED"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 20 2023  2:45AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:33AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:27AM"</UnitTime>
@@ -2191,40 +2249,6 @@
 			<UnitTime>"Apr 20 2023  1:28AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "230420BC00007">
-			<LogTime>"Apr 20 2023 12:27AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 N / Las Pulgas"</Location>
-			<LocationDesc>"I5 N LAS PULGAS"</LocationDesc>
-			<Area>"Oceanside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33298869:117464472"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 20 2023 12:57AM"</DetailTime>
-			<IncidentDetail>"[4] [Notification] [CHP]-TONKA IS NEXT ROT TOW - RATE IS PER HOUR - $261 PER HOUR - MINIMUM $500  - $600 TOTAL "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 20 2023 12:54AM"</DetailTime>
-			<IncidentDetail>"[3] 7C PTY REQ A PRICE ESTIMATE FOR A TOW TO GLENDALE FRM THE NEXT ROT"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 20 2023  1:28AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023 12:50AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023 12:43AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023 12:40AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023 12:50AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023 12:27AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023 12:27AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 20 2023 12:27AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "230419BC01166">
 			<LogTime>"Apr 19 2023  9:52PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -2332,6 +2356,8 @@
 			<DetailTime>"Apr 19 2023 10:17PM"</DetailTime>
 			<IncidentDetail>"[4] 92-S5  ** ADV FTY OF OUR CLOSURE   2-3-4 CLOSED  FM 9TH TO 78"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 20 2023  2:42AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 19 2023 10:45PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 19 2023 10:45PM"</UnitTime>
@@ -2440,6 +2466,8 @@
 			<DetailTime>"Apr 20 2023  1:17AM"</DetailTime>
 			<IncidentDetail>"[1] UNK VEH PARKED IN THE RDWY"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 20 2023  2:46AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:56AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:56AM"</UnitTime>
@@ -2450,12 +2478,16 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:25AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 20 2023  2:47AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:29AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:23AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:23AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 20 2023  2:46AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:29AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:23AM"</UnitTime>
@@ -2687,6 +2719,8 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34087259:117645406"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Apr 20 2023  2:51AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  2:37AM"</UnitTime>
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 20 2023  1:15AM"</UnitTime>
