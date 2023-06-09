@@ -113,6 +113,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:19AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:24AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:16AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:16AM"</UnitTime>
@@ -171,6 +173,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38493241:121443115"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  2:23AM"</DetailTime>
+			<IncidentDetail>"[69] 112-CZP7  ALL LANES OPEN / NEG 180 FOR 2ND VEH"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jun  9 2023  1:52AM"</DetailTime>
 			<IncidentDetail>"[62] PER CO ETA FROM WATT"</IncidentDetail>
@@ -251,6 +257,8 @@
 			<DetailTime>"Jun  9 2023  1:04AM"</DetailTime>
 			<IncidentDetail>"[2] UNK VEH  --- OT ON ROOF"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  2:23AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:27AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:27AM"</UnitTime>
@@ -295,6 +303,12 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"0:0"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Jun  9 2023  2:24AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:24AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:24AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Jun  8 2023  9:49PM"</UnitTime>
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  8 2023  9:44PM"</UnitTime>
@@ -573,6 +587,8 @@
 			<DetailTime>"Jun  9 2023  1:11AM"</DetailTime>
 			<IncidentDetail>"[4] NEG 1125"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  2:24AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:58AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:58AM"</UnitTime>
@@ -1620,6 +1636,24 @@
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
 
+		<Log ID = "230609LA00227">
+			<LogTime>"Jun  9 2023  2:25AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"La002186tb Sr2 N / Sr134 W Con"</Location>
+			<LocationDesc>"LA002186TB SR2 N / SR134 W CON"</LocationDesc>
+			<Area>"Altadena"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34148100:118229000"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  2:26AM"</DetailTime>
+			<IncidentDetail>"[2] TOWARDS MIDDLE OF TRNS RD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  2:26AM"</DetailTime>
+			<IncidentDetail>"[1] BUMPER ACROSS LNS"</IncidentDetail>
+		</details></LogDetails></Log>
+
 		<Log ID = "230609LA00224">
 			<LogTime>"Jun  9 2023  2:17AM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
@@ -1642,13 +1676,21 @@
 
 		<Log ID = "230609LA00218">
 			<LogTime>"Jun  9 2023  2:12AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<LogType>"20001-Hit and Run w/Injuries"</LogType>
 			<Location>"200th St E / E Avenue J"</Location>
 			<LocationDesc>""</LocationDesc>
 			<Area>"Antelope Valley"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34690599:117774025"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  2:25AM"</DetailTime>
+			<IncidentDetail>"[10] 1021 AVSO - VEH VS PED - AVSO TAKING PTY HOME - POI 230TH ST E AND AVE G // COPIES CHP WILL BE EXTENDED"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  2:24AM"</DetailTime>
+			<IncidentDetail>"[9] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 20001-Hit and Run w/Injuries by CHP"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jun  9 2023  2:15AM"</DetailTime>
 			<IncidentDetail>"[3] UNK VEH DESRIP -"</IncidentDetail>
@@ -1657,28 +1699,6 @@
 			<DetailTime>"Jun  9 2023  2:14AM"</DetailTime>
 			<IncidentDetail>"[1] DEP IN THE AREA - ATL - INITAL CALL WAS A PRTY PUSHED OUT OF VEH - NOW ADV POSS VEH VS PED - UNK CIRCS"</IncidentDetail>
 		</details></LogDetails></Log>
-
-		<Log ID = "230609LA00212">
-			<LogTime>"Jun  9 2023  2:10AM"</LogTime>
-			<LogType>"BREAK-Traffic Break"</LogType>
-			<Location>"I5 N / Paramount Blvd"</Location>
-			<LocationDesc>"* JSO  PARAMOUNT"</LocationDesc>
-			<Area>"Santa Fe Springs"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33964319:118120005"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun  9 2023  2:11AM"</DetailTime>
-			<IncidentDetail>"[2] REQ CHP W/ BREAK TO HOOK VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  2:11AM"</DetailTime>
-			<IncidentDetail>"[1] NAVARROS TOW 97 W/ VEH ON FOGLINE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun  9 2023  2:12AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  9 2023  2:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230609LA00211">
 			<LogTime>"Jun  9 2023  2:09AM"</LogTime>
@@ -1693,6 +1713,8 @@
 			<DetailTime>"Jun  9 2023  2:10AM"</DetailTime>
 			<IncidentDetail>"[1] UNK VEH AT HIGHS SPEEDS WENT OVER EMBANKMENT // NFI"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  2:20AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  2:15AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1867,6 +1889,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:54AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:22AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:53AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:53AM"</UnitTime>
@@ -1879,6 +1903,8 @@
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:50AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:22AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:45AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  1:44AM"</UnitTime>
@@ -2740,6 +2766,10 @@
 			<LATLON>"35688597:119419409"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Jun  9 2023  2:24AM"</DetailTime>
+			<IncidentDetail>"[7] 13 NISS ALT 4D 1 PLT ON VEH / COMPLETE BURN 22651C"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Jun  9 2023  2:15AM"</DetailTime>
 			<IncidentDetail>"[6] VEH CONF STILL OUTSTANDING PER KCSO"</IncidentDetail>
 		</details>
@@ -3003,6 +3033,194 @@
 </Center>
 
 <Center ID = "INHB">
+<Dispatch ID = "OCCC">
+
+		<Log ID = "230609OC00043">
+			<LogTime>"Jun  9 2023  2:26AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I5 N  Sr91 W Con / I5 N Sr91 W Con"</Location>
+			<LocationDesc>"NB 5 TRANS TO WB 91"</LocationDesc>
+			<Area>"Westminster"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33852651:117972329"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  2:26AM"</DetailTime>
+			<IncidentDetail>"[1] 1185 FB"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jun  9 2023  2:26AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:26AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:26AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  2:26AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230609OC00032">
+			<LogTime>"Jun  9 2023  1:43AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"I5 N / Avenida Vista Hermosa Vh"</Location>
+			<LocationDesc>"NB 5 JNO VH"</LocationDesc>
+			<Area>"Capistrano"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33445293:117631179"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  2:23AM"</DetailTime>
+			<IncidentDetail>"[33] [Rotation Request Comment] 1039 Sea Country Tow 949-770-2617   **COPIES FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  2:22AM"</DetailTime>
+			<IncidentDetail>"[32] [Rotation Request Comment] 1021  Dunivans Tow 949-493-3091 ** SKIPPED / ON HOLD TOO LONG"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  2:18AM"</DetailTime>
+			<IncidentDetail>"[29] C113-059  REQ ADDTL 1185 FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  1:57AM"</DetailTime>
+			<IncidentDetail>"[14] C113-059  PRTY NOW REFUSING MEDICS // 1039 FIRE -- CPYS 1022"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  1:55AM"</DetailTime>
+			<IncidentDetail>"[12] 113-59 START FIRE // 1039 STA 91"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  1:55AM"</DetailTime>
+			<IncidentDetail>"[13] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  1:52AM"</DetailTime>
+			<IncidentDetail>"[10] C113-059  97 JNO VH 1 VEH IN CD AND A COUPLE ON RS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  1:48AM"</DetailTime>
+			<IncidentDetail>"[7] 1039 AV TOW W/ FB 949-360-8068"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  1:47AM"</DetailTime>
+			<IncidentDetail>"[6] 113-59 1185 FB"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  1:45AM"</DetailTime>
+			<IncidentDetail>"[2] SIL FORD IN CD / SIL VOLKS ON RS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jun  9 2023  1:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  1:46AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  1:46AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230609OC00003">
+			<LogTime>"Jun  9 2023 12:00AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OCCC"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230609OC00002">
+			<LogTime>"Jun  9 2023 12:00AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230608OC00819">
+			<LogTime>"Jun  8 2023 11:12PM"</LogTime>
+			<LogType>"SILVER-Missing Elderly"</LogType>
+			<Location>"Lakewood Ca"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>""</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"0:0"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun  9 2023 12:39AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023 11:17PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230608OC00770">
+			<LogTime>"Jun  8 2023  9:34PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"2031 E Santa Clara Ave"</Location>
+			<LocationDesc>"* ON THE 55 *"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33767135:117837781"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun  9 2023  1:31AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  9:35PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230608OC00767">
+			<LogTime>"Jun  8 2023  9:31PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"SR91 W / I5 N"</Location>
+			<LocationDesc>"WB 91 FROM THE 5 TO KNOTT"</LocationDesc>
+			<Area>"Westminster"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33857574:117980554"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun  8 2023 11:07PM"</DetailTime>
+			<IncidentDetail>"[3] 86-CZP3  ALSO HAVE THE #2 LANE CLOSED FROM BEACH TO KNOTT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  8 2023 10:08PM"</DetailTime>
+			<IncidentDetail>"[1] 86-CZP3  HOV AND 1 CLOSED  WB91  FROM I5 TO KNOTT UNTIL APPOX 0500 HRS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jun  9 2023 12:22AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023 10:48PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023 10:48PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230608OC00731">
+			<LogTime>"Jun  8 2023  8:35PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"13200 Goldenwest St"</Location>
+			<LocationDesc>"* 405 PROJECT *"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33770800:118007330"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun  8 2023  9:15PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  9:05PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  8:41PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  8:39PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "ICCC">
 
 		<Log ID = "230609IC00021">
@@ -3014,6 +3232,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33731422:116810262"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  2:22AM"</DetailTime>
+			<IncidentDetail>"[7] 1039 A.C , THEY ADV'D IF ITS NOT VISIBLY INJURED THEY WILL NOT RESPOND"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jun  9 2023  2:19AM"</DetailTime>
 			<IncidentDetail>"[5] DOESNT SEE ANY VISIBLE INJURIES"</IncidentDetail>
@@ -3139,15 +3361,17 @@
 		<details>
 			<DetailTime>"Jun  8 2023 11:49PM"</DetailTime>
 			<IncidentDetail>"[2] 1125 IN THE LEFT TURN LANE"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Jun  9 2023  2:21AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "BCCC">
 
 		<Log ID = "230609BC00062">
 			<LogTime>"Jun  9 2023  2:04AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
+			<LogType>"SPINOUT"</LogType>
 			<Location>"I15 N / Mira Mesa Blvd E Onr"</Location>
-			<LocationDesc>"MIRA MESA ONR TO NB 15"</LocationDesc>
+			<LocationDesc>"EB MIRA MESA ONR TO NB 15"</LocationDesc>
 			<Area>"San Diego"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"32917734:117115710"</LATLON>
@@ -3457,164 +3681,6 @@
 			<UnitTime>"Jun  8 2023  7:56PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  8 2023  7:56PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "OCCC">
-
-		<Log ID = "230609OC00032">
-			<LogTime>"Jun  9 2023  1:43AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"I5 N / Avenida Vista Hermosa Vh"</Location>
-			<LocationDesc>"NB 5 JNO VH"</LocationDesc>
-			<Area>"Capistrano"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33445293:117631179"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun  9 2023  2:18AM"</DetailTime>
-			<IncidentDetail>"[29] C113-059  REQ ADDTL 1185 FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  1:57AM"</DetailTime>
-			<IncidentDetail>"[14] C113-059  PRTY NOW REFUSING MEDICS // 1039 FIRE -- CPYS 1022"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  1:55AM"</DetailTime>
-			<IncidentDetail>"[12] 113-59 START FIRE // 1039 STA 91"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  1:55AM"</DetailTime>
-			<IncidentDetail>"[13] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  1:52AM"</DetailTime>
-			<IncidentDetail>"[10] C113-059  97 JNO VH 1 VEH IN CD AND A COUPLE ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  1:48AM"</DetailTime>
-			<IncidentDetail>"[7] 1039 AV TOW W/ FB 949-360-8068"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  1:47AM"</DetailTime>
-			<IncidentDetail>"[6] 113-59 1185 FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023  1:45AM"</DetailTime>
-			<IncidentDetail>"[2] SIL FORD IN CD / SIL VOLKS ON RS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun  9 2023  1:52AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  9 2023  1:46AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  9 2023  1:46AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230609OC00003">
-			<LogTime>"Jun  9 2023 12:00AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OCCC"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230609OC00002">
-			<LogTime>"Jun  9 2023 12:00AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  9 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230608OC00819">
-			<LogTime>"Jun  8 2023 11:12PM"</LogTime>
-			<LogType>"SILVER-Missing Elderly"</LogType>
-			<Location>"Lakewood Ca"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun  9 2023 12:39AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023 11:17PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230608OC00770">
-			<LogTime>"Jun  8 2023  9:34PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"2031 E Santa Clara Ave"</Location>
-			<LocationDesc>"* ON THE 55 *"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33767135:117837781"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun  9 2023  1:31AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:35PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230608OC00767">
-			<LogTime>"Jun  8 2023  9:31PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"SR91 W / I5 N"</Location>
-			<LocationDesc>"WB 91 FROM THE 5 TO KNOTT"</LocationDesc>
-			<Area>"Westminster"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33857574:117980554"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun  8 2023 11:07PM"</DetailTime>
-			<IncidentDetail>"[3] 86-CZP3  ALSO HAVE THE #2 LANE CLOSED FROM BEACH TO KNOTT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  8 2023 10:08PM"</DetailTime>
-			<IncidentDetail>"[1] 86-CZP3  HOV AND 1 CLOSED  WB91  FROM I5 TO KNOTT UNTIL APPOX 0500 HRS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun  9 2023 12:22AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023 10:48PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023 10:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230608OC00731">
-			<LogTime>"Jun  8 2023  8:35PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"13200 Goldenwest St"</Location>
-			<LocationDesc>"* 405 PROJECT *"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33770800:118007330"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun  8 2023  9:15PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:05PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  8:41PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  8:39PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "BSCC">
