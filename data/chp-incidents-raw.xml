@@ -55,6 +55,8 @@
 			<DetailTime>"Jun  9 2023  3:54AM"</DetailTime>
 			<IncidentDetail>"[17] [Appended, 04:22:22] [1] CALFIRE MERZ BENZ ALARM COMPANY ADVD A COSTUMER REPORTING TC 5 IN SOUTH CORNING VIOLA // 2 VEH TC // NFI"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:31AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:22AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:22AM"</UnitTime>
@@ -391,6 +393,8 @@
 			<DetailTime>"Jun  8 2023  8:08PM"</DetailTime>
 			<IncidentDetail>"[1] HARD CLOSURE FOR CITY OF WSAC"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:28AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023 12:05AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023 12:05AM"</UnitTime>
@@ -521,6 +525,8 @@
 			<DetailTime>"Jun  8 2023 10:10PM"</DetailTime>
 			<IncidentDetail>"[3] SINGLE VEH T/C"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:26AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  3:20AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  2:30AM"</UnitTime>
@@ -683,7 +689,9 @@
 			<Area>"Dublin"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37720067:121658613"</LATLON>
-			<LogDetails><details/></LogDetails></Log>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun  9 2023  4:25AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230609GG00167">
 			<LogTime>"Jun  9 2023  2:59AM"</LogTime>
@@ -871,26 +879,6 @@
 			<UnitTime>"Jun  8 2023  9:53PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  8 2023  9:53PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230608GG02394">
-			<LogTime>"Jun  8 2023  9:49PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I380 E / I380 E Us101 S Con"</Location>
-			<LocationDesc>"EB 380 TO SB 101"</LocationDesc>
-			<Area>"San Francisco"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37633983:122411768"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun  8 2023  9:50PM"</DetailTime>
-			<IncidentDetail>"[1] VIA MDC 32-Z10 - S.TORRES 22007 PV - 1484550 BM - 197118 1184 LANE CLOSURE 380EB TO 101SB TILL 0430 HOURS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun  8 2023  9:49PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:49PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:49PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230608GG02326">
@@ -1122,11 +1110,67 @@
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  8 2023 10:00PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "230608VT00296">
+			<LogTime>"Jun  8 2023  8:00PM"</LogTime>
+			<LogType>"1166-Defective Traffic Signals"</LogType>
+			<Location>"Sr33 / W Villanova Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Ventura"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34425765:119288962"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun  8 2023  8:55PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  8:55PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  8:32PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  9:17PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  8:32PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  8 2023  8:32PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
 
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
+
+		<Log ID = "230609LA00337">
+			<LogTime>"Jun  9 2023  4:26AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I210 W / Sunland Blvd Ofr"</Location>
+			<LocationDesc>"WB 210 JEO"</LocationDesc>
+			<Area>"Altadena"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34255801:118325907"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  4:28AM"</DetailTime>
+			<IncidentDetail>"[2] POSS STYROFOAM // DEBRIS ALSO BLOWING AROUND FOR A SHORT DISTANCE IN 1,2 and 3 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  4:27AM"</DetailTime>
+			<IncidentDetail>"[1] LARGE BLOCKS AND BROKEN DEBRIS MAINLY IN 2 LNS"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "230609LA00334">
+			<LogTime>"Jun  9 2023  4:24AM"</LogTime>
+			<LogType>"SIG Alert"</LogType>
+			<Location>"I5 S / Lyons Ave"</Location>
+			<LocationDesc>"EB LYONS ONR TO SB 5"</LocationDesc>
+			<Area>"Newhall"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34378846:118565791"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  4:27AM"</DetailTime>
+			<IncidentDetail>"[1] SIGALERT ISSUED EB LYONS TO SB 5 ONR // 1 HR // DUE TO APPROX 20 BIG RIGS WITH BO TRES"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jun  9 2023  4:27AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230609LA00325">
 			<LogTime>"Jun  9 2023  4:18AM"</LogTime>
@@ -1171,6 +1215,18 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34378846:118565791"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  4:27AM"</DetailTime>
+			<IncidentDetail>"[21] TMC COPIES SIG- 1039 MEDIA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  4:26AM"</DetailTime>
+			<IncidentDetail>"[20]  LILA, PLS ISSUE SIG -- LN 19"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  4:26AM"</DetailTime>
+			<IncidentDetail>"[19] 78-S20 REQ SIG ALERT    FOR EB LYONS TO SB 5 ONR // FOR 1 HOUR --  APPROX 20 BIG RIGS W/ BO TIRES PLUS ADDTL VEH"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jun  9 2023  4:08AM"</DetailTime>
 			<IncidentDetail>"[17] 78-S20  CTLA, PLS ROLL CTs FOR CLOSURE OF PICO ONR TO SB 5"</IncidentDetail>
@@ -1230,11 +1286,15 @@
 			<LogTime>"Jun  9 2023  3:28AM"</LogTime>
 			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
 			<Location>"I5 N / N Paxton St"</Location>
-			<LocationDesc>"I5 N / N PAXTON ST"</LocationDesc>
+			<LocationDesc>"PAXTON AT THE 5"</LocationDesc>
 			<Area>"Altadena"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34262994:118440806"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  4:27AM"</DetailTime>
+			<IncidentDetail>"[12]  RDWY CLR"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jun  9 2023  3:34AM"</DetailTime>
 			<IncidentDetail>"[9] [Rotation Request Comment] 1039 ROWLETTS TOW ETA 20 OL / 818-557-0009"</IncidentDetail>
@@ -1255,6 +1315,10 @@
 			<DetailTime>"Jun  9 2023  3:29AM"</DetailTime>
 			<IncidentDetail>"[1] ** SEPARATE TC IN SAME AREA"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:26AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  4:26AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:05AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:05AM"</UnitTime>
@@ -1307,6 +1371,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34492205:118194022"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  4:26AM"</DetailTime>
+			<IncidentDetail>"[24] [Rotation Request Comment] 1039 COUNTRYWIDE 661-944-4442 ENRT W/2ND 1185"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jun  9 2023  4:21AM"</DetailTime>
 			<IncidentDetail>"[21] 2 SEPT 1185 PLS"</IncidentDetail>
@@ -1431,6 +1499,10 @@
 			<LATLON>"34261727:118439961"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Jun  9 2023  4:26AM"</DetailTime>
+			<IncidentDetail>"[14] RDWY CLR"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Jun  9 2023  3:31AM"</DetailTime>
 			<IncidentDetail>"[8] 1039 GAYS AUTO, 818-244-0015, 25 OR LESS"</IncidentDetail>
 		</details>
@@ -1454,6 +1526,8 @@
 			<DetailTime>"Jun  9 2023  2:59AM"</DetailTime>
 			<IncidentDetail>"[1] WHI TESLA MODEL 3 PARTIALLY BLKING OFR - AIRBAGS DEPLOYED -MAJOR FE DAM -"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:26AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:21AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:20AM"</UnitTime>
@@ -1757,8 +1831,8 @@
 			<LATLON>"34144921:118227297"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Jun  9 2023 12:01AM"</DetailTime>
-			<IncidentDetail>"[2] ^NO CHP SIGALERTS IN LOS ANGELES COUNTY"</IncidentDetail>
+			<DetailTime>"Jun  9 2023  4:28AM"</DetailTime>
+			<IncidentDetail>"[3] ^SIGALERT ISSUED IN STEVENSON RANCH: SB I-5 LYONS AVE ON-RAMP WILL BE BLOCKED FOR 1 HOUR DUE TO A DISABLED VEHICLE- REF LOG 281"</IncidentDetail>
 		</details>
 		<details>
 			<DetailTime>"Jun  9 2023 12:00AM"</DetailTime>
@@ -1935,38 +2009,6 @@
 			<UnitTime>"Jun  8 2023 10:07PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "230608LA03044">
-			<LogTime>"Jun  8 2023  9:56PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"SR134 E / FIGUEROA ST ONR"</Location>
-			<LocationDesc>"ONR"</LocationDesc>
-			<Area>"Altadena"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34141076:118179502"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun  8 2023 11:19PM"</DetailTime>
-			<IncidentDetail>"[4] FIG ONR TO  WB 134 HOV #1 LN CLOSE //  FRM FIG TO HARVEY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  8 2023 10:45PM"</DetailTime>
-			<IncidentDetail>"[3] FIGUEROA ONR TO EB 134 WILL BE CLOSED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  8 2023  9:57PM"</DetailTime>
-			<IncidentDetail>"[2] CLOSURE TO START 2200"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun  9 2023  4:04AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:57PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:57PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:57PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:57PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "230608LA03019">
 			<LogTime>"Jun  8 2023  9:47PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -2037,42 +2079,6 @@
 			<UnitTime>"Jun  8 2023 10:01PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  8 2023 10:01PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230608LA02990">
-			<LogTime>"Jun  8 2023  9:37PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr134 E / N Figueroa St"</Location>
-			<LocationDesc>"SR134 E / N FIGUEROA ST"</LocationDesc>
-			<Area>"Altadena"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34142808:118185663"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun  9 2023  4:05AM"</DetailTime>
-			<IncidentDetail>"[8] #3 / 4 AND CONNECTOR LNS NOW OPEN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023 12:58AM"</DetailTime>
-			<IncidentDetail>"[7] #3/4 LNS AND TRANS TO SR2 ARE CLOSED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  9 2023 12:58AM"</DetailTime>
-			<IncidentDetail>"[6] HOV #1 AND 2 LNS NOW OPEN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  8 2023 11:21PM"</DetailTime>
-			<IncidentDetail>"[5] WB134 FROM FIGUEROA TO HARVEY, #1 LANE AND HOV LANE CLOSED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jun  8 2023 10:25PM"</DetailTime>
-			<IncidentDetail>"[3] OFR AND ONR CLOSED TO EB SIDE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun  8 2023  9:37PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:37PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:37PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230608LA02986">
@@ -2232,6 +2238,8 @@
 			<DetailTime>"Jun  9 2023  4:04AM"</DetailTime>
 			<IncidentDetail>"[1] SUV VS FENCE"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:30AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:06AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:06AM"</UnitTime>
@@ -2342,6 +2350,18 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37439816:120575823"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jun  9 2023  4:28AM"</DetailTime>
+			<IncidentDetail>"[12] ALLWAYS ADV ENRT ETA 45 MINS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  4:26AM"</DetailTime>
+			<IncidentDetail>"[11] 64-1X OWNER OF VEH WILL BRING OWN EQUIPMENT TO DO CLEAN UP //ETA 2 HRS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun  9 2023  4:25AM"</DetailTime>
+			<IncidentDetail>"[8] 64-1X FIRE OUT /STILL 1125"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jun  9 2023  3:34AM"</DetailTime>
 			<IncidentDetail>"[6] C64-001X  FIRE HAS BOTH LNS SHUT DOWN"</IncidentDetail>
@@ -2586,10 +2606,14 @@
 			<DetailTime>"Jun  9 2023  3:09AM"</DetailTime>
 			<IncidentDetail>"[1] 2 VEHS INVD"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:30AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:05AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  4:05AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun  9 2023  4:30AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  3:53AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  3:53AM"</UnitTime>
@@ -2750,6 +2774,8 @@
 			<DetailTime>"Jun  9 2023  3:33AM"</DetailTime>
 			<IncidentDetail>"[1] BIG RIG BLOCKING RIGHT LN"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun  9 2023  4:25AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  3:33AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun  9 2023  3:33AM"</UnitTime>
@@ -3197,24 +3223,6 @@
 			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun  8 2023  9:31PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230608OC00731">
-			<LogTime>"Jun  8 2023  8:35PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"13200 Goldenwest St"</Location>
-			<LocationDesc>"* 405 PROJECT *"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33770800:118007330"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun  8 2023  9:15PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  9:05PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  8:41PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun  8 2023  8:39PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
