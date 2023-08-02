@@ -98,26 +98,6 @@
 			<UnitTime>"Aug  1 2023  8:40PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "230801SA01212">
-			<LogTime>"Aug  1 2023  7:54PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I5 S / Arena Blvd Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"North Sac"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38647470:121528756"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Aug  1 2023 10:13PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug  1 2023 10:13PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug  1 2023  7:54PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  1 2023  7:54PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug  1 2023  7:54PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "230801SA01180">
 			<LogTime>"Aug  1 2023  7:31PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -354,13 +334,17 @@
 
 		<Log ID = "230802TK00007">
 			<LogTime>"Aug  2 2023  1:51AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
 			<Location>"WB JWO BLUE CANYON"</Location>
 			<LocationDesc>"AT WHITMORE"</LocationDesc>
 			<Area>"Gold Run"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"39273592:120717401"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug  2 2023  3:33AM"</DetailTime>
+			<IncidentDetail>"[34] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug  2 2023  2:06AM"</DetailTime>
 			<IncidentDetail>"[28] [Rotation Request Comment] 1039 FIVE STAR TOWING 530-389-9400"</IncidentDetail>
@@ -575,24 +559,62 @@
 </Center>
 
 <Center ID = "GGHB">
-<Dispatch ID = "GGCC">
+<Dispatch ID = "MYCC">
 
-		<Log ID = "230802GG00161">
-			<LogTime>"Aug  2 2023  3:27AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"34th St / Telegraph Ave"</Location>
+		<Log ID = "230802MY00019">
+			<LogTime>"Aug  2 2023  3:38AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Marcella Ave / Johnson Way"</Location>
 			<LocationDesc>""</LocationDesc>
-			<Area>"GG"</Area>
+			<Area>"Hollister Gilroy"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37822459:122266235"</LATLON>
+			<LATLON>"37041531:121560521"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Aug  2 2023  3:29AM"</DetailTime>
-			<IncidentDetail>"[3] POWER LINE IS 1125 , OPD COPIES ALL"</IncidentDetail>
+			<DetailTime>"Aug  2 2023  3:40AM"</DetailTime>
+			<IncidentDetail>"[3] RP REQ 1185"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "230801MY00335">
+			<LogTime>"Aug  1 2023  7:52PM"</LogTime>
+			<LogType>"1166-Defective Traffic Signals"</LogType>
+			<Location>"Sr152 / Holohan Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Santa Cruz"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36935944:121743271"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug  1 2023  7:53PM"</DetailTime>
+			<IncidentDetail>"[3] 1039 NETCOM W/INFO"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Aug  2 2023  3:28AM"</UnitTime>
+			<UnitTime>"Aug  1 2023  8:11PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  3:28AM"</UnitTime>
+			<UnitTime>"Aug  1 2023  7:53PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "GGCC">
+
+		<Log ID = "230802GG00167">
+			<LogTime>"Aug  2 2023  3:37AM"</LogTime>
+			<LogType>"WW-Wrong Way Driver"</LogType>
+			<Location>"Embers Way / Lewelling Blvd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Hayward"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37686615:122132969"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug  2 2023  3:39AM"</DetailTime>
+			<IncidentDetail>"[6] SO WAS BEHIND THE VEH AND VEH WENT WW ON EMBERS WAY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  2 2023  3:38AM"</DetailTime>
+			<IncidentDetail>"[5] ADV ITS STOLEN VEH"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug  2 2023  3:41AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:41AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230802GG00149">
@@ -615,58 +637,6 @@
 			<UnitTime>"Aug  2 2023  3:09AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug  2 2023  3:08AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230802GG00108">
-			<LogTime>"Aug  2 2023  2:05AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"Henry Rd / Buhman Ave"</Location>
-			<LocationDesc>"CLOSE TO 1002 HENRY RD"</LocationDesc>
-			<Area>"Napa"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38273989:122334708"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug  2 2023  2:22AM"</DetailTime>
-			<IncidentDetail>"[14] [Rotation Request Comment] 1039 GRACY TOW  707-927-5087"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  2:21AM"</DetailTime>
-			<IncidentDetail>"[13] [Rotation Request Comment] A/T TOW NEG ANSWER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  2:20AM"</DetailTime>
-			<IncidentDetail>"[12] ANYTIME TOW NEG ANSWER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  2:16AM"</DetailTime>
-			<IncidentDetail>"[9] C21-001C  VEH IS 1124 --  WHEN GOING  1097  AT TK PK WAS  NB BUHMAN TOWARDS CONGRESS VALLEY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  2:15AM"</DetailTime>
-			<IncidentDetail>"[8] 21-1C 1097 -- REQ 1185R BLK BMW SUV  ---  OFF 1125  TREE IN WB LANES"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  2:07AM"</DetailTime>
-			<IncidentDetail>"[6] 1039 1141"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  2:06AM"</DetailTime>
-			<IncidentDetail>"[1] BMW ASSIST GETTING REPORT OF VEH ROLLOVER"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug  2 2023  3:12AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  2:22AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  2:07AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  2:07AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  3:09AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  2:15AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  2:07AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230802GG00002">
@@ -989,11 +959,11 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 		<Log ID = "230801GG01851">
 			<LogTime>"Aug  1 2023  7:04PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Caltrans 1184 Til 0500"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
+			<Location>"US101 S"</Location>
+			<LocationDesc>"ROBIN WILLIAMS TUNNEL - SB 101"</LocationDesc>
+			<Area>"Marin"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
+			<LATLON>"37843190:122485945"</LATLON>
 			<LogDetails><details/><units>
 			<UnitTime>"Aug  1 2023  7:04PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
@@ -1385,26 +1355,6 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023  5:16PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230801GG00825">
-			<LogTime>"Aug  1 2023 11:26AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"Us101 S / De La Cruz Blvd Ofr"</Location>
-			<LocationDesc>"SB 101 ON DE LA CRUZ OFR"</LocationDesc>
-			<Area>"San Jose"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37377356:121945440"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug  1 2023 11:26AM"</DetailTime>
-			<IncidentDetail>"[1] WILL BE CLOSED FROM 1130 - 1400 HRS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug  1 2023 12:36PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  1 2023 12:36PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug  1 2023 12:36PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "SLCC">
 
@@ -1417,6 +1367,10 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"35755263:120691032"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Aug  2 2023  3:39AM"</DetailTime>
+			<IncidentDetail>"[4] C9-001X  4 VEHS - 1182 - SMALL WHI TOYT TAC ON THE SIDEWALK - ON RIO VISTA/16TH"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Aug  2 2023  2:56AM"</DetailTime>
 			<IncidentDetail>"[3] INVOLVED IS AT  855 16TH WILL WALK BACK TO THE VEH // DRIVER: KALIB KHAN"</IncidentDetail>
@@ -1510,102 +1464,50 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<UnitTime>"Aug  1 2023  7:45PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "MYCC">
-
-		<Log ID = "230801MY00335">
-			<LogTime>"Aug  1 2023  7:52PM"</LogTime>
-			<LogType>"1166-Defective Traffic Signals"</LogType>
-			<Location>"Sr152 / Holohan Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Santa Cruz"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36935944:121743271"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug  1 2023  7:53PM"</DetailTime>
-			<IncidentDetail>"[3] 1039 NETCOM W/INFO"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug  1 2023  8:11PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  1 2023  7:53PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 </Center>
 
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
 
-		<Log ID = "230802LA00289">
-			<LogTime>"Aug  2 2023  3:29AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"I5 N / Slauson Ave Ofr"</Location>
-			<LocationDesc>"NB 5 AT SLAUSON"</LocationDesc>
-			<Area>"East LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33974336:118124093"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug  2 2023  3:31AM"</DetailTime>
-			<IncidentDetail>"[1] 2 VEHS BLKING MIDDLE LNS - WHI PK TK AND UNK VEH -"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug  2 2023  3:32AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230802LA00284">
-			<LogTime>"Aug  2 2023  3:26AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 N / Paramount Blvd"</Location>
-			<LocationDesc>"JNO- JSO RIVER"</LocationDesc>
-			<Area>"Santa Fe Springs"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33964319:118120005"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug  2 2023  3:31AM"</DetailTime>
-			<IncidentDetail>"[7] 82-72 1022 SFS -  WILL PUSH VEH TO RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  3:30AM"</DetailTime>
-			<IncidentDetail>"[3] 82-72 W/ BREAK FROM LAKEWOOD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  3:29AM"</DetailTime>
-			<IncidentDetail>"[2] 82-72 REQ SFS IN CASE VEH GETS HIT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  3:26AM"</DetailTime>
-			<IncidentDetail>"[1] VEH #2 LN -- TURNING AROUND"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug  2 2023  3:32AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  3:30AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  3:30AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  3:26AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  3:26AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  3:26AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230802LA00285">
-			<LogTime>"Aug  2 2023  3:25AM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"148 N Shipman Ave"</Location>
-			<LocationDesc>""</LocationDesc>
+		<Log ID = "230802LA00296">
+			<LogTime>"Aug  2 2023  3:35AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"I10 E / Francisquito Ave Ofr"</Location>
+			<LocationDesc>"JSO FWY - EB 10 JWO FRANCISQUITO"</LocationDesc>
 			<Area>"Baldwin Park"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34018027:117910880"</LATLON>
+			<LATLON>"34068356:117974928"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Aug  2 2023  3:26AM"</DetailTime>
-			<IncidentDetail>"[3] VV-----BOTH VEHS WERE PARKED"</IncidentDetail>
+			<DetailTime>"Aug  2 2023  3:37AM"</DetailTime>
+			<IncidentDetail>"[3] FIRE BEHIND 1433 - 1449 1/2 VIRGINIA"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Aug  2 2023  3:26AM"</DetailTime>
-			<IncidentDetail>"[2] SV-----UNK TYPE PF VEH"</IncidentDetail>
+			<DetailTime>"Aug  2 2023  3:37AM"</DetailTime>
+			<IncidentDetail>"[1] VIS OF FIRE IN AN INDUSTRIAL AREA"</IncidentDetail>
 		</details></LogDetails></Log>
+
+		<Log ID = "230802LA00291">
+			<LogTime>"Aug  2 2023  3:32AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"I405 N / Manchester Blvd Ofr"</Location>
+			<LocationDesc>"JSO"</LocationDesc>
+			<Area>"West LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33946939:118368242"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug  2 2023  3:33AM"</DetailTime>
+			<IncidentDetail>"[1] GRASS FIRE // RS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Aug  2 2023  3:40AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:34AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:34AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:34AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230802LA00279">
 			<LogTime>"Aug  2 2023  3:20AM"</LogTime>
@@ -1657,6 +1559,14 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<LATLON>"34157872:118453401"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Aug  2 2023  3:35AM"</DetailTime>
+			<IncidentDetail>"[32] C56-406  VEH NOW ON RS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  2 2023  3:35AM"</DetailTime>
+			<IncidentDetail>"[31] C56-406  ALL LNS OPEN"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Aug  2 2023  3:17AM"</DetailTime>
 			<IncidentDetail>"[27] PTYS OUTSIDE VEH IN CD"</IncidentDetail>
 		</details>
@@ -1696,6 +1606,12 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<DetailTime>"Aug  2 2023  3:12AM"</DetailTime>
 			<IncidentDetail>"[10] POSS 2 VEH TC BLOCKING FAR LEFT LANE"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug  2 2023  3:36AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:36AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:34AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug  2 2023  3:16AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug  2 2023  3:15AM"</UnitTime>
@@ -2100,6 +2016,8 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<DetailTime>"Aug  1 2023 11:38PM"</DetailTime>
 			<IncidentDetail>"[3] 77-MZP2  SB 405 TRANS NB 110 SHUT DOWN UNTIL 0300 HRS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug  2 2023  3:35AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023 10:45PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023 10:45PM"</UnitTime>
@@ -2198,6 +2116,8 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34150697:118660236"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Aug  2 2023  3:34AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023  9:56PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023  9:56PM"</UnitTime>
@@ -2311,6 +2231,28 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 </Dispatch>
 <Dispatch ID = "FRCC">
 
+		<Log ID = "230802FR00032">
+			<LogTime>"Aug  2 2023  3:33AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Sr168 / Indian Camp Rd"</Location>
+			<LocationDesc>"EB 168 JWO INDIAN CAMP"</LocationDesc>
+			<Area>"Fresno"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36954168:119505115"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Aug  2 2023  3:35AM"</DetailTime>
+			<IncidentDetail>"[5] CORRECTION // GOING TO START OWN 1185 // BUT IS REQ CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  2 2023  3:35AM"</DetailTime>
+			<IncidentDetail>"[4] VEH IS NEG 1125 // IS REQ 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Aug  2 2023  3:34AM"</DetailTime>
+			<IncidentDetail>"[2] LOST OCNTORL AND WENT OFF THE ROAD"</IncidentDetail>
+		</details></LogDetails></Log>
+
 		<Log ID = "230802FR00030">
 			<LogTime>"Aug  2 2023  3:20AM"</LogTime>
 			<LogType>"ANIMAL-Live or Dead Animal"</LogType>
@@ -2358,6 +2300,8 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<DetailTime>"Aug  2 2023  3:16AM"</DetailTime>
 			<IncidentDetail>"[1] OPEN LINE XFER FRM C2"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Aug  2 2023  3:33AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug  2 2023  3:26AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug  2 2023  3:26AM"</UnitTime>
@@ -2365,56 +2309,6 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<UnitTime>"Aug  2 2023  3:23AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug  2 2023  3:16AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "230802BF00005">
-			<LogTime>"Aug  2 2023 12:21AM"</LogTime>
-			<LogType>"CFIRE-Car Fire"</LogType>
-			<Location>"Sr166 / Metson Lease"</Location>
-			<LocationDesc>"EB SR166 JEO METSON LEASE"</LocationDesc>
-			<Area>"Fort Tejon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35058083:119295773"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Aug  2 2023  2:47AM"</DetailTime>
-			<IncidentDetail>"[21] C2 REQ VEH TAKEN OUT TO BE REPORTED 10851"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023  1:08AM"</DetailTime>
-			<IncidentDetail>"[12] C102-051C  97 JNO RDWY / WILL HANDLE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023 12:57AM"</DetailTime>
-			<IncidentDetail>"[10] FIRE ADV'D PLT 8TBP441 // FIRE ADV'D C1 NOT RESPONDING DUE TO VEH BEING ON PRIV PROP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023 12:50AM"</DetailTime>
-			<IncidentDetail>"[8] [Rotation Request Comment] 1039 COMMERCIAL TOWING 661-325-9500 W/ FB"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023 12:49AM"</DetailTime>
-			<IncidentDetail>"[7] 51C CPS 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023 12:47AM"</DetailTime>
-			<IncidentDetail>"[6] ECC ADV'D WILL BE N SIDE OF RDWY 2 MI JEO BASIC SCHOOL / LESS THAN 1/4 MI OFF RDWY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023 12:43AM"</DetailTime>
-			<IncidentDetail>"[5] 1039 C1"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Aug  2 2023 12:24AM"</DetailTime>
-			<IncidentDetail>"[1] VEH IN FIELD ON SB SIDE OF RDWY // FULLY ENGULFED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Aug  2 2023  2:13AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  1:08AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023  1:08AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Aug  2 2023 12:25AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230802BF00002">
@@ -2688,7 +2582,9 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 		<details>
 			<DetailTime>"Aug  2 2023  3:16AM"</DetailTime>
 			<IncidentDetail>"[1] WHI SD THAT IS DOWN AN EMBANKMENT ON THE RHS OF THE OFR"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Aug  2 2023  3:37AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "230802IC00021">
 			<LogTime>"Aug  2 2023  1:55AM"</LogTime>
@@ -2993,6 +2889,10 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33036750:116878106"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Aug  2 2023  3:36AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:36AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Aug  2 2023  3:01AM"</UnitTime>
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023 10:07PM"</UnitTime>
@@ -3007,6 +2907,8 @@ HOLA,...GOOD EVENING,...CAN YOU PLEASE CREATE A LOG FOR ME? I AM ASSISTING CALTR
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023  8:33PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Aug  2 2023  3:34AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023  8:32PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Aug  1 2023  8:32PM"</UnitTime>
