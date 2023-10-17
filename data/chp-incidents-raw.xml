@@ -285,10 +285,14 @@
 			<DetailTime>"Oct 16 2023  7:46PM"</DetailTime>
 			<IncidentDetail>"[1] CZP1 22250 / VEH 1365585 / BM 210938 51 and E ST"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Oct 17 2023 12:34AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 11:52PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 11:52PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:34AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 10:15PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 10:15PM"</UnitTime>
@@ -727,6 +731,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023  5:46PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023  6:06PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023  5:46PM"</UnitTime>
@@ -779,6 +785,16 @@
 <Center ID = "GGHB">
 <Dispatch ID = "GGCC">
 
+		<Log ID = "231017GG00047">
+			<LogTime>"Oct 17 2023 12:37AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"San Bruno Ave E / N McDonnell Rd"</Location>
+			<LocationDesc>"JWO NEAR FRWY OP"</LocationDesc>
+			<Area>"GG"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37633256:122397917"</LATLON>
+			<LogDetails><details/></LogDetails></Log>
+
 		<Log ID = "231017GG00003">
 			<LogTime>"Oct 17 2023 12:00AM"</LogTime>
 			<LogType>"TADV-Traffic Advisory"</LogType>
@@ -795,26 +811,6 @@
 			<UnitTime>"Oct 17 2023 12:00AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 17 2023 12:00AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "231016GG02181">
-			<LogTime>"Oct 16 2023 11:09PM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I80 W / Hunter Hill Safety Rest Area Ofr"</Location>
-			<LocationDesc>"RHS"</LocationDesc>
-			<Area>"Solano"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38155909:122214243"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct 16 2023 11:11PM"</DetailTime>
-			<IncidentDetail>"[2] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct 16 2023 11:09PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023 11:09PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023 11:09PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "231016GG02154">
@@ -1406,6 +1402,66 @@
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
 
+		<Log ID = "231017LA00053">
+			<LogTime>"Oct 17 2023 12:37AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I5 S / Slauson Ave Ofr"</Location>
+			<LocationDesc>"JNO SLAUSON"</LocationDesc>
+			<Area>"East LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33978612:118127715"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:38AM"</DetailTime>
+			<IncidentDetail>"[1] GRY HOND PARTIALLY IN SLOW LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct 17 2023 12:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "231017LA00051">
+			<LogTime>"Oct 17 2023 12:34AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Us101 S / Laurel Canyon Blvd Ofr"</Location>
+			<LocationDesc>"EB 101 AT LAUREL CANYON"</LocationDesc>
+			<Area>"West Valley"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34155503:118401012"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:41AM"</DetailTime>
+			<IncidentDetail>"[13] PER DUPE 20002 // SV - WHI UTILITY VAN - UNK PLT // VV - UNK SD - BLKING SLOW LN [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:38AM"</DetailTime>
+			<IncidentDetail>"[4] BLU MAZD IN CAL TRANS CLOSURE BTWN 134/LAUREL CAN [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:37AM"</DetailTime>
+			<IncidentDetail>"[11] [Appended, 00:41:09] [5] PER DUPE 1 VEH BLKG #2 LN AND 1 VEH BLKG SLOW LN  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:36AM"</DetailTime>
+			<IncidentDetail>"[2] BLU SEDAN VS RS BLKG RIGHT LANE "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:36AM"</DetailTime>
+			<IncidentDetail>"[10] [Appended, 00:41:09] [4] PARTIAL BLKG SLOW LN [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:35AM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 00:41:09] [2] RP ADVS NOW POSS 4 VEHS INVLD "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:35AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 00:41:09] [1] 2 VEH TC"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct 17 2023 12:41AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:41AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:40AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
 		<Log ID = "231017LA00029">
 			<LogTime>"Oct 17 2023 12:25AM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -1637,6 +1693,8 @@
 			<DetailTime>"Oct 16 2023  9:55PM"</DetailTime>
 			<IncidentDetail>"[1] WHI SD - TC'D IN TO THE RS "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Oct 17 2023 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 10:40PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 10:40PM"</UnitTime>
@@ -1689,6 +1747,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33790542:118281917"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Oct 17 2023 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 11:17PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 11:17PM"</UnitTime>
@@ -1717,6 +1779,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34028467:118229938"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Oct 17 2023 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023  9:50PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1846,130 +1912,6 @@
 			<UnitTime>"Oct 16 2023  8:16PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "231016LA02643">
-			<LogTime>"Oct 16 2023  7:36PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Sr91 E / I605 S Sr91 E Con"</Location>
-			<LocationDesc>"EB 91 AT 605"</LocationDesc>
-			<Area>"Santa Fe Springs"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33876287:118101618"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct 16 2023  8:45PM"</DetailTime>
-			<IncidentDetail>"[25] B83-092 RUNNIGN A BREAK ON EB TO STOP ALL TRAFFIC SO 1185 CAN HOOK UP VEH "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  8:32PM"</DetailTime>
-			<IncidentDetail>"[17] B83-090 417 IN VEH - CODE 4 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  8:05PM"</DetailTime>
-			<IncidentDetail>"[11] B83-090 97 W/ BREAK FRM BELLFLOWER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  8:03PM"</DetailTime>
-			<IncidentDetail>"[9] [Rotation Request Comment] 1039 BALCACERES BRO'S ETA 20 562-867-8062"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:59PM"</DetailTime>
-			<IncidentDetail>"[5] B83-092 TASK 83-92 COLA, REQ 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:57PM"</DetailTime>
-			<IncidentDetail>"[3] B83-092 EB JWO 605 - ON RS VEH IN GUARDRAIKL"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:38PM"</DetailTime>
-			<IncidentDetail>"[2] BLK UNK SD VS DIVIDER // LS 5 AGO"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct 16 2023  8:07PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  8:02PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  8:02PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  9:09PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:57PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:39PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:39PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "231016LA02607">
-			<LogTime>"Oct 16 2023  7:18PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"La11084 I110 N / So I405 S"</Location>
-			<LocationDesc>"OFF MAIN JEO ALBERTONI"</LocationDesc>
-			<Area>"South LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33856754:118284625"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct 16 2023  8:16PM"</DetailTime>
-			<IncidentDetail>"[22] B77-110T 1015 AT 2016 HRS "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:46PM"</DetailTime>
-			<IncidentDetail>"[16] [Rotation Request Comment] 1039 Van Lingen's Tow 310-602-4970 ETA  20 W/ 50 FT CABLE [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:44PM"</DetailTime>
-			<IncidentDetail>"[15] B77-120  REQ 1185 W/ 50 FT OF CABLE  FOR WHI TOYT TAC [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:36PM"</DetailTime>
-			<IncidentDetail>"[13] 1039 LACOFD  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:30PM"</DetailTime>
-			<IncidentDetail>"[10] B77-120  W/ BREAK [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:23PM"</DetailTime>
-			<IncidentDetail>"[7] [Notification] [CHP]-ALSO REPORTED NB 110 TRANS TO SB 405  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:20PM"</DetailTime>
-			<IncidentDetail>"[3] 1039 LACOFD ON PRECAUTION "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct 16 2023  7:19PM"</DetailTime>
-			<IncidentDetail>"[1] SOLO VEH TC- DARK COLOR'D TK INTO DITCH ON RS "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct 16 2023  8:25PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:53PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:43PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:42PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:31PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:31PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:32PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:28PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:28PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  8:22PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:33PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:25PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:25PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:26PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct 16 2023  7:24PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "231016LA02588">
 			<LogTime>"Oct 16 2023  7:11PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -2018,6 +1960,60 @@
 </Dispatch>
 <Dispatch ID = "FRCC">
 
+		<Log ID = "231017FR00012">
+			<LogTime>"Oct 17 2023 12:34AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"Sr180 W / Blackstone Ave Ofr"</Location>
+			<LocationDesc>"WB 180 AT BLACKSTONE"</LocationDesc>
+			<Area>"Fresno"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36752856:119786866"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:40AM"</DetailTime>
+			<IncidentDetail>"[5] 65-410 FIRE 97 THEYLL HAVE THE #4 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:37AM"</DetailTime>
+			<IncidentDetail>"[2] RP ADV THICK SMOKE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:36AM"</DetailTime>
+			<IncidentDetail>"[1] BRUSH FIRE ON RHS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct 17 2023 12:40AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:40AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:40AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "231017FR00010">
+			<LogTime>"Oct 17 2023 12:33AM"</LogTime>
+			<LogType>"FIRE-Report of Fire"</LogType>
+			<Location>"Sr180 W / Sr41"</Location>
+			<LocationDesc>"WB SR180 AT SR41"</LocationDesc>
+			<Area>"Fresno"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36754467:119775682"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:36AM"</DetailTime>
+			<IncidentDetail>"[4] 65-410 1097 WILL BE WB 180 AT BLACKSTONE OFF  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:33AM"</DetailTime>
+			<IncidentDetail>"[1] BRUSH FIRE "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct 17 2023 12:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:36AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:36AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:36AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
 		<Log ID = "231017FR00007">
 			<LogTime>"Oct 17 2023 12:25AM"</LogTime>
 			<LogType>"CFIRE-Car Fire"</LogType>
@@ -2028,9 +2024,19 @@
 			<LATLON>"36449981:119116781"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Oct 17 2023 12:37AM"</DetailTime>
+			<IncidentDetail>"[6] 1039 TC FIRE "</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Oct 17 2023 12:25AM"</DetailTime>
 			<IncidentDetail>"[2] PER ORIGINAL CALLER VEH HAD BEEN THERE FOR A FEW DAYS AND IS NOW ON FIRE"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Oct 17 2023 12:35AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:33AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "231016FR00648">
 			<LogTime>"Oct 16 2023 11:00PM"</LogTime>
@@ -2075,6 +2081,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"36022223:119039955"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:39AM"</DetailTime>
+			<IncidentDetail>"[31] Tow Request Cancelled: 1204439"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:36AM"</DetailTime>
+			<IncidentDetail>"[29] 40-10 CAL TRANS WILL BE SHUTTING DOWN BOTH SB LANES WILL DIVERT TRAFFIC AROUND USING LEFT TURN LANE FOR AVE 124 "</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Oct 17 2023 12:09AM"</DetailTime>
 			<IncidentDetail>"[23] C40-010 ADVS VIA LL START WALLACE TOWING / CAL TRANS CAN MOVE IT FARTHER TO RHS"</IncidentDetail>
@@ -2285,6 +2299,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 10:12PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:38AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 10:19PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 10:06PM"</UnitTime>
@@ -2791,6 +2807,14 @@
 			<LATLON>"33326039:117159044"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Oct 17 2023 12:40AM"</DetailTime>
+			<IncidentDetail>"[7] PER CDF 1125 ONLY "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:39AM"</DetailTime>
+			<IncidentDetail>"[5] 92-15C DID FIRE ADV WHAT WAS WRONG WITH SEMI "</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Oct 17 2023 12:29AM"</DetailTime>
 			<IncidentDetail>"[3] VEH IS HORIZONTAL IN THE LANES"</IncidentDetail>
 		</details>
@@ -2826,6 +2850,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"32718864:117099938"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:40AM"</DetailTime>
+			<IncidentDetail>"[63] [Notification] [CHP]-CAN CHP PLEASE ADV IF VEH TC'D INTO ANY ELECTRICAL POLE? [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Oct 17 2023 12:25AM"</DetailTime>
 			<IncidentDetail>"[61] 1039 MCC: USAR2:  B DUNCAN ID BD7925 ENGINEER / G MACKIE ID GM2761 CAPT / J MERAZ ID JM7783 FF / J BOTELLO ID JT1615 FF/PARA /// TK12 - J HERZOG ID JH3287 FF / N HINCK ID NH0568 FF / T BROUGHTON ID TB4579 ENGINEER  /// ENG 19 :  J WILT ID JW4402 FF/PARA / R DROP ID RD4376 FF / W MIDDLETON ID JM9974 CAPT  /// ENG 12 G VARGAS ID GV0669 CAPT / J HAILSTONE ID JE1628 ENGINEER / M JENSEN ID  MJ3196 FF/PARAMEDIC17 : A MOORE ID AM1775 EMT / D PHILLIPSID  DP2051 PARA  /// MEDIC 26: M SCOTT ID MS2323 PARA / N RIVERA ID NR2560 PARA /// [Shared]"</IncidentDetail>
@@ -3211,6 +3239,14 @@
 			<LATLON>"34169220:117337535"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Oct 17 2023 12:35AM"</DetailTime>
+			<IncidentDetail>"[18] [Rotation Request Comment] **1039 CHINOS TOW 951.452.1849** [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct 17 2023 12:34AM"</DetailTime>
+			<IncidentDetail>"[17] C75-214 REQ 1185  [Shared]"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Oct 17 2023 12:31AM"</DetailTime>
 			<IncidentDetail>"[16] 1039 SB COMM CENTER  [Shared]"</IncidentDetail>
 		</details>
@@ -3241,7 +3277,17 @@
 		<details>
 			<DetailTime>"Oct 17 2023 12:29AM"</DetailTime>
 			<IncidentDetail>"[3] RP HEARD THE TC FROM OFF FWY "</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Oct 17 2023 12:39AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:36AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:41AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:39AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:34AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "231017IN00005">
 			<LogTime>"Oct 17 2023 12:09AM"</LogTime>
@@ -3276,6 +3322,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33976904:117371794"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:33AM"</DetailTime>
+			<IncidentDetail>"[21]  SVS VERF  "</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Oct 17 2023 12:05AM"</DetailTime>
 			<IncidentDetail>"[15] C74-031 INFO FOR CT - 50 FT DAMAGE GUARDRAIL - 10TH ONR TO WB 91"</IncidentDetail>
@@ -3649,13 +3699,17 @@
 
 		<Log ID = "231016OC00769">
 			<LogTime>"Oct 16 2023 11:36PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<LogType>"20001-Hit and Run w/Injuries"</LogType>
 			<Location>"Sr55 N / Sr91"</Location>
 			<LocationDesc>"NB 55 JSO 91"</LocationDesc>
 			<Area>"Santa Ana"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33842351:117830315"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Oct 17 2023 12:39AM"</DetailTime>
+			<IncidentDetail>"[48] C86-551 FINAL CODING 2 VEH 20001"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Oct 17 2023 12:25AM"</DetailTime>
 			<IncidentDetail>"[45] C86-093 RDWY CLR * REMAINING FLARES WILL BURN OUT SHORTLY  [Shared]"</IncidentDetail>
@@ -3736,6 +3790,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 11:47PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct 17 2023 12:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 11:47PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct 16 2023 11:43PM"</UnitTime>
