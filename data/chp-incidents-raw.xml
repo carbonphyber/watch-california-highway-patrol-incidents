@@ -1,5 +1,57 @@
 <?xml version="1.0" ?>
 <State><Center ID = "SAHB">
+<Dispatch ID = "TKCC">
+
+		<Log ID = "240424TK0003">
+			<LogTime>"Apr 24 2024  1:30AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"90 Cisco Rd"</Location>
+			<LocationDesc>"TRUCK STOP"</LocationDesc>
+			<Area>"Gold Run"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"39308307:120545209"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 24 2024  1:34AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:34AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240424TK0001">
+			<LogTime>"Apr 24 2024 12:00AM"</LogTime>
+			<LogType>"CLOSURE-Closure of a Road"</LogType>
+			<Location>"0 Sr4"</Location>
+			<LocationDesc>"** CLOSURES 4/24 **"</LocationDesc>
+			<Area>"South Lake"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"38544110:119811507"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 24 2024 12:01AM"</DetailTime>
+			<IncidentDetail>"[1] ^SR4 AT EBBETTS PASS"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "240423TK0040">
+			<LogTime>"Apr 23 2024  6:41PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I80 W / Cisco Grove Ofr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Gold Run"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"39308485:120541540"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 23 2024 10:13PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 10:11PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 10:11PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:02PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  6:42PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  6:42PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "CHCC">
 
 		<Log ID = "240424CH0005">
@@ -48,44 +100,6 @@
 			<UnitTime>"Apr 24 2024 12:04AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024 12:04AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "TKCC">
-
-		<Log ID = "240424TK0001">
-			<LogTime>"Apr 24 2024 12:00AM"</LogTime>
-			<LogType>"CLOSURE-Closure of a Road"</LogType>
-			<Location>"0 Sr4"</Location>
-			<LocationDesc>"** CLOSURES 4/24 **"</LocationDesc>
-			<Area>"South Lake"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38544110:119811507"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 24 2024 12:01AM"</DetailTime>
-			<IncidentDetail>"[1] ^SR4 AT EBBETTS PASS"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "240423TK0040">
-			<LogTime>"Apr 23 2024  6:41PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I80 W / Cisco Grove Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Gold Run"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"39308485:120541540"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 23 2024 10:13PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 10:11PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 10:11PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:02PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  6:42PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  6:42PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "SACC">
@@ -481,8 +495,12 @@
 			<DetailTime>"Apr 24 2024 12:15AM"</DetailTime>
 			<IncidentDetail>"[4] UNK IF ON 40TH OR THE SR24 W ONR "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 24 2024  1:30AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024 12:43AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:30AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024 12:50AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024 12:37AM"</UnitTime>
@@ -1033,30 +1051,6 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 23 2024  5:30PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240422GG2194">
-			<LogTime>"Apr 22 2024 11:29PM"</LogTime>
-			<LogType>"WIND Advisory"</LogType>
-			<Location>"I680 N"</Location>
-			<LocationDesc>"BENICIA-MARTINEZ BRG"</LocationDesc>
-			<Area>"Contra Costa"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"38042911:122121842"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 22 2024 11:30PM"</DetailTime>
-			<IncidentDetail>"[2] 1039 DOTCC"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 22 2024 11:30PM"</DetailTime>
-			<IncidentDetail>"[1] WIND ADV -- PER 19-683C "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 22 2024 11:31PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 22 2024 11:31PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 22 2024 11:31PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "MYCC">
 
@@ -1131,6 +1125,8 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"36722699:121659515"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Apr 24 2024  1:34AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 23 2024  9:54PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 23 2024  9:54PM"</UnitTime>
@@ -1221,204 +1217,6 @@
 </Center>
 
 <Center ID = "LAHB">
-<Dispatch ID = "FRCC">
-
-		<Log ID = "240424FR0011">
-			<LogTime>"Apr 24 2024 12:57AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr99 S / Ashlan Ave Ofr"</Location>
-			<LocationDesc>"SB BTWN SHAW"</LocationDesc>
-			<Area>"Fresno"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36795800:119868835"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 24 2024  1:22AM"</DetailTime>
-			<IncidentDetail>"[8] C65-106 COUCH MOVED TO THE RHS FOR CTS  1098 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:21AM"</DetailTime>
-			<IncidentDetail>"[7] C65-106 HAS BREAK SB AT SHAW "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:10AM"</DetailTime>
-			<IncidentDetail>"[5] H43 IN THE #3 / 1098 ."</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:10AM"</DetailTime>
-			<IncidentDetail>"[4] H42 SB 99 JSO SHAW / APPERARS HAS BEEN HIT MUTIPLE TIMES / DEBRIS 1125 MOST  WILL DISSIPATE   W/ TRFC / 1 LRG PIECE THAT WILL NEED TO BE MOVED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024 12:58AM"</DetailTime>
-			<IncidentDetail>"[1] COUCH 1125 SLOW LN "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 24 2024  1:22AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024  1:01AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024  1:01AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240424FR0005">
-			<LogTime>"Apr 24 2024 12:24AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"6773 N Mccall Ave"</Location>
-			<LocationDesc>"6773 N MCCALL JSO HERNDON"</LocationDesc>
-			<Area>"Fresno"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36834126:119609942"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 24 2024 12:24AM"</DetailTime>
-			<IncidentDetail>"[3] HIT MAILBOX"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 24 2024  1:25AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024  1:25AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240423FR0603">
-			<LogTime>"Apr 23 2024 11:14PM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"20076 Road 244"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Porterville"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36154159:119027170"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 23 2024 11:39PM"</DetailTime>
-			<IncidentDetail>"[20] [Rotation Request Comment] 1039 TOW PRO 559-562-7561 ********"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024 11:38PM"</DetailTime>
-			<IncidentDetail>"[19] B40-030 REQ 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024 11:27PM"</DetailTime>
-			<IncidentDetail>"[11] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024 11:24PM"</DetailTime>
-			<IncidentDetail>"[8] B40-050 RD 244 JNO AVE 200 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024 11:16PM"</DetailTime>
-			<IncidentDetail>"[4] VEH IS POSS A WHI CHEV SLV"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024 11:15PM"</DetailTime>
-			<IncidentDetail>"[1] TK VS TREE AND A FENCE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 24 2024 12:23AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:26PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:26PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:26PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024 12:27AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:24PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:25PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240423FR0497">
-			<LogTime>"Apr 23 2024  6:43PM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"Niles Ave / 10th Ave"</Location>
-			<LocationDesc>"NILES JEO 10TH"</LocationDesc>
-			<Area>"Hanford"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36116139:119644348"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 23 2024  8:00PM"</DetailTime>
-			<IncidentDetail>"[14] [Rotation Request Comment] 1039 PRIME TOWING 684-7796"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  8:00PM"</DetailTime>
-			<IncidentDetail>"[13] 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  8:00PM"</DetailTime>
-			<IncidentDetail>"[12] SUSP VEH IS ON SCENE AND THE DRVR FLED "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  6:58PM"</DetailTime>
-			<IncidentDetail>"[11] 1039 HANF PD "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  6:53PM"</DetailTime>
-			<IncidentDetail>"[7] INVLD : WHI BIG RIG W/ WHI BOX TRAILER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  6:47PM"</DetailTime>
-			<IncidentDetail>"[3] RPS SEMI WAS REAR ENDED AND OTHER VEH TOOK OFF"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 23 2024 10:53PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:57PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:56PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:56PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:56PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:55PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:40PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:15PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:15PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  6:50PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240423FR0243">
-			<LogTime>"Apr 23 2024 12:07PM"</LogTime>
-			<LogType>"WIND Advisory"</LogType>
-			<Location>"125 S 6th St"</Location>
-			<LocationDesc>"COALINGA AREA OFFICE"</LocationDesc>
-			<Area>"FR3"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36137817:120359847"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 23 2024  6:20PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  4:32PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024 12:08PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240423FR0082">
-			<LogTime>"Apr 23 2024  6:32AM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr41 / Quail Ave"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Coalinga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36036356:119958887"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 23 2024  7:08AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:08AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  6:33AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "LACC">
 
 		<Log ID = "240424LA0050">
@@ -1430,6 +1228,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34032453:118029340"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Apr 24 2024  1:34AM"</DetailTime>
+			<IncidentDetail>"[73] [Notification] [CHP]-BOB AND DAVE'S ADV 1185 THAT WAS ON S CENE RAN OUT OF ABSORBANT - THEY ARE SENDING ANOTHER TK - 15 MIN ETA - THEY WILL CALL WHEN THEY GO 97 FOR THE BREAK [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 24 2024  1:30AM"</DetailTime>
+			<IncidentDetail>"[71] 1039 BOB AND DAVES -- CPYS UNITS REQ FOR OIL TO BE CLEANED UP IN TRANS RD  -- ALSO CPYS TO RECALL BEFORE GOING 97 SO BREAK CAN BE RAN FOR THEM   [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Apr 24 2024  1:27AM"</DetailTime>
 			<IncidentDetail>"[68] 83-650 ADVS 82-420 CAN RELEASE THEIR BREAK  [Shared]"</IncidentDetail>
@@ -1572,6 +1378,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024  1:03AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:31AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024 12:43AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024 12:34AM"</UnitTime>
@@ -2210,7 +2018,117 @@
 		</details><units>
 			<UnitTime>"Apr 23 2024  8:31PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:30AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Apr 23 2024  6:12PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "FRCC">
+
+		<Log ID = "240424FR0005">
+			<LogTime>"Apr 24 2024 12:24AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"6773 N Mccall Ave"</Location>
+			<LocationDesc>"6773 N MCCALL JSO HERNDON"</LocationDesc>
+			<Area>"Fresno"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36834126:119609942"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 24 2024 12:24AM"</DetailTime>
+			<IncidentDetail>"[3] HIT MAILBOX"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Apr 24 2024  1:25AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:25AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240423FR0603">
+			<LogTime>"Apr 23 2024 11:14PM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"20076 Road 244"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Porterville"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36154159:119027170"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 23 2024 11:39PM"</DetailTime>
+			<IncidentDetail>"[20] [Rotation Request Comment] 1039 TOW PRO 559-562-7561 ********"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024 11:38PM"</DetailTime>
+			<IncidentDetail>"[19] B40-030 REQ 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024 11:27PM"</DetailTime>
+			<IncidentDetail>"[11] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024 11:24PM"</DetailTime>
+			<IncidentDetail>"[8] B40-050 RD 244 JNO AVE 200 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024 11:16PM"</DetailTime>
+			<IncidentDetail>"[4] VEH IS POSS A WHI CHEV SLV"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024 11:15PM"</DetailTime>
+			<IncidentDetail>"[1] TK VS TREE AND A FENCE"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Apr 24 2024 12:23AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:26PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:26PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:26PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024 12:27AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:24PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:25PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 11:18PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240423FR0243">
+			<LogTime>"Apr 23 2024 12:07PM"</LogTime>
+			<LogType>"WIND Advisory"</LogType>
+			<Location>"125 S 6th St"</Location>
+			<LocationDesc>"COALINGA AREA OFFICE"</LocationDesc>
+			<Area>"FR3"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36137817:120359847"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 23 2024  6:20PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  4:32PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024 12:08PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240423FR0082">
+			<LogTime>"Apr 23 2024  6:32AM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr41 / Quail Ave"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Coalinga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36036356:119958887"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 23 2024  7:08AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  7:08AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  6:33AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "BFCC">
@@ -2502,6 +2420,10 @@
 			<LATLON>"34111450:117526190"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Apr 24 2024  1:29AM"</DetailTime>
+			<IncidentDetail>"[24] [Notification] [CHP]-AMERICAN EAGLE ETA 3 MIN - TURNING AROUND "</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Apr 24 2024  1:08AM"</DetailTime>
 			<IncidentDetail>"[22] [Rotation Request Comment] 1039 AMERICAN EAGLE TOWING --- 909-545-7952
 *"</IncidentDetail>
@@ -2591,22 +2513,6 @@
 			<UnitTime>"Apr 23 2024  8:48PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "240423IN0969">
-			<LogTime>"Apr 23 2024  8:35PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr91 W At / Sr71"</Location>
-			<LocationDesc>"SR91 W AT SR71"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33883704:117640311"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 23 2024  9:48PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  8:35PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "240423IN0949">
 			<LogTime>"Apr 23 2024  8:13PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -2651,162 +2557,6 @@
 			<UnitTime>"Apr 23 2024  8:03PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "ICCC">
-
-		<Log ID = "240424IC0007">
-			<LogTime>"Apr 24 2024  1:17AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Ramon Rd / Varner Rd"</Location>
-			<LocationDesc>"JWO"</LocationDesc>
-			<Area>"Indio"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33816303:116401149"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 24 2024  1:17AM"</DetailTime>
-			<IncidentDetail>"[1] TRANS FROM RSO "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 24 2024  1:22AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240424IC0004">
-			<LogTime>"Apr 24 2024 12:45AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"44235 Acacia Ave"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"San Gorgonio Pass"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33744246:116888923"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 24 2024 12:49AM"</DetailTime>
-			<IncidentDetail>"[6] THE WHOLE RDWY IS BLOCKED "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024 12:47AM"</DetailTime>
-			<IncidentDetail>"[5] TREE IN THE RDWY  "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024 12:47AM"</DetailTime>
-			<IncidentDetail>"[3] STATES THERE IS SOMETHING IN THE RDWY "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 24 2024  1:01AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024  1:01AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024  1:17AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024 12:52AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240424IC0002">
-			<LogTime>"Apr 24 2024 12:19AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"79650 Varner Rd"</Location>
-			<LocationDesc>"INDIO CHP WEATHER"</LocationDesc>
-			<Area>"IC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33751459:116272108"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 24 2024 12:20AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024 12:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024 12:20AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240423IC0230">
-			<LogTime>"Apr 23 2024  9:29PM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Sr371 W Wo / Burnt Valley Rd"</Location>
-			<LocationDesc>"SR371 W Burnt Valley Rd"</LocationDesc>
-			<Area>"San Gorgonio Pass"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33559402:116607174"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 24 2024 12:37AM"</DetailTime>
-			<IncidentDetail>"[11] 1039 RSO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024 10:50PM"</DetailTime>
-			<IncidentDetail>"[9] CAL FIRE DOES NOT HAVE A CALL "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  9:33PM"</DetailTime>
-			<IncidentDetail>"[3] WHI VAN OFF RDWY "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  9:32PM"</DetailTime>
-			<IncidentDetail>"[5] [Appended, 21:34:03] [1] WHI SD OFF RD  "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 23 2024  9:32PM"</DetailTime>
-			<IncidentDetail>"[1] RSO ADV CALLED IN DIRECTLY  TO T HE FIRE STATION -- "</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "240423IC0217">
-			<LogTime>"Apr 23 2024  8:38PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I10 W / Jefferson - Indio Blvd Ofr Exit 139 Mm 52"</Location>
-			<LocationDesc>"I10 W JEFFERSON - INDIO BLVD OFR EXIT 139 MM 52"</LocationDesc>
-			<Area>"Indio"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33746915:116264645"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Apr 23 2024  9:11PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:04PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  9:04PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240423IC0197">
-			<LogTime>"Apr 23 2024  7:52PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr74 / Sr79"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"San Gorgonio Pass"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33739082:117076413"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 23 2024  9:12PM"</DetailTime>
-			<IncidentDetail>"[2] EB SR74 CLOSED BETWEEN SR79 AND WARREN RD"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "240423IC0028">
-			<LogTime>"Apr 23 2024  6:44AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"Palm Springs"</Location>
-			<LocationDesc>"PALM SPRINGS"</LocationDesc>
-			<Area>"IC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33839123:116515305"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 23 2024  6:44AM"</DetailTime>
-			<IncidentDetail>"[1] INDIAN CLOSED UFN - DUE TO BLOWING SANDS/WINDS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 23 2024  6:45AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  6:45AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 23 2024  6:45AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "BCCC">
 
 		<Log ID = "240424BC0035">
@@ -2834,6 +2584,14 @@
 			<DetailTime>"Apr 24 2024  1:16AM"</DetailTime>
 			<IncidentDetail>"[1] 1125 JEEP SLOW LANE"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Apr 24 2024  1:33AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:29AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:29AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:29AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024  1:16AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Apr 24 2024  1:16AM"</UnitTime>
@@ -3127,55 +2885,171 @@
 			<UnitTime>"Apr 23 2024  6:49PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "OCCC">
+<Dispatch ID = "BICC">
 
-		<Log ID = "240424OC0017">
-			<LogTime>"Apr 24 2024  1:13AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr55 N / I5"</Location>
-			<LocationDesc>"NB 55 JSO 5"</LocationDesc>
-			<Area>"Santa Ana"</Area>
+		<Log ID = "240424BI0005">
+			<LogTime>"Apr 24 2024 12:49AM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Eastern Sierra Roads Info"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>""</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33740439:117833716"</LATLON>
+			<LATLON>"0:0"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Apr 24 2024  1:24AM"</DetailTime>
-			<IncidentDetail>"[13] 86-502 CORRECTION *TAKING VEH OFF AT RH [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:24AM"</DetailTime>
-			<IncidentDetail>"[12] 86-502 VEH LIT UP // SB 5 -- TAKING OFF AT RH [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:22AM"</DetailTime>
-			<IncidentDetail>"[11] C86-502 VEH TAKING OFF -- FOLLOWING IT [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:18AM"</DetailTime>
-			<IncidentDetail>"[7] C86-502 W/ VIS FRM SB SIDE -- BLKNG SLOW LN AND PRTY OO VEH [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:15AM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 01:15:58] [2] PRTY STANDING BEHIND THE VEH W/A DIM FLASHLIGHT * DIFF TO SEE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:14AM"</DetailTime>
-			<IncidentDetail>"[3] [Appended, 01:15:58] [1] WHI SUV * VEH ON THE RS PARTIALLY BLKING THE SLOW LANE * VEH BLACKED OUT "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:14AM"</DetailTime>
-			<IncidentDetail>"[2] MULT PTYS OO VEH WALKING AROUND IN LNS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Apr 24 2024  1:14AM"</DetailTime>
-			<IncidentDetail>"[1] SIL SUV IN SLO LN // HAZARDS ON"</IncidentDetail>
+			<DetailTime>"Apr 24 2024 12:49AM"</DetailTime>
+			<IncidentDetail>"[1] ,FOR CURRENT ROAD CONDITIONS PLEASE VISIT THE CAL TRANS WEBSITE AT HTTP://QUICKMAP.DOT.CA.GOV OR CALL 1-800-427-7623"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Apr 24 2024  1:22AM"</UnitTime>
+			<UnitTime>"Apr 24 2024 12:49AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024  1:16AM"</UnitTime>
+			<UnitTime>"Apr 24 2024 12:49AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024  1:16AM"</UnitTime>
+			<UnitTime>"Apr 24 2024 12:49AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "ICCC">
+
+		<Log ID = "240424IC0004">
+			<LogTime>"Apr 24 2024 12:45AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"44235 Acacia Ave"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"San Gorgonio Pass"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33744246:116888923"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 24 2024 12:49AM"</DetailTime>
+			<IncidentDetail>"[6] THE WHOLE RDWY IS BLOCKED "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 24 2024 12:47AM"</DetailTime>
+			<IncidentDetail>"[5] TREE IN THE RDWY  "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 24 2024 12:47AM"</DetailTime>
+			<IncidentDetail>"[3] STATES THERE IS SOMETHING IN THE RDWY "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Apr 24 2024  1:34AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:01AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:01AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024  1:17AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024 12:52AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240424IC0002">
+			<LogTime>"Apr 24 2024 12:19AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"79650 Varner Rd"</Location>
+			<LocationDesc>"INDIO CHP WEATHER"</LocationDesc>
+			<Area>"IC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33751459:116272108"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 24 2024 12:20AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024 12:20AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 24 2024 12:20AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240423IC0230">
+			<LogTime>"Apr 23 2024  9:29PM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Sr371 W Wo / Burnt Valley Rd"</Location>
+			<LocationDesc>"SR371 W Burnt Valley Rd"</LocationDesc>
+			<Area>"San Gorgonio Pass"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33559402:116607174"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 24 2024 12:37AM"</DetailTime>
+			<IncidentDetail>"[11] 1039 RSO"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024 10:50PM"</DetailTime>
+			<IncidentDetail>"[9] CAL FIRE DOES NOT HAVE A CALL "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024  9:33PM"</DetailTime>
+			<IncidentDetail>"[3] WHI VAN OFF RDWY "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024  9:32PM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 21:34:03] [1] WHI SD OFF RD  "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Apr 23 2024  9:32PM"</DetailTime>
+			<IncidentDetail>"[1] RSO ADV CALLED IN DIRECTLY  TO T HE FIRE STATION -- "</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "240423IC0217">
+			<LogTime>"Apr 23 2024  8:38PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I10 W / Jefferson - Indio Blvd Ofr Exit 139 Mm 52"</Location>
+			<LocationDesc>"I10 W JEFFERSON - INDIO BLVD OFR EXIT 139 MM 52"</LocationDesc>
+			<Area>"Indio"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33746915:116264645"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Apr 23 2024  9:11PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  9:04PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  9:04PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240423IC0197">
+			<LogTime>"Apr 23 2024  7:52PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr74 / Sr79"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"San Gorgonio Pass"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33739082:117076413"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 23 2024  9:12PM"</DetailTime>
+			<IncidentDetail>"[2] EB SR74 CLOSED BETWEEN SR79 AND WARREN RD"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  7:52PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "240423IC0028">
+			<LogTime>"Apr 23 2024  6:44AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"Palm Springs"</Location>
+			<LocationDesc>"PALM SPRINGS"</LocationDesc>
+			<Area>"IC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33839123:116515305"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Apr 23 2024  6:44AM"</DetailTime>
+			<IncidentDetail>"[1] INDIAN CLOSED UFN - DUE TO BLOWING SANDS/WINDS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Apr 23 2024  6:45AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  6:45AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Apr 23 2024  6:45AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "OCCC">
 
 		<Log ID = "240424OC0003">
 			<LogTime>"Apr 24 2024 12:00AM"</LogTime>
@@ -3279,28 +3153,6 @@
 			<UnitTime>"Apr 23 2024  8:13PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Apr 23 2024  8:13PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "BICC">
-
-		<Log ID = "240424BI0005">
-			<LogTime>"Apr 24 2024 12:49AM"</LogTime>
-			<LogType>"TADV-Traffic Advisory"</LogType>
-			<Location>"Eastern Sierra Roads Info"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Apr 24 2024 12:49AM"</DetailTime>
-			<IncidentDetail>"[1] ,FOR CURRENT ROAD CONDITIONS PLEASE VISIT THE CAL TRANS WEBSITE AT HTTP://QUICKMAP.DOT.CA.GOV OR CALL 1-800-427-7623"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Apr 24 2024 12:49AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024 12:49AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Apr 24 2024 12:49AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "BSCC">
