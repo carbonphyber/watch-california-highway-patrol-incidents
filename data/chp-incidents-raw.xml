@@ -35,8 +35,12 @@
 			<DetailTime>"Jan 20 2025  2:23AM"</DetailTime>
 			<IncidentDetail>"[1] SGT SAW VEH OFF RDWY"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jan 20 2025  3:24AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  3:00AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:31AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  2:30AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  2:30AM"</UnitTime>
@@ -171,6 +175,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 19 2025  7:57PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:29AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jan 19 2025  7:47PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jan 19 2025  7:47PM"</UnitTime>
@@ -687,47 +693,133 @@
 </Center>
 
 <Center ID = "LAHB">
+<Dispatch ID = "BFCC">
+
+		<Log ID = "250120BF0011">
+			<LogTime>"Jan 20 2025  3:27AM"</LogTime>
+			<LogType>"CFIRE-Car Fire"</LogType>
+			<Location>"3017 Manor St"</Location>
+			<LocationDesc>"IN ALLEY BEHIND RES"</LocationDesc>
+			<Area>"Bakersfield"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35433693:119012413"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jan 20 2025  3:27AM"</DetailTime>
+			<IncidentDetail>"[3] FIRE IS 97 "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250120BF0010">
+			<LogTime>"Jan 20 2025  2:52AM"</LogTime>
+			<LogType>"FOG-Foggy Conditions"</LogType>
+			<Location>"Bakersfield Fog Log"</Location>
+			<LocationDesc>"Bakersfield Fog Log"</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jan 20 2025  2:53AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:53AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250120BF0008">
+			<LogTime>"Jan 20 2025  2:50AM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Bakersfield Traffic Advisories"</Location>
+			<LocationDesc>"Bakersfield Traffic Advisories"</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jan 20 2025  2:51AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:51AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "LACC">
 
-		<Log ID = "250120LA0202">
-			<LogTime>"Jan 20 2025  3:13AM"</LogTime>
+		<Log ID = "250120LA0207">
+			<LogTime>"Jan 20 2025  3:23AM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 S / Imperial Hwy"</Location>
-			<LocationDesc>"SB 5 JNO IMPERIAL"</LocationDesc>
-			<Area>"Santa Fe Springs"</Area>
+			<Location>"Us101 S / Las Virgenes Rd Ofr"</Location>
+			<LocationDesc>"SB JNO"</LocationDesc>
+			<Area>"West Valley"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33917048:118080146"</LATLON>
+			<LATLON>"34144232:118702743"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Jan 20 2025  3:14AM"</DetailTime>
-			<IncidentDetail>"[1] DARK COLORED PK TK BTWN HOV AND #1 LN"</IncidentDetail>
-		</details></LogDetails></Log>
+			<DetailTime>"Jan 20 2025  3:24AM"</DetailTime>
+			<IncidentDetail>"[1] 2 PIECES OF METAL IN FAST LN "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jan 20 2025  3:26AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "250120LA0200">
-			<LogTime>"Jan 20 2025  3:11AM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"Sr110 S / Hill St Ofr"</Location>
-			<LocationDesc>"**OFF FWY**"</LocationDesc>
+		<Log ID = "250120LA0204">
+			<LogTime>"Jan 20 2025  3:22AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Us101 S / N Alameda St"</Location>
+			<LocationDesc>"SB 101 AT ALAMEDA"</LocationDesc>
 			<Area>"Central LA"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34069775:118236153"</LATLON>
+			<LATLON>"34054078:118237857"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Jan 20 2025  3:13AM"</DetailTime>
-			<IncidentDetail>"[7] [Appended, 03:13:37] [4] VISIBLE FRM THE FRWY "</IncidentDetail>
+			<DetailTime>"Jan 20 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[17] [Rotation Request Comment] 1039 Lara's Tow Service 323-231-6262 ETA 20 OL [Shared]"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Jan 20 2025  3:12AM"</DetailTime>
-			<IncidentDetail>"[6] [Appended, 03:13:37] [3] 1039 LAFD #181"</IncidentDetail>
+			<DetailTime>"Jan 20 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[16] 15-72 REQ 1185 // 97 HOLDING ALL LNS [Shared]"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Jan 20 2025  3:12AM"</DetailTime>
-			<IncidentDetail>"[1] BRUSH FIRE OFF FWY NEAR A CHURCH"</IncidentDetail>
+			<DetailTime>"Jan 20 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[14] [Appended, 03:28:54] [1] SIL VEH IN BLKING SLOW LN"</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Jan 20 2025  3:12AM"</DetailTime>
-			<IncidentDetail>"[4] [Appended, 03:13:37] [1] FIRE BURNING UNDER A SPIRAL STAIRCASE "</IncidentDetail>
-		</details></LogDetails></Log>
+			<DetailTime>"Jan 20 2025  3:24AM"</DetailTime>
+			<IncidentDetail>"[11] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:24AM"</DetailTime>
+			<IncidentDetail>"[10] SEMI DRIVER ADV DRIVER OF HOND NEEDS 1141  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:23AM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 03:23:58] [2] DEBRIS IN LNS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:23AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 03:23:58] [1] SIL HOND SD BLKG SLOW LN  W/ TC DAMAGE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:23AM"</DetailTime>
+			<IncidentDetail>"[4] [Appended, 03:23:15] [3] GRY HONDA SPUN OUT BLKNG #1 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:22AM"</DetailTime>
+			<IncidentDetail>"[1] SEMI VS SD // UNK IF BLOCKING"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:21AM"</DetailTime>
+			<IncidentDetail>"[2] [Appended, 03:23:15] [1] WHI SEMI TRUCK VS GRY HOND "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jan 20 2025  3:32AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:32AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:24AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:29AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:29AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:23AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "250120LA0198">
 			<LogTime>"Jan 20 2025  3:05AM"</LogTime>
@@ -738,6 +830,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"33896158:118193472"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jan 20 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[16] [Rotation Request Comment] 1039 HandL TOW 323-569-7991 ETA 20 MINS O/L W/ 2 TKS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:22AM"</DetailTime>
+			<IncidentDetail>"[10] C77-070T COLA, PLS ROLL 2 1185'S/ VEH'S ARE 1124"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jan 20 2025  3:18AM"</DetailTime>
 			<IncidentDetail>"[6] C77-070T REQ 1185"</IncidentDetail>
@@ -750,8 +850,16 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  3:19AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:21AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:21AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  3:10AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:24AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:24AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  3:10AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -787,66 +895,6 @@
 			<UnitTime>"Jan 20 2025  2:31AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  2:31AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250120LA0172">
-			<LogTime>"Jan 20 2025  2:24AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Sr110 N / N Avenue 19"</Location>
-			<LocationDesc>"JSO"</LocationDesc>
-			<Area>"Central LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34080165:118225974"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jan 20 2025  2:47AM"</DetailTime>
-			<IncidentDetail>"[14] 15-50 HAS VISUAL OF 1185  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:47AM"</DetailTime>
-			<IncidentDetail>"[13] 1039 BRIAN'S TOLEDO - ADV STUCK BEHIND BREAK ON SLOW LN  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:44AM"</DetailTime>
-			<IncidentDetail>"[12] 15-R1 ADV 1185 BEST ACCESS WILL BE WW FRM RIVERSIDE OFR  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:37AM"</DetailTime>
-			<IncidentDetail>"[10] C15-050 VEH IS 1124 // SOLO VEH 1182 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:33AM"</DetailTime>
-			<IncidentDetail>"[9] PER DUPE NB 110 TO NB 5 - SIL LEXS  IS BLKNG TRANS  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:32AM"</DetailTime>
-			<IncidentDetail>"[7] C15-R1 W/ A BREAK FRM 4 LEVEL [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:31AM"</DetailTime>
-			<IncidentDetail>"[5] [Rotation Request Comment] 1039 Brian's Toledo Tow - CLA 213-955-5767 ETA 20 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:29AM"</DetailTime>
-			<IncidentDetail>"[4] 15-50 REQ 1185  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:28AM"</DetailTime>
-			<IncidentDetail>"[3] SIL LEXS VS BLK HYUN SUV VS ADDTL BLKG #1 LN  [Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jan 20 2025  3:19AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:44AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:44AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:29AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:35AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:35AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
@@ -1187,36 +1235,6 @@
 			<UnitTime>"Jan 19 2025  5:32AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BFCC">
-
-		<Log ID = "250120BF0010">
-			<LogTime>"Jan 20 2025  2:52AM"</LogTime>
-			<LogType>"FOG-Foggy Conditions"</LogType>
-			<Location>"Bakersfield Fog Log"</Location>
-			<LocationDesc>"Bakersfield Fog Log"</LocationDesc>
-			<Area>"BF"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35265234:119024794"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jan 20 2025  2:53AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:53AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250120BF0008">
-			<LogTime>"Jan 20 2025  2:50AM"</LogTime>
-			<LogType>"TADV-Traffic Advisory"</LogType>
-			<Location>"Bakersfield Traffic Advisories"</Location>
-			<LocationDesc>"Bakersfield Traffic Advisories"</LocationDesc>
-			<Area>"BF"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35265234:119024794"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jan 20 2025  2:51AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:51AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "FRCC">
 
 		<Log ID = "250120FR0014">
@@ -1336,73 +1354,219 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025 12:09AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250119MR0308">
-			<LogTime>"Jan 19 2025 11:38PM"</LogTime>
-			<LogType>"1181-Trfc Collision-Minor Inj"</LogType>
-			<Location>"Avenue 9 / Road 30"</Location>
-			<LocationDesc>"JEO"</LocationDesc>
-			<Area>"Madera"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36880365:120001445"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jan 19 2025 11:59PM"</DetailTime>
-			<IncidentDetail>"[19] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1181-Trfc Collision-Minor Inj by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 19 2025 11:58PM"</DetailTime>
-			<IncidentDetail>"[18] C66-030 2 VEH 1181 - ON FSTS "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 19 2025 11:57PM"</DetailTime>
-			<IncidentDetail>"[15] [Rotation Request Comment] 1039 RONS TOWING 559-674-7094"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 19 2025 11:56PM"</DetailTime>
-			<IncidentDetail>"[14] 66-S3 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 19 2025 11:43PM"</DetailTime>
-			<IncidentDetail>"[10] 1039 CDF"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 19 2025 11:43PM"</DetailTime>
-			<IncidentDetail>"[9] 1039 EMS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 19 2025 11:41PM"</DetailTime>
-			<IncidentDetail>"[6] RHS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 19 2025 11:41PM"</DetailTime>
-			<IncidentDetail>"[4] UNKN SD VS MACHINE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jan 20 2025 12:49AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025 12:35AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025 12:35AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025 12:46AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jan 19 2025 11:54PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 19 2025 11:42PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 19 2025 11:42PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jan 19 2025 11:52PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 19 2025 11:42PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 19 2025 11:42PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
 
 <Center ID = "INHB">
+<Dispatch ID = "ICCC">
+
+		<Log ID = "250120IC0009">
+			<LogTime>"Jan 20 2025  3:29AM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"Avenue 54 / Calhoun St"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Indio"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33656606:116207940"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jan 20 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[2] VEH VS FENCE - 1124"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "250120IC0007">
+			<LogTime>"Jan 20 2025  2:25AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"I10 W WO / Jefferson MM 51"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Indio"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33757375:116292750"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jan 20 2025  3:21AM"</DetailTime>
+			<IncidentDetail>"[37] VEH STORED OCA/V0004963025 FCN/4252502000553"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:15AM"</DetailTime>
+			<IncidentDetail>"[31] C76-086 BRK REL/ ALL LNS OPEN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:52AM"</DetailTime>
+			<IncidentDetail>"[27] PER RYCO ETA 5-10 MINS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:52AM"</DetailTime>
+			<IncidentDetail>"[26] C76-086 ETA 1185 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:41AM"</DetailTime>
+			<IncidentDetail>"[24] C76-086 #3 AND 4 LNS OPEN "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:34AM"</DetailTime>
+			<IncidentDetail>"[23] C76-086 TRYING TO GET #3 AND #4 LN OPEN "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:34AM"</DetailTime>
+			<IncidentDetail>"[22] C76-086 ALL TRAFFIC STOPPED "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:34AM"</DetailTime>
+			<IncidentDetail>"[21] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:33AM"</DetailTime>
+			<IncidentDetail>"[20] C76-010 SOLO VEH 1182 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:33AM"</DetailTime>
+			<IncidentDetail>"[19] [Rotation Request Comment] 1039 RYCO TOWING 760-341-8008"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:33AM"</DetailTime>
+			<IncidentDetail>"[18] 1185 ON EXPID / 1125 IN #2 3"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:29AM"</DetailTime>
+			<IncidentDetail>"[12] CORRECTION RP IS ON THE RHS OF THE FREEWAY "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:28AM"</DetailTime>
+			<IncidentDetail>"[7] XRAY APPEARS NON INJ "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:27AM"</DetailTime>
+			<IncidentDetail>"[5] VEH IS IN THE #2 LN FACING WW "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:27AM"</DetailTime>
+			<IncidentDetail>"[4] STATES THAT THE XRAY IS OO THE VEH NEAR THE HOND DEALERSHIP AND IS TRYING TO CROSS THE FREEWAY AND GET HER PHONE "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:27AM"</DetailTime>
+			<IncidentDetail>"[3] SOLO VEH TC "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  2:26AM"</DetailTime>
+			<IncidentDetail>"[2] HOND SIL 1125 IN THE #2 LN "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jan 20 2025  3:18AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:34AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:15AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:34AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:33AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:33AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "BCCC">
+
+		<Log ID = "250120BC0040">
+			<LogTime>"Jan 20 2025  3:25AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I805 N / Market So"</Location>
+			<LocationDesc>"I805 N MARKET SO"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32707308:117096639"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jan 20 2025  3:32AM"</DetailTime>
+			<IncidentDetail>"[30] C87-009C VEH W/ MAJ DAMAGE APPEARS TO BE 1124 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:31AM"</DetailTime>
+			<IncidentDetail>"[28] [Rotation Request Comment] XXX RESCUE TOW  619 696  0997 XXX [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[27] 9C LE /  START 1185 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[22] RP IN BLK TOYT SUV DECLINED MEDICS // VEH IS DRIVABLE [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[21] BOTH VEHS ON THE RHS  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[20] 9C  4 VEH STOPPED JNO    [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[19] 9C 1 VEH BLKG 4-5 LN  /  ADDTL   #3  - COP TO  CHEST [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[18] RP IN BLK TOYT SEQUOIA ADV BLK NISS KICK TC'D INTO HER TO AVOID HITTING THE SD 1125 IN LNS  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[15] 1039  MCC ENRT  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[16] [Appended, 03:28:55] [1] INVD PTY  20 NISS KICK VS UNK VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[24] [Appended, 03:30:50] [1] FORD VEH TC ; AIRBAGS DEPLOYED "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[7] 9C 1 VEH W/ MAJOR DAMAGE [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:27AM"</DetailTime>
+			<IncidentDetail>"[6] 87-9C  ALL LNS BLOCKED - START MEDICS   [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:27AM"</DetailTime>
+			<IncidentDetail>"[12] [Appended, 03:28:16] [2] ADDL VEH JUST HIT THE VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:26AM"</DetailTime>
+			<IncidentDetail>"[11] [Appended, 03:28:16] [1] ONE VEH WAS BLKD OUT IN THE MIDDLE LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:26AM"</DetailTime>
+			<IncidentDetail>"[2] NO OTHER VEHS SEEN STOPPED IN AREA "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jan 20 2025  3:25AM"</DetailTime>
+			<IncidentDetail>"[1] SIL UNK SD W/ TC DAMAGE FACING WW BLOCKING MIDDLE LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:29AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:29AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:26AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "250120BC0039">
 			<LogTime>"Jan 20 2025  3:12AM"</LogTime>
@@ -1417,6 +1581,8 @@
 			<DetailTime>"Jan 20 2025  3:14AM"</DetailTime>
 			<IncidentDetail>"[2] MALE SITTING ON THE LEDGE OF THE TRANS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  3:18AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  3:18AM"</UnitTime>
@@ -1457,6 +1623,8 @@
 			<DetailTime>"Jan 20 2025  2:35AM"</DetailTime>
 			<IncidentDetail>"[1] VEH WAS HIGH SPEEDS AND LOST CONTROL  "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jan 20 2025  3:28AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  2:46AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  2:37AM"</UnitTime>
@@ -1520,7 +1688,9 @@
 		<details>
 			<DetailTime>"Jan 20 2025 12:14AM"</DetailTime>
 			<IncidentDetail>"[1] VEH INTO THE MAIN THE CATTLE GATE AT THE HIGH SCHOOL"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Jan 20 2025  3:31AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "250119BC0738">
 			<LogTime>"Jan 19 2025  8:56PM"</LogTime>
@@ -1677,6 +1847,10 @@
 			<DetailTime>"Jan 20 2025  3:13AM"</DetailTime>
 			<IncidentDetail>"[3] GRY SD ON RS , PARTIALLY BLOCKING "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jan 20 2025  3:22AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025  3:22AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  3:14AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1689,6 +1863,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34004170:117407968"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Jan 20 2025  3:23AM"</DetailTime>
+			<IncidentDetail>"[61] 1039 BT "</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Jan 20 2025  2:16AM"</DetailTime>
 			<IncidentDetail>"[52] 74-10 EXIT OFF AT RUBIDOUX - PTY XPORTED TO RCH MIN INJ  [Shared]"</IncidentDetail>
@@ -1754,56 +1932,6 @@
 			<UnitTime>"Jan 20 2025  1:45AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  1:25AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "OCCC">
-
-		<Log ID = "250120OC0029">
-			<LogTime>"Jan 20 2025  3:04AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I5 S / Crown Valley Pkwy Cv"</Location>
-			<LocationDesc>"SB 5 ON CV OFR"</LocationDesc>
-			<Area>"Capistrano"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33559268:117673129"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jan 20 2025  3:18AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  3:13AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  3:06AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250120OC0003">
-			<LogTime>"Jan 20 2025 12:05AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OCCC"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250120OC0002">
-			<LogTime>"Jan 20 2025 12:05AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "BICC">
@@ -1878,104 +2006,6 @@
 			<UnitTime>"Jan 20 2025 12:08AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "ICCC">
-
-		<Log ID = "250120IC0007">
-			<LogTime>"Jan 20 2025  2:25AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"I10 W WO / Jefferson MM 51"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Indio"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33757375:116292750"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jan 20 2025  3:15AM"</DetailTime>
-			<IncidentDetail>"[31] C76-086 BRK REL/ ALL LNS OPEN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:52AM"</DetailTime>
-			<IncidentDetail>"[27] PER RYCO ETA 5-10 MINS "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:52AM"</DetailTime>
-			<IncidentDetail>"[26] C76-086 ETA 1185 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:41AM"</DetailTime>
-			<IncidentDetail>"[24] C76-086 #3 AND 4 LNS OPEN "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:34AM"</DetailTime>
-			<IncidentDetail>"[23] C76-086 TRYING TO GET #3 AND #4 LN OPEN "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:34AM"</DetailTime>
-			<IncidentDetail>"[22] C76-086 ALL TRAFFIC STOPPED "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:34AM"</DetailTime>
-			<IncidentDetail>"[21] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:33AM"</DetailTime>
-			<IncidentDetail>"[20] C76-010 SOLO VEH 1182 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:33AM"</DetailTime>
-			<IncidentDetail>"[19] [Rotation Request Comment] 1039 RYCO TOWING 760-341-8008"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:33AM"</DetailTime>
-			<IncidentDetail>"[18] 1185 ON EXPID / 1125 IN #2 3"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:29AM"</DetailTime>
-			<IncidentDetail>"[12] CORRECTION RP IS ON THE RHS OF THE FREEWAY "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:28AM"</DetailTime>
-			<IncidentDetail>"[7] XRAY APPEARS NON INJ "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:27AM"</DetailTime>
-			<IncidentDetail>"[5] VEH IS IN THE #2 LN FACING WW "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:27AM"</DetailTime>
-			<IncidentDetail>"[4] STATES THAT THE XRAY IS OO THE VEH NEAR THE HOND DEALERSHIP AND IS TRYING TO CROSS THE FREEWAY AND GET HER PHONE "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:27AM"</DetailTime>
-			<IncidentDetail>"[3] SOLO VEH TC "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Jan 20 2025  2:26AM"</DetailTime>
-			<IncidentDetail>"[2] HOND SIL 1125 IN THE #2 LN "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jan 20 2025  3:18AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:34AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  3:15AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:34AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:33AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:33AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jan 20 2025  2:28AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "BSCC">
 
 		<Log ID = "250120BS0011">
@@ -2006,6 +2036,40 @@
 			<UnitTime>"Jan 20 2025  2:31AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jan 20 2025  2:31AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "OCCC">
+
+		<Log ID = "250120OC0003">
+			<LogTime>"Jan 20 2025 12:05AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OCCC"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250120OC0002">
+			<LogTime>"Jan 20 2025 12:05AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jan 20 2025 12:05AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "ECCC">
