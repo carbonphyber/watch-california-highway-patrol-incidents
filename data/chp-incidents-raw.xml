@@ -78,6 +78,10 @@
 			<LATLON>"39312366:120498627"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Mar  3 2025 12:53AM"</DetailTime>
+			<IncidentDetail>"[8] C70-388 VEH 1124 HAZARDS ON // VEH ON ROOF // WILL RETRIEVE IN DAYLIGHT"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar  3 2025 12:44AM"</DetailTime>
 			<IncidentDetail>"[7] 70-388 O/T CHEV SUB"</IncidentDetail>
 		</details>
@@ -426,6 +430,10 @@
 			<LATLON>"38695398:120936063"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Mar  3 2025 12:47AM"</DetailTime>
+			<IncidentDetail>"[7] RP CALLED BACK ASKING ETA / ADVISE OFCR IS ON THE WAY [Shared]"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar  3 2025 12:17AM"</DetailTime>
 			<IncidentDetail>"[3] RP ADV 1125 ON PRIV ROAD"</IncidentDetail>
 		</details><units>
@@ -434,13 +442,17 @@
 
 		<Log ID = "250302SA0956">
 			<LogTime>"Mar  2 2025 11:13PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<LogType>"1181-Trfc Collision-Minor Inj"</LogType>
 			<Location>"Sr99 N / Florin Rd E Ofr"</Location>
 			<LocationDesc>"NB OFR"</LocationDesc>
 			<Area>"South Sac"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38492667:121442232"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar  3 2025 12:49AM"</DetailTime>
+			<IncidentDetail>"[47] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1181-Trfc Collision-Minor Inj [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar  2 2025 11:45PM"</DetailTime>
 			<IncidentDetail>"[41] 1039 TITOS  [Shared]"</IncidentDetail>
@@ -509,6 +521,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  2 2025 11:17PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:49AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar  2 2025 11:23PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar  2 2025 11:23PM"</UnitTime>
@@ -1367,24 +1381,6 @@
 </Center>
 
 <Center ID = "GGHB">
-<Dispatch ID = "MYCC">
-
-		<Log ID = "250303MY0006">
-			<LogTime>"Mar  3 2025 12:36AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr1 N / Mar Monte"</Location>
-			<LocationDesc>"NB 1 JSO MAR MONTE"</LocationDesc>
-			<Area>"Santa Cruz"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36946739:121847131"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar  3 2025 12:37AM"</DetailTime>
-			<IncidentDetail>"[2] VEH IN CD "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar  3 2025 12:38AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "GGCC">
 
 		<Log ID = "250303GG0023">
@@ -1578,6 +1574,10 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:21AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:53AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:53AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:15AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:23AM"</UnitTime>
@@ -2002,31 +2002,23 @@
 			<UnitTime>"Mar  3 2025 12:40AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "250303LA0058">
-			<LogTime>"Mar  3 2025 12:27AM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"N Alvarado St Onr / Us101 S"</Location>
-			<LocationDesc>"ALVARADO ONR TO SB 101"</LocationDesc>
-			<Area>"Central LA"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34070692:118264141"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar  3 2025 12:29AM"</DetailTime>
-			<IncidentDetail>"[1] HOMELESS ENCAMPEMENT FIRE ON THE RS "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar  3 2025 12:31AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "250303LA0040">
 			<LogTime>"Mar  3 2025 12:23AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
 			<Location>"I5 S / W Alameda Ave"</Location>
 			<LocationDesc>"SB JNO"</LocationDesc>
 			<Area>"Altadena"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34170253:118304446"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar  3 2025 12:50AM"</DetailTime>
+			<IncidentDetail>"[19] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1182-Trfc Collision-No Inj by CHP [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:50AM"</DetailTime>
+			<IncidentDetail>"[18] C98-050 SOLO VEH 1182  [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar  3 2025 12:39AM"</DetailTime>
 			<IncidentDetail>"[17] C98-050 TRFC RELEASESD / HOV AND #1 LN FLARED OFF [Shared]"</IncidentDetail>
@@ -2149,6 +2141,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34825534:118877750"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar  3 2025 12:48AM"</DetailTime>
+			<IncidentDetail>"[16] 102-51C SNOW IS STICKING TO RDWY FROM FRAZIER TO JSO GORMAN  [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar  3 2025 12:46AM"</DetailTime>
 			<IncidentDetail>"[15] 102-51C ADVISING OF MOD SNOW - STARTING ROUND ROBINS  [Shared]"</IncidentDetail>
@@ -2460,132 +2456,6 @@
 			<UnitTime>"Mar  2 2025  3:44PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BFCC">
-
-		<Log ID = "250303BF0016">
-			<LogTime>"Mar  3 2025 12:33AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Sr99 N / Whisler Rd Ofr"</Location>
-			<LocationDesc>"NB 99 JSO WHISLER, 1-2 MI JSO"</LocationDesc>
-			<Area>"Bakersfield"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35642166:119218781"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar  3 2025 12:34AM"</DetailTime>
-			<IncidentDetail>"[1] BLK VEH / 1125 MIDDLE LNS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar  3 2025 12:46AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar  3 2025 12:46AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250303BF0005">
-			<LogTime>"Mar  3 2025 12:15AM"</LogTime>
-			<LogType>"20002-Hit and Run No Injuries"</LogType>
-			<Location>"20404 Sr119"</Location>
-			<LocationDesc>"AMPM PLOT"</LocationDesc>
-			<Area>"Buttonwillow"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35267369:119250960"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar  3 2025 12:30AM"</DetailTime>
-			<IncidentDetail>"[10] 1039 TAFT PD "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  3 2025 12:20AM"</DetailTime>
-			<IncidentDetail>"[7] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 20002-Hit and Run No Injuries by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  3 2025 12:20AM"</DetailTime>
-			<IncidentDetail>"[6] INVL'D OCCUP'ING RED SEMI W/ REF'ER TRL -- WILL 1023 FOR 1110"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  3 2025 12:17AM"</DetailTime>
-			<IncidentDetail>"[1] VEH VS PED "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar  3 2025 12:45AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar  3 2025 12:45AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar  3 2025 12:37AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250303BF0003">
-			<LogTime>"Mar  3 2025 12:08AM"</LogTime>
-			<LogType>"TADV-Traffic Advisory"</LogType>
-			<Location>"Bakersfield Traffic Advisories"</Location>
-			<LocationDesc>"Bakersfield Traffic Advisories"</LocationDesc>
-			<Area>"BF"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35265234:119024794"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Mar  3 2025 12:10AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar  3 2025 12:10AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar  3 2025 12:10AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250302BF0213">
-			<LogTime>"Mar  2 2025  7:42PM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"1033 Lebec Rd"</Location>
-			<LocationDesc>"Fort Tejon CHP Office"</LocationDesc>
-			<Area>"Fort Tejon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34825534:118877750"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Mar  3 2025 12:46AM"</DetailTime>
-			<IncidentDetail>"[15] 102-51C ADVISING OF MOD SNOW - STARTING ROUND ROBINS  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  2 2025 11:15PM"</DetailTime>
-			<IncidentDetail>"[13] [Notification] [CHP]-102-51C WEATHER IS CLR HOWEVER WEATHER FORCAST ADVISING OF SNOW AT APPROX 0300  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  2 2025  8:26PM"</DetailTime>
-			<IncidentDetail>"[11] B102-055B DISCON ROUND ROBINS FOR NOW- HAVE ADDTL UNITS 1022 AS WELL // SNOW SUBSIDED FOR NOW WILL CONT AT MOD CONDITIONS [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  2 2025  7:54PM"</DetailTime>
-			<IncidentDetail>"[10] 102-21B SNOW WILL BE N/O GORMAN 34 DEGREES NOT STICKING [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  2 2025  7:49PM"</DetailTime>
-			<IncidentDetail>"[9] 102-21B ENRT FROM NB AT 138 - HEAVY RAIN IN THE AREA NEG SNOW  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Mar  2 2025  7:45PM"</DetailTime>
-			<IncidentDetail>"[3] 1039 SCALES  [Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Mar  2 2025 10:01PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  8:54PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:57PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:44PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:44PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Mar  2 2025  7:44PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "MRCC">
 
 		<Log ID = "250303MR0006">
@@ -2597,6 +2467,14 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37126838:120252090"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Mar  3 2025 12:51AM"</DetailTime>
+			<IncidentDetail>"[17] RONS INQG HOW FAR OFF THE ROAD  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:49AM"</DetailTime>
+			<IncidentDetail>"[16] [Rotation Request Comment] 1039 RONS TOWING 559-674-7094 [Shared]"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Mar  3 2025 12:30AM"</DetailTime>
 			<IncidentDetail>"[13] 1022 LN  12 // 1039 CHOW FIRE"</IncidentDetail>
@@ -2613,6 +2491,8 @@
 			<DetailTime>"Mar  3 2025 12:28AM"</DetailTime>
 			<IncidentDetail>"[4] WENT THROUGH FENCE ON RHS "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar  3 2025 12:47AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:42AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:42AM"</UnitTime>
@@ -2736,6 +2616,122 @@
 			<UnitTime>"Mar  2 2025 12:01AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "BFCC">
+
+		<Log ID = "250303BF0005">
+			<LogTime>"Mar  3 2025 12:15AM"</LogTime>
+			<LogType>"20002-Hit and Run No Injuries"</LogType>
+			<Location>"20404 Sr119"</Location>
+			<LocationDesc>"AMPM PLOT"</LocationDesc>
+			<Area>"Buttonwillow"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35267369:119250960"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar  3 2025 12:30AM"</DetailTime>
+			<IncidentDetail>"[10] 1039 TAFT PD "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:20AM"</DetailTime>
+			<IncidentDetail>"[7] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 20002-Hit and Run No Injuries by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:20AM"</DetailTime>
+			<IncidentDetail>"[6] INVL'D OCCUP'ING RED SEMI W/ REF'ER TRL -- WILL 1023 FOR 1110"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:17AM"</DetailTime>
+			<IncidentDetail>"[1] VEH VS PED "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar  3 2025 12:45AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:45AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:37AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250303BF0003">
+			<LogTime>"Mar  3 2025 12:08AM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Bakersfield Traffic Advisories"</Location>
+			<LocationDesc>"Bakersfield Traffic Advisories"</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Mar  3 2025 12:10AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:10AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:10AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250302BF0213">
+			<LogTime>"Mar  2 2025  7:42PM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"1033 Lebec Rd"</Location>
+			<LocationDesc>"Fort Tejon CHP Office"</LocationDesc>
+			<Area>"Fort Tejon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34825534:118877750"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Mar  3 2025 12:48AM"</DetailTime>
+			<IncidentDetail>"[16] 102-51C SNOW IS STICKING TO RDWY FROM FRAZIER TO JSO GORMAN  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:46AM"</DetailTime>
+			<IncidentDetail>"[15] 102-51C ADVISING OF MOD SNOW - STARTING ROUND ROBINS  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  2 2025 11:15PM"</DetailTime>
+			<IncidentDetail>"[13] [Notification] [CHP]-102-51C WEATHER IS CLR HOWEVER WEATHER FORCAST ADVISING OF SNOW AT APPROX 0300  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  2 2025  8:26PM"</DetailTime>
+			<IncidentDetail>"[11] B102-055B DISCON ROUND ROBINS FOR NOW- HAVE ADDTL UNITS 1022 AS WELL // SNOW SUBSIDED FOR NOW WILL CONT AT MOD CONDITIONS [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  2 2025  7:54PM"</DetailTime>
+			<IncidentDetail>"[10] 102-21B SNOW WILL BE N/O GORMAN 34 DEGREES NOT STICKING [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  2 2025  7:49PM"</DetailTime>
+			<IncidentDetail>"[9] 102-21B ENRT FROM NB AT 138 - HEAVY RAIN IN THE AREA NEG SNOW  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  2 2025  7:45PM"</DetailTime>
+			<IncidentDetail>"[3] 1039 SCALES  [Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Mar  3 2025 12:49AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:49AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025 10:01PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  8:54PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:57PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:48PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:44PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:44PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  2 2025  7:44PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 </Center>
 
 <Center ID = "INHB">
@@ -2752,8 +2748,18 @@
 			<LogDetails>
 		<details>
 			<DetailTime>"Mar  3 2025 12:46AM"</DetailTime>
+			<IncidentDetail>"[8] ON RS OF TRANS RD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:46AM"</DetailTime>
 			<IncidentDetail>"[7] NO 1126 VEHS NEAR HIM "</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Mar  3 2025 12:47AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:47AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:46AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "250303IN0002">
 			<LogTime>"Mar  3 2025 12:04AM"</LogTime>
@@ -2853,9 +2859,31 @@
 			<LATLON>"34919167:116766826"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Mar  3 2025 12:52AM"</DetailTime>
+			<IncidentDetail>"[10] 1022 BARSTOW AUTO // VEH NEG 1125"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:50AM"</DetailTime>
+			<IncidentDetail>"[9] 1022 1185 PTY ON RHS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:49AM"</DetailTime>
+			<IncidentDetail>"[8] [Notification] [CHP]-1021 AMERICAN TOW ETA - 1 HR OR LESS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:49AM"</DetailTime>
+			<IncidentDetail>"[7] [Rotation Request Comment] 1039 BARSTOW AUTO 760 256 7108"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:48AM"</DetailTime>
+			<IncidentDetail>"[6] C73-070 START 1185 ON EXP"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar  3 2025 12:42AM"</DetailTime>
 			<IncidentDetail>"[3] PART 1125 IN "RIGHT LN ""</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar  3 2025 12:50AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:46AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -2880,6 +2908,8 @@
 			<DetailTime>"Mar  3 2025 12:22AM"</DetailTime>
 			<IncidentDetail>"[3] VEH ROLLED OVER "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar  3 2025 12:50AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:46AM"</UnitTime>
 			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:34AM"</UnitTime>
@@ -2997,6 +3027,18 @@
 			<LATLON>"33381511:117173552"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Mar  3 2025 12:52AM"</DetailTime>
+			<IncidentDetail>"[33] C92-022C 97 IN CD VEH FULLY ENGULFED  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:46AM"</DetailTime>
+			<IncidentDetail>"[27] INVD XRAY OO VEH // HAS A BLOODY NOSE [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Mar  3 2025 12:46AM"</DetailTime>
+			<IncidentDetail>"[25] [Appended, 00:46:43] [1] UNK VEH IN CD W FLAMES "</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Mar  3 2025 12:45AM"</DetailTime>
 			<IncidentDetail>"[20] VEH IS FULLY ENGULFED  [Shared]"</IncidentDetail>
 		</details>
@@ -3048,6 +3090,10 @@
 			<DetailTime>"Mar  3 2025 12:39AM"</DetailTime>
 			<IncidentDetail>"[1] GRY UNK SD W/ FRONT END TC DAMAGE IN CD"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Mar  3 2025 12:52AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:52AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:45AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -3150,6 +3196,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:29AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:47AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:28AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  3 2025 12:28AM"</UnitTime>
@@ -3328,6 +3376,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Mar  2 2025 11:57PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Mar  3 2025 12:51AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Mar  2 2025 11:56PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Mar  2 2025 11:37PM"</UnitTime>
