@@ -117,10 +117,14 @@
 			<DetailTime>"Jun 11 2025  4:18AM"</DetailTime>
 			<IncidentDetail>"[5] S V ADVS V V IS NOW CHASING HIM  "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Jun 11 2025  4:39AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025  4:20AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025  4:20AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun 11 2025  4:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025  4:20AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025  4:20AM"</UnitTime>
@@ -176,7 +180,15 @@
 			<Area>"CH"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"39713828:121795286"</LATLON>
-			<LogDetails><details/><units>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun 11 2025  4:38AM"</DetailTime>
+			<IncidentDetail>"[2] [Appended, 04:42:26] [1] VEH 1548680// BM19082// OID-20024 //UNTIL ABOUT  1800"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jun 11 2025  4:42AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 11 2025  4:42AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025  4:14AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025  4:14AM"</UnitTime>
@@ -321,6 +333,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun 10 2025 11:37PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun 11 2025  4:40AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025 12:00AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Jun 11 2025 12:00AM"</UnitTime>
@@ -508,6 +522,24 @@
 
 <Center ID = "GGHB">
 <Dispatch ID = "GGCC">
+
+		<Log ID = "250611GG0129">
+			<LogTime>"Jun 11 2025  4:42AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I680 S / Sr130 Ofr"</Location>
+			<LocationDesc>"SB 680 JNO ALUM ROCK"</LocationDesc>
+			<Area>"San Jose"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37362804:121843058"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun 11 2025  4:42AM"</DetailTime>
+			<IncidentDetail>"[3] ADVISED BY AN 1185 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun 11 2025  4:42AM"</DetailTime>
+			<IncidentDetail>"[1] OLDER TOYT TACOMA #4 LANE "</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "250611GG0127">
 			<LogTime>"Jun 11 2025  4:26AM"</LogTime>
@@ -721,30 +753,6 @@
 			<UnitTime>"Jun 10 2025  8:52PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "250610GG1518">
-			<LogTime>"Jun 10 2025  8:45PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I280 N / 7th St Ofr"</Location>
-			<LocationDesc>"JSO"</LocationDesc>
-			<Area>"San Jose"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37328879:121870253"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun 11 2025  3:29AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  9:06PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  9:06PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun 11 2025  4:34AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:45PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:45PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:45PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "250610GG1517">
 			<LogTime>"Jun 10 2025  8:43PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -787,32 +795,6 @@
 			<UnitTime>"Jun 10 2025  8:35PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun 10 2025  8:35PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250610GG1507">
-			<LogTime>"Jun 10 2025  8:34PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr4 W / Cumming"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun 10 2025  8:35PM"</DetailTime>
-			<IncidentDetail>"[2] SR-4 WB, #2 LANE CLOSED BETWEEN CUMMINGS SKYWAY and FRANKLIN CANYON"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun 10 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  8:34PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "250610GG1470">
@@ -985,6 +967,100 @@
 			<IncidentDetail>"[2] FRONT END IN CREEK ON RHS"</IncidentDetail>
 		</details></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "MYCC">
+
+		<Log ID = "250611MY0011">
+			<LogTime>"Jun 11 2025  4:39AM"</LogTime>
+			<LogType>"1125A-Animal Hazard"</LogType>
+			<Location>"Us101 N / Scales"</Location>
+			<LocationDesc>"NB JNO SCALES"</LocationDesc>
+			<Area>"Hollister Gilroy"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37071434:121589635"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun 11 2025  4:40AM"</DetailTime>
+			<IncidentDetail>"[2] WHI GOAT IN SLW LN "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jun 11 2025  4:42AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 11 2025  4:42AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250610MY0297">
+			<LogTime>"Jun 10 2025 10:50PM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"Sr152 E / Bell Station"</Location>
+			<LocationDesc>"EB BELL TO EL TORO"</LocationDesc>
+			<Area>"Hollister Gilroy"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"37035867:121311926"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun 10 2025 10:50PM"</DetailTime>
+			<IncidentDetail>"[1] ,#2 LN CALTRANS CLOSED FOR RD REPAIR UNK ETO"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Jun 11 2025 12:37AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250610MY0264">
+			<LogTime>"Jun 10 2025  7:53PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr1 / Carmel Valley Rd Onr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36543710:121908509"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun 10 2025  9:58PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025  9:58PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025  7:53PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "250610MY0263">
+			<LogTime>"Jun 10 2025  7:50PM"</LogTime>
+			<LogType>"1166-Defective Traffic Signals"</LogType>
+			<Location>"Carmel Valley Rd Onr / Sr1"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36543710:121908509"</LATLON>
+			<LogDetails><details/></LogDetails></Log>
+
+		<Log ID = "250610MY0239">
+			<LogTime>"Jun 10 2025  6:13PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Us101 N / Sr156 W,prunedale"</Location>
+			<LocationDesc>"NB 101 AT WB 156,Prunedale"</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36789444:121667500"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Jun 10 2025  9:59PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025  6:21PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025  6:21PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025  9:58PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025  6:14PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 10 2025  6:14PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "VTCC">
 
 		<Log ID = "250611VT0010">
@@ -1091,82 +1167,6 @@
 			<UnitTime>"Jun 10 2025  9:14PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "MYCC">
-
-		<Log ID = "250610MY0297">
-			<LogTime>"Jun 10 2025 10:50PM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"Sr152 E / Bell Station"</Location>
-			<LocationDesc>"EB BELL TO EL TORO"</LocationDesc>
-			<Area>"Hollister Gilroy"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37035867:121311926"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Jun 10 2025 10:50PM"</DetailTime>
-			<IncidentDetail>"[1] ,#2 LN CALTRANS CLOSED FOR RD REPAIR UNK ETO"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Jun 11 2025 12:37AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025 10:50PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250610MY0264">
-			<LogTime>"Jun 10 2025  7:53PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr1 / Carmel Valley Rd Onr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36543710:121908509"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun 10 2025  9:58PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  9:58PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  7:53PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250610MY0263">
-			<LogTime>"Jun 10 2025  7:50PM"</LogTime>
-			<LogType>"1166-Defective Traffic Signals"</LogType>
-			<Location>"Carmel Valley Rd Onr / Sr1"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36543710:121908509"</LATLON>
-			<LogDetails><details/></LogDetails></Log>
-
-		<Log ID = "250610MY0239">
-			<LogTime>"Jun 10 2025  6:13PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Us101 N / Sr156 W,prunedale"</Location>
-			<LocationDesc>"NB 101 AT WB 156,Prunedale"</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36789444:121667500"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun 10 2025  9:59PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  6:21PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  6:21PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  9:58PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  6:14PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  6:14PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 </Center>
 
 <Center ID = "LAHB">
@@ -1192,7 +1192,11 @@
 		<details>
 			<DetailTime>"Jun 11 2025  4:32AM"</DetailTime>
 			<IncidentDetail>"[1] VEH ON THE FRONTAGE RD// ON EAST SIDE OF 99"</IncidentDetail>
-		</details></LogDetails></Log>
+		</details><units>
+			<UnitTime>"Jun 11 2025  4:44AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Jun 11 2025  4:44AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "250611BF0020">
 			<LogTime>"Jun 11 2025  3:21AM"</LogTime>
@@ -1840,6 +1844,28 @@
 
 <Center ID = "INHB">
 <Dispatch ID = "BSCC">
+
+		<Log ID = "250611BS0029">
+			<LogTime>"Jun 11 2025  4:39AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"3800 Mm395 N Sbd 38.00"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Victorville"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34885056:117511497"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Jun 11 2025  4:42AM"</DetailTime>
+			<IncidentDetail>"[8] 1039 VV OFC "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun 11 2025  4:41AM"</DetailTime>
+			<IncidentDetail>"[5] ON RHS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Jun 11 2025  4:41AM"</DetailTime>
+			<IncidentDetail>"[1] SIL TOYT COA VS TIRE DEBRIS / FEDEX TRK"</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "250611BS0028">
 			<LogTime>"Jun 11 2025  4:27AM"</LogTime>
@@ -2569,22 +2595,6 @@
 			<UnitTime>"Jun 10 2025  7:37PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Jun 10 2025  7:37PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "250610BC0074">
-			<LogTime>"Jun 10 2025  6:04AM"</LogTime>
-			<LogType>"MZP-Assist CT with Maintenance"</LogType>
-			<Location>"Traffic Brake"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Jun 10 2025  6:04AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  6:04AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Jun 10 2025  6:04AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "OCCC">
