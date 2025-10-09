@@ -31,6 +31,8 @@
 			<DetailTime>"Oct  9 2025  3:41AM"</DetailTime>
 			<IncidentDetail>"[2] STANDING ON FOG LN "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Oct  9 2025  4:09AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct  9 2025  3:44AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct  9 2025  3:44AM"</UnitTime>
@@ -40,13 +42,17 @@
 
 		<Log ID = "251009SA0050">
 			<LogTime>"Oct  9 2025  3:44AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
 			<Location>"Florin Rd / French Rd"</Location>
 			<LocationDesc>"7-11"</LocationDesc>
 			<Area>"South Sac"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"38496121:121390520"</LATLON>
 			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  4:02AM"</DetailTime>
+			<IncidentDetail>"[13] [Notification] [CHP]-Problem changed from 1179-Trfc Collision-1141 Enrt to 1182-Trfc Collision-No Inj by CHP"</IncidentDetail>
+		</details>
 		<details>
 			<DetailTime>"Oct  9 2025  3:46AM"</DetailTime>
 			<IncidentDetail>"[6] BOTH RP AND VEH ARE 1097 AT 7-11 "</IncidentDetail>
@@ -59,6 +65,8 @@
 			<DetailTime>"Oct  9 2025  3:46AM"</DetailTime>
 			<IncidentDetail>"[2] CORR -- VEH VS PED ON BIKE "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Oct  9 2025  3:54AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct  9 2025  3:47AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct  9 2025  3:47AM"</UnitTime>
@@ -366,48 +374,6 @@
 			<UnitTime>"Oct  8 2025  7:01PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "HMCC">
-
-		<Log ID = "251009HM0005">
-			<LogTime>"Oct  9 2025  3:43AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Us101 N / Fernbridge Dr Ofr"</Location>
-			<LocationDesc>"NB"</LocationDesc>
-			<Area>"Humboldt"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"40610398:124188844"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:46AM"</DetailTime>
-			<IncidentDetail>"[10] 1039 FOPD WILL INQ W SGT "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:44AM"</DetailTime>
-			<IncidentDetail>"[4] WALKING SB IN THE CD ON THE NB SIDE "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:43AM"</DetailTime>
-			<IncidentDetail>"[2] PED WALKING IN CD "</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "251009HM0004">
-			<LogTime>"Oct  9 2025  3:40AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Central Ave / Sutter Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Humboldt"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"40936116:124100899"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:41AM"</DetailTime>
-			<IncidentDetail>"[2] DARKER GERMAN SHEPARD and BRO SMALLER DOG "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:43AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:43AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "RDCC">
 
 		<Log ID = "251009RD0007">
@@ -514,22 +480,6 @@
 </Dispatch>
 <Dispatch ID = "STCC">
 
-		<Log ID = "251008ST0224">
-			<LogTime>"Oct  8 2025  8:05PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I5 / 8 Mi"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>""</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"0:0"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025  8:05PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:05PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:05PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "251008ST0223">
 			<LogTime>"Oct  8 2025  7:52PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -549,123 +499,29 @@
 </Center>
 
 <Center ID = "GGHB">
-<Dispatch ID = "MYCC">
-
-		<Log ID = "251009MY0008">
-			<LogTime>"Oct  9 2025  1:15AM"</LogTime>
-			<LogType>"FLOOD-Roadway Flooding"</LogType>
-			<Location>"Portola Dr / Anza Dr"</Location>
-			<LocationDesc>"BTWN FRANCISCAN WAY"</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36612049:121691071"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:17AM"</DetailTime>
-			<IncidentDetail>"[27] C27-030G CALWATER ADVSD CREW FOR CLOSURE AND SIGNAGE HAS 30-45MIN ETA "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:35AM"</DetailTime>
-			<IncidentDetail>"[26] C27-030G CALWATER 1097"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:04AM"</DetailTime>
-			<IncidentDetail>"[23] CORDS ETA APPROX 1 HR "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:04AM"</DetailTime>
-			<IncidentDetail>"[22] 1039 STEVEN CORDS CPYS ALL // UNK ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:02AM"</DetailTime>
-			<IncidentDetail>"[21] S5 TO ENSURE RDWY IS STILL SAFE TO DRIVE ON DUE TO CRACKS IN RDWY FRM WATER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:01AM"</DetailTime>
-			<IncidentDetail>"[20] S5 IN DISPATCH REQ CORDS TO INSPECT RDWY AND TO DETERMINE IF A HARD CLOSURE WILL BE NEEDED OR NOT BY CALWATER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:56AM"</DetailTime>
-			<IncidentDetail>"[17] 1039 MTRY COMM "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:52AM"</DetailTime>
-			<IncidentDetail>"[14] 30G REQ CORDS FOR 1184 AND EVAL OF RDWY "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:52AM"</DetailTime>
-			<IncidentDetail>"[13] 30G FIRE HAS CLOSED AS MANY VALVES AS THEY COULD AND CTCD CALWATER / UNKN ETA FOR CALWATER"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:50AM"</DetailTime>
-			<IncidentDetail>"[12] 1039 MTRY COMM//  CORDS NOT YET STARTED // WATER COMPANY STARTED  UNK ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:49AM"</DetailTime>
-			<IncidentDetail>"[10] C27-030G WATER FLOWING FROM PORTOLA X ANZA TO FRANCISCAN WAY   -- REQ CORDS FOR SIGNAGE // NOT A HARD CLOSURE - WB LN IS ONLY LN AFFECTED AND WATER COMING UP FRM ASPHAULT AND VEHS CAN STILL PASS      ."</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:43AM"</DetailTime>
-			<IncidentDetail>"[8] S5 CPYS  INQ IF HARD CLOSURE OR FIRE REQ CHP FOR 1184 TEMP "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:42AM"</DetailTime>
-			<IncidentDetail>"[7] 30G PORTOLA JWO ANZA DR CLOSED // TEMP WATER FLOWING FRM CRACK IN ASPHALT // FIRE WORKING ON SHUTTING DWN WATER // UNK ETO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:15AM"</DetailTime>
-			<IncidentDetail>"[4] FIRE ENRT "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:15AM"</DetailTime>
-			<IncidentDetail>"[3] REQ CHP DUE TO BEING A RD HAZARD "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  1:36AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  1:36AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  1:16AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008MY0274">
-			<LogTime>"Oct  8 2025  7:34PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr1 / Cvr"</Location>
-			<LocationDesc>"NB 1 AT CARMEL VALLEY RD"</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36543722:121908517"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  8 2025  8:07PM"</DetailTime>
-			<IncidentDetail>"[4] 1039 MTRY COMM  [Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  1:20AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:41PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:41PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008MY0226">
-			<LogTime>"Oct  8 2025  5:22PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Us101 S / Crazy Horse Canyon Rd Onr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Monterey"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36815680:121638373"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025  6:13PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:13PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:07AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  5:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "GGCC">
+
+		<Log ID = "251009GG0081">
+			<LogTime>"Oct  9 2025  4:06AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Gordon Valley Rd / Lemon Hill Trl"</Location>
+			<LocationDesc>"JNO"</LocationDesc>
+			<Area>"Napa"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"38344978:122127576"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  4:09AM"</DetailTime>
+			<IncidentDetail>"[6] PER MALE CALLER -- OLD OAK TREE ABOUT 18" IN DIAMETER // ON BRG // BLOCKG BOTH LNS // FEW MORE IN LNS // WILL NEED CHAIN SAW [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:06AM"</DetailTime>
+			<IncidentDetail>"[1] PER NAPA --- TREE BLOCKG BOTH LNS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:06AM"</DetailTime>
+			<IncidentDetail>"[3] [Appended, 04:07:24] [1] TREE DOWN BLOCKING BOTH LANES "</IncidentDetail>
+		</details></LogDetails></Log>
 
 		<Log ID = "251009GG0023">
 			<LogTime>"Oct  9 2025 12:55AM"</LogTime>
@@ -791,22 +647,6 @@
 			<UnitTime>"Oct  8 2025 11:49PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "251008GG1567">
-			<LogTime>"Oct  8 2025 10:32PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"SR84 / Pleasanton Sunol Rd"</Location>
-			<LocationDesc>"Sr84 At Ple Sunol"</LocationDesc>
-			<Area>"Dublin"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37592894:121882225"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "251008GG1556">
 			<LogTime>"Oct  8 2025 10:17PM"</LogTime>
 			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
@@ -880,6 +720,8 @@
 			<DetailTime>"Oct  8 2025 10:17PM"</DetailTime>
 			<IncidentDetail>"[2] DK COL SD VS UNK "</IncidentDetail>
 		</details><units>
+			<UnitTime>"Oct  9 2025  4:08AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct  8 2025 10:42PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
 			<UnitTime>"Oct  8 2025 10:27PM"</UnitTime>
@@ -970,6 +812,8 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"37991840:122307909"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Oct  9 2025  4:02AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct  8 2025  9:51PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct  8 2025  9:51PM"</UnitTime>
@@ -1126,6 +970,122 @@
 			<UnitTime>"Oct  8 2025  6:26PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "MYCC">
+
+		<Log ID = "251009MY0008">
+			<LogTime>"Oct  9 2025  1:15AM"</LogTime>
+			<LogType>"FLOOD-Roadway Flooding"</LogType>
+			<Location>"Portola Dr / Anza Dr"</Location>
+			<LocationDesc>"BTWN FRANCISCAN WAY"</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36612049:121691071"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:17AM"</DetailTime>
+			<IncidentDetail>"[27] C27-030G CALWATER ADVSD CREW FOR CLOSURE AND SIGNAGE HAS 30-45MIN ETA "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:35AM"</DetailTime>
+			<IncidentDetail>"[26] C27-030G CALWATER 1097"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:04AM"</DetailTime>
+			<IncidentDetail>"[23] CORDS ETA APPROX 1 HR "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:04AM"</DetailTime>
+			<IncidentDetail>"[22] 1039 STEVEN CORDS CPYS ALL // UNK ETA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:02AM"</DetailTime>
+			<IncidentDetail>"[21] S5 TO ENSURE RDWY IS STILL SAFE TO DRIVE ON DUE TO CRACKS IN RDWY FRM WATER"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:01AM"</DetailTime>
+			<IncidentDetail>"[20] S5 IN DISPATCH REQ CORDS TO INSPECT RDWY AND TO DETERMINE IF A HARD CLOSURE WILL BE NEEDED OR NOT BY CALWATER"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:56AM"</DetailTime>
+			<IncidentDetail>"[17] 1039 MTRY COMM "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:52AM"</DetailTime>
+			<IncidentDetail>"[14] 30G REQ CORDS FOR 1184 AND EVAL OF RDWY "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:52AM"</DetailTime>
+			<IncidentDetail>"[13] 30G FIRE HAS CLOSED AS MANY VALVES AS THEY COULD AND CTCD CALWATER / UNKN ETA FOR CALWATER"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:50AM"</DetailTime>
+			<IncidentDetail>"[12] 1039 MTRY COMM//  CORDS NOT YET STARTED // WATER COMPANY STARTED  UNK ETA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:49AM"</DetailTime>
+			<IncidentDetail>"[10] C27-030G WATER FLOWING FROM PORTOLA X ANZA TO FRANCISCAN WAY   -- REQ CORDS FOR SIGNAGE // NOT A HARD CLOSURE - WB LN IS ONLY LN AFFECTED AND WATER COMING UP FRM ASPHAULT AND VEHS CAN STILL PASS      ."</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:43AM"</DetailTime>
+			<IncidentDetail>"[8] S5 CPYS  INQ IF HARD CLOSURE OR FIRE REQ CHP FOR 1184 TEMP "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:42AM"</DetailTime>
+			<IncidentDetail>"[7] 30G PORTOLA JWO ANZA DR CLOSED // TEMP WATER FLOWING FRM CRACK IN ASPHALT // FIRE WORKING ON SHUTTING DWN WATER // UNK ETO"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:15AM"</DetailTime>
+			<IncidentDetail>"[4] FIRE ENRT "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:15AM"</DetailTime>
+			<IncidentDetail>"[3] REQ CHP DUE TO BEING A RD HAZARD "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  1:36AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  1:36AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  1:16AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008MY0274">
+			<LogTime>"Oct  8 2025  7:34PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr1 / Cvr"</Location>
+			<LocationDesc>"NB 1 AT CARMEL VALLEY RD"</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36543722:121908517"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  8 2025  8:07PM"</DetailTime>
+			<IncidentDetail>"[4] 1039 MTRY COMM  [Shared]"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  1:20AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008MY0226">
+			<LogTime>"Oct  8 2025  5:22PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Us101 S / Crazy Horse Canyon Rd Onr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Monterey"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36815680:121638373"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  8 2025  6:13PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:13PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025 12:07AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  5:48PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "VTCC">
 
 		<Log ID = "251008VT0256">
@@ -1211,6 +1171,104 @@
 <Center ID = "LAHB">
 <Dispatch ID = "LACC">
 
+		<Log ID = "251009LA0223">
+			<LogTime>"Oct  9 2025  4:06AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"I210 W / Citrus Ave Ofr"</Location>
+			<LocationDesc>"WB 210 JEO CITRUS"</LocationDesc>
+			<Area>"Baldwin Park"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34121033:117883122"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  4:07AM"</DetailTime>
+			<IncidentDetail>"[1] TIRE TREAD BLKG #1 LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  4:08AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:08AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009LA0222">
+			<LogTime>"Oct  9 2025  4:04AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Sepulveda Blvd / S Vermont Ave"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"South LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33810186:118290254"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  4:04AM"</DetailTime>
+			<IncidentDetail>"[2]  UNK VEH  -- DRK IN COL "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:04AM"</DetailTime>
+			<IncidentDetail>"[1] SOLO VEH TC // NO  INJS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  4:05AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009LA0214">
+			<LogTime>"Oct  9 2025  3:53AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"SR60 W / S DOWNEY RD"</Location>
+			<LocationDesc>"WB 60 JWO DOWNEY"</LocationDesc>
+			<Area>"East LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34033344:118180973"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:58AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 03:59:46] [2] ADVS 2 PTYS OO VEH STANDING ON THE EB SIDE LANES "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:58AM"</DetailTime>
+			<IncidentDetail>"[6] [Appended, 03:59:46] [1] BLK SUV BLKG # 1 LANE "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:56AM"</DetailTime>
+			<IncidentDetail>"[2] 15-40 VIS EB SIDE / CORRECT 1020 WB 60 JWO DOWNEY / WILL START BREAK / TURNING ATLANTIC / NOTIFY ELA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:54AM"</DetailTime>
+			<IncidentDetail>"[1] UNK TYPE OF TRK IN #1 LN "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  4:05AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:05AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:05AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:03AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:57AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:57AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:04AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:04AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:55AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009LA0212">
+			<LogTime>"Oct  9 2025  3:51AM"</LogTime>
+			<LogType>"BREAK-Traffic Break"</LogType>
+			<Location>"I605 S / I105"</Location>
+			<LocationDesc>"SB 605 JSO 105"</LocationDesc>
+			<Area>"Santa Fe Springs"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33914103:118104945"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:53AM"</DetailTime>
+			<IncidentDetail>"[1] CALTRANS REQG CHP TO START TRFC BREAK AT FLORENCE AND COME IN SLOW - NEEDS TO PICK UP EQUIPMENT JSO 105 "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  3:54AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
 		<Log ID = "251009LA0208">
 			<LogTime>"Oct  9 2025  3:41AM"</LogTime>
 			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
@@ -1221,6 +1279,18 @@
 			<LATLON>"34568852:118689016"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Oct  9 2025  4:04AM"</DetailTime>
+			<IncidentDetail>"[13] C78-513 REQ ADDITIONAL 1185 FOR 13FT TRAILER DWN THE EMBANKMENT  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:03AM"</DetailTime>
+			<IncidentDetail>"[12] [Rotation Request Comment] 1039 ECO TOWING  661-877-8154 ETA 25 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:01AM"</DetailTime>
+			<IncidentDetail>"[11] C78-513 REQ 1 1185 FOR PK TRK ON IT'S ROOF  [Shared]"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Oct  9 2025  3:45AM"</DetailTime>
 			<IncidentDetail>"[8] [Appended, 03:45:49] [2] TRANS TO LACOFD"</IncidentDetail>
 		</details>
@@ -1228,6 +1298,10 @@
 			<DetailTime>"Oct  9 2025  3:43AM"</DetailTime>
 			<IncidentDetail>"[3] SOLO TC - CHEV TRK // FLIPPED OVER ON ITS ROOF"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Oct  9 2025  3:54AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:54AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct  9 2025  3:46AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
@@ -1499,38 +1573,6 @@
 			<UnitTime>"Oct  9 2025 12:06AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "251008LA2093">
-			<LogTime>"Oct  8 2025  9:57PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I605 S / WHITTIER BLVD"</Location>
-			<LocationDesc>"WHITTIER TO WASHINGTON 3*4 / SB ONRS"</LocationDesc>
-			<Area>"Santa Fe Springs"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33993558:118069315"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  8 2025 10:28PM"</DetailTime>
-			<IncidentDetail>"[2] 83-CZP1 BOTH SB WHITTIER ONR - CLOSED ALSO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  8 2025 10:28PM"</DetailTime>
-			<IncidentDetail>"[1] 83-CZP1 CLOSURE INFO - SB 605 FRM WHITTIER TO WASHINGTON 3/4 LNS CLOSED TIL 0500 HRS / SAFETY MEETING CONDUCTED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025 12:36AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:36AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:36AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:36AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:57PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:57PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:57PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "251008LA2081">
 			<LogTime>"Oct  8 2025  9:48PM"</LogTime>
 			<LogType>"CLOSURE of a Road"</LogType>
@@ -1549,26 +1591,6 @@
 			<UnitTime>"Oct  8 2025  9:49PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct  8 2025  9:49PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008LA2064">
-			<LogTime>"Oct  8 2025  9:34PM"</LogTime>
-			<LogType>"DOT-Request CalTrans Notify"</LogType>
-			<Location>"I605 S / Rosecrans Ave"</Location>
-			<LocationDesc>"SB 605 FROM ROSECRANS TO JNO 91"</LocationDesc>
-			<Area>"Santa Fe Springs"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33902072:118105310"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  8 2025  9:35PM"</DetailTime>
-			<IncidentDetail>"[1] 83-651 / CAL TRANS WILL HAVE HOV and #1 LANES CLOSED   SB 605 FROM ROSECRANS TO JNO 91"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  8 2025  9:35PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:35PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:35PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "251008LA2057">
@@ -1674,6 +1696,10 @@
 			<ThomasBrothers>""</ThomasBrothers>
 			<LATLON>"34362192:118555307"</LATLON>
 			<LogDetails><details/><units>
+			<UnitTime>"Oct  9 2025  4:02AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:53AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Oct  8 2025 10:51PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Oct  9 2025  1:53AM"</UnitTime>
@@ -1717,85 +1743,85 @@
 			<UnitTime>"Oct  8 2025  6:20PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "MRCC">
+<Dispatch ID = "BFCC">
 
-		<Log ID = "251009MR0036">
-			<LogTime>"Oct  9 2025  3:05AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"I5 N / SPERRY AVE DIABLO GRANDE PKWY OFR"</Location>
-			<LocationDesc>"NB JNO"</LocationDesc>
-			<Area>"Modesto"</Area>
+		<Log ID = "251009BF0015">
+			<LogTime>"Oct  9 2025  3:57AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr99 N / Stockdale Hwy"</Location>
+			<LocationDesc>"NB 99 JSO STOCKDALE"</LocationDesc>
+			<Area>"Bakersfield"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37461601:121178239"</LATLON>
+			<LATLON>"35354195:119039410"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Oct  9 2025  3:41AM"</DetailTime>
-			<IncidentDetail>"[28] TOW ADVD FB IS ENRT SHOULD BE THERE SHORTLY, MAY NEED TO HAVE WRECKER RESP AS WEL"</IncidentDetail>
+			<DetailTime>"Oct  9 2025  3:59AM"</DetailTime>
+			<IncidentDetail>"[4] 1125 IN LANES "</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Oct  9 2025  3:41AM"</DetailTime>
-			<IncidentDetail>"[27] 1039 PATTERSON CITY TOW "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:39AM"</DetailTime>
-			<IncidentDetail>"[26] 48-55 UPDATE 1185 APPROX 50 FT FRM RDWY DWNHILL "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:38AM"</DetailTime>
-			<IncidentDetail>"[25] 1039 PATTERSON CITY TOW "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:37AM"</DetailTime>
-			<IncidentDetail>"[24] 1039 C/T"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
-			<IncidentDetail>"[21] 48-55 VEH 1124"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
-			<IncidentDetail>"[20] 1039 SRCC "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:34AM"</DetailTime>
-			<IncidentDetail>"[19] 1039 AMR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
-			<IncidentDetail>"[16] 1039 STK CC TO CONFIRM 1020"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:13AM"</DetailTime>
-			<IncidentDetail>"[12] [Rotation Request Comment] 1039 PATTERSON CITY TOW 209-892-6000"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:12AM"</DetailTime>
-			<IncidentDetail>"[11] C48-055 START 1185"</IncidentDetail>
+			<DetailTime>"Oct  9 2025  3:58AM"</DetailTime>
+			<IncidentDetail>"[1] 1125 PED "</IncidentDetail>
 		</details><units>
-			<UnitTime>"Oct  9 2025  3:34AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:07AM"</UnitTime>
+			<UnitTime>"Oct  9 2025  4:01AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:07AM"</UnitTime>
+			<UnitTime>"Oct  9 2025  4:01AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "251008MR0260">
-			<LogTime>"Oct  8 2025  7:33PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr165 / Santa Fe Grade"</Location>
+		<Log ID = "251009BF0011">
+			<LogTime>"Oct  9 2025  1:59AM"</LogTime>
+			<LogType>"WIND Advisory"</LogType>
+			<Location>"Fort Tejon Summit"</Location>
 			<LocationDesc>""</LocationDesc>
-			<Area>"Los Banos"</Area>
+			<Area>"Fort Tejon"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37104501:120834818"</LATLON>
+			<LATLON>"34802831:118876520"</LATLON>
 			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025  7:34PM"</UnitTime>
+			<UnitTime>"Oct  9 2025  2:02AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:34PM"</UnitTime>
+			<UnitTime>"Oct  9 2025  2:02AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:34PM"</UnitTime>
+			<UnitTime>"Oct  9 2025  2:02AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009BF0010">
+			<LogTime>"Oct  9 2025  1:48AM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Bakersfield Traffic Advisories"</Location>
+			<LocationDesc>"Bakersfield Traffic Advisories"</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  9 2025  1:54AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  1:54AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  1:54AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "FRCC">
+
+		<Log ID = "251009FR0028">
+			<LogTime>"Oct  9 2025  3:55AM"</LogTime>
+			<LogType>"1184-Provide Traffic Control"</LogType>
+			<Location>"Sr99 S / Avenue 260 Ofr"</Location>
+			<LocationDesc>"SB99 AT AVE 260"</LocationDesc>
+			<Area>"Visalia"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"36269159:119366171"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:57AM"</DetailTime>
+			<IncidentDetail>"[2] PER RP ON THE ONR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:57AM"</DetailTime>
+			<IncidentDetail>"[1] 1185 ADV TRYING TO ASST A DIESEL - VEH SPEEDING PAST- REQ CHP FOR 1184 "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  4:06AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:06AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "251009FR0023">
 			<LogTime>"Oct  9 2025  2:31AM"</LogTime>
@@ -1816,62 +1842,6 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct  9 2025  2:40AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251009FR0016">
-			<LogTime>"Oct  9 2025  2:00AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Avenue 368 / Road 132"</Location>
-			<LocationDesc>"AVENUE 368 /RD 124/132"</LocationDesc>
-			<Area>"Visalia"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36457604:119277565"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  2:37AM"</DetailTime>
-			<IncidentDetail>"[11] EDISON  WILL CB W/ ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:32AM"</DetailTime>
-			<IncidentDetail>"[10] 1039 TCSO "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:32AM"</DetailTime>
-			<IncidentDetail>"[9] PER TUL CO FIRE --- THEY CONTACT EDISON --- EDISON TICKET # 5807608       "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:31AM"</DetailTime>
-			<IncidentDetail>"[8] 67-S3 CONTACT CORDS HARD CLOSURE AVE 368 // RD  124 and 132"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:02AM"</DetailTime>
-			<IncidentDetail>"[3] SOLO VEH TC"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  2:23AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:09AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:09AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:23AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:23AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:06AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251009FR0011">
-			<LogTime>"Oct  9 2025  1:27AM"</LogTime>
-			<LogType>"FIRE-Report of Fire"</LogType>
-			<Location>"I5 N / Manning Ave Ofr"</Location>
-			<LocationDesc>"NB 5 AT MANNING"</LocationDesc>
-			<Area>"Coalinga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"36601969:120581907"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  1:28AM"</DetailTime>
-			<IncidentDetail>"[1] LARGE UNK FIRE VIZ FRM FRWY "</IncidentDetail>
-		</details></LogDetails></Log>
 
 		<Log ID = "251009FR0006">
 			<LogTime>"Oct  9 2025 12:57AM"</LogTime>
@@ -2017,43 +1987,401 @@
 			<UnitTime>"Oct  8 2025  5:30PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BFCC">
+<Dispatch ID = "MRCC">
 
-		<Log ID = "251009BF0011">
-			<LogTime>"Oct  9 2025  1:59AM"</LogTime>
-			<LogType>"WIND Advisory"</LogType>
-			<Location>"Fort Tejon Summit"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Fort Tejon"</Area>
+		<Log ID = "251009MR0036">
+			<LogTime>"Oct  9 2025  3:05AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"I5 N / SPERRY AVE DIABLO GRANDE PKWY OFR"</Location>
+			<LocationDesc>"NB JNO"</LocationDesc>
+			<Area>"Modesto"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34802831:118876520"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  9 2025  2:02AM"</UnitTime>
+			<LATLON>"37461601:121178239"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:41AM"</DetailTime>
+			<IncidentDetail>"[28] TOW ADVD FB IS ENRT SHOULD BE THERE SHORTLY, MAY NEED TO HAVE WRECKER RESP AS WEL"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:41AM"</DetailTime>
+			<IncidentDetail>"[27] 1039 PATTERSON CITY TOW "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:39AM"</DetailTime>
+			<IncidentDetail>"[26] 48-55 UPDATE 1185 APPROX 50 FT FRM RDWY DWNHILL "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:38AM"</DetailTime>
+			<IncidentDetail>"[25] 1039 PATTERSON CITY TOW "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:37AM"</DetailTime>
+			<IncidentDetail>"[24] 1039 C/T"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
+			<IncidentDetail>"[21] 48-55 VEH 1124"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
+			<IncidentDetail>"[20] 1039 SRCC "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:34AM"</DetailTime>
+			<IncidentDetail>"[19] 1039 AMR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[16] 1039 STK CC TO CONFIRM 1020"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:13AM"</DetailTime>
+			<IncidentDetail>"[12] [Rotation Request Comment] 1039 PATTERSON CITY TOW 209-892-6000"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:12AM"</DetailTime>
+			<IncidentDetail>"[11] C48-055 START 1185"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  3:34AM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:02AM"</UnitTime>
+			<UnitTime>"Oct  9 2025  3:07AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:02AM"</UnitTime>
+			<UnitTime>"Oct  9 2025  3:07AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
-		<Log ID = "251009BF0010">
-			<LogTime>"Oct  9 2025  1:48AM"</LogTime>
-			<LogType>"TADV-Traffic Advisory"</LogType>
-			<Location>"Bakersfield Traffic Advisories"</Location>
-			<LocationDesc>"Bakersfield Traffic Advisories"</LocationDesc>
-			<Area>"BF"</Area>
+		<Log ID = "251008MR0260">
+			<LogTime>"Oct  8 2025  7:33PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr165 / Santa Fe Grade"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Los Banos"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35265234:119024794"</LATLON>
+			<LATLON>"37104501:120834818"</LATLON>
 			<LogDetails><details/><units>
-			<UnitTime>"Oct  9 2025  1:54AM"</UnitTime>
+			<UnitTime>"Oct  8 2025  7:34PM"</UnitTime>
 			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  1:54AM"</UnitTime>
+			<UnitTime>"Oct  8 2025  7:34PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  1:54AM"</UnitTime>
+			<UnitTime>"Oct  8 2025  7:34PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
 
 <Center ID = "INHB">
+<Dispatch ID = "INCC">
+
+		<Log ID = "251009IN0065">
+			<LogTime>"Oct  9 2025  3:58AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"I215 S No / 5th St"</Location>
+			<LocationDesc>"I215 S NO 5TH ST"</LocationDesc>
+			<Area>"San Bernardino"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34110858:117302934"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  4:01AM"</DetailTime>
+			<IncidentDetail>"[6] DEBRIS IN LNS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:01AM"</DetailTime>
+			<IncidentDetail>"[5] BLK VEH ON RS CLOSE TO SLOW LN "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:00AM"</DetailTime>
+			<IncidentDetail>"[4] SOLO VEH TC "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  4:02AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009IN0053">
+			<LogTime>"Oct  9 2025  3:26AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"SR91 W EO / MAPLE ST"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33881068:117598258"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  4:02AM"</DetailTime>
+			<IncidentDetail>"[53] 1039 AUTO AIDE  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:00AM"</DetailTime>
+			<IncidentDetail>"[51] C74-031 REDIRECT 1 1185 TO CARLS JR  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:39AM"</DetailTime>
+			<IncidentDetail>"[49] 74-31 4/5 LN FLARED OFF [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:38AM"</DetailTime>
+			<IncidentDetail>"[48] [Rotation Request Comment] 1039 AUTO AIDE TOW 951-735-2180************* [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:37AM"</DetailTime>
+			<IncidentDetail>"[46] Tow Request Cancelled: 1132606 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:33AM"</DetailTime>
+			<IncidentDetail>"[22] VEH FULLY ENGULFED  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:32AM"</DetailTime>
+			<IncidentDetail>"[21] [Rotation Request Comment] 1039 J AND M TOW RIV 951-738-9428************ [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:31AM"</DetailTime>
+			<IncidentDetail>"[19] 74-31 START 2 1185  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:31AM"</DetailTime>
+			<IncidentDetail>"[18] 74-31 WB JEO LINC WITH BREAK  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[12] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[11] XFERED TO ONTARIO FIRE "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[10] OTHER VEH FAR BEHIND HIM "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[9] RPS VEH ON RS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[8] RP ADV HIS VEH ON FIRE "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
+			<IncidentDetail>"[7] RP HASNT BEEN ABLE TO CHECK ON OTHER VEH "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[25] [Appended, 03:33:52] [1] SD ON RS - ENGULFED IN FLAMES"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[6] RP IN 2005 BLK SCION TC VS UNK DESC "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:28AM"</DetailTime>
+			<IncidentDetail>"[4] 2 VEH TC "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  3:34AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:34AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:31AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009IN0050">
+			<LogTime>"Oct  9 2025  3:19AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Sr91 E Wo / I15"</Location>
+			<LocationDesc>"SR91 E WO I15"</LocationDesc>
+			<Area>"Riverside"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33879215:117558736"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:59AM"</DetailTime>
+			<IncidentDetail>"[31] [Rotation Request Comment] 1039 BROTHERS TOW- NORCO 951-817-0380 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:58AM"</DetailTime>
+			<IncidentDetail>"[30] 74-40 1185 ON EXP NARROW CD  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:57AM"</DetailTime>
+			<IncidentDetail>"[29] 74-40 CHARGER IN CD -- 2ND VEH LINC ST OFR ON RHS  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:57AM"</DetailTime>
+			<IncidentDetail>"[28] [Notification] [CHP]-1039 3A SO #45824325 ADVANCED TOWING  ETA 1 HR  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:55AM"</DetailTime>
+			<IncidentDetail>"[27] C74-040 W/ BREAK [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:51AM"</DetailTime>
+			<IncidentDetail>"[21] [Appended, 03:52:26] [8] VEH NOT DRIVEABLE "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:50AM"</DetailTime>
+			<IncidentDetail>"[20] [Appended, 03:52:26] [7] ON RS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:50AM"</DetailTime>
+			<IncidentDetail>"[19] [Appended, 03:52:26] [6] RP IN BLK GMC TERRAIN  NOW ON 2ND OFR "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:50AM"</DetailTime>
+			<IncidentDetail>"[18] [Appended, 03:52:26] [5] BLK SEDAN IN HOV LN "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:49AM"</DetailTime>
+			<IncidentDetail>"[17] [Appended, 03:52:26] [4] RP ADV SHE HIT THE TIRE THAT WAS IN LNS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:49AM"</DetailTime>
+			<IncidentDetail>"[16] [Appended, 03:52:26] [3] VEH IN HOV LN  TIRE CAME OFF "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:27AM"</DetailTime>
+			<IncidentDetail>"[10] [Appended, 03:27:42] [3] BLK IN CD OF TL "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:27AM"</DetailTime>
+			<IncidentDetail>"[8] [Appended, 03:27:42] [1] DUP ADV EB WO MAIN - TIRE IN #1 LN"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:20AM"</DetailTime>
+			<IncidentDetail>"[3] DODG CHA IN CD AHEAD OF TIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:19AM"</DetailTime>
+			<IncidentDetail>"[1] TIRE IN #1 LN"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  4:03AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:03AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:55AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:31AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:20AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008IN0619">
+			<LogTime>"Oct  8 2025  8:24PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I15 S / 4th St Rc"</Location>
+			<LocationDesc>"I15 S 4TH ST RC"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34077874:117544973"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:33AM"</DetailTime>
+			<IncidentDetail>"[6] 123-CZP4 EB 10 CLOSURE PICKED UP "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  8 2025 11:21PM"</DetailTime>
+			<IncidentDetail>"[5] 123-CZP4 EB 10 FULL CLOSURE ALL TRFC BEING DIV TO THE 15 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  8 2025 10:36PM"</DetailTime>
+			<IncidentDetail>"[4] 123-CZP4 SET UP CLOSURE #3-4 CLOSED NB 15 FRM 4TH TO ARROW WILL ADV "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  8 2025 10:34PM"</DetailTime>
+			<IncidentDetail>"[3] [Notification] [CHP]-ARE ALL LNS CLOSED?"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  3:32AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:32AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  2:52AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  2:19AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  2:19AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:25PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:25PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:22AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:24PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008IN0591">
+			<LogTime>"Oct  8 2025  7:43PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr60 W / Vineyard Ave"</Location>
+			<LocationDesc>"SR60 W VINEYARD AVE"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34030662:117610875"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  2:54AM"</DetailTime>
+			<IncidentDetail>"[7] ALL UNITS 98 -- UMANNED CLOSURE TIL 0400"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:16AM"</DetailTime>
+			<IncidentDetail>"[6] CZP2 ADV CLOSURE FRM LINE 5 WILL GO UNTIL APPROX 0400 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  1:16AM"</DetailTime>
+			<IncidentDetail>"[5] 123-603 CZP EB SIDE IN HOV 1,2 LNS BLKD WO VINEYARDS UNK LENGTH OF DURATION "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  2:54AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:55PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:55PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  2:55AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:55PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008IN0579">
+			<LogTime>"Oct  8 2025  7:22PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I10 E / Cedar  Ave"</Location>
+			<LocationDesc>"I10 E CEDAR AVE"</LocationDesc>
+			<Area>"San Bernardino"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34068385:117395843"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  8 2025  7:22PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:22PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:22PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008IN0574">
+			<LogTime>"Oct  8 2025  7:02PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I15 S / I210 W I15 S CON"</Location>
+			<LocationDesc>"** UNMANNED"</LocationDesc>
+			<Area>"Rancho Cucamonga"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34131221:117502404"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  8 2025  8:43PM"</DetailTime>
+			<IncidentDetail>"[2] 75-CZP1 CLOSURE INFO - WB 210 JWO SAN BERNARDINO #2-3 LNS 5TH OFR AND 2-3 LNS JUST PASSED 5TH "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  2:48AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  2:25AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:46PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:46PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:46PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:45PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  7:03PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "ECCC">
 
 		<Log ID = "251009EC0003">
@@ -2316,6 +2644,22 @@
 			<LATLON>"35418498:117752042"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Oct  9 2025  4:07AM"</DetailTime>
+			<IncidentDetail>"[17] MALE PTY OO VEH - WALKING ARPUND "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:06AM"</DetailTime>
+			<IncidentDetail>"[16] VEH ON THE SHOULDER "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:06AM"</DetailTime>
+			<IncidentDetail>"[15] NEG 1125 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  4:06AM"</DetailTime>
+			<IncidentDetail>"[14] PER DUPE CALLER - VEH UPSIDE DOWN "</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Oct  9 2025  3:52AM"</DetailTime>
 			<IncidentDetail>"[10] 1039 KCSO WILL HAVE A UNIT RESP "</IncidentDetail>
 		</details>
@@ -2352,23 +2696,299 @@
 			<UnitTime>"Oct  8 2025 11:58AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "BCCC">
+<Dispatch ID = "OCCC">
 
-		<Log ID = "251009BC0054">
-			<LogTime>"Oct  9 2025  3:35AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I805 S / Main St Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"San Diego"</Area>
+		<Log ID = "251009OC0026">
+			<LogTime>"Oct  9 2025  3:19AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"Sr22 E / Magnolia"</Location>
+			<LocationDesc>"MAG ONR TO EB 22"</LocationDesc>
+			<Area>"Westminster"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32598710:117036443"</LATLON>
+			<LATLON>"33765678:117972380"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Oct  9 2025  3:36AM"</DetailTime>
-			<IncidentDetail>"[1] TIRE TREAD IN LEFT LN "</IncidentDetail>
+			<DetailTime>"Oct  9 2025  4:07AM"</DetailTime>
+			<IncidentDetail>"[21] 1039 OFC NR X 2 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
+			<IncidentDetail>"[7] [Rotation Request Comment] 1039 BD 714-835-4910"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:34AM"</DetailTime>
+			<IncidentDetail>"[6] C55-044 START 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[4] [Notification] [CHP]-Problem changed from 1125-Traffic Hazard to 1183-Trfc Collision-Unkn Inj by CHP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
+			<IncidentDetail>"[3] [Notification] [CHP]-STA 32 97 ADVSD WILL BE 1183 MAG ONR TO EB 22 - CHP HANDLE - DRVR HBD"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:24AM"</DetailTime>
+			<IncidentDetail>"[2] UNK IF TC OR DIABLED VEH // LIGHTS ON - NEG VIS OF PTYS IN OR AORUND VEH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:23AM"</DetailTime>
+			<IncidentDetail>"[1] GRY OR DK COL HOND CIV -  BLKNG LNS OF ONR"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Oct  9 2025  3:37AM"</UnitTime>
+			<UnitTime>"Oct  9 2025  4:01AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:36AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:30AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:30AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:36AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:26AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:25AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009OC0021">
+			<LogTime>"Oct  9 2025  2:22AM"</LogTime>
+			<LogType>"1125-Traffic Hazard"</LogType>
+			<Location>"Tl91 E / Gypsum Canyon"</Location>
+			<LocationDesc>"EB 91 JEO GYPS FASTRAK"</LocationDesc>
+			<Area>"Santa Ana"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33866841:117711559"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:07AM"</DetailTime>
+			<IncidentDetail>"[23] 1039 CFP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:06AM"</DetailTime>
+			<IncidentDetail>"[21] [Notification] [CHP]-BT ETA 15 MINS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:03AM"</DetailTime>
+			<IncidentDetail>"[20] 1039 CFP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:38AM"</DetailTime>
+			<IncidentDetail>"[4] [Rotation Request Comment] 1039 GEERS 714-524-2611"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:36AM"</DetailTime>
+			<IncidentDetail>"[3] 86-94 START 1185 FOR VOLVO - BO R/ FRONT TIRE"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:34AM"</DetailTime>
+			<IncidentDetail>"[2] 86-94 97 //  NEG BLKNG"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:22AM"</DetailTime>
+			<IncidentDetail>"[1] BLK SD, CD "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  2:35AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  2:35AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  2:23AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009OC0003">
+			<LogTime>"Oct  9 2025 12:03AM"</LogTime>
+			<LogType>"CLOSURE of a Road"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OCCC"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251009OC0002">
+			<LogTime>"Oct  9 2025 12:03AM"</LogTime>
+			<LogType>"1013-Road/Weather Conditions"</LogType>
+			<Location>"6681 Marine Way"</Location>
+			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
+			<Area>"OC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33677582:117757184"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008OC0494">
+			<LogTime>"Oct  8 2025  9:11PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"E Santa Clara Ave"</Location>
+			<LocationDesc>"** 405 PROJECT **"</LocationDesc>
+			<Area>"Santa Ana"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33767403:117837929"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  9 2025  4:00AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025 10:46PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  9:12PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  4:05AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  9:11PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008OC0483">
+			<LogTime>"Oct  8 2025  8:45PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"13200 Goldenwest St"</Location>
+			<LocationDesc>"WESTMINSTER CHP"</LocationDesc>
+			<Area>"Westminster"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33773056:118007756"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  8 2025  8:46PM"</DetailTime>
+			<IncidentDetail>"[1] SB 405 FT JSO 605 CLOSED and 1-5 // SB 605 TRANS TO SB 405 FT CLOSED AT 2300 TO JNO 22"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  8 2025  9:22PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  9:19PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  9:19PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:45PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:45PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:45PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "ICCC">
+
+		<Log ID = "251009IC0011">
+			<LogTime>"Oct  9 2025  2:44AM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"SR371 E EO / Burnt Valley - Upper  MM 76"</Location>
+			<LocationDesc>"**JWO"</LocationDesc>
+			<Area>"San Gorgonio Pass"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33562960:116602560"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  3:37AM"</DetailTime>
+			<IncidentDetail>"[12] [Rotation Request Comment] 1039 ANZA VALLEY 951-763-4395"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
+			<IncidentDetail>"[9] 97-101 REQ 1185"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:49AM"</DetailTime>
+			<IncidentDetail>"[7] 1039 97-101---ENRT"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:49AM"</DetailTime>
+			<IncidentDetail>"[6] INV TRANS TO CDF"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  9 2025  2:45AM"</DetailTime>
+			<IncidentDetail>"[2] SILV MERZ CAR OFF RDWY"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  3:33AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:33AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025  3:08AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008IC0197">
+			<LogTime>"Oct  8 2025 10:04PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"195 S Highland Springs Ave"</Location>
+			<LocationDesc>"BANNING CHP OFFICE"</LocationDesc>
+			<Area>"IC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33923823:116946884"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  9 2025 12:51AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  9 2025 12:28AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025 10:04PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008IC0181">
+			<LogTime>"Oct  8 2025  8:44PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I10 W / Lovekin Blvd  Exit 239  MM 152"</Location>
+			<LocationDesc>"I10 W Lovekin Blvd  Exit 239 MM 152"</LocationDesc>
+			<Area>"Blythe"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33607169:114605498"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Oct  8 2025  8:44PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:44PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  8:44PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251008IC0164">
+			<LogTime>"Oct  8 2025  6:05PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I10 E / All American Canal Mm 60.3"</Location>
+			<LocationDesc>"I10 E All American Canal MM 60.3"</LocationDesc>
+			<Area>"Indio"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33709477:116149743"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Oct  9 2025  2:33AM"</DetailTime>
+			<IncidentDetail>"[4] LANES OPEN AT CACTUS CITY"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  8 2025 11:21PM"</DetailTime>
+			<IncidentDetail>"[3] EB EO CACTUS CITY // #1 AND #2 LANES CLOSED"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Oct  8 2025  7:23PM"</DetailTime>
+			<IncidentDetail>"[2] EB AT MM 65 // #3 LANE CLOSED"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Oct  9 2025  2:47AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:46PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:37PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:37PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  9:35PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "BCCC">
 
 		<Log ID = "251009BC0039">
 			<LogTime>"Oct  9 2025  1:39AM"</LogTime>
@@ -2706,654 +3326,6 @@
 			<UnitTime>"Oct  8 2025  7:14PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Oct  8 2025  7:14PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "INCC">
-
-		<Log ID = "251009IN0053">
-			<LogTime>"Oct  9 2025  3:26AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"SR91 W EO / MAPLE ST"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33881068:117598258"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:39AM"</DetailTime>
-			<IncidentDetail>"[49] 74-31 4/5 LN FLARED OFF [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:38AM"</DetailTime>
-			<IncidentDetail>"[48] [Rotation Request Comment] 1039 AUTO AIDE TOW 951-735-2180************* [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:37AM"</DetailTime>
-			<IncidentDetail>"[46] Tow Request Cancelled: 1132606 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:33AM"</DetailTime>
-			<IncidentDetail>"[22] VEH FULLY ENGULFED  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:32AM"</DetailTime>
-			<IncidentDetail>"[21] [Rotation Request Comment] 1039 J AND M TOW RIV 951-738-9428************ [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:31AM"</DetailTime>
-			<IncidentDetail>"[19] 74-31 START 2 1185  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:31AM"</DetailTime>
-			<IncidentDetail>"[18] 74-31 WB JEO LINC WITH BREAK  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
-			<IncidentDetail>"[12] [Notification] [CHP]-Problem changed from 1183-Trfc Collision-Unkn Inj to 1179-Trfc Collision-1141 Enrt by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
-			<IncidentDetail>"[11] XFERED TO ONTARIO FIRE "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
-			<IncidentDetail>"[10] OTHER VEH FAR BEHIND HIM "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
-			<IncidentDetail>"[9] RPS VEH ON RS "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
-			<IncidentDetail>"[8] RP ADV HIS VEH ON FIRE "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:29AM"</DetailTime>
-			<IncidentDetail>"[7] RP HASNT BEEN ABLE TO CHECK ON OTHER VEH "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:28AM"</DetailTime>
-			<IncidentDetail>"[25] [Appended, 03:33:52] [1] SD ON RS - ENGULFED IN FLAMES"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:28AM"</DetailTime>
-			<IncidentDetail>"[6] RP IN 2005 BLK SCION TC VS UNK DESC "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:28AM"</DetailTime>
-			<IncidentDetail>"[4] 2 VEH TC "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:34AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:34AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:31AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251009IN0050">
-			<LogTime>"Oct  9 2025  3:19AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Sr91 E Wo / I15"</Location>
-			<LocationDesc>"SR91 E WO I15"</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33879215:117558736"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:51AM"</DetailTime>
-			<IncidentDetail>"[21] [Appended, 03:52:26] [8] VEH NOT DRIVEABLE "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:50AM"</DetailTime>
-			<IncidentDetail>"[20] [Appended, 03:52:26] [7] ON RS "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:50AM"</DetailTime>
-			<IncidentDetail>"[19] [Appended, 03:52:26] [6] RP IN BLK GMC TERRAIN  NOW ON 2ND OFR "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:50AM"</DetailTime>
-			<IncidentDetail>"[18] [Appended, 03:52:26] [5] BLK SEDAN IN HOV LN "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:49AM"</DetailTime>
-			<IncidentDetail>"[17] [Appended, 03:52:26] [4] RP ADV SHE HIT THE TIRE THAT WAS IN LNS "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:49AM"</DetailTime>
-			<IncidentDetail>"[16] [Appended, 03:52:26] [3] VEH IN HOV LN  TIRE CAME OFF "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:27AM"</DetailTime>
-			<IncidentDetail>"[10] [Appended, 03:27:42] [3] BLK IN CD OF TL "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:27AM"</DetailTime>
-			<IncidentDetail>"[8] [Appended, 03:27:42] [1] DUP ADV EB WO MAIN - TIRE IN #1 LN"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:20AM"</DetailTime>
-			<IncidentDetail>"[3] DODG CHA IN CD AHEAD OF TIRE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:19AM"</DetailTime>
-			<IncidentDetail>"[1] TIRE IN #1 LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:31AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:20AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251009IN0048">
-			<LogTime>"Oct  9 2025  3:09AM"</LogTime>
-			<LogType>"1182-Trfc Collision-No Inj"</LogType>
-			<Location>"Sr60 W / Main St Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Riverside"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33995074:117361185"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:10AM"</DetailTime>
-			<IncidentDetail>"[4] BOTH VEHS ON RS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:10AM"</DetailTime>
-			<IncidentDetail>"[2] RP ON MC VS SEMI TK"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:27AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:27AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:12AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008IN0619">
-			<LogTime>"Oct  8 2025  8:24PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I15 S / 4th St Rc"</Location>
-			<LocationDesc>"I15 S 4TH ST RC"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34077874:117544973"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:33AM"</DetailTime>
-			<IncidentDetail>"[6] 123-CZP4 EB 10 CLOSURE PICKED UP "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  8 2025 11:21PM"</DetailTime>
-			<IncidentDetail>"[5] 123-CZP4 EB 10 FULL CLOSURE ALL TRFC BEING DIV TO THE 15 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  8 2025 10:36PM"</DetailTime>
-			<IncidentDetail>"[4] 123-CZP4 SET UP CLOSURE #3-4 CLOSED NB 15 FRM 4TH TO ARROW WILL ADV "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  8 2025 10:34PM"</DetailTime>
-			<IncidentDetail>"[3] [Notification] [CHP]-ARE ALL LNS CLOSED?"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:32AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:32AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:52AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:19AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:19AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:25PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:25PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:22AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:24PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008IN0591">
-			<LogTime>"Oct  8 2025  7:43PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr60 W / Vineyard Ave"</Location>
-			<LocationDesc>"SR60 W VINEYARD AVE"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34030662:117610875"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  2:54AM"</DetailTime>
-			<IncidentDetail>"[7] ALL UNITS 98 -- UMANNED CLOSURE TIL 0400"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:16AM"</DetailTime>
-			<IncidentDetail>"[6] CZP2 ADV CLOSURE FRM LINE 5 WILL GO UNTIL APPROX 0400 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  1:16AM"</DetailTime>
-			<IncidentDetail>"[5] 123-603 CZP EB SIDE IN HOV 1,2 LNS BLKD WO VINEYARDS UNK LENGTH OF DURATION "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  2:54AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:55PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:55PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:55AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:55PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008IN0579">
-			<LogTime>"Oct  8 2025  7:22PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I10 E / Cedar  Ave"</Location>
-			<LocationDesc>"I10 E CEDAR AVE"</LocationDesc>
-			<Area>"San Bernardino"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34068385:117395843"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025  7:22PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:22PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:22PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008IN0574">
-			<LogTime>"Oct  8 2025  7:02PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I15 S / I210 W I15 S CON"</Location>
-			<LocationDesc>"** UNMANNED"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34131221:117502404"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  8 2025  8:43PM"</DetailTime>
-			<IncidentDetail>"[2] 75-CZP1 CLOSURE INFO - WB 210 JWO SAN BERNARDINO #2-3 LNS 5TH OFR AND 2-3 LNS JUST PASSED 5TH "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  2:48AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:25AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:46PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:46PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:46PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:45PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  7:03PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "OCCC">
-
-		<Log ID = "251009OC0026">
-			<LogTime>"Oct  9 2025  3:19AM"</LogTime>
-			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
-			<Location>"Sr22 E / Magnolia"</Location>
-			<LocationDesc>"MAG ONR TO EB 22"</LocationDesc>
-			<Area>"Westminster"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33765678:117972380"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
-			<IncidentDetail>"[7] [Rotation Request Comment] 1039 BD 714-835-4910"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:34AM"</DetailTime>
-			<IncidentDetail>"[6] C55-044 START 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
-			<IncidentDetail>"[4] [Notification] [CHP]-Problem changed from 1125-Traffic Hazard to 1183-Trfc Collision-Unkn Inj by CHP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:30AM"</DetailTime>
-			<IncidentDetail>"[3] [Notification] [CHP]-STA 32 97 ADVSD WILL BE 1183 MAG ONR TO EB 22 - CHP HANDLE - DRVR HBD"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:24AM"</DetailTime>
-			<IncidentDetail>"[2] UNK IF TC OR DIABLED VEH // LIGHTS ON - NEG VIS OF PTYS IN OR AORUND VEH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:23AM"</DetailTime>
-			<IncidentDetail>"[1] GRY OR DK COL HOND CIV -  BLKNG LNS OF ONR"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:36AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:30AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:30AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:36AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:26AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:25AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251009OC0021">
-			<LogTime>"Oct  9 2025  2:22AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Tl91 E / Gypsum Canyon"</Location>
-			<LocationDesc>"EB 91 JEO GYPS FASTRAK"</LocationDesc>
-			<Area>"Santa Ana"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33866841:117711559"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:07AM"</DetailTime>
-			<IncidentDetail>"[23] 1039 CFP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:06AM"</DetailTime>
-			<IncidentDetail>"[21] [Notification] [CHP]-BT ETA 15 MINS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:03AM"</DetailTime>
-			<IncidentDetail>"[20] 1039 CFP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:38AM"</DetailTime>
-			<IncidentDetail>"[4] [Rotation Request Comment] 1039 GEERS 714-524-2611"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:36AM"</DetailTime>
-			<IncidentDetail>"[3] 86-94 START 1185 FOR VOLVO - BO R/ FRONT TIRE"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:34AM"</DetailTime>
-			<IncidentDetail>"[2] 86-94 97 //  NEG BLKNG"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:22AM"</DetailTime>
-			<IncidentDetail>"[1] BLK SD, CD "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  2:35AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:35AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  2:23AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251009OC0003">
-			<LogTime>"Oct  9 2025 12:03AM"</LogTime>
-			<LogType>"CLOSURE of a Road"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OCCC"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251009OC0002">
-			<LogTime>"Oct  9 2025 12:03AM"</LogTime>
-			<LogType>"1013-Road/Weather Conditions"</LogType>
-			<Location>"6681 Marine Way"</Location>
-			<LocationDesc>"OC MEDIA LOG"</LocationDesc>
-			<Area>"OC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33677582:117757184"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:03AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008OC0506">
-			<LogTime>"Oct  8 2025  9:32PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"E Santa Clara Ave"</Location>
-			<LocationDesc>"** 91 FWY **"</LocationDesc>
-			<Area>"Santa Ana"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33767403:117837929"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  9 2025  3:36AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:19PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:33PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008OC0494">
-			<LogTime>"Oct  8 2025  9:11PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"E Santa Clara Ave"</Location>
-			<LocationDesc>"** 405 PROJECT **"</LocationDesc>
-			<Area>"Santa Ana"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33767403:117837929"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025 10:46PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:41PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:12PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:11PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008OC0483">
-			<LogTime>"Oct  8 2025  8:45PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"13200 Goldenwest St"</Location>
-			<LocationDesc>"WESTMINSTER CHP"</LocationDesc>
-			<Area>"Westminster"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33773056:118007756"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  8 2025  8:46PM"</DetailTime>
-			<IncidentDetail>"[1] SB 405 FT JSO 605 CLOSED and 1-5 // SB 605 TRANS TO SB 405 FT CLOSED AT 2300 TO JNO 22"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  8 2025  9:22PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:19PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:19PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:45PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:45PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:45PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008OC0469">
-			<LogTime>"Oct  8 2025  8:15PM"</LogTime>
-			<LogType>"MZP-Assist CT with Maintenance"</LogType>
-			<Location>"32951 Camino Capistrano"</Location>
-			<LocationDesc>"ELA CHP MAZ"</LocationDesc>
-			<Area>"Capistrano"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33486096:117666906"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025  8:16PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:16PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:16PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "ICCC">
-
-		<Log ID = "251009IC0011">
-			<LogTime>"Oct  9 2025  2:44AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"SR371 E EO / Burnt Valley - Upper  MM 76"</Location>
-			<LocationDesc>"**JWO"</LocationDesc>
-			<Area>"San Gorgonio Pass"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33562960:116602560"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  3:37AM"</DetailTime>
-			<IncidentDetail>"[12] [Rotation Request Comment] 1039 ANZA VALLEY 951-763-4395"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  3:35AM"</DetailTime>
-			<IncidentDetail>"[9] 97-101 REQ 1185"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:49AM"</DetailTime>
-			<IncidentDetail>"[7] 1039 97-101---ENRT"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:49AM"</DetailTime>
-			<IncidentDetail>"[6] INV TRANS TO CDF"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  9 2025  2:45AM"</DetailTime>
-			<IncidentDetail>"[2] SILV MERZ CAR OFF RDWY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:33AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:33AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025  3:08AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008IC0197">
-			<LogTime>"Oct  8 2025 10:04PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"195 S Highland Springs Ave"</Location>
-			<LocationDesc>"BANNING CHP OFFICE"</LocationDesc>
-			<Area>"IC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33923823:116946884"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  9 2025 12:51AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  9 2025 12:28AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:04PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008IC0181">
-			<LogTime>"Oct  8 2025  8:44PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I10 W / Lovekin Blvd  Exit 239  MM 152"</Location>
-			<LocationDesc>"I10 W Lovekin Blvd  Exit 239 MM 152"</LocationDesc>
-			<Area>"Blythe"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33607169:114605498"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Oct  8 2025  8:44PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:44PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:44PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251008IC0164">
-			<LogTime>"Oct  8 2025  6:05PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I10 E / All American Canal Mm 60.3"</Location>
-			<LocationDesc>"I10 E All American Canal MM 60.3"</LocationDesc>
-			<Area>"Indio"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33709477:116149743"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  9 2025  2:33AM"</DetailTime>
-			<IncidentDetail>"[4] LANES OPEN AT CACTUS CITY"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  8 2025 11:21PM"</DetailTime>
-			<IncidentDetail>"[3] EB EO CACTUS CITY // #1 AND #2 LANES CLOSED"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  8 2025  7:23PM"</DetailTime>
-			<IncidentDetail>"[2] EB AT MM 65 // #3 LANE CLOSED"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  2:47AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:46PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:37PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:37PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  9:35PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:05PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "BSCC">
-
-		<Log ID = "251008BS0163">
-			<LogTime>"Oct  8 2025  6:04PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr18 / Apple Valley Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"BS"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34540011:117272314"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Oct  8 2025  8:18PM"</DetailTime>
-			<IncidentDetail>"[4] 12-CZP1 WB AND EB #1 LN CLOSED F/ STODDARD TO NB 15 ONR/OFR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Oct  8 2025  8:17PM"</DetailTime>
-			<IncidentDetail>"[3] 12-CZP1 NUMBER ONE WB LN SR18 SHUT DOWN FROM STODDAR WELLS TO NB 15 ON AND OFF RAMP EB 1 LN SHUT DOWN TO STODDARD WELLS "</IncidentDetail>
-		</details><units>
-			<UnitTime>"Oct  9 2025  3:43AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:20PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:20PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:50PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:03PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:03PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025 10:03PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:17PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:17PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  8:59PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:54PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:54PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Oct  8 2025  6:06PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 </Center>
