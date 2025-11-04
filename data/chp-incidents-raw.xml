@@ -63,6 +63,12 @@
 			<DetailTime>"Nov  4 2025  1:38AM"</DetailTime>
 			<IncidentDetail>"[7] SEMI TRLR  LOADED / 43,000LBS"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:48AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Nov  4 2025  1:38AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Nov  4 2025  1:38AM"</UnitTime>
@@ -769,6 +775,8 @@
 			<DetailTime>"Nov  3 2025  7:09PM"</DetailTime>
 			<IncidentDetail>"[1] 35-D1   -  MZP   -   VEH 1453506 BM 214007 UNTIL 0200"</IncidentDetail>
 		</details><units>
+			<UnitTime>"Nov  4 2025  1:54AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Nov  3 2025  7:12PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
 			<UnitTime>"Nov  3 2025  8:02PM"</UnitTime>
@@ -797,29 +805,57 @@
 </Center>
 
 <Center ID = "GGHB">
-<Dispatch ID = "GGCC">
+<Dispatch ID = "SLCC">
 
-		<Log ID = "251104GG0052">
-			<LogTime>"Nov  4 2025  1:41AM"</LogTime>
+		<Log ID = "251104SL0006">
+			<LogTime>"Nov  4 2025  1:13AM"</LogTime>
 			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Us101 N / Us101 N I880 N Con"</Location>
-			<LocationDesc>"NB 101 TO NB 880 CON"</LocationDesc>
-			<Area>"San Jose"</Area>
+			<Location>"Harris Grade Rd"</Location>
+			<LocationDesc>"NB HARRIS GRADE JSO SUMMIT"</LocationDesc>
+			<Area>"Buellton"</Area>
 			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37363715:121898002"</LATLON>
+			<LATLON>"34733127:120440561"</LATLON>
 			<LogDetails>
 		<details>
-			<DetailTime>"Nov  4 2025  1:42AM"</DetailTime>
-			<IncidentDetail>"[3] PTY IN VEH "</IncidentDetail>
+			<DetailTime>"Nov  4 2025  1:34AM"</DetailTime>
+			<IncidentDetail>"[5] C3-004N RDWY CLR 98 "</IncidentDetail>
 		</details>
 		<details>
-			<DetailTime>"Nov  4 2025  1:42AM"</DetailTime>
-			<IncidentDetail>"[2] BLKG MIDDLE OF CON RAMP "</IncidentDetail>
+			<DetailTime>"Nov  4 2025  1:15AM"</DetailTime>
+			<IncidentDetail>"[2] RP CHECKED FOR A VEH IN THE AREA, UTL SO FAR"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:14AM"</DetailTime>
+			<IncidentDetail>"[1] CLOTHING AND ITEMS IN RDWY"</IncidentDetail>
 		</details><units>
-			<UnitTime>"Nov  4 2025  1:45AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025  1:45AM"</UnitTime>
+			<UnitTime>"Nov  4 2025  1:16AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103SL0126">
+			<LogTime>"Nov  3 2025  6:40PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Us101 N / Los Berros Rd Ofr"</Location>
+			<LocationDesc>"NB US101 AT LOS BERROS RD"</LocationDesc>
+			<Area>"San Luis Obispo"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35068204:120512771"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  3 2025  6:41PM"</DetailTime>
+			<IncidentDetail>"[1] 28-Z19 VEH 1618899 BM 83920"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Nov  3 2025 11:10PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:10PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:01PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  6:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  6:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
+<Dispatch ID = "GGCC">
 
 		<Log ID = "251104GG0028">
 			<LogTime>"Nov  4 2025 12:41AM"</LogTime>
@@ -1407,56 +1443,6 @@
 			<UnitTime>"Nov  3 2025  8:19AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
-<Dispatch ID = "SLCC">
-
-		<Log ID = "251104SL0006">
-			<LogTime>"Nov  4 2025  1:13AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"Harris Grade Rd"</Location>
-			<LocationDesc>"NB HARRIS GRADE JSO SUMMIT"</LocationDesc>
-			<Area>"Buellton"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34733127:120440561"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  4 2025  1:34AM"</DetailTime>
-			<IncidentDetail>"[5] C3-004N RDWY CLR 98 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:15AM"</DetailTime>
-			<IncidentDetail>"[2] RP CHECKED FOR A VEH IN THE AREA, UTL SO FAR"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:14AM"</DetailTime>
-			<IncidentDetail>"[1] CLOTHING AND ITEMS IN RDWY"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  4 2025  1:16AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103SL0126">
-			<LogTime>"Nov  3 2025  6:40PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Us101 N / Los Berros Rd Ofr"</Location>
-			<LocationDesc>"NB US101 AT LOS BERROS RD"</LocationDesc>
-			<Area>"San Luis Obispo"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35068204:120512771"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  3 2025  6:41PM"</DetailTime>
-			<IncidentDetail>"[1] 28-Z19 VEH 1618899 BM 83920"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  3 2025 11:10PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:10PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:01PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  6:41PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  6:41PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
 <Dispatch ID = "VTCC">
 
 		<Log ID = "251103VT0251">
@@ -1638,7 +1624,129 @@
 </Center>
 
 <Center ID = "LAHB">
+<Dispatch ID = "BFCC">
+
+		<Log ID = "251104BF0020">
+			<LogTime>"Nov  4 2025  1:54AM"</LogTime>
+			<LogType>"FOG-Foggy Conditions"</LogType>
+			<Location>"Bakersfield Fog Log"</Location>
+			<LocationDesc>"Bakersfield Fog Log"</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  4 2025  1:55AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:55AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:55AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251104BF0019">
+			<LogTime>"Nov  4 2025  1:54AM"</LogTime>
+			<LogType>"TADV-Traffic Advisory"</LogType>
+			<Location>"Bakersfield Traffic Advisories"</Location>
+			<LocationDesc>"Bakersfield Traffic Advisories"</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  4 2025  1:55AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:55AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:55AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BF0242">
+			<LogTime>"Nov  3 2025  9:36PM"</LogTime>
+			<LogType>"MZP-Assist CT with Maintenance"</LogType>
+			<Location>"Sr99 N / Ming Ave Ofr"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Bakersfield"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35338502:119039460"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  3 2025  9:41PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:41PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:38PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:38PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BF0079">
+			<LogTime>"Nov  3 2025 10:13AM"</LogTime>
+			<LogType>"FOG-Foggy Conditions"</LogType>
+			<Location>"Bakersfield Fog Log"</Location>
+			<LocationDesc>"Bakersfield Fog Log"</LocationDesc>
+			<Area>"BF"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"35265234:119024794"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  4 2025  1:55AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:13AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:13AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:13AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "LACC">
+
+		<Log ID = "251104LA0093">
+			<LogTime>"Nov  4 2025  1:51AM"</LogTime>
+			<LogType>"1183-Trfc Collision-Unkn Inj"</LogType>
+			<Location>"US101 N / N ALAMEDA ST OFR"</Location>
+			<LocationDesc>"NB 101 JSO ALAMEDA"</LocationDesc>
+			<Area>"Central LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34053797:118233826"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  4 2025  1:54AM"</DetailTime>
+			<IncidentDetail>"[16] [Appended, 01:55:16] [1] WHI HOND ACC VS BIG RIG BLKG #2 LN "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:53AM"</DetailTime>
+			<IncidentDetail>"[14] [Appended, 01:54:24] [2] DEBRIS IN THE RDWY IN SEVERAL LNS // UNK WHAT THEY TC'D INTO"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:53AM"</DetailTime>
+			<IncidentDetail>"[13] [Appended, 01:54:24] [1] UNK TYPE DK COLORED SD BLKG MID LNS W/ HAZARDS ON"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:51AM"</DetailTime>
+			<IncidentDetail>"[7] [Appended, 01:52:33] [1] LT COLORED SEDAN BLKING THE MIDDLE LANE ON A BLIND CURVE "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Nov  4 2025  1:53AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251104LA0092">
+			<LogTime>"Nov  4 2025  1:51AM"</LogTime>
+			<LogType>"1182-Trfc Collision-No Inj"</LogType>
+			<Location>"Peck Rd / Durfee Ave"</Location>
+			<LocationDesc>"PECK RD / DURFEE AVE NO SR60"</LocationDesc>
+			<Area>"LA"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"34040629:118036071"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:51AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "251104LA0053">
 			<LogTime>"Nov  4 2025 12:47AM"</LogTime>
@@ -2268,46 +2376,6 @@
 </Dispatch>
 <Dispatch ID = "MRCC">
 
-		<Log ID = "251104MR0004">
-			<LogTime>"Nov  4 2025 12:26AM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"8151 Jackass Creek Access Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Sonora"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"37767174:120190029"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  4 2025  1:43AM"</DetailTime>
-			<IncidentDetail>"[24] 61-4 WILL CB ADVS IF 1185 IS NEEDED // MIGHT BE ABLE TO CONE IT OFF TILL MORNING // PARTIAL 1125 [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:43AM"</DetailTime>
-			<IncidentDetail>"[23] Tow Request Cancelled: 1407255"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:34AM"</DetailTime>
-			<IncidentDetail>"[19] Tow Request Cancelled: 1407253"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:31AM"</DetailTime>
-			<IncidentDetail>"[17] 61-004 VEH INTO A DITCH //WILL NEED 1185 200-300 YARDS FRM CUNEO"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:05AM"</DetailTime>
-			<IncidentDetail>"[14] [Notification] [CHP]-PER TUO SO DRVR REFUSED 1141 // ADVS'D HE DID NOT NEED ANY MEDICAL ATTENTION // EMS AND FIRE CLEARING  [Shared]"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025 12:39AM"</DetailTime>
-			<IncidentDetail>"[13] 1039 61-4  [Shared]"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  4 2025  1:31AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025  1:01AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025 12:40AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
 		<Log ID = "251103MR0319">
 			<LogTime>"Nov  3 2025 11:32PM"</LogTime>
 			<LogType>"CZP-Assist with Construction"</LogType>
@@ -2345,6 +2413,8 @@
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Nov  3 2025  8:37PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:50AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
 			<UnitTime>"Nov  3 2025  7:35PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Nov  3 2025  7:35PM"</UnitTime>
@@ -2382,42 +2452,6 @@
 			<UnitTime>"Nov  3 2025  1:01PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Nov  3 2025  1:01PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "BFCC">
-
-		<Log ID = "251103BF0242">
-			<LogTime>"Nov  3 2025  9:36PM"</LogTime>
-			<LogType>"MZP-Assist CT with Maintenance"</LogType>
-			<Location>"Sr99 N / Ming Ave Ofr"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Bakersfield"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35338502:119039460"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025  9:41PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:41PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:38PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:38PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BF0079">
-			<LogTime>"Nov  3 2025 10:13AM"</LogTime>
-			<LogType>"FOG-Foggy Conditions"</LogType>
-			<Location>"Bakersfield Fog Log"</Location>
-			<LocationDesc>"Bakersfield Fog Log"</LocationDesc>
-			<Area>"BF"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"35265234:119024794"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025 10:13AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:13AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:13AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "FRCC">
@@ -2519,6 +2553,14 @@
 			<LATLON>"34065517:117544763"</LATLON>
 			<LogDetails>
 		<details>
+			<DetailTime>"Nov  4 2025  1:54AM"</DetailTime>
+			<IncidentDetail>"[10] 123-CZP1 --  BREAK RELEASED//"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:48AM"</DetailTime>
+			<IncidentDetail>"[9] CZP1 ADV MRE DETAIL WENT 97 AND PUSHING VEH OFF"</IncidentDetail>
+		</details>
+		<details>
 			<DetailTime>"Nov  4 2025  1:42AM"</DetailTime>
 			<IncidentDetail>"[8] [Rotation Request Comment] 1039 AIRPORT TOW 909-983-5261ENRT ON EXT"</IncidentDetail>
 		</details>
@@ -2547,30 +2589,6 @@
 			<UnitTime>"Nov  4 2025  1:39AM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Nov  4 2025  1:36AM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251104IN0018">
-			<LogTime>"Nov  4 2025  1:20AM"</LogTime>
-			<LogType>"1125-Traffic Hazard"</LogType>
-			<Location>"I15 N No / 4th St Rc"</Location>
-			<LocationDesc>"I15 N NO 4TH ST RC"</LocationDesc>
-			<Area>"Rancho Cucamonga"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"34083533:117544627"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  4 2025  1:25AM"</DetailTime>
-			<IncidentDetail>"[4] C123-603 ,,,,,,  1148  LN GARCIA  VEH # 14 SM  98766"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:20AM"</DetailTime>
-			<IncidentDetail>"[1] ,, IN # 4 LN"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  4 2025  1:20AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025  1:20AM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025  1:20AM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 
 		<Log ID = "251104IN0013">
@@ -2845,6 +2863,486 @@
 			<UnitTime>"Nov  3 2025  7:55PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
+<Dispatch ID = "BCCC">
+
+		<Log ID = "251104BC0022">
+			<LogTime>"Nov  4 2025  1:22AM"</LogTime>
+			<LogType>"1144-Fatality"</LogType>
+			<Location>"I215 S SO / MCCALL BLVD"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Temecula"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33707699:117186264"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  4 2025  1:40AM"</DetailTime>
+			<IncidentDetail>"[31] LE  1039 RIV CDF W/1020 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:39AM"</DetailTime>
+			<IncidentDetail>"[29] Secondary Location for 115-D3: MCCALL ONR TO SB 215   CLOSED, [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:38AM"</DetailTime>
+			<IncidentDetail>"[26] 115-10 97 W/WHI MERZ  GP   MCCALL ONR TO SB 215 [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:38AM"</DetailTime>
+			<IncidentDetail>"[25] 115-D3 CLOSING    MCCALL ONR TO SB 215   [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:38AM"</DetailTime>
+			<IncidentDetail>"[24] 115-S5 COMING IN W/ BREAK FR ETHANAC [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:38AM"</DetailTime>
+			<IncidentDetail>"[23] 115-D3 COMING IN W/ BREAK FR ETHANAC [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:35AM"</DetailTime>
+			<IncidentDetail>"[21] BLK HOND CIV PULLED OVER TO RS SB 215 JSO MCCALL BY 0.4 MILES [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:31AM"</DetailTime>
+			<IncidentDetail>"[11] I215 S NEWPORT NO (TWI)   1179   VEH VS PED  [Shared]"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:30AM"</DetailTime>
+			<IncidentDetail>"[18] [Appended, 01:32:09] [5] 1039 CDF RV "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:30AM"</DetailTime>
+			<IncidentDetail>"[16] [Appended, 01:32:09] [3] PED WAS IN MIDDLE OF LN AND RP HIT PED "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:30AM"</DetailTime>
+			<IncidentDetail>"[15] [Appended, 01:32:09] [2] VEH ON RHS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:30AM"</DetailTime>
+			<IncidentDetail>"[14] [Appended, 01:32:09] [1] SOLO WHI MERZ E350 VS PED "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:24AM"</DetailTime>
+			<IncidentDetail>"[2] FACING AGAINST AND WALKING AGAINST TRAFFIC"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:24AM"</DetailTime>
+			<IncidentDetail>"[5] [Appended, 01:25:55] [2] WALKING IN #3 LN "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:23AM"</DetailTime>
+			<IncidentDetail>"[1] PERSON WALKING ON FWY IN SLOW LN "</IncidentDetail>
+		</details><units>
+			<UnitTime>"Nov  4 2025  1:39AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:39AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:39AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:50AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:32AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:32AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:48AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:27AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:27AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:48AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:48AM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:27AM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0890">
+			<LogTime>"Nov  3 2025 10:57PM"</LogTime>
+			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
+			<Location>"Proctor Valley Rd / Sr94"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"El Cajon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32716827:116875917"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  4 2025  1:48AM"</DetailTime>
+			<IncidentDetail>"[27] C108-027C 1022 1185 - PTY HAS PVT ASSIST "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:36AM"</DetailTime>
+			<IncidentDetail>"[26] [Rotation Request Comment] 1039 ASAP Tow BC 619-966-9300?"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:33AM"</DetailTime>
+			<IncidentDetail>"[25] C108-027C 1185 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:17AM"</DetailTime>
+			<IncidentDetail>"[24] 1039 CORDS - CPZ 1022"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025  1:15AM"</DetailTime>
+			<IncidentDetail>"[23] C108-027C ATT WENT 97 // ASSESSING THE POLE // WILL START OWN TRAFF CONTROL CREW FROM ATT // CAN 1022 CORDS"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025 12:37AM"</DetailTime>
+			<IncidentDetail>"[22] 1039 CORDS - WILL CB W/ ETA"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  4 2025 12:21AM"</DetailTime>
+			<IncidentDetail>"[19] C108-027C INQ ON ETA FROM ATT "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:26PM"</DetailTime>
+			<IncidentDetail>"[17] SDGE INQ NEED TO RESPOND? // 27C CAN 1022 - JUST NEED ATT AND CORDS ENRT // CPZ 1039 TO BOTH"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:24PM"</DetailTime>
+			<IncidentDetail>"[15] 1039 ATT -- TICKET # PG4BF308- NO ETA AT THIS TIME "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:19PM"</DetailTime>
+			<IncidentDetail>"[14] 1039 SDGE - CPZ 1022 "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:18PM"</DetailTime>
+			<IncidentDetail>"[13] 27C2 WILL BE AN ATT POLE # 1003943H "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:13PM"</DetailTime>
+			<IncidentDetail>"[12] 1039 CORDS "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:09PM"</DetailTime>
+			<IncidentDetail>"[8] 27C INQ IF PTY OO VEH // 27C2 PTY IS OO VEH - COP"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:00PM"</DetailTime>
+			<IncidentDetail>"[7] 1039 SDGE "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 10:58PM"</DetailTime>
+			<IncidentDetail>"[5] UNK IF THE OCCUPANT IS STILL INSIDE THE VEH "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 10:57PM"</DetailTime>
+			<IncidentDetail>"[4] POLE IS 1125 MIDDLE LANES "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 10:57PM"</DetailTime>
+			<IncidentDetail>"[3] VEH IS TANGLED INTO THE POWELINES "</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 10:57PM"</DetailTime>
+			<IncidentDetail>"[2] VEH TCD INTO A POWERLINE"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Nov  4 2025 12:01AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:46PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:30PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:30PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:10PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:06PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0872">
+			<LogTime>"Nov  3 2025 10:32PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I5 S / Mission Bay (garnet Balboa)"</Location>
+			<LocationDesc>"I5 S MISSION BAY (GARNET BALBOA)"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32806747:117215969"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0871">
+			<LogTime>"Nov  3 2025 10:32PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I5 N / Balboa (garnet)"</Location>
+			<LocationDesc>"I5 N BALBOA (GARNET)"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32806786:117215707"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  3 2025 11:56PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:06PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:06PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:56PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:35PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:35PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0828">
+			<LogTime>"Nov  3 2025  9:45PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I805 N / Mesa College (kearny Villa)"</Location>
+			<LocationDesc>"I805 N MESA COLLEGE (KEARNY VILLA)"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32803883:117150621"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  3 2025  9:47PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:47PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:47PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:45PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:45PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:45PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0812">
+			<LogTime>"Nov  3 2025  9:00PM"</LogTime>
+			<LogType>"1166-Defective Traffic Signals"</LogType>
+			<Location>"3rd St / SR75"</Location>
+			<LocationDesc>"3RD ST / ORANGE AVE"</LocationDesc>
+			<Area>"BC"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32694830:117171447"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  3 2025  9:02PM"</DetailTime>
+			<IncidentDetail>"[1] ^SIGNALS ON FLASH FOR CONST TIL 0600 HOURS"</IncidentDetail>
+		</details></LogDetails></Log>
+
+		<Log ID = "251103BC0803">
+			<LogTime>"Nov  3 2025  8:47PM"</LogTime>
+			<LogType>"1166-Defective Traffic Signals"</LogType>
+			<Location>"I8 E / Lake Murray (70th)"</Location>
+			<LocationDesc>"I8 E LAKE MURRAY (70TH)"</LocationDesc>
+			<Area>"El Cajon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32774597:117046955"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  3 2025  8:48PM"</DetailTime>
+			<IncidentDetail>"[1] ^SIGNALS ON FLASH FOR CONST TIL 0500 HOURS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Nov  3 2025  8:49PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:49PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:49PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0791">
+			<LogTime>"Nov  3 2025  8:34PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr125 N / I8"</Location>
+			<LocationDesc>"JNO"</LocationDesc>
+			<Area>"El Cajon"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32777703:117003527"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  3 2025  8:34PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:34PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:34PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0777">
+			<LogTime>"Nov  3 2025  8:10PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I805 N / Division St"</Location>
+			<LocationDesc>"I805 N DIVISION ST"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32687419:117092642"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  4 2025  1:52AM"</DetailTime>
+			<IncidentDetail>"[7] 87-CZP2 805 NB AND SB SIDES CLOSURE HAS BEEN LIFTED , WILL BE MOVING TO THE 5 FRM 28TH TO ABOUT THE 15"</IncidentDetail>
+		</details>
+		<details>
+			<DetailTime>"Nov  3 2025 11:43PM"</DetailTime>
+			<IncidentDetail>"[6] 87-CZP2 WILL HAVE THE HOV , #1-3 LANES CLOSED OFF ON THE SB SIDE - FRM HOME TO PLAZA"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Nov  3 2025 11:34PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:34PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 11:33PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:22PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:22PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:22PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:19PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:10PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:10PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:10PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0773">
+			<LogTime>"Nov  3 2025  8:06PM"</LogTime>
+			<LogType>"1166-Defective Traffic Signals"</LogType>
+			<Location>"Sr15 S / University"</Location>
+			<LocationDesc>"SR15 S UNIVERSITY"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32749694:117108961"</LATLON>
+			<LogDetails>
+		<details>
+			<DetailTime>"Nov  3 2025  8:07PM"</DetailTime>
+			<IncidentDetail>"[1] ^SIGNALS ON FLASH FOR CONST TIL 0500 HOURS"</IncidentDetail>
+		</details><units>
+			<UnitTime>"Nov  3 2025  8:08PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:08PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:08PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0769">
+			<LogTime>"Nov  3 2025  7:53PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I805 S / Nobel"</Location>
+			<LocationDesc>"** 87-CZP1 **"</LocationDesc>
+			<Area>"San Diego"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"32869641:117194951"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  3 2025  9:04PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:04PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:04PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:21PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:59PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:56PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:53PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:53PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:53PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0764">
+			<LogTime>"Nov  3 2025  7:30PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"I215 S / Mccall"</Location>
+			<LocationDesc>"I215 S MCCALL"</LocationDesc>
+			<Area>"Temecula"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33715289:117189220"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  4 2025  1:39AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025 12:50AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:22PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  9:22PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025  1:27AM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025 12:16AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:36PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:36PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  8:27PM"</UnitTime>
+			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:30PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:30PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:30PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+
+		<Log ID = "251103BC0748">
+			<LogTime>"Nov  3 2025  7:05PM"</LogTime>
+			<LogType>"CZP-Assist with Construction"</LogType>
+			<Location>"Sr74-ortega Hwy / S Main Divide Rd"</Location>
+			<LocationDesc>""</LocationDesc>
+			<Area>"Temecula"</Area>
+			<ThomasBrothers>""</ThomasBrothers>
+			<LATLON>"33652145:117408880"</LATLON>
+			<LogDetails><details/><units>
+			<UnitTime>"Nov  3 2025 10:45PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:13PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025 10:13PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  4 2025 12:50AM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:20PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:20PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
+			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
+			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
+			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
+			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
+</Dispatch>
 <Dispatch ID = "OCCC">
 
 		<Log ID = "251104OC0003">
@@ -3097,384 +3595,6 @@
 			<UnitTime>"Nov  3 2025 11:33PM"</UnitTime>
 			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
 			<UnitTime>"Nov  3 2025 11:33PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-</Dispatch>
-<Dispatch ID = "BCCC">
-
-		<Log ID = "251103BC0890">
-			<LogTime>"Nov  3 2025 10:57PM"</LogTime>
-			<LogType>"1179-Trfc Collision-1141 Enrt"</LogType>
-			<Location>"Proctor Valley Rd / Sr94"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"El Cajon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32716827:116875917"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  4 2025  1:36AM"</DetailTime>
-			<IncidentDetail>"[26] [Rotation Request Comment] 1039 ASAP Tow BC 619-966-9300?"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:33AM"</DetailTime>
-			<IncidentDetail>"[25] C108-027C 1185 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:17AM"</DetailTime>
-			<IncidentDetail>"[24] 1039 CORDS - CPZ 1022"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025  1:15AM"</DetailTime>
-			<IncidentDetail>"[23] C108-027C ATT WENT 97 // ASSESSING THE POLE // WILL START OWN TRAFF CONTROL CREW FROM ATT // CAN 1022 CORDS"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025 12:37AM"</DetailTime>
-			<IncidentDetail>"[22] 1039 CORDS - WILL CB W/ ETA"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  4 2025 12:21AM"</DetailTime>
-			<IncidentDetail>"[19] C108-027C INQ ON ETA FROM ATT "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 11:26PM"</DetailTime>
-			<IncidentDetail>"[17] SDGE INQ NEED TO RESPOND? // 27C CAN 1022 - JUST NEED ATT AND CORDS ENRT // CPZ 1039 TO BOTH"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 11:24PM"</DetailTime>
-			<IncidentDetail>"[15] 1039 ATT -- TICKET # PG4BF308- NO ETA AT THIS TIME "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 11:19PM"</DetailTime>
-			<IncidentDetail>"[14] 1039 SDGE - CPZ 1022 "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 11:18PM"</DetailTime>
-			<IncidentDetail>"[13] 27C2 WILL BE AN ATT POLE # 1003943H "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 11:13PM"</DetailTime>
-			<IncidentDetail>"[12] 1039 CORDS "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 11:09PM"</DetailTime>
-			<IncidentDetail>"[8] 27C INQ IF PTY OO VEH // 27C2 PTY IS OO VEH - COP"</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 11:00PM"</DetailTime>
-			<IncidentDetail>"[7] 1039 SDGE "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 10:58PM"</DetailTime>
-			<IncidentDetail>"[5] UNK IF THE OCCUPANT IS STILL INSIDE THE VEH "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 10:57PM"</DetailTime>
-			<IncidentDetail>"[4] POLE IS 1125 MIDDLE LANES "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 10:57PM"</DetailTime>
-			<IncidentDetail>"[3] VEH IS TANGLED INTO THE POWELINES "</IncidentDetail>
-		</details>
-		<details>
-			<DetailTime>"Nov  3 2025 10:57PM"</DetailTime>
-			<IncidentDetail>"[2] VEH TCD INTO A POWERLINE"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  4 2025 12:01AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:46PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:30PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:30PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:10PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:06PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:58PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0872">
-			<LogTime>"Nov  3 2025 10:32PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I5 S / Mission Bay (garnet Balboa)"</Location>
-			<LocationDesc>"I5 S MISSION BAY (GARNET BALBOA)"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32806747:117215969"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0871">
-			<LogTime>"Nov  3 2025 10:32PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I5 N / Balboa (garnet)"</Location>
-			<LocationDesc>"I5 N BALBOA (GARNET)"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32806786:117215707"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025 11:56PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:06PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:06PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:56PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:35PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:35PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:32PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0828">
-			<LogTime>"Nov  3 2025  9:45PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I805 N / Mesa College (kearny Villa)"</Location>
-			<LocationDesc>"I805 N MESA COLLEGE (KEARNY VILLA)"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32803883:117150621"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025  9:47PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:47PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:47PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:45PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:45PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:45PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0812">
-			<LogTime>"Nov  3 2025  9:00PM"</LogTime>
-			<LogType>"1166-Defective Traffic Signals"</LogType>
-			<Location>"3rd St / SR75"</Location>
-			<LocationDesc>"3RD ST / ORANGE AVE"</LocationDesc>
-			<Area>"BC"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32694830:117171447"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  3 2025  9:02PM"</DetailTime>
-			<IncidentDetail>"[1] ^SIGNALS ON FLASH FOR CONST TIL 0600 HOURS"</IncidentDetail>
-		</details></LogDetails></Log>
-
-		<Log ID = "251103BC0803">
-			<LogTime>"Nov  3 2025  8:47PM"</LogTime>
-			<LogType>"1166-Defective Traffic Signals"</LogType>
-			<Location>"I8 E / Lake Murray (70th)"</Location>
-			<LocationDesc>"I8 E LAKE MURRAY (70TH)"</LocationDesc>
-			<Area>"El Cajon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32774597:117046955"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  3 2025  8:48PM"</DetailTime>
-			<IncidentDetail>"[1] ^SIGNALS ON FLASH FOR CONST TIL 0500 HOURS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  3 2025  8:49PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:49PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:49PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0791">
-			<LogTime>"Nov  3 2025  8:34PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr125 N / I8"</Location>
-			<LocationDesc>"JNO"</LocationDesc>
-			<Area>"El Cajon"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32777703:117003527"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:34PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0777">
-			<LogTime>"Nov  3 2025  8:10PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I805 N / Division St"</Location>
-			<LocationDesc>"I805 N DIVISION ST"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32687419:117092642"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  3 2025 11:43PM"</DetailTime>
-			<IncidentDetail>"[6] 87-CZP2 WILL HAVE THE HOV , #1-3 LANES CLOSED OFF ON THE SB SIDE - FRM HOME TO PLAZA"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  3 2025 11:34PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:34PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 11:33PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:48PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:22PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:22PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:22PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:19PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:10PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:10PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:10PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0773">
-			<LogTime>"Nov  3 2025  8:06PM"</LogTime>
-			<LogType>"1166-Defective Traffic Signals"</LogType>
-			<Location>"Sr15 S / University"</Location>
-			<LocationDesc>"SR15 S UNIVERSITY"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32749694:117108961"</LATLON>
-			<LogDetails>
-		<details>
-			<DetailTime>"Nov  3 2025  8:07PM"</DetailTime>
-			<IncidentDetail>"[1] ^SIGNALS ON FLASH FOR CONST TIL 0500 HOURS"</IncidentDetail>
-		</details><units>
-			<UnitTime>"Nov  3 2025  8:08PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:08PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:08PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0769">
-			<LogTime>"Nov  3 2025  7:53PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I805 S / Nobel"</Location>
-			<LocationDesc>"** 87-CZP1 **"</LocationDesc>
-			<Area>"San Diego"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"32869641:117194951"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025  9:04PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:04PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:04PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:21PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:59PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:56PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:53PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:53PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:53PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0764">
-			<LogTime>"Nov  3 2025  7:30PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"I215 S / Mccall"</Location>
-			<LocationDesc>"I215 S MCCALL"</LocationDesc>
-			<Area>"Temecula"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33715289:117189220"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  4 2025  1:39AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025 12:50AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:22PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  9:22PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025  1:27AM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025 12:16AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:36PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:36PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  8:27PM"</UnitTime>
-			<UnitDetail>"Unit Cleared"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:30PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:30PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:30PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
-
-		<Log ID = "251103BC0748">
-			<LogTime>"Nov  3 2025  7:05PM"</LogTime>
-			<LogType>"CZP-Assist with Construction"</LogType>
-			<Location>"Sr74-ortega Hwy / S Main Divide Rd"</Location>
-			<LocationDesc>""</LocationDesc>
-			<Area>"Temecula"</Area>
-			<ThomasBrothers>""</ThomasBrothers>
-			<LATLON>"33652145:117408880"</LATLON>
-			<LogDetails><details/><units>
-			<UnitTime>"Nov  3 2025 10:45PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:13PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025 10:13PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  4 2025 12:50AM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:20PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:20PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
-			<UnitDetail>"Unit Assigned"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
-			<UnitDetail>"Unit At Scene"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
-			<UnitDetail>"Unit Enroute"</UnitDetail></units><units>
-			<UnitTime>"Nov  3 2025  7:05PM"</UnitTime>
 			<UnitDetail>"Unit Assigned"</UnitDetail></units></LogDetails></Log>
 </Dispatch>
 <Dispatch ID = "ECCC">
