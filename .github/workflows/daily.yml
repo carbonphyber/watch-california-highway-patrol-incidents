@@ -4,6 +4,9 @@ on:
   schedule:
     - cron:  '*/10 * * * *'
 name: Pull Data and Build
+permissions:
+  contents: write
+  issues: write
 jobs:
   build:
     name: Build
@@ -17,6 +20,22 @@ jobs:
     - name: Scrape
       run: |
         curl -o data/chp-incidents-raw.xml --no-progress-meter "https://media.chp.ca.gov/sa_xml/sa.xml?ts=$(date +%s)"
+    - name: Redact PII
+      run: |
+        python3 scripts/redact_pii.py data/chp-incidents-raw.xml redaction_failed.marker
+    - name: Notify owner on redaction failure
+      if: hashFiles('redaction_failed.marker') != ''
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gh issue create \
+          --repo "$GITHUB_REPOSITORY" \
+          --title "PII redaction failed during scrape run $GITHUB_RUN_ID" \
+          --body "The redact_pii.py step failed, so this run's commit may contain unredacted PII. Raw data was kept so the scrape would not fail. Details:
+        $(cat redaction_failed.marker)
+
+        Workflow run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+        rm -f redaction_failed.marker
     - name: Commit new data
       run: |
         git config user.name github-actions
