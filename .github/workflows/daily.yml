@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-26.04
     steps:
     - uses: actions/checkout@master
-    - name: Set up Python 3.9
+    - name: Set up Python 3.15
       uses: actions/setup-python@v4
       with:
-        python-version: 3.9
+        python-version: 3.15
     - name: Scrape
       run: |
         curl -o data/chp-incidents-raw.xml --no-progress-meter "https://media.chp.ca.gov/sa_xml/sa.xml?ts=$(date +%s)"
