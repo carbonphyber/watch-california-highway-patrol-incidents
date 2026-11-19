@@ -12,9 +12,9 @@ jobs:
     name: Build
     runs-on: ubuntu-26.04
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v7
     - name: Set up Python 3.15
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v7
       with:
         python-version: 3.15
     - name: Scrape
